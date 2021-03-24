@@ -1,0 +1,10769 @@
+{
+	"1": {
+		"name": "Bulbasaur",
+		"default_form_id": 163,
+		"pokedex_id": 1,
+		"generation": "Kanto",
+		"types": [
+			"Grass",
+			"Poison"
+		],
+		"attack": 118,
+		"defense": 111,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"2": {
+		"name": "Ivysaur",
+		"default_form_id": 166,
+		"pokedex_id": 2,
+		"generation": "Kanto",
+		"types": [
+			"Grass",
+			"Poison"
+		],
+		"attack": 151,
+		"defense": 143,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"3": {
+		"name": "Venusaur",
+		"default_form_id": 169,
+		"pokedex_id": 3,
+		"generation": "Kanto",
+		"types": [
+			"Grass",
+			"Poison"
+		],
+		"attack": 198,
+		"defense": 189,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"4": {
+		"name": "Charmander",
+		"default_form_id": 172,
+		"pokedex_id": 4,
+		"generation": "Kanto",
+		"types": [
+			"Fire"
+		],
+		"attack": 116,
+		"defense": 93,
+		"stamina": 118,
+		"legendary": false,
+		"mythical": false
+	},
+	"5": {
+		"name": "Charmeleon",
+		"default_form_id": 175,
+		"pokedex_id": 5,
+		"generation": "Kanto",
+		"types": [
+			"Fire"
+		],
+		"attack": 158,
+		"defense": 126,
+		"stamina": 151,
+		"legendary": false,
+		"mythical": false
+	},
+	"6": {
+		"name": "Charizard",
+		"default_form_id": 178,
+		"pokedex_id": 6,
+		"generation": "Kanto",
+		"types": [
+			"Fire",
+			"Flying"
+		],
+		"attack": 223,
+		"defense": 173,
+		"stamina": 186,
+		"legendary": false,
+		"mythical": false
+	},
+	"7": {
+		"name": "Squirtle",
+		"default_form_id": 181,
+		"pokedex_id": 7,
+		"generation": "Kanto",
+		"types": [
+			"Water"
+		],
+		"attack": 94,
+		"defense": 121,
+		"stamina": 127,
+		"legendary": false,
+		"mythical": false
+	},
+	"8": {
+		"name": "Wartortle",
+		"default_form_id": 184,
+		"pokedex_id": 8,
+		"generation": "Kanto",
+		"types": [
+			"Water"
+		],
+		"attack": 126,
+		"defense": 155,
+		"stamina": 153,
+		"legendary": false,
+		"mythical": false
+	},
+	"9": {
+		"name": "Blastoise",
+		"default_form_id": 187,
+		"pokedex_id": 9,
+		"generation": "Kanto",
+		"types": [
+			"Water"
+		],
+		"attack": 171,
+		"defense": 207,
+		"stamina": 188,
+		"legendary": false,
+		"mythical": false
+	},
+	"10": {
+		"name": "Caterpie",
+		"default_form_id": 953,
+		"pokedex_id": 10,
+		"generation": "Kanto",
+		"types": [
+			"Bug"
+		],
+		"attack": 55,
+		"defense": 55,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"11": {
+		"name": "Metapod",
+		"default_form_id": 956,
+		"pokedex_id": 11,
+		"generation": "Kanto",
+		"types": [
+			"Bug"
+		],
+		"attack": 45,
+		"defense": 80,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"12": {
+		"name": "Butterfree",
+		"default_form_id": 959,
+		"pokedex_id": 12,
+		"generation": "Kanto",
+		"types": [
+			"Bug",
+			"Flying"
+		],
+		"attack": 167,
+		"defense": 137,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"13": {
+		"name": "Weedle",
+		"default_form_id": 616,
+		"pokedex_id": 13,
+		"generation": "Kanto",
+		"types": [
+			"Bug",
+			"Poison"
+		],
+		"attack": 63,
+		"defense": 50,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"14": {
+		"name": "Kakuna",
+		"default_form_id": 619,
+		"pokedex_id": 14,
+		"generation": "Kanto",
+		"types": [
+			"Bug",
+			"Poison"
+		],
+		"attack": 46,
+		"defense": 75,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"15": {
+		"name": "Beedrill",
+		"default_form_id": 622,
+		"pokedex_id": 15,
+		"generation": "Kanto",
+		"types": [
+			"Bug",
+			"Poison"
+		],
+		"attack": 169,
+		"defense": 130,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"16": {
+		"name": "Pidgey",
+		"default_form_id": 962,
+		"pokedex_id": 16,
+		"generation": "Kanto",
+		"types": [
+			"Normal",
+			"Flying"
+		],
+		"attack": 85,
+		"defense": 73,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"17": {
+		"name": "Pidgeotto",
+		"default_form_id": 965,
+		"pokedex_id": 17,
+		"generation": "Kanto",
+		"types": [
+			"Normal",
+			"Flying"
+		],
+		"attack": 117,
+		"defense": 105,
+		"stamina": 160,
+		"legendary": false,
+		"mythical": false
+	},
+	"18": {
+		"name": "Pidgeot",
+		"default_form_id": 968,
+		"pokedex_id": 18,
+		"generation": "Kanto",
+		"types": [
+			"Normal",
+			"Flying"
+		],
+		"attack": 166,
+		"defense": 154,
+		"stamina": 195,
+		"legendary": false,
+		"mythical": false
+	},
+	"19": {
+		"name": "Rattata",
+		"default_form_id": 45,
+		"pokedex_id": 19,
+		"generation": "Kanto",
+		"types": [
+			"Normal"
+		],
+		"attack": 103,
+		"defense": 70,
+		"stamina": 102,
+		"legendary": false,
+		"mythical": false
+	},
+	"20": {
+		"name": "Raticate",
+		"default_form_id": 47,
+		"pokedex_id": 20,
+		"generation": "Kanto",
+		"types": [
+			"Normal"
+		],
+		"attack": 161,
+		"defense": 139,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Raticate (Alola)",
+				"types": [
+					"Dark",
+					"Normal"
+				],
+				"attack": 135,
+				"defense": 154,
+				"stamina": 181
+			}
+		]
+	},
+	"21": {
+		"name": "Spearow",
+		"default_form_id": 971,
+		"pokedex_id": 21,
+		"generation": "Kanto",
+		"types": [
+			"Normal",
+			"Flying"
+		],
+		"attack": 112,
+		"defense": 60,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"22": {
+		"name": "Fearow",
+		"default_form_id": 974,
+		"pokedex_id": 22,
+		"generation": "Kanto",
+		"types": [
+			"Normal",
+			"Flying"
+		],
+		"attack": 182,
+		"defense": 133,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"23": {
+		"name": "Ekans",
+		"default_form_id": 697,
+		"pokedex_id": 23,
+		"generation": "Kanto",
+		"types": [
+			"Poison"
+		],
+		"attack": 110,
+		"defense": 97,
+		"stamina": 111,
+		"legendary": false,
+		"mythical": false
+	},
+	"24": {
+		"name": "Arbok",
+		"default_form_id": 700,
+		"pokedex_id": 24,
+		"generation": "Kanto",
+		"types": [
+			"Poison"
+		],
+		"attack": 167,
+		"defense": 153,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"25": {
+		"name": "Pikachu",
+		"default_form_id": 598,
+		"pokedex_id": 25,
+		"generation": "Kanto",
+		"types": [
+			"Electric"
+		],
+		"attack": 112,
+		"defense": 96,
+		"stamina": 111,
+		"legendary": false,
+		"mythical": false
+	},
+	"26": {
+		"name": "Raichu",
+		"default_form_id": 49,
+		"pokedex_id": 26,
+		"generation": "Kanto",
+		"types": [
+			"Electric"
+		],
+		"attack": 193,
+		"defense": 151,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Raichu (Alola)",
+				"types": [
+					"Electric",
+					"Psychic"
+				],
+				"attack": 201,
+				"defense": 154,
+				"stamina": 155
+			}
+		]
+	},
+	"27": {
+		"name": "Sandshrew",
+		"default_form_id": 51,
+		"pokedex_id": 27,
+		"generation": "Kanto",
+		"types": [
+			"Ground"
+		],
+		"attack": 126,
+		"defense": 120,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Sandshrew (Alola)",
+				"types": [
+					"Ice",
+					"Steel"
+				],
+				"attack": 125,
+				"defense": 129,
+				"stamina": 137
+			}
+		]
+	},
+	"28": {
+		"name": "Sandslash",
+		"default_form_id": 53,
+		"pokedex_id": 28,
+		"generation": "Kanto",
+		"types": [
+			"Ground"
+		],
+		"attack": 182,
+		"defense": 175,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Sandslash (Alola)",
+				"types": [
+					"Ice",
+					"Steel"
+				],
+				"attack": 177,
+				"defense": 195,
+				"stamina": 181
+			}
+		]
+	},
+	"29": {
+		"name": "Nidoran♀",
+		"default_form_id": 776,
+		"pokedex_id": 29,
+		"generation": "Kanto",
+		"types": [
+			"Poison"
+		],
+		"attack": 86,
+		"defense": 89,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"30": {
+		"name": "Nidorina",
+		"default_form_id": 779,
+		"pokedex_id": 30,
+		"generation": "Kanto",
+		"types": [
+			"Poison"
+		],
+		"attack": 117,
+		"defense": 120,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"31": {
+		"name": "Nidoqueen",
+		"default_form_id": 782,
+		"pokedex_id": 31,
+		"generation": "Kanto",
+		"types": [
+			"Poison",
+			"Ground"
+		],
+		"attack": 180,
+		"defense": 173,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"32": {
+		"name": "Nidoran♂",
+		"default_form_id": 776,
+		"pokedex_id": 32,
+		"generation": "Kanto",
+		"types": [
+			"Poison"
+		],
+		"attack": 105,
+		"defense": 76,
+		"stamina": 130,
+		"legendary": false,
+		"mythical": false
+	},
+	"33": {
+		"name": "Nidorino",
+		"default_form_id": 785,
+		"pokedex_id": 33,
+		"generation": "Kanto",
+		"types": [
+			"Poison"
+		],
+		"attack": 137,
+		"defense": 111,
+		"stamina": 156,
+		"legendary": false,
+		"mythical": false
+	},
+	"34": {
+		"name": "Nidoking",
+		"default_form_id": 788,
+		"pokedex_id": 34,
+		"generation": "Kanto",
+		"types": [
+			"Poison",
+			"Ground"
+		],
+		"attack": 204,
+		"defense": 156,
+		"stamina": 191,
+		"legendary": false,
+		"mythical": false
+	},
+	"35": {
+		"name": "Clefairy",
+		"default_form_id": 981,
+		"pokedex_id": 35,
+		"generation": "Kanto",
+		"types": [
+			"Fairy"
+		],
+		"attack": 107,
+		"defense": 108,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"36": {
+		"name": "Clefable",
+		"default_form_id": 984,
+		"pokedex_id": 36,
+		"generation": "Kanto",
+		"types": [
+			"Fairy"
+		],
+		"attack": 178,
+		"defense": 162,
+		"stamina": 216,
+		"legendary": false,
+		"mythical": false
+	},
+	"37": {
+		"name": "Vulpix",
+		"default_form_id": 55,
+		"pokedex_id": 37,
+		"generation": "Kanto",
+		"types": [
+			"Fire"
+		],
+		"attack": 96,
+		"defense": 109,
+		"stamina": 116,
+		"legendary": false,
+		"mythical": false
+	},
+	"38": {
+		"name": "Ninetales",
+		"default_form_id": 57,
+		"pokedex_id": 38,
+		"generation": "Kanto",
+		"types": [
+			"Fire"
+		],
+		"attack": 169,
+		"defense": 190,
+		"stamina": 177,
+		"legendary": false,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Ninetales (Alola)",
+				"types": [
+					"Ice",
+					"Fairy"
+				],
+				"attack": 170,
+				"defense": 193,
+				"stamina": 177
+			}
+		]
+	},
+	"39": {
+		"name": "Jigglypuff",
+		"default_form_id": 987,
+		"pokedex_id": 39,
+		"generation": "Kanto",
+		"types": [
+			"Normal",
+			"Fairy"
+		],
+		"attack": 80,
+		"defense": 41,
+		"stamina": 251,
+		"legendary": false,
+		"mythical": false
+	},
+	"40": {
+		"name": "Wigglytuff",
+		"default_form_id": 990,
+		"pokedex_id": 40,
+		"generation": "Kanto",
+		"types": [
+			"Normal",
+			"Fairy"
+		],
+		"attack": 156,
+		"defense": 90,
+		"stamina": 295,
+		"legendary": false,
+		"mythical": false
+	},
+	"41": {
+		"name": "Zubat",
+		"default_form_id": 157,
+		"pokedex_id": 41,
+		"generation": "Kanto",
+		"types": [
+			"Poison",
+			"Flying"
+		],
+		"attack": 83,
+		"defense": 73,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"42": {
+		"name": "Golbat",
+		"default_form_id": 160,
+		"pokedex_id": 42,
+		"generation": "Kanto",
+		"types": [
+			"Poison",
+			"Flying"
+		],
+		"attack": 161,
+		"defense": 150,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"43": {
+		"name": "Oddish",
+		"default_form_id": 265,
+		"pokedex_id": 43,
+		"generation": "Kanto",
+		"types": [
+			"Grass",
+			"Poison"
+		],
+		"attack": 131,
+		"defense": 112,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"44": {
+		"name": "Gloom",
+		"default_form_id": 268,
+		"pokedex_id": 44,
+		"generation": "Kanto",
+		"types": [
+			"Grass",
+			"Poison"
+		],
+		"attack": 153,
+		"defense": 136,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"45": {
+		"name": "Vileplume",
+		"default_form_id": 271,
+		"pokedex_id": 45,
+		"generation": "Kanto",
+		"types": [
+			"Grass",
+			"Poison"
+		],
+		"attack": 202,
+		"defense": 167,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"46": {
+		"name": "Paras",
+		"default_form_id": 993,
+		"pokedex_id": 46,
+		"generation": "Kanto",
+		"types": [
+			"Bug",
+			"Grass"
+		],
+		"attack": 121,
+		"defense": 99,
+		"stamina": 111,
+		"legendary": false,
+		"mythical": false
+	},
+	"47": {
+		"name": "Parasect",
+		"default_form_id": 996,
+		"pokedex_id": 47,
+		"generation": "Kanto",
+		"types": [
+			"Bug",
+			"Grass"
+		],
+		"attack": 165,
+		"defense": 146,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"48": {
+		"name": "Venonat",
+		"default_form_id": 259,
+		"pokedex_id": 48,
+		"generation": "Kanto",
+		"types": [
+			"Bug",
+			"Poison"
+		],
+		"attack": 100,
+		"defense": 100,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"49": {
+		"name": "Venomoth",
+		"default_form_id": 262,
+		"pokedex_id": 49,
+		"generation": "Kanto",
+		"types": [
+			"Bug",
+			"Poison"
+		],
+		"attack": 179,
+		"defense": 143,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"50": {
+		"name": "Diglett",
+		"default_form_id": 59,
+		"pokedex_id": 50,
+		"generation": "Kanto",
+		"types": [
+			"Ground"
+		],
+		"attack": 109,
+		"defense": 78,
+		"stamina": 67,
+		"legendary": false,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Diglett (Alola)",
+				"types": [
+					"Ground",
+					"Steel"
+				],
+				"attack": 108,
+				"defense": 81,
+				"stamina": 67
+			}
+		]
+	},
+	"51": {
+		"name": "Dugtrio",
+		"default_form_id": 61,
+		"pokedex_id": 51,
+		"generation": "Kanto",
+		"types": [
+			"Ground"
+		],
+		"attack": 167,
+		"defense": 134,
+		"stamina": 111,
+		"legendary": false,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Dugtrio (Normal)",
+				"attack": 167,
+				"defense": 136,
+				"stamina": 111
+			},
+			{
+				"name": "Dugtrio (Alola)",
+				"types": [
+					"Ground",
+					"Steel"
+				],
+				"attack": 201,
+				"defense": 142,
+				"stamina": 111
+			}
+		]
+	},
+	"52": {
+		"name": "Meowth",
+		"default_form_id": 63,
+		"pokedex_id": 52,
+		"generation": "Kanto",
+		"types": [
+			"Normal"
+		],
+		"attack": 92,
+		"defense": 78,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Meowth (Alola)",
+				"types": [
+					"Dark"
+				],
+				"attack": 99,
+				"defense": 78,
+				"stamina": 120
+			},
+			{
+				"name": "Meowth (Galarian)",
+				"types": [
+					"Steel"
+				],
+				"attack": 115,
+				"defense": 92,
+				"stamina": 137
+			}
+		]
+	},
+	"53": {
+		"name": "Persian",
+		"default_form_id": 65,
+		"pokedex_id": 53,
+		"generation": "Kanto",
+		"types": [
+			"Normal"
+		],
+		"attack": 150,
+		"defense": 136,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Persian (Alola)",
+				"types": [
+					"Dark"
+				],
+				"attack": 158,
+				"defense": 136,
+				"stamina": 163
+			}
+		]
+	},
+	"54": {
+		"name": "Psyduck",
+		"default_form_id": 286,
+		"pokedex_id": 54,
+		"generation": "Kanto",
+		"types": [
+			"Water"
+		],
+		"attack": 122,
+		"defense": 95,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"55": {
+		"name": "Golduck",
+		"default_form_id": 289,
+		"pokedex_id": 55,
+		"generation": "Kanto",
+		"types": [
+			"Water"
+		],
+		"attack": 191,
+		"defense": 162,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"56": {
+		"name": "Mankey",
+		"default_form_id": 999,
+		"pokedex_id": 56,
+		"generation": "Kanto",
+		"types": [
+			"Fighting"
+		],
+		"attack": 148,
+		"defense": 82,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"57": {
+		"name": "Primeape",
+		"default_form_id": 1002,
+		"pokedex_id": 57,
+		"generation": "Kanto",
+		"types": [
+			"Fighting"
+		],
+		"attack": 207,
+		"defense": 138,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"58": {
+		"name": "Growlithe",
+		"default_form_id": 280,
+		"pokedex_id": 58,
+		"generation": "Kanto",
+		"types": [
+			"Fire"
+		],
+		"attack": 136,
+		"defense": 93,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"59": {
+		"name": "Arcanine",
+		"default_form_id": 283,
+		"pokedex_id": 59,
+		"generation": "Kanto",
+		"types": [
+			"Fire"
+		],
+		"attack": 227,
+		"defense": 166,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"60": {
+		"name": "Poliwag",
+		"default_form_id": 235,
+		"pokedex_id": 60,
+		"generation": "Kanto",
+		"types": [
+			"Water"
+		],
+		"attack": 101,
+		"defense": 82,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"61": {
+		"name": "Poliwhirl",
+		"default_form_id": 238,
+		"pokedex_id": 61,
+		"generation": "Kanto",
+		"types": [
+			"Water"
+		],
+		"attack": 130,
+		"defense": 123,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"62": {
+		"name": "Poliwrath",
+		"default_form_id": 241,
+		"pokedex_id": 62,
+		"generation": "Kanto",
+		"types": [
+			"Water",
+			"Fighting"
+		],
+		"attack": 182,
+		"defense": 184,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"63": {
+		"name": "Abra",
+		"default_form_id": 304,
+		"pokedex_id": 63,
+		"generation": "Kanto",
+		"types": [
+			"Psychic"
+		],
+		"attack": 195,
+		"defense": 82,
+		"stamina": 93,
+		"legendary": false,
+		"mythical": false
+	},
+	"64": {
+		"name": "Kadabra",
+		"default_form_id": 307,
+		"pokedex_id": 64,
+		"generation": "Kanto",
+		"types": [
+			"Psychic"
+		],
+		"attack": 232,
+		"defense": 117,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"65": {
+		"name": "Alakazam",
+		"default_form_id": 310,
+		"pokedex_id": 65,
+		"generation": "Kanto",
+		"types": [
+			"Psychic"
+		],
+		"attack": 271,
+		"defense": 167,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"66": {
+		"name": "Machop",
+		"default_form_id": 809,
+		"pokedex_id": 66,
+		"generation": "Kanto",
+		"types": [
+			"Fighting"
+		],
+		"attack": 137,
+		"defense": 82,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"67": {
+		"name": "Machoke",
+		"default_form_id": 812,
+		"pokedex_id": 67,
+		"generation": "Kanto",
+		"types": [
+			"Fighting"
+		],
+		"attack": 177,
+		"defense": 125,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"68": {
+		"name": "Machamp",
+		"default_form_id": 815,
+		"pokedex_id": 68,
+		"generation": "Kanto",
+		"types": [
+			"Fighting"
+		],
+		"attack": 234,
+		"defense": 159,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"69": {
+		"name": "Bellsprout",
+		"default_form_id": 664,
+		"pokedex_id": 69,
+		"generation": "Kanto",
+		"types": [
+			"Grass",
+			"Poison"
+		],
+		"attack": 139,
+		"defense": 61,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"70": {
+		"name": "Weepinbell",
+		"default_form_id": 667,
+		"pokedex_id": 70,
+		"generation": "Kanto",
+		"types": [
+			"Grass",
+			"Poison"
+		],
+		"attack": 172,
+		"defense": 92,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"71": {
+		"name": "Victreebel",
+		"default_form_id": 670,
+		"pokedex_id": 71,
+		"generation": "Kanto",
+		"types": [
+			"Grass",
+			"Poison"
+		],
+		"attack": 207,
+		"defense": 135,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"72": {
+		"name": "Tentacool",
+		"default_form_id": 1005,
+		"pokedex_id": 72,
+		"generation": "Kanto",
+		"types": [
+			"Water",
+			"Poison"
+		],
+		"attack": 97,
+		"defense": 149,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"73": {
+		"name": "Tentacruel",
+		"default_form_id": 1008,
+		"pokedex_id": 73,
+		"generation": "Kanto",
+		"types": [
+			"Water",
+			"Poison"
+		],
+		"attack": 166,
+		"defense": 209,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"74": {
+		"name": "Geodude",
+		"default_form_id": 67,
+		"pokedex_id": 74,
+		"generation": "Kanto",
+		"types": [
+			"Rock",
+			"Ground"
+		],
+		"attack": 132,
+		"defense": 132,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"75": {
+		"name": "Graveler",
+		"default_form_id": 69,
+		"pokedex_id": 75,
+		"generation": "Kanto",
+		"types": [
+			"Rock",
+			"Ground"
+		],
+		"attack": 164,
+		"defense": 164,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"76": {
+		"name": "Golem",
+		"default_form_id": 71,
+		"pokedex_id": 76,
+		"generation": "Kanto",
+		"types": [
+			"Rock",
+			"Ground"
+		],
+		"attack": 211,
+		"defense": 198,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"77": {
+		"name": "Ponyta",
+		"default_form_id": 1011,
+		"pokedex_id": 77,
+		"generation": "Kanto",
+		"types": [
+			"Fire"
+		],
+		"attack": 170,
+		"defense": 127,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"78": {
+		"name": "Rapidash",
+		"default_form_id": 1014,
+		"pokedex_id": 78,
+		"generation": "Kanto",
+		"types": [
+			"Fire"
+		],
+		"attack": 207,
+		"defense": 162,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"79": {
+		"name": "Slowpoke",
+		"default_form_id": 1017,
+		"pokedex_id": 79,
+		"generation": "Kanto",
+		"types": [
+			"Water",
+			"Psychic"
+		],
+		"attack": 109,
+		"defense": 98,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"80": {
+		"name": "Slowbro",
+		"default_form_id": 1020,
+		"pokedex_id": 80,
+		"generation": "Kanto",
+		"types": [
+			"Water",
+			"Psychic"
+		],
+		"attack": 177,
+		"defense": 180,
+		"stamina": 216,
+		"legendary": false,
+		"mythical": false
+	},
+	"81": {
+		"name": "Magnemite",
+		"default_form_id": 655,
+		"pokedex_id": 81,
+		"generation": "Kanto",
+		"types": [
+			"Electric",
+			"Steel"
+		],
+		"attack": 165,
+		"defense": 121,
+		"stamina": 93,
+		"legendary": false,
+		"mythical": false
+	},
+	"82": {
+		"name": "Magneton",
+		"default_form_id": 658,
+		"pokedex_id": 82,
+		"generation": "Kanto",
+		"types": [
+			"Electric",
+			"Steel"
+		],
+		"attack": 223,
+		"defense": 169,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"83": {
+		"name": "Farfetchd",
+		"default_form_id": 1023,
+		"pokedex_id": 83,
+		"generation": "Kanto",
+		"types": [
+			"Normal",
+			"Flying"
+		],
+		"attack": 124,
+		"defense": 115,
+		"stamina": 141,
+		"legendary": false,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Farfetchd (Galarian)",
+				"types": [
+					"Fighting"
+				],
+				"attack": 174,
+				"defense": 114,
+				"stamina": 141
+			}
+		]
+	},
+	"84": {
+		"name": "Doduo",
+		"default_form_id": 1026,
+		"pokedex_id": 84,
+		"generation": "Kanto",
+		"types": [
+			"Normal",
+			"Flying"
+		],
+		"attack": 158,
+		"defense": 83,
+		"stamina": 111,
+		"legendary": false,
+		"mythical": false
+	},
+	"85": {
+		"name": "Dodrio",
+		"default_form_id": 1029,
+		"pokedex_id": 85,
+		"generation": "Kanto",
+		"types": [
+			"Normal",
+			"Flying"
+		],
+		"attack": 218,
+		"defense": 140,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"86": {
+		"name": "Seel",
+		"default_form_id": 1032,
+		"pokedex_id": 86,
+		"generation": "Kanto",
+		"types": [
+			"Water"
+		],
+		"attack": 85,
+		"defense": 121,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"87": {
+		"name": "Dewgong",
+		"default_form_id": 1035,
+		"pokedex_id": 87,
+		"generation": "Kanto",
+		"types": [
+			"Water",
+			"Ice"
+		],
+		"attack": 139,
+		"defense": 177,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"88": {
+		"name": "Grimer",
+		"default_form_id": 73,
+		"pokedex_id": 88,
+		"generation": "Kanto",
+		"types": [
+			"Poison"
+		],
+		"attack": 135,
+		"defense": 90,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"89": {
+		"name": "Muk",
+		"default_form_id": 75,
+		"pokedex_id": 89,
+		"generation": "Kanto",
+		"types": [
+			"Poison"
+		],
+		"attack": 190,
+		"defense": 172,
+		"stamina": 233,
+		"legendary": false,
+		"mythical": false
+	},
+	"90": {
+		"name": "Shellder",
+		"default_form_id": 876,
+		"pokedex_id": 90,
+		"generation": "Kanto",
+		"types": [
+			"Water"
+		],
+		"attack": 116,
+		"defense": 134,
+		"stamina": 102,
+		"legendary": false,
+		"mythical": false
+	},
+	"91": {
+		"name": "Cloyster",
+		"default_form_id": 879,
+		"pokedex_id": 91,
+		"generation": "Kanto",
+		"types": [
+			"Water",
+			"Ice"
+		],
+		"attack": 186,
+		"defense": 256,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"92": {
+		"name": "Gastly",
+		"default_form_id": 1038,
+		"pokedex_id": 92,
+		"generation": "Kanto",
+		"types": [
+			"Ghost",
+			"Poison"
+		],
+		"attack": 186,
+		"defense": 67,
+		"stamina": 102,
+		"legendary": false,
+		"mythical": false
+	},
+	"93": {
+		"name": "Haunter",
+		"default_form_id": 1041,
+		"pokedex_id": 93,
+		"generation": "Kanto",
+		"types": [
+			"Ghost",
+			"Poison"
+		],
+		"attack": 223,
+		"defense": 107,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"94": {
+		"name": "Gengar",
+		"default_form_id": 1044,
+		"pokedex_id": 94,
+		"generation": "Kanto",
+		"types": [
+			"Ghost",
+			"Poison"
+		],
+		"attack": 261,
+		"defense": 149,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"95": {
+		"name": "Onix",
+		"default_form_id": 902,
+		"pokedex_id": 95,
+		"generation": "Kanto",
+		"types": [
+			"Rock",
+			"Ground"
+		],
+		"attack": 85,
+		"defense": 232,
+		"stamina": 111,
+		"legendary": false,
+		"mythical": false
+	},
+	"96": {
+		"name": "Drowzee",
+		"default_form_id": 214,
+		"pokedex_id": 96,
+		"generation": "Kanto",
+		"types": [
+			"Psychic"
+		],
+		"attack": 89,
+		"defense": 136,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"97": {
+		"name": "Hypno",
+		"default_form_id": 217,
+		"pokedex_id": 97,
+		"generation": "Kanto",
+		"types": [
+			"Psychic"
+		],
+		"attack": 144,
+		"defense": 193,
+		"stamina": 198,
+		"legendary": false,
+		"mythical": false
+	},
+	"98": {
+		"name": "Krabby",
+		"default_form_id": 870,
+		"pokedex_id": 98,
+		"generation": "Kanto",
+		"types": [
+			"Water"
+		],
+		"attack": 181,
+		"defense": 124,
+		"stamina": 102,
+		"legendary": false,
+		"mythical": false
+	},
+	"99": {
+		"name": "Kingler",
+		"default_form_id": 873,
+		"pokedex_id": 99,
+		"generation": "Kanto",
+		"types": [
+			"Water"
+		],
+		"attack": 240,
+		"defense": 181,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"100": {
+		"name": "Voltorb",
+		"default_form_id": 1047,
+		"pokedex_id": 100,
+		"generation": "Kanto",
+		"types": [
+			"Electric"
+		],
+		"attack": 109,
+		"defense": 111,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"101": {
+		"name": "Electrode",
+		"default_form_id": 1050,
+		"pokedex_id": 101,
+		"generation": "Kanto",
+		"types": [
+			"Electric"
+		],
+		"attack": 173,
+		"defense": 173,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"102": {
+		"name": "Exeggcute",
+		"default_form_id": 729,
+		"pokedex_id": 102,
+		"generation": "Kanto",
+		"types": [
+			"Grass",
+			"Psychic"
+		],
+		"attack": 107,
+		"defense": 125,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"103": {
+		"name": "Exeggutor",
+		"default_form_id": 77,
+		"pokedex_id": 103,
+		"generation": "Kanto",
+		"types": [
+			"Grass",
+			"Psychic"
+		],
+		"attack": 233,
+		"defense": 149,
+		"stamina": 216,
+		"legendary": false,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Exeggutor (Alola)",
+				"types": [
+					"Grass",
+					"Dragon"
+				],
+				"attack": 230,
+				"defense": 153,
+				"stamina": 216
+			}
+		]
+	},
+	"104": {
+		"name": "Cubone",
+		"default_form_id": 224,
+		"pokedex_id": 104,
+		"generation": "Kanto",
+		"types": [
+			"Ground"
+		],
+		"attack": 90,
+		"defense": 144,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"105": {
+		"name": "Marowak",
+		"default_form_id": 79,
+		"pokedex_id": 105,
+		"generation": "Kanto",
+		"types": [
+			"Ground"
+		],
+		"attack": 144,
+		"defense": 186,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"106": {
+		"name": "Hitmonlee",
+		"default_form_id": 713,
+		"pokedex_id": 106,
+		"generation": "Kanto",
+		"types": [
+			"Fighting"
+		],
+		"attack": 224,
+		"defense": 181,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"107": {
+		"name": "Hitmonchan",
+		"default_form_id": 277,
+		"pokedex_id": 107,
+		"generation": "Kanto",
+		"types": [
+			"Fighting"
+		],
+		"attack": 193,
+		"defense": 197,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"108": {
+		"name": "Lickitung",
+		"default_form_id": 1053,
+		"pokedex_id": 108,
+		"generation": "Kanto",
+		"types": [
+			"Normal"
+		],
+		"attack": 108,
+		"defense": 137,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"109": {
+		"name": "Koffing",
+		"default_form_id": 703,
+		"pokedex_id": 109,
+		"generation": "Kanto",
+		"types": [
+			"Poison"
+		],
+		"attack": 119,
+		"defense": 141,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"110": {
+		"name": "Weezing",
+		"default_form_id": 706,
+		"pokedex_id": 110,
+		"generation": "Kanto",
+		"types": [
+			"Poison"
+		],
+		"attack": 174,
+		"defense": 197,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"111": {
+		"name": "Rhyhorn",
+		"default_form_id": 846,
+		"pokedex_id": 111,
+		"generation": "Kanto",
+		"types": [
+			"Ground",
+			"Rock"
+		],
+		"attack": 140,
+		"defense": 127,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"112": {
+		"name": "Rhydon",
+		"default_form_id": 849,
+		"pokedex_id": 112,
+		"generation": "Kanto",
+		"types": [
+			"Ground",
+			"Rock"
+		],
+		"attack": 222,
+		"defense": 171,
+		"stamina": 233,
+		"legendary": false,
+		"mythical": false
+	},
+	"113": {
+		"name": "Chansey",
+		"default_form_id": 1056,
+		"pokedex_id": 113,
+		"generation": "Kanto",
+		"types": [
+			"Normal"
+		],
+		"attack": 60,
+		"defense": 128,
+		"stamina": 487,
+		"legendary": false,
+		"mythical": false
+	},
+	"114": {
+		"name": "Tangela",
+		"default_form_id": 1059,
+		"pokedex_id": 114,
+		"generation": "Kanto",
+		"types": [
+			"Grass"
+		],
+		"attack": 183,
+		"defense": 169,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"115": {
+		"name": "Kangaskhan",
+		"default_form_id": 839,
+		"pokedex_id": 115,
+		"generation": "Kanto",
+		"types": [
+			"Normal"
+		],
+		"attack": 181,
+		"defense": 165,
+		"stamina": 233,
+		"legendary": false,
+		"mythical": false
+	},
+	"116": {
+		"name": "Horsea",
+		"default_form_id": 1062,
+		"pokedex_id": 116,
+		"generation": "Kanto",
+		"types": [
+			"Water"
+		],
+		"attack": 129,
+		"defense": 103,
+		"stamina": 102,
+		"legendary": false,
+		"mythical": false
+	},
+	"117": {
+		"name": "Seadra",
+		"default_form_id": 1065,
+		"pokedex_id": 117,
+		"generation": "Kanto",
+		"types": [
+			"Water"
+		],
+		"attack": 187,
+		"defense": 156,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"118": {
+		"name": "Goldeen",
+		"default_form_id": 1068,
+		"pokedex_id": 118,
+		"generation": "Kanto",
+		"types": [
+			"Water"
+		],
+		"attack": 123,
+		"defense": 110,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"119": {
+		"name": "Seaking",
+		"default_form_id": 1071,
+		"pokedex_id": 119,
+		"generation": "Kanto",
+		"types": [
+			"Water"
+		],
+		"attack": 175,
+		"defense": 147,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"120": {
+		"name": "Staryu",
+		"default_form_id": 1074,
+		"pokedex_id": 120,
+		"generation": "Kanto",
+		"types": [
+			"Water"
+		],
+		"attack": 137,
+		"defense": 112,
+		"stamina": 102,
+		"legendary": false,
+		"mythical": false
+	},
+	"121": {
+		"name": "Starmie",
+		"default_form_id": 1077,
+		"pokedex_id": 121,
+		"generation": "Kanto",
+		"types": [
+			"Water",
+			"Psychic"
+		],
+		"attack": 210,
+		"defense": 184,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"122": {
+		"name": "Mr Mime",
+		"default_form_id": 1080,
+		"pokedex_id": 122,
+		"generation": "Kanto",
+		"types": [
+			"Psychic",
+			"Fairy"
+		],
+		"attack": 192,
+		"defense": 205,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Mr Mime (Galarian)",
+				"types": [
+					"Ice",
+					"Psychic"
+				],
+				"attack": 183,
+				"defense": 169,
+				"stamina": 137
+			}
+		]
+	},
+	"123": {
+		"name": "Scyther",
+		"default_form_id": 247,
+		"pokedex_id": 123,
+		"generation": "Kanto",
+		"types": [
+			"Bug",
+			"Flying"
+		],
+		"attack": 218,
+		"defense": 170,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"124": {
+		"name": "Jynx",
+		"default_form_id": 1083,
+		"pokedex_id": 124,
+		"generation": "Kanto",
+		"types": [
+			"Ice",
+			"Psychic"
+		],
+		"attack": 223,
+		"defense": 151,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"125": {
+		"name": "Electabuzz",
+		"default_form_id": 640,
+		"pokedex_id": 125,
+		"generation": "Kanto",
+		"types": [
+			"Electric"
+		],
+		"attack": 198,
+		"defense": 158,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"126": {
+		"name": "Magmar",
+		"default_form_id": 634,
+		"pokedex_id": 126,
+		"generation": "Kanto",
+		"types": [
+			"Fire"
+		],
+		"attack": 206,
+		"defense": 154,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"127": {
+		"name": "Pinsir",
+		"default_form_id": 898,
+		"pokedex_id": 127,
+		"generation": "Kanto",
+		"types": [
+			"Bug"
+		],
+		"attack": 238,
+		"defense": 182,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"128": {
+		"name": "Tauros",
+		"default_form_id": 1086,
+		"pokedex_id": 128,
+		"generation": "Kanto",
+		"types": [
+			"Normal"
+		],
+		"attack": 198,
+		"defense": 183,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"129": {
+		"name": "Magikarp",
+		"default_form_id": 253,
+		"pokedex_id": 129,
+		"generation": "Kanto",
+		"types": [
+			"Water"
+		],
+		"attack": 29,
+		"defense": 85,
+		"stamina": 85,
+		"legendary": false,
+		"mythical": false
+	},
+	"130": {
+		"name": "Gyarados",
+		"default_form_id": 256,
+		"pokedex_id": 130,
+		"generation": "Kanto",
+		"types": [
+			"Water",
+			"Flying"
+		],
+		"attack": 237,
+		"defense": 186,
+		"stamina": 216,
+		"legendary": false,
+		"mythical": false
+	},
+	"131": {
+		"name": "Lapras",
+		"default_form_id": 322,
+		"pokedex_id": 131,
+		"generation": "Kanto",
+		"types": [
+			"Water",
+			"Ice"
+		],
+		"attack": 165,
+		"defense": 174,
+		"stamina": 277,
+		"legendary": false,
+		"mythical": false
+	},
+	"132": {
+		"name": "Ditto",
+		"default_form_id": 1089,
+		"pokedex_id": 132,
+		"generation": "Kanto",
+		"types": [
+			"Normal"
+		],
+		"attack": 91,
+		"defense": 91,
+		"stamina": 134,
+		"legendary": false,
+		"mythical": false
+	},
+	"133": {
+		"name": "Eevee",
+		"default_form_id": 1092,
+		"pokedex_id": 133,
+		"generation": "Kanto",
+		"types": [
+			"Normal"
+		],
+		"attack": 104,
+		"defense": 114,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"134": {
+		"name": "Vaporeon",
+		"default_form_id": 1095,
+		"pokedex_id": 134,
+		"generation": "Kanto",
+		"types": [
+			"Water"
+		],
+		"attack": 205,
+		"defense": 161,
+		"stamina": 277,
+		"legendary": false,
+		"mythical": false
+	},
+	"135": {
+		"name": "Jolteon",
+		"default_form_id": 1098,
+		"pokedex_id": 135,
+		"generation": "Kanto",
+		"types": [
+			"Electric"
+		],
+		"attack": 232,
+		"defense": 182,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"136": {
+		"name": "Flareon",
+		"default_form_id": 1101,
+		"pokedex_id": 136,
+		"generation": "Kanto",
+		"types": [
+			"Fire"
+		],
+		"attack": 246,
+		"defense": 179,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"137": {
+		"name": "Porygon",
+		"default_form_id": 677,
+		"pokedex_id": 137,
+		"generation": "Kanto",
+		"types": [
+			"Normal"
+		],
+		"attack": 153,
+		"defense": 136,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"138": {
+		"name": "Omanyte",
+		"default_form_id": 740,
+		"pokedex_id": 138,
+		"generation": "Kanto",
+		"types": [
+			"Rock",
+			"Water"
+		],
+		"attack": 155,
+		"defense": 153,
+		"stamina": 111,
+		"legendary": false,
+		"mythical": false
+	},
+	"139": {
+		"name": "Omastar",
+		"default_form_id": 743,
+		"pokedex_id": 139,
+		"generation": "Kanto",
+		"types": [
+			"Rock",
+			"Water"
+		],
+		"attack": 207,
+		"defense": 201,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"140": {
+		"name": "Kabuto",
+		"default_form_id": 1104,
+		"pokedex_id": 140,
+		"generation": "Kanto",
+		"types": [
+			"Rock",
+			"Water"
+		],
+		"attack": 148,
+		"defense": 140,
+		"stamina": 102,
+		"legendary": false,
+		"mythical": false
+	},
+	"141": {
+		"name": "Kabutops",
+		"default_form_id": 1107,
+		"pokedex_id": 141,
+		"generation": "Kanto",
+		"types": [
+			"Rock",
+			"Water"
+		],
+		"attack": 220,
+		"defense": 186,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"142": {
+		"name": "Aerodactyl",
+		"default_form_id": 1110,
+		"pokedex_id": 142,
+		"generation": "Kanto",
+		"types": [
+			"Rock",
+			"Flying"
+		],
+		"attack": 221,
+		"defense": 159,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"143": {
+		"name": "Snorlax",
+		"default_form_id": 199,
+		"pokedex_id": 143,
+		"generation": "Kanto",
+		"types": [
+			"Normal"
+		],
+		"attack": 190,
+		"defense": 169,
+		"stamina": 330,
+		"legendary": false,
+		"mythical": false
+	},
+	"144": {
+		"name": "Articuno",
+		"default_form_id": 716,
+		"pokedex_id": 144,
+		"generation": "Kanto",
+		"types": [
+			"Ice",
+			"Flying"
+		],
+		"attack": 192,
+		"defense": 236,
+		"stamina": 207,
+		"legendary": true,
+		"mythical": false
+	},
+	"145": {
+		"name": "Zapdos",
+		"default_form_id": 773,
+		"pokedex_id": 145,
+		"generation": "Kanto",
+		"types": [
+			"Electric",
+			"Flying"
+		],
+		"attack": 253,
+		"defense": 185,
+		"stamina": 207,
+		"legendary": true,
+		"mythical": false
+	},
+	"146": {
+		"name": "Moltres",
+		"default_form_id": 836,
+		"pokedex_id": 146,
+		"generation": "Kanto",
+		"types": [
+			"Fire",
+			"Flying"
+		],
+		"attack": 251,
+		"defense": 181,
+		"stamina": 207,
+		"legendary": true,
+		"mythical": false
+	},
+	"147": {
+		"name": "Dratini",
+		"default_form_id": 190,
+		"pokedex_id": 147,
+		"generation": "Kanto",
+		"types": [
+			"Dragon"
+		],
+		"attack": 119,
+		"defense": 91,
+		"stamina": 121,
+		"legendary": false,
+		"mythical": false
+	},
+	"148": {
+		"name": "Dragonair",
+		"default_form_id": 193,
+		"pokedex_id": 148,
+		"generation": "Kanto",
+		"types": [
+			"Dragon"
+		],
+		"attack": 163,
+		"defense": 135,
+		"stamina": 156,
+		"legendary": false,
+		"mythical": false
+	},
+	"149": {
+		"name": "Dragonite",
+		"default_form_id": 196,
+		"pokedex_id": 149,
+		"generation": "Kanto",
+		"types": [
+			"Dragon",
+			"Flying"
+		],
+		"attack": 263,
+		"defense": 198,
+		"stamina": 209,
+		"legendary": false,
+		"mythical": false
+	},
+	"150": {
+		"name": "Mewtwo",
+		"default_form_id": 135,
+		"pokedex_id": 150,
+		"generation": "Kanto",
+		"types": [
+			"Psychic"
+		],
+		"attack": 300,
+		"defense": 182,
+		"stamina": 214,
+		"legendary": true,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Mewtwo (A)",
+				"attack": 182,
+				"defense": 278,
+				"stamina": 214
+			}
+		]
+	},
+	"151": {
+		"name": "Mew",
+		"default_form_id": 1115,
+		"pokedex_id": 151,
+		"generation": "Kanto",
+		"types": [
+			"Psychic"
+		],
+		"attack": 210,
+		"defense": 210,
+		"stamina": 225,
+		"legendary": false,
+		"mythical": true
+	},
+	"152": {
+		"name": "Chikorita",
+		"default_form_id": 1118,
+		"pokedex_id": 152,
+		"generation": "Johto",
+		"types": [
+			"Grass"
+		],
+		"attack": 92,
+		"defense": 122,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"153": {
+		"name": "Bayleef",
+		"default_form_id": 1121,
+		"pokedex_id": 153,
+		"generation": "Johto",
+		"types": [
+			"Grass"
+		],
+		"attack": 122,
+		"defense": 155,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"154": {
+		"name": "Meganium",
+		"default_form_id": 1124,
+		"pokedex_id": 154,
+		"generation": "Johto",
+		"types": [
+			"Grass"
+		],
+		"attack": 168,
+		"defense": 202,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"155": {
+		"name": "Cyndaquil",
+		"default_form_id": 1127,
+		"pokedex_id": 155,
+		"generation": "Johto",
+		"types": [
+			"Fire"
+		],
+		"attack": 116,
+		"defense": 93,
+		"stamina": 118,
+		"legendary": false,
+		"mythical": false
+	},
+	"156": {
+		"name": "Quilava",
+		"default_form_id": 1130,
+		"pokedex_id": 156,
+		"generation": "Johto",
+		"types": [
+			"Fire"
+		],
+		"attack": 158,
+		"defense": 126,
+		"stamina": 151,
+		"legendary": false,
+		"mythical": false
+	},
+	"157": {
+		"name": "Typhlosion",
+		"default_form_id": 1133,
+		"pokedex_id": 157,
+		"generation": "Johto",
+		"types": [
+			"Fire"
+		],
+		"attack": 223,
+		"defense": 173,
+		"stamina": 186,
+		"legendary": false,
+		"mythical": false
+	},
+	"158": {
+		"name": "Totodile",
+		"default_form_id": 1136,
+		"pokedex_id": 158,
+		"generation": "Johto",
+		"types": [
+			"Water"
+		],
+		"attack": 117,
+		"defense": 109,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"159": {
+		"name": "Croconaw",
+		"default_form_id": 1139,
+		"pokedex_id": 159,
+		"generation": "Johto",
+		"types": [
+			"Water"
+		],
+		"attack": 150,
+		"defense": 142,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"160": {
+		"name": "Feraligatr",
+		"default_form_id": 1142,
+		"pokedex_id": 160,
+		"generation": "Johto",
+		"types": [
+			"Water"
+		],
+		"attack": 205,
+		"defense": 188,
+		"stamina": 198,
+		"legendary": false,
+		"mythical": false
+	},
+	"161": {
+		"name": "Sentret",
+		"default_form_id": 1145,
+		"pokedex_id": 161,
+		"generation": "Johto",
+		"types": [
+			"Normal"
+		],
+		"attack": 79,
+		"defense": 73,
+		"stamina": 111,
+		"legendary": false,
+		"mythical": false
+	},
+	"162": {
+		"name": "Furret",
+		"default_form_id": 1148,
+		"pokedex_id": 162,
+		"generation": "Johto",
+		"types": [
+			"Normal"
+		],
+		"attack": 148,
+		"defense": 125,
+		"stamina": 198,
+		"legendary": false,
+		"mythical": false
+	},
+	"163": {
+		"name": "Hoothoot",
+		"default_form_id": 1151,
+		"pokedex_id": 163,
+		"generation": "Johto",
+		"types": [
+			"Normal",
+			"Flying"
+		],
+		"attack": 67,
+		"defense": 88,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"164": {
+		"name": "Noctowl",
+		"default_form_id": 1154,
+		"pokedex_id": 164,
+		"generation": "Johto",
+		"types": [
+			"Normal",
+			"Flying"
+		],
+		"attack": 145,
+		"defense": 156,
+		"stamina": 225,
+		"legendary": false,
+		"mythical": false
+	},
+	"165": {
+		"name": "Ledyba",
+		"default_form_id": 1157,
+		"pokedex_id": 165,
+		"generation": "Johto",
+		"types": [
+			"Bug",
+			"Flying"
+		],
+		"attack": 72,
+		"defense": 118,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"166": {
+		"name": "Ledian",
+		"default_form_id": 1160,
+		"pokedex_id": 166,
+		"generation": "Johto",
+		"types": [
+			"Bug",
+			"Flying"
+		],
+		"attack": 107,
+		"defense": 179,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"167": {
+		"name": "Spinarak",
+		"default_form_id": 1163,
+		"pokedex_id": 167,
+		"generation": "Johto",
+		"types": [
+			"Bug",
+			"Poison"
+		],
+		"attack": 105,
+		"defense": 73,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"168": {
+		"name": "Ariados",
+		"default_form_id": 1166,
+		"pokedex_id": 168,
+		"generation": "Johto",
+		"types": [
+			"Bug",
+			"Poison"
+		],
+		"attack": 161,
+		"defense": 124,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"169": {
+		"name": "Crobat",
+		"default_form_id": 202,
+		"pokedex_id": 169,
+		"generation": "Johto",
+		"types": [
+			"Poison",
+			"Flying"
+		],
+		"attack": 194,
+		"defense": 178,
+		"stamina": 198,
+		"legendary": false,
+		"mythical": false
+	},
+	"170": {
+		"name": "Chinchou",
+		"default_form_id": 1169,
+		"pokedex_id": 170,
+		"generation": "Johto",
+		"types": [
+			"Water",
+			"Electric"
+		],
+		"attack": 106,
+		"defense": 97,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"171": {
+		"name": "Lanturn",
+		"default_form_id": 1172,
+		"pokedex_id": 171,
+		"generation": "Johto",
+		"types": [
+			"Water",
+			"Electric"
+		],
+		"attack": 146,
+		"defense": 137,
+		"stamina": 268,
+		"legendary": false,
+		"mythical": false
+	},
+	"172": {
+		"name": "Pichu",
+		"default_form_id": 1175,
+		"pokedex_id": 172,
+		"generation": "Johto",
+		"types": [
+			"Electric"
+		],
+		"attack": 77,
+		"defense": 53,
+		"stamina": 85,
+		"legendary": false,
+		"mythical": false
+	},
+	"173": {
+		"name": "Cleffa",
+		"default_form_id": 1178,
+		"pokedex_id": 173,
+		"generation": "Johto",
+		"types": [
+			"Fairy"
+		],
+		"attack": 75,
+		"defense": 79,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"174": {
+		"name": "Igglybuff",
+		"default_form_id": 1181,
+		"pokedex_id": 174,
+		"generation": "Johto",
+		"types": [
+			"Normal",
+			"Fairy"
+		],
+		"attack": 69,
+		"defense": 32,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"175": {
+		"name": "Togepi",
+		"default_form_id": 1184,
+		"pokedex_id": 175,
+		"generation": "Johto",
+		"types": [
+			"Fairy"
+		],
+		"attack": 67,
+		"defense": 116,
+		"stamina": 111,
+		"legendary": false,
+		"mythical": false
+	},
+	"176": {
+		"name": "Togetic",
+		"default_form_id": 1187,
+		"pokedex_id": 176,
+		"generation": "Johto",
+		"types": [
+			"Fairy",
+			"Flying"
+		],
+		"attack": 139,
+		"defense": 181,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"177": {
+		"name": "Natu",
+		"default_form_id": 1190,
+		"pokedex_id": 177,
+		"generation": "Johto",
+		"types": [
+			"Psychic",
+			"Flying"
+		],
+		"attack": 134,
+		"defense": 89,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"178": {
+		"name": "Xatu",
+		"default_form_id": 1193,
+		"pokedex_id": 178,
+		"generation": "Johto",
+		"types": [
+			"Psychic",
+			"Flying"
+		],
+		"attack": 192,
+		"defense": 146,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"179": {
+		"name": "Mareep",
+		"default_form_id": 646,
+		"pokedex_id": 179,
+		"generation": "Johto",
+		"types": [
+			"Electric"
+		],
+		"attack": 114,
+		"defense": 79,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"180": {
+		"name": "Flaaffy",
+		"default_form_id": 649,
+		"pokedex_id": 180,
+		"generation": "Johto",
+		"types": [
+			"Electric"
+		],
+		"attack": 145,
+		"defense": 109,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"181": {
+		"name": "Ampharos",
+		"default_form_id": 652,
+		"pokedex_id": 181,
+		"generation": "Johto",
+		"types": [
+			"Electric"
+		],
+		"attack": 211,
+		"defense": 169,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"182": {
+		"name": "Bellossom",
+		"default_form_id": 274,
+		"pokedex_id": 182,
+		"generation": "Johto",
+		"types": [
+			"Grass"
+		],
+		"attack": 169,
+		"defense": 186,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"183": {
+		"name": "Marill",
+		"default_form_id": 1196,
+		"pokedex_id": 183,
+		"generation": "Johto",
+		"types": [
+			"Water",
+			"Fairy"
+		],
+		"attack": 37,
+		"defense": 93,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"184": {
+		"name": "Azumarill",
+		"default_form_id": 1199,
+		"pokedex_id": 184,
+		"generation": "Johto",
+		"types": [
+			"Water",
+			"Fairy"
+		],
+		"attack": 112,
+		"defense": 152,
+		"stamina": 225,
+		"legendary": false,
+		"mythical": false
+	},
+	"185": {
+		"name": "Sudowoodo",
+		"default_form_id": 1202,
+		"pokedex_id": 185,
+		"generation": "Johto",
+		"types": [
+			"Rock"
+		],
+		"attack": 167,
+		"defense": 176,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"186": {
+		"name": "Politoed",
+		"default_form_id": 244,
+		"pokedex_id": 186,
+		"generation": "Johto",
+		"types": [
+			"Water"
+		],
+		"attack": 174,
+		"defense": 179,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"187": {
+		"name": "Hoppip",
+		"default_form_id": 1205,
+		"pokedex_id": 187,
+		"generation": "Johto",
+		"types": [
+			"Grass",
+			"Flying"
+		],
+		"attack": 67,
+		"defense": 94,
+		"stamina": 111,
+		"legendary": false,
+		"mythical": false
+	},
+	"188": {
+		"name": "Skiploom",
+		"default_form_id": 1208,
+		"pokedex_id": 188,
+		"generation": "Johto",
+		"types": [
+			"Grass",
+			"Flying"
+		],
+		"attack": 91,
+		"defense": 120,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"189": {
+		"name": "Jumpluff",
+		"default_form_id": 1211,
+		"pokedex_id": 189,
+		"generation": "Johto",
+		"types": [
+			"Grass",
+			"Flying"
+		],
+		"attack": 118,
+		"defense": 183,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"190": {
+		"name": "Aipom",
+		"default_form_id": 1214,
+		"pokedex_id": 190,
+		"generation": "Johto",
+		"types": [
+			"Normal"
+		],
+		"attack": 136,
+		"defense": 112,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"191": {
+		"name": "Sunkern",
+		"default_form_id": 1217,
+		"pokedex_id": 191,
+		"generation": "Johto",
+		"types": [
+			"Grass"
+		],
+		"attack": 55,
+		"defense": 55,
+		"stamina": 102,
+		"legendary": false,
+		"mythical": false
+	},
+	"192": {
+		"name": "Sunflora",
+		"default_form_id": 1220,
+		"pokedex_id": 192,
+		"generation": "Johto",
+		"types": [
+			"Grass"
+		],
+		"attack": 185,
+		"defense": 135,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"193": {
+		"name": "Yanma",
+		"default_form_id": 1223,
+		"pokedex_id": 193,
+		"generation": "Johto",
+		"types": [
+			"Bug",
+			"Flying"
+		],
+		"attack": 154,
+		"defense": 94,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"194": {
+		"name": "Wooper",
+		"default_form_id": 1226,
+		"pokedex_id": 194,
+		"generation": "Johto",
+		"types": [
+			"Water",
+			"Ground"
+		],
+		"attack": 75,
+		"defense": 66,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"195": {
+		"name": "Quagsire",
+		"default_form_id": 1229,
+		"pokedex_id": 195,
+		"generation": "Johto",
+		"types": [
+			"Water",
+			"Ground"
+		],
+		"attack": 152,
+		"defense": 143,
+		"stamina": 216,
+		"legendary": false,
+		"mythical": false
+	},
+	"196": {
+		"name": "Espeon",
+		"default_form_id": 1232,
+		"pokedex_id": 196,
+		"generation": "Johto",
+		"types": [
+			"Psychic"
+		],
+		"attack": 261,
+		"defense": 175,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"197": {
+		"name": "Umbreon",
+		"default_form_id": 1235,
+		"pokedex_id": 197,
+		"generation": "Johto",
+		"types": [
+			"Dark"
+		],
+		"attack": 126,
+		"defense": 240,
+		"stamina": 216,
+		"legendary": false,
+		"mythical": false
+	},
+	"198": {
+		"name": "Murkrow",
+		"default_form_id": 855,
+		"pokedex_id": 198,
+		"generation": "Johto",
+		"types": [
+			"Dark",
+			"Flying"
+		],
+		"attack": 175,
+		"defense": 87,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"199": {
+		"name": "Slowking",
+		"default_form_id": 1238,
+		"pokedex_id": 199,
+		"generation": "Johto",
+		"types": [
+			"Water",
+			"Psychic"
+		],
+		"attack": 177,
+		"defense": 180,
+		"stamina": 216,
+		"legendary": false,
+		"mythical": false
+	},
+	"200": {
+		"name": "Misdreavus",
+		"default_form_id": 719,
+		"pokedex_id": 200,
+		"generation": "Johto",
+		"types": [
+			"Ghost"
+		],
+		"attack": 167,
+		"defense": 154,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"201": {
+		"name": "Unown",
+		"default_form_id": 6,
+		"pokedex_id": 201,
+		"generation": "Johto",
+		"types": [
+			"Psychic"
+		],
+		"attack": 136,
+		"defense": 91,
+		"stamina": 134,
+		"legendary": false,
+		"mythical": false
+	},
+	"202": {
+		"name": "Wobbuffet",
+		"default_form_id": 602,
+		"pokedex_id": 202,
+		"generation": "Johto",
+		"types": [
+			"Psychic"
+		],
+		"attack": 60,
+		"defense": 106,
+		"stamina": 382,
+		"legendary": false,
+		"mythical": false
+	},
+	"203": {
+		"name": "Girafarig",
+		"default_form_id": 1241,
+		"pokedex_id": 203,
+		"generation": "Johto",
+		"types": [
+			"Normal",
+			"Psychic"
+		],
+		"attack": 182,
+		"defense": 133,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"204": {
+		"name": "Pineco",
+		"default_form_id": 1244,
+		"pokedex_id": 204,
+		"generation": "Johto",
+		"types": [
+			"Bug"
+		],
+		"attack": 108,
+		"defense": 122,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"205": {
+		"name": "Forretress",
+		"default_form_id": 1247,
+		"pokedex_id": 205,
+		"generation": "Johto",
+		"types": [
+			"Bug",
+			"Steel"
+		],
+		"attack": 161,
+		"defense": 205,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"206": {
+		"name": "Dunsparce",
+		"default_form_id": 1250,
+		"pokedex_id": 206,
+		"generation": "Johto",
+		"types": [
+			"Normal"
+		],
+		"attack": 131,
+		"defense": 128,
+		"stamina": 225,
+		"legendary": false,
+		"mythical": false
+	},
+	"207": {
+		"name": "Gligar",
+		"default_form_id": 803,
+		"pokedex_id": 207,
+		"generation": "Johto",
+		"types": [
+			"Ground",
+			"Flying"
+		],
+		"attack": 143,
+		"defense": 184,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"208": {
+		"name": "Steelix",
+		"default_form_id": 905,
+		"pokedex_id": 208,
+		"generation": "Johto",
+		"types": [
+			"Steel",
+			"Ground"
+		],
+		"attack": 148,
+		"defense": 272,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"209": {
+		"name": "Snubbull",
+		"default_form_id": 1253,
+		"pokedex_id": 209,
+		"generation": "Johto",
+		"types": [
+			"Fairy"
+		],
+		"attack": 137,
+		"defense": 85,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"210": {
+		"name": "Granbull",
+		"default_form_id": 1256,
+		"pokedex_id": 210,
+		"generation": "Johto",
+		"types": [
+			"Fairy"
+		],
+		"attack": 212,
+		"defense": 131,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"211": {
+		"name": "Qwilfish",
+		"default_form_id": 1259,
+		"pokedex_id": 211,
+		"generation": "Johto",
+		"types": [
+			"Water",
+			"Poison"
+		],
+		"attack": 184,
+		"defense": 138,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"212": {
+		"name": "Scizor",
+		"default_form_id": 250,
+		"pokedex_id": 212,
+		"generation": "Johto",
+		"types": [
+			"Bug",
+			"Steel"
+		],
+		"attack": 236,
+		"defense": 181,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"213": {
+		"name": "Shuckle",
+		"default_form_id": 827,
+		"pokedex_id": 213,
+		"generation": "Johto",
+		"types": [
+			"Bug",
+			"Rock"
+		],
+		"attack": 17,
+		"defense": 396,
+		"stamina": 85,
+		"legendary": false,
+		"mythical": false
+	},
+	"214": {
+		"name": "Heracross",
+		"default_form_id": 1262,
+		"pokedex_id": 214,
+		"generation": "Johto",
+		"types": [
+			"Bug",
+			"Fighting"
+		],
+		"attack": 234,
+		"defense": 179,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"215": {
+		"name": "Sneasel",
+		"default_form_id": 797,
+		"pokedex_id": 215,
+		"generation": "Johto",
+		"types": [
+			"Dark",
+			"Ice"
+		],
+		"attack": 189,
+		"defense": 146,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"216": {
+		"name": "Teddiursa",
+		"default_form_id": 1265,
+		"pokedex_id": 216,
+		"generation": "Johto",
+		"types": [
+			"Normal"
+		],
+		"attack": 142,
+		"defense": 93,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"217": {
+		"name": "Ursaring",
+		"default_form_id": 1268,
+		"pokedex_id": 217,
+		"generation": "Johto",
+		"types": [
+			"Normal"
+		],
+		"attack": 236,
+		"defense": 144,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"218": {
+		"name": "Slugma",
+		"default_form_id": 1271,
+		"pokedex_id": 218,
+		"generation": "Johto",
+		"types": [
+			"Fire"
+		],
+		"attack": 118,
+		"defense": 71,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"219": {
+		"name": "Magcargo",
+		"default_form_id": 1274,
+		"pokedex_id": 219,
+		"generation": "Johto",
+		"types": [
+			"Fire",
+			"Rock"
+		],
+		"attack": 139,
+		"defense": 191,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"220": {
+		"name": "Swinub",
+		"default_form_id": 1277,
+		"pokedex_id": 220,
+		"generation": "Johto",
+		"types": [
+			"Ice",
+			"Ground"
+		],
+		"attack": 90,
+		"defense": 69,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"221": {
+		"name": "Piloswine",
+		"default_form_id": 1280,
+		"pokedex_id": 221,
+		"generation": "Johto",
+		"types": [
+			"Ice",
+			"Ground"
+		],
+		"attack": 181,
+		"defense": 138,
+		"stamina": 225,
+		"legendary": false,
+		"mythical": false
+	},
+	"222": {
+		"name": "Corsola",
+		"default_form_id": 1283,
+		"pokedex_id": 222,
+		"generation": "Johto",
+		"types": [
+			"Water",
+			"Rock"
+		],
+		"attack": 118,
+		"defense": 156,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"223": {
+		"name": "Remoraid",
+		"default_form_id": 1286,
+		"pokedex_id": 223,
+		"generation": "Johto",
+		"types": [
+			"Water"
+		],
+		"attack": 127,
+		"defense": 69,
+		"stamina": 111,
+		"legendary": false,
+		"mythical": false
+	},
+	"224": {
+		"name": "Octillery",
+		"default_form_id": 1289,
+		"pokedex_id": 224,
+		"generation": "Johto",
+		"types": [
+			"Water"
+		],
+		"attack": 197,
+		"defense": 141,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"225": {
+		"name": "Delibird",
+		"default_form_id": 938,
+		"pokedex_id": 225,
+		"generation": "Johto",
+		"types": [
+			"Ice",
+			"Flying"
+		],
+		"attack": 128,
+		"defense": 90,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"226": {
+		"name": "Mantine",
+		"default_form_id": 1292,
+		"pokedex_id": 226,
+		"generation": "Johto",
+		"types": [
+			"Water",
+			"Flying"
+		],
+		"attack": 148,
+		"defense": 226,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"227": {
+		"name": "Skarmory",
+		"default_form_id": 1295,
+		"pokedex_id": 227,
+		"generation": "Johto",
+		"types": [
+			"Steel",
+			"Flying"
+		],
+		"attack": 148,
+		"defense": 226,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"228": {
+		"name": "Houndour",
+		"default_form_id": 229,
+		"pokedex_id": 228,
+		"generation": "Johto",
+		"types": [
+			"Dark",
+			"Fire"
+		],
+		"attack": 152,
+		"defense": 83,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"229": {
+		"name": "Houndoom",
+		"default_form_id": 232,
+		"pokedex_id": 229,
+		"generation": "Johto",
+		"types": [
+			"Dark",
+			"Fire"
+		],
+		"attack": 224,
+		"defense": 144,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"230": {
+		"name": "Kingdra",
+		"default_form_id": 1298,
+		"pokedex_id": 230,
+		"generation": "Johto",
+		"types": [
+			"Water",
+			"Dragon"
+		],
+		"attack": 194,
+		"defense": 194,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"231": {
+		"name": "Phanpy",
+		"default_form_id": 1301,
+		"pokedex_id": 231,
+		"generation": "Johto",
+		"types": [
+			"Ground"
+		],
+		"attack": 107,
+		"defense": 98,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"232": {
+		"name": "Donphan",
+		"default_form_id": 1304,
+		"pokedex_id": 232,
+		"generation": "Johto",
+		"types": [
+			"Ground"
+		],
+		"attack": 214,
+		"defense": 185,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"233": {
+		"name": "Porygon2",
+		"default_form_id": 680,
+		"pokedex_id": 233,
+		"generation": "Johto",
+		"types": [
+			"Normal"
+		],
+		"attack": 198,
+		"defense": 180,
+		"stamina": 198,
+		"legendary": false,
+		"mythical": false
+	},
+	"234": {
+		"name": "Stantler",
+		"default_form_id": 941,
+		"pokedex_id": 234,
+		"generation": "Johto",
+		"types": [
+			"Normal"
+		],
+		"attack": 192,
+		"defense": 131,
+		"stamina": 177,
+		"legendary": false,
+		"mythical": false
+	},
+	"235": {
+		"name": "Smeargle",
+		"default_form_id": 1307,
+		"pokedex_id": 235,
+		"generation": "Johto",
+		"types": [
+			"Normal"
+		],
+		"attack": 40,
+		"defense": 83,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"236": {
+		"name": "Tyrogue",
+		"default_form_id": 1310,
+		"pokedex_id": 236,
+		"generation": "Johto",
+		"types": [
+			"Fighting"
+		],
+		"attack": 64,
+		"defense": 64,
+		"stamina": 111,
+		"legendary": false,
+		"mythical": false
+	},
+	"237": {
+		"name": "Hitmontop",
+		"default_form_id": 1313,
+		"pokedex_id": 237,
+		"generation": "Johto",
+		"types": [
+			"Fighting"
+		],
+		"attack": 173,
+		"defense": 207,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"238": {
+		"name": "Smoochum",
+		"default_form_id": 1316,
+		"pokedex_id": 238,
+		"generation": "Johto",
+		"types": [
+			"Ice",
+			"Psychic"
+		],
+		"attack": 153,
+		"defense": 91,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"239": {
+		"name": "Elekid",
+		"default_form_id": 1319,
+		"pokedex_id": 239,
+		"generation": "Johto",
+		"types": [
+			"Electric"
+		],
+		"attack": 135,
+		"defense": 101,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"240": {
+		"name": "Magby",
+		"default_form_id": 1322,
+		"pokedex_id": 240,
+		"generation": "Johto",
+		"types": [
+			"Fire"
+		],
+		"attack": 151,
+		"defense": 99,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"241": {
+		"name": "Miltank",
+		"default_form_id": 1325,
+		"pokedex_id": 241,
+		"generation": "Johto",
+		"types": [
+			"Normal"
+		],
+		"attack": 157,
+		"defense": 193,
+		"stamina": 216,
+		"legendary": false,
+		"mythical": false
+	},
+	"242": {
+		"name": "Blissey",
+		"default_form_id": 1328,
+		"pokedex_id": 242,
+		"generation": "Johto",
+		"types": [
+			"Normal"
+		],
+		"attack": 129,
+		"defense": 169,
+		"stamina": 496,
+		"legendary": false,
+		"mythical": false
+	},
+	"243": {
+		"name": "Raikou",
+		"default_form_id": 1331,
+		"pokedex_id": 243,
+		"generation": "Johto",
+		"types": [
+			"Electric"
+		],
+		"attack": 241,
+		"defense": 195,
+		"stamina": 207,
+		"legendary": true,
+		"mythical": false
+	},
+	"244": {
+		"name": "Entei",
+		"default_form_id": 1334,
+		"pokedex_id": 244,
+		"generation": "Johto",
+		"types": [
+			"Fire"
+		],
+		"attack": 235,
+		"defense": 171,
+		"stamina": 251,
+		"legendary": true,
+		"mythical": false
+	},
+	"245": {
+		"name": "Suicune",
+		"default_form_id": 1337,
+		"pokedex_id": 245,
+		"generation": "Johto",
+		"types": [
+			"Water"
+		],
+		"attack": 180,
+		"defense": 235,
+		"stamina": 225,
+		"legendary": true,
+		"mythical": false
+	},
+	"246": {
+		"name": "Larvitar",
+		"default_form_id": 313,
+		"pokedex_id": 246,
+		"generation": "Johto",
+		"types": [
+			"Rock",
+			"Ground"
+		],
+		"attack": 115,
+		"defense": 93,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"247": {
+		"name": "Pupitar",
+		"default_form_id": 316,
+		"pokedex_id": 247,
+		"generation": "Johto",
+		"types": [
+			"Rock",
+			"Ground"
+		],
+		"attack": 155,
+		"defense": 133,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"248": {
+		"name": "Tyranitar",
+		"default_form_id": 319,
+		"pokedex_id": 248,
+		"generation": "Johto",
+		"types": [
+			"Rock",
+			"Dark"
+		],
+		"attack": 251,
+		"defense": 207,
+		"stamina": 225,
+		"legendary": false,
+		"mythical": false
+	},
+	"249": {
+		"name": "Lugia",
+		"default_form_id": 1340,
+		"pokedex_id": 249,
+		"generation": "Johto",
+		"types": [
+			"Psychic",
+			"Flying"
+		],
+		"attack": 193,
+		"defense": 310,
+		"stamina": 235,
+		"legendary": true,
+		"mythical": false
+	},
+	"250": {
+		"name": "Ho Oh",
+		"default_form_id": 1343,
+		"pokedex_id": 250,
+		"generation": "Johto",
+		"types": [
+			"Fire",
+			"Flying"
+		],
+		"attack": 239,
+		"defense": 244,
+		"stamina": 214,
+		"legendary": true,
+		"mythical": false
+	},
+	"251": {
+		"name": "Celebi",
+		"default_form_id": 1346,
+		"pokedex_id": 251,
+		"generation": "Johto",
+		"types": [
+			"Psychic",
+			"Grass"
+		],
+		"attack": 210,
+		"defense": 210,
+		"stamina": 225,
+		"legendary": false,
+		"mythical": true
+	},
+	"252": {
+		"name": "Treecko",
+		"default_form_id": 1349,
+		"pokedex_id": 252,
+		"generation": "Hoenn",
+		"types": [
+			"Grass"
+		],
+		"attack": 124,
+		"defense": 94,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"253": {
+		"name": "Grovyle",
+		"default_form_id": 1352,
+		"pokedex_id": 253,
+		"generation": "Hoenn",
+		"types": [
+			"Grass"
+		],
+		"attack": 172,
+		"defense": 120,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"254": {
+		"name": "Sceptile",
+		"default_form_id": 1355,
+		"pokedex_id": 254,
+		"generation": "Hoenn",
+		"types": [
+			"Grass"
+		],
+		"attack": 223,
+		"defense": 169,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"255": {
+		"name": "Torchic",
+		"default_form_id": 1358,
+		"pokedex_id": 255,
+		"generation": "Hoenn",
+		"types": [
+			"Fire"
+		],
+		"attack": 130,
+		"defense": 87,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"256": {
+		"name": "Combusken",
+		"default_form_id": 1361,
+		"pokedex_id": 256,
+		"generation": "Hoenn",
+		"types": [
+			"Fire",
+			"Fighting"
+		],
+		"attack": 163,
+		"defense": 115,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"257": {
+		"name": "Blaziken",
+		"default_form_id": 1364,
+		"pokedex_id": 257,
+		"generation": "Hoenn",
+		"types": [
+			"Fire",
+			"Fighting"
+		],
+		"attack": 240,
+		"defense": 141,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"258": {
+		"name": "Mudkip",
+		"default_form_id": 205,
+		"pokedex_id": 258,
+		"generation": "Hoenn",
+		"types": [
+			"Water"
+		],
+		"attack": 126,
+		"defense": 93,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"259": {
+		"name": "Marshtomp",
+		"default_form_id": 208,
+		"pokedex_id": 259,
+		"generation": "Hoenn",
+		"types": [
+			"Water",
+			"Ground"
+		],
+		"attack": 156,
+		"defense": 133,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"260": {
+		"name": "Swampert",
+		"default_form_id": 211,
+		"pokedex_id": 260,
+		"generation": "Hoenn",
+		"types": [
+			"Water",
+			"Ground"
+		],
+		"attack": 208,
+		"defense": 175,
+		"stamina": 225,
+		"legendary": false,
+		"mythical": false
+	},
+	"261": {
+		"name": "Poochyena",
+		"default_form_id": 1367,
+		"pokedex_id": 261,
+		"generation": "Hoenn",
+		"types": [
+			"Dark"
+		],
+		"attack": 96,
+		"defense": 61,
+		"stamina": 111,
+		"legendary": false,
+		"mythical": false
+	},
+	"262": {
+		"name": "Mightyena",
+		"default_form_id": 1370,
+		"pokedex_id": 262,
+		"generation": "Hoenn",
+		"types": [
+			"Dark"
+		],
+		"attack": 171,
+		"defense": 132,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"263": {
+		"name": "Zigzagoon",
+		"default_form_id": 945,
+		"pokedex_id": 263,
+		"generation": "Hoenn",
+		"types": [
+			"Normal"
+		],
+		"attack": 58,
+		"defense": 80,
+		"stamina": 116,
+		"legendary": false,
+		"mythical": false
+	},
+	"264": {
+		"name": "Linoone",
+		"default_form_id": 947,
+		"pokedex_id": 264,
+		"generation": "Hoenn",
+		"types": [
+			"Normal"
+		],
+		"attack": 142,
+		"defense": 128,
+		"stamina": 186,
+		"legendary": false,
+		"mythical": false
+	},
+	"265": {
+		"name": "Wurmple",
+		"default_form_id": 600,
+		"pokedex_id": 265,
+		"generation": "Hoenn",
+		"types": [
+			"Bug"
+		],
+		"attack": 75,
+		"defense": 59,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"266": {
+		"name": "Silcoon",
+		"default_form_id": 1379,
+		"pokedex_id": 266,
+		"generation": "Hoenn",
+		"types": [
+			"Bug"
+		],
+		"attack": 60,
+		"defense": 77,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"267": {
+		"name": "Beautifly",
+		"default_form_id": 1382,
+		"pokedex_id": 267,
+		"generation": "Hoenn",
+		"types": [
+			"Bug",
+			"Flying"
+		],
+		"attack": 189,
+		"defense": 98,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"268": {
+		"name": "Cascoon",
+		"default_form_id": 1385,
+		"pokedex_id": 268,
+		"generation": "Hoenn",
+		"types": [
+			"Bug"
+		],
+		"attack": 60,
+		"defense": 77,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"269": {
+		"name": "Dustox",
+		"default_form_id": 1388,
+		"pokedex_id": 269,
+		"generation": "Hoenn",
+		"types": [
+			"Bug",
+			"Poison"
+		],
+		"attack": 98,
+		"defense": 162,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"270": {
+		"name": "Lotad",
+		"default_form_id": 1391,
+		"pokedex_id": 270,
+		"generation": "Hoenn",
+		"types": [
+			"Water",
+			"Grass"
+		],
+		"attack": 71,
+		"defense": 77,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"271": {
+		"name": "Lombre",
+		"default_form_id": 1394,
+		"pokedex_id": 271,
+		"generation": "Hoenn",
+		"types": [
+			"Water",
+			"Grass"
+		],
+		"attack": 112,
+		"defense": 119,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"272": {
+		"name": "Ludicolo",
+		"default_form_id": 1397,
+		"pokedex_id": 272,
+		"generation": "Hoenn",
+		"types": [
+			"Water",
+			"Grass"
+		],
+		"attack": 173,
+		"defense": 176,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"273": {
+		"name": "Seedot",
+		"default_form_id": 625,
+		"pokedex_id": 273,
+		"generation": "Hoenn",
+		"types": [
+			"Grass"
+		],
+		"attack": 71,
+		"defense": 77,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"274": {
+		"name": "Nuzleaf",
+		"default_form_id": 628,
+		"pokedex_id": 274,
+		"generation": "Hoenn",
+		"types": [
+			"Grass",
+			"Dark"
+		],
+		"attack": 134,
+		"defense": 78,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"275": {
+		"name": "Shiftry",
+		"default_form_id": 631,
+		"pokedex_id": 275,
+		"generation": "Hoenn",
+		"types": [
+			"Grass",
+			"Dark"
+		],
+		"attack": 200,
+		"defense": 121,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"276": {
+		"name": "Taillow",
+		"default_form_id": 1400,
+		"pokedex_id": 276,
+		"generation": "Hoenn",
+		"types": [
+			"Normal",
+			"Flying"
+		],
+		"attack": 106,
+		"defense": 61,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"277": {
+		"name": "Swellow",
+		"default_form_id": 1403,
+		"pokedex_id": 277,
+		"generation": "Hoenn",
+		"types": [
+			"Normal",
+			"Flying"
+		],
+		"attack": 185,
+		"defense": 124,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"278": {
+		"name": "Wingull",
+		"default_form_id": 1406,
+		"pokedex_id": 278,
+		"generation": "Hoenn",
+		"types": [
+			"Water",
+			"Flying"
+		],
+		"attack": 106,
+		"defense": 61,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"279": {
+		"name": "Pelipper",
+		"default_form_id": 1409,
+		"pokedex_id": 279,
+		"generation": "Hoenn",
+		"types": [
+			"Water",
+			"Flying"
+		],
+		"attack": 175,
+		"defense": 174,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"280": {
+		"name": "Ralts",
+		"default_form_id": 292,
+		"pokedex_id": 280,
+		"generation": "Hoenn",
+		"types": [
+			"Psychic",
+			"Fairy"
+		],
+		"attack": 79,
+		"defense": 59,
+		"stamina": 99,
+		"legendary": false,
+		"mythical": false
+	},
+	"281": {
+		"name": "Kirlia",
+		"default_form_id": 295,
+		"pokedex_id": 281,
+		"generation": "Hoenn",
+		"types": [
+			"Psychic",
+			"Fairy"
+		],
+		"attack": 117,
+		"defense": 90,
+		"stamina": 116,
+		"legendary": false,
+		"mythical": false
+	},
+	"282": {
+		"name": "Gardevoir",
+		"default_form_id": 298,
+		"pokedex_id": 282,
+		"generation": "Hoenn",
+		"types": [
+			"Psychic",
+			"Fairy"
+		],
+		"attack": 237,
+		"defense": 195,
+		"stamina": 169,
+		"legendary": false,
+		"mythical": false
+	},
+	"283": {
+		"name": "Surskit",
+		"default_form_id": 1412,
+		"pokedex_id": 283,
+		"generation": "Hoenn",
+		"types": [
+			"Bug",
+			"Water"
+		],
+		"attack": 93,
+		"defense": 87,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"284": {
+		"name": "Masquerain",
+		"default_form_id": 1415,
+		"pokedex_id": 284,
+		"generation": "Hoenn",
+		"types": [
+			"Bug",
+			"Flying"
+		],
+		"attack": 192,
+		"defense": 150,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"285": {
+		"name": "Shroomish",
+		"default_form_id": 1418,
+		"pokedex_id": 285,
+		"generation": "Hoenn",
+		"types": [
+			"Grass"
+		],
+		"attack": 74,
+		"defense": 110,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"286": {
+		"name": "Breloom",
+		"default_form_id": 1421,
+		"pokedex_id": 286,
+		"generation": "Hoenn",
+		"types": [
+			"Grass",
+			"Fighting"
+		],
+		"attack": 241,
+		"defense": 144,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"287": {
+		"name": "Slakoth",
+		"default_form_id": 1424,
+		"pokedex_id": 287,
+		"generation": "Hoenn",
+		"types": [
+			"Normal"
+		],
+		"attack": 104,
+		"defense": 92,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"288": {
+		"name": "Vigoroth",
+		"default_form_id": 1427,
+		"pokedex_id": 288,
+		"generation": "Hoenn",
+		"types": [
+			"Normal"
+		],
+		"attack": 159,
+		"defense": 145,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"289": {
+		"name": "Slaking",
+		"default_form_id": 1430,
+		"pokedex_id": 289,
+		"generation": "Hoenn",
+		"types": [
+			"Normal"
+		],
+		"attack": 290,
+		"defense": 166,
+		"stamina": 284,
+		"legendary": false,
+		"mythical": false
+	},
+	"290": {
+		"name": "Nincada",
+		"default_form_id": 1433,
+		"pokedex_id": 290,
+		"generation": "Hoenn",
+		"types": [
+			"Bug",
+			"Ground"
+		],
+		"attack": 80,
+		"defense": 126,
+		"stamina": 104,
+		"legendary": false,
+		"mythical": false
+	},
+	"291": {
+		"name": "Ninjask",
+		"default_form_id": 1436,
+		"pokedex_id": 291,
+		"generation": "Hoenn",
+		"types": [
+			"Bug",
+			"Flying"
+		],
+		"attack": 199,
+		"defense": 112,
+		"stamina": 156,
+		"legendary": false,
+		"mythical": false
+	},
+	"292": {
+		"name": "Shedinja",
+		"default_form_id": 1439,
+		"pokedex_id": 292,
+		"generation": "Hoenn",
+		"types": [
+			"Bug",
+			"Ghost"
+		],
+		"attack": 153,
+		"defense": 73,
+		"stamina": 1,
+		"legendary": false,
+		"mythical": false
+	},
+	"293": {
+		"name": "Whismur",
+		"default_form_id": 1442,
+		"pokedex_id": 293,
+		"generation": "Hoenn",
+		"types": [
+			"Normal"
+		],
+		"attack": 92,
+		"defense": 42,
+		"stamina": 162,
+		"legendary": false,
+		"mythical": false
+	},
+	"294": {
+		"name": "Loudred",
+		"default_form_id": 1445,
+		"pokedex_id": 294,
+		"generation": "Hoenn",
+		"types": [
+			"Normal"
+		],
+		"attack": 134,
+		"defense": 81,
+		"stamina": 197,
+		"legendary": false,
+		"mythical": false
+	},
+	"295": {
+		"name": "Exploud",
+		"default_form_id": 1448,
+		"pokedex_id": 295,
+		"generation": "Hoenn",
+		"types": [
+			"Normal"
+		],
+		"attack": 179,
+		"defense": 137,
+		"stamina": 232,
+		"legendary": false,
+		"mythical": false
+	},
+	"296": {
+		"name": "Makuhita",
+		"default_form_id": 1451,
+		"pokedex_id": 296,
+		"generation": "Hoenn",
+		"types": [
+			"Fighting"
+		],
+		"attack": 99,
+		"defense": 54,
+		"stamina": 176,
+		"legendary": false,
+		"mythical": false
+	},
+	"297": {
+		"name": "Hariyama",
+		"default_form_id": 1454,
+		"pokedex_id": 297,
+		"generation": "Hoenn",
+		"types": [
+			"Fighting"
+		],
+		"attack": 209,
+		"defense": 114,
+		"stamina": 302,
+		"legendary": false,
+		"mythical": false
+	},
+	"298": {
+		"name": "Azurill",
+		"default_form_id": 1457,
+		"pokedex_id": 298,
+		"generation": "Hoenn",
+		"types": [
+			"Normal",
+			"Fairy"
+		],
+		"attack": 36,
+		"defense": 71,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"299": {
+		"name": "Nosepass",
+		"default_form_id": 1460,
+		"pokedex_id": 299,
+		"generation": "Hoenn",
+		"types": [
+			"Rock"
+		],
+		"attack": 82,
+		"defense": 215,
+		"stamina": 102,
+		"legendary": false,
+		"mythical": false
+	},
+	"300": {
+		"name": "Skitty",
+		"default_form_id": 1463,
+		"pokedex_id": 300,
+		"generation": "Hoenn",
+		"types": [
+			"Normal"
+		],
+		"attack": 84,
+		"defense": 79,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"301": {
+		"name": "Delcatty",
+		"default_form_id": 1466,
+		"pokedex_id": 301,
+		"generation": "Hoenn",
+		"types": [
+			"Normal"
+		],
+		"attack": 132,
+		"defense": 127,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"302": {
+		"name": "Sableye",
+		"default_form_id": 923,
+		"pokedex_id": 302,
+		"generation": "Hoenn",
+		"types": [
+			"Dark",
+			"Ghost"
+		],
+		"attack": 141,
+		"defense": 136,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"303": {
+		"name": "Mawile",
+		"default_form_id": 833,
+		"pokedex_id": 303,
+		"generation": "Hoenn",
+		"types": [
+			"Steel",
+			"Fairy"
+		],
+		"attack": 155,
+		"defense": 141,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"304": {
+		"name": "Aron",
+		"default_form_id": 1469,
+		"pokedex_id": 304,
+		"generation": "Hoenn",
+		"types": [
+			"Steel",
+			"Rock"
+		],
+		"attack": 121,
+		"defense": 141,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"305": {
+		"name": "Lairon",
+		"default_form_id": 1472,
+		"pokedex_id": 305,
+		"generation": "Hoenn",
+		"types": [
+			"Steel",
+			"Rock"
+		],
+		"attack": 158,
+		"defense": 198,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"306": {
+		"name": "Aggron",
+		"default_form_id": 1475,
+		"pokedex_id": 306,
+		"generation": "Hoenn",
+		"types": [
+			"Steel",
+			"Rock"
+		],
+		"attack": 198,
+		"defense": 257,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"307": {
+		"name": "Meditite",
+		"default_form_id": 1478,
+		"pokedex_id": 307,
+		"generation": "Hoenn",
+		"types": [
+			"Fighting",
+			"Psychic"
+		],
+		"attack": 78,
+		"defense": 107,
+		"stamina": 102,
+		"legendary": false,
+		"mythical": false
+	},
+	"308": {
+		"name": "Medicham",
+		"default_form_id": 1481,
+		"pokedex_id": 308,
+		"generation": "Hoenn",
+		"types": [
+			"Fighting",
+			"Psychic"
+		],
+		"attack": 121,
+		"defense": 152,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"309": {
+		"name": "Electrike",
+		"default_form_id": 1484,
+		"pokedex_id": 309,
+		"generation": "Hoenn",
+		"types": [
+			"Electric"
+		],
+		"attack": 123,
+		"defense": 78,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"310": {
+		"name": "Manectric",
+		"default_form_id": 1487,
+		"pokedex_id": 310,
+		"generation": "Hoenn",
+		"types": [
+			"Electric"
+		],
+		"attack": 215,
+		"defense": 127,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"311": {
+		"name": "Plusle",
+		"default_form_id": 1490,
+		"pokedex_id": 311,
+		"generation": "Hoenn",
+		"types": [
+			"Electric"
+		],
+		"attack": 167,
+		"defense": 129,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"312": {
+		"name": "Minun",
+		"default_form_id": 1493,
+		"pokedex_id": 312,
+		"generation": "Hoenn",
+		"types": [
+			"Electric"
+		],
+		"attack": 147,
+		"defense": 150,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"313": {
+		"name": "Volbeat",
+		"default_form_id": 1496,
+		"pokedex_id": 313,
+		"generation": "Hoenn",
+		"types": [
+			"Bug"
+		],
+		"attack": 143,
+		"defense": 166,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"314": {
+		"name": "Illumise",
+		"default_form_id": 1499,
+		"pokedex_id": 314,
+		"generation": "Hoenn",
+		"types": [
+			"Bug"
+		],
+		"attack": 143,
+		"defense": 166,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"315": {
+		"name": "Roselia",
+		"default_form_id": 1502,
+		"pokedex_id": 315,
+		"generation": "Hoenn",
+		"types": [
+			"Grass",
+			"Poison"
+		],
+		"attack": 186,
+		"defense": 131,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"316": {
+		"name": "Gulpin",
+		"default_form_id": 1505,
+		"pokedex_id": 316,
+		"generation": "Hoenn",
+		"types": [
+			"Poison"
+		],
+		"attack": 80,
+		"defense": 99,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"317": {
+		"name": "Swalot",
+		"default_form_id": 1508,
+		"pokedex_id": 317,
+		"generation": "Hoenn",
+		"types": [
+			"Poison"
+		],
+		"attack": 140,
+		"defense": 159,
+		"stamina": 225,
+		"legendary": false,
+		"mythical": false
+	},
+	"318": {
+		"name": "Carvanha",
+		"default_form_id": 734,
+		"pokedex_id": 318,
+		"generation": "Hoenn",
+		"types": [
+			"Water",
+			"Dark"
+		],
+		"attack": 171,
+		"defense": 39,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"319": {
+		"name": "Sharpedo",
+		"default_form_id": 737,
+		"pokedex_id": 319,
+		"generation": "Hoenn",
+		"types": [
+			"Water",
+			"Dark"
+		],
+		"attack": 243,
+		"defense": 83,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"320": {
+		"name": "Wailmer",
+		"default_form_id": 1511,
+		"pokedex_id": 320,
+		"generation": "Hoenn",
+		"types": [
+			"Water"
+		],
+		"attack": 136,
+		"defense": 68,
+		"stamina": 277,
+		"legendary": false,
+		"mythical": false
+	},
+	"321": {
+		"name": "Wailord",
+		"default_form_id": 1514,
+		"pokedex_id": 321,
+		"generation": "Hoenn",
+		"types": [
+			"Water"
+		],
+		"attack": 175,
+		"defense": 87,
+		"stamina": 347,
+		"legendary": false,
+		"mythical": false
+	},
+	"322": {
+		"name": "Numel",
+		"default_form_id": 1517,
+		"pokedex_id": 322,
+		"generation": "Hoenn",
+		"types": [
+			"Fire",
+			"Ground"
+		],
+		"attack": 119,
+		"defense": 79,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"323": {
+		"name": "Camerupt",
+		"default_form_id": 1520,
+		"pokedex_id": 323,
+		"generation": "Hoenn",
+		"types": [
+			"Fire",
+			"Ground"
+		],
+		"attack": 194,
+		"defense": 136,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"324": {
+		"name": "Torkoal",
+		"default_form_id": 1523,
+		"pokedex_id": 324,
+		"generation": "Hoenn",
+		"types": [
+			"Fire"
+		],
+		"attack": 151,
+		"defense": 203,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"325": {
+		"name": "Spoink",
+		"default_form_id": 1526,
+		"pokedex_id": 325,
+		"generation": "Hoenn",
+		"types": [
+			"Psychic"
+		],
+		"attack": 125,
+		"defense": 122,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"326": {
+		"name": "Grumpig",
+		"default_form_id": 1529,
+		"pokedex_id": 326,
+		"generation": "Hoenn",
+		"types": [
+			"Psychic"
+		],
+		"attack": 171,
+		"defense": 188,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"327": {
+		"name": "Spinda",
+		"default_form_id": 37,
+		"pokedex_id": 327,
+		"generation": "Hoenn",
+		"types": [
+			"Normal"
+		],
+		"attack": 116,
+		"defense": 116,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"328": {
+		"name": "Trapinch",
+		"default_form_id": 746,
+		"pokedex_id": 328,
+		"generation": "Hoenn",
+		"types": [
+			"Ground"
+		],
+		"attack": 162,
+		"defense": 78,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"329": {
+		"name": "Vibrava",
+		"default_form_id": 749,
+		"pokedex_id": 329,
+		"generation": "Hoenn",
+		"types": [
+			"Ground",
+			"Dragon"
+		],
+		"attack": 134,
+		"defense": 99,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"330": {
+		"name": "Flygon",
+		"default_form_id": 752,
+		"pokedex_id": 330,
+		"generation": "Hoenn",
+		"types": [
+			"Ground",
+			"Dragon"
+		],
+		"attack": 205,
+		"defense": 168,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"331": {
+		"name": "Cacnea",
+		"default_form_id": 610,
+		"pokedex_id": 331,
+		"generation": "Hoenn",
+		"types": [
+			"Grass"
+		],
+		"attack": 156,
+		"defense": 74,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"332": {
+		"name": "Cacturne",
+		"default_form_id": 613,
+		"pokedex_id": 332,
+		"generation": "Hoenn",
+		"types": [
+			"Grass",
+			"Dark"
+		],
+		"attack": 221,
+		"defense": 115,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"333": {
+		"name": "Swablu",
+		"default_form_id": 1532,
+		"pokedex_id": 333,
+		"generation": "Hoenn",
+		"types": [
+			"Normal",
+			"Flying"
+		],
+		"attack": 76,
+		"defense": 132,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"334": {
+		"name": "Altaria",
+		"default_form_id": 1535,
+		"pokedex_id": 334,
+		"generation": "Hoenn",
+		"types": [
+			"Dragon",
+			"Flying"
+		],
+		"attack": 141,
+		"defense": 201,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"335": {
+		"name": "Zangoose",
+		"default_form_id": 1538,
+		"pokedex_id": 335,
+		"generation": "Hoenn",
+		"types": [
+			"Normal"
+		],
+		"attack": 222,
+		"defense": 124,
+		"stamina": 177,
+		"legendary": false,
+		"mythical": false
+	},
+	"336": {
+		"name": "Seviper",
+		"default_form_id": 1541,
+		"pokedex_id": 336,
+		"generation": "Hoenn",
+		"types": [
+			"Poison"
+		],
+		"attack": 196,
+		"defense": 118,
+		"stamina": 177,
+		"legendary": false,
+		"mythical": false
+	},
+	"337": {
+		"name": "Lunatone",
+		"default_form_id": 1544,
+		"pokedex_id": 337,
+		"generation": "Hoenn",
+		"types": [
+			"Rock",
+			"Psychic"
+		],
+		"attack": 178,
+		"defense": 153,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"338": {
+		"name": "Solrock",
+		"default_form_id": 1547,
+		"pokedex_id": 338,
+		"generation": "Hoenn",
+		"types": [
+			"Rock",
+			"Psychic"
+		],
+		"attack": 178,
+		"defense": 153,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"339": {
+		"name": "Barboach",
+		"default_form_id": 1550,
+		"pokedex_id": 339,
+		"generation": "Hoenn",
+		"types": [
+			"Water",
+			"Ground"
+		],
+		"attack": 93,
+		"defense": 82,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"340": {
+		"name": "Whiscash",
+		"default_form_id": 1553,
+		"pokedex_id": 340,
+		"generation": "Hoenn",
+		"types": [
+			"Water",
+			"Ground"
+		],
+		"attack": 151,
+		"defense": 141,
+		"stamina": 242,
+		"legendary": false,
+		"mythical": false
+	},
+	"341": {
+		"name": "Corphish",
+		"default_form_id": 1556,
+		"pokedex_id": 341,
+		"generation": "Hoenn",
+		"types": [
+			"Water"
+		],
+		"attack": 141,
+		"defense": 99,
+		"stamina": 125,
+		"legendary": false,
+		"mythical": false
+	},
+	"342": {
+		"name": "Crawdaunt",
+		"default_form_id": 1559,
+		"pokedex_id": 342,
+		"generation": "Hoenn",
+		"types": [
+			"Water",
+			"Dark"
+		],
+		"attack": 224,
+		"defense": 142,
+		"stamina": 160,
+		"legendary": false,
+		"mythical": false
+	},
+	"343": {
+		"name": "Baltoy",
+		"default_form_id": 1562,
+		"pokedex_id": 343,
+		"generation": "Hoenn",
+		"types": [
+			"Ground",
+			"Psychic"
+		],
+		"attack": 77,
+		"defense": 124,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"344": {
+		"name": "Claydol",
+		"default_form_id": 1565,
+		"pokedex_id": 344,
+		"generation": "Hoenn",
+		"types": [
+			"Ground",
+			"Psychic"
+		],
+		"attack": 140,
+		"defense": 229,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"345": {
+		"name": "Lileep",
+		"default_form_id": 1568,
+		"pokedex_id": 345,
+		"generation": "Hoenn",
+		"types": [
+			"Rock",
+			"Grass"
+		],
+		"attack": 105,
+		"defense": 150,
+		"stamina": 165,
+		"legendary": false,
+		"mythical": false
+	},
+	"346": {
+		"name": "Cradily",
+		"default_form_id": 1571,
+		"pokedex_id": 346,
+		"generation": "Hoenn",
+		"types": [
+			"Rock",
+			"Grass"
+		],
+		"attack": 152,
+		"defense": 194,
+		"stamina": 200,
+		"legendary": false,
+		"mythical": false
+	},
+	"347": {
+		"name": "Anorith",
+		"default_form_id": 1574,
+		"pokedex_id": 347,
+		"generation": "Hoenn",
+		"types": [
+			"Rock",
+			"Bug"
+		],
+		"attack": 176,
+		"defense": 100,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"348": {
+		"name": "Armaldo",
+		"default_form_id": 1577,
+		"pokedex_id": 348,
+		"generation": "Hoenn",
+		"types": [
+			"Rock",
+			"Bug"
+		],
+		"attack": 222,
+		"defense": 174,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"349": {
+		"name": "Feebas",
+		"default_form_id": 1580,
+		"pokedex_id": 349,
+		"generation": "Hoenn",
+		"types": [
+			"Water"
+		],
+		"attack": 29,
+		"defense": 85,
+		"stamina": 85,
+		"legendary": false,
+		"mythical": false
+	},
+	"350": {
+		"name": "Milotic",
+		"default_form_id": 1583,
+		"pokedex_id": 350,
+		"generation": "Hoenn",
+		"types": [
+			"Water"
+		],
+		"attack": 192,
+		"defense": 219,
+		"stamina": 216,
+		"legendary": false,
+		"mythical": false
+	},
+	"351": {
+		"name": "Castform",
+		"default_form_id": 29,
+		"pokedex_id": 351,
+		"generation": "Hoenn",
+		"types": [
+			"Normal"
+		],
+		"attack": 139,
+		"defense": 139,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"352": {
+		"name": "Kecleon",
+		"default_form_id": 1586,
+		"pokedex_id": 352,
+		"generation": "Hoenn",
+		"types": [
+			"Normal"
+		],
+		"attack": 161,
+		"defense": 189,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"353": {
+		"name": "Shuppet",
+		"default_form_id": 908,
+		"pokedex_id": 353,
+		"generation": "Hoenn",
+		"types": [
+			"Ghost"
+		],
+		"attack": 138,
+		"defense": 65,
+		"stamina": 127,
+		"legendary": false,
+		"mythical": false
+	},
+	"354": {
+		"name": "Banette",
+		"default_form_id": 911,
+		"pokedex_id": 354,
+		"generation": "Hoenn",
+		"types": [
+			"Ghost"
+		],
+		"attack": 218,
+		"defense": 126,
+		"stamina": 162,
+		"legendary": false,
+		"mythical": false
+	},
+	"355": {
+		"name": "Duskull",
+		"default_form_id": 914,
+		"pokedex_id": 355,
+		"generation": "Hoenn",
+		"types": [
+			"Ghost"
+		],
+		"attack": 70,
+		"defense": 162,
+		"stamina": 85,
+		"legendary": false,
+		"mythical": false
+	},
+	"356": {
+		"name": "Dusclops",
+		"default_form_id": 917,
+		"pokedex_id": 356,
+		"generation": "Hoenn",
+		"types": [
+			"Ghost"
+		],
+		"attack": 124,
+		"defense": 234,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"357": {
+		"name": "Tropius",
+		"default_form_id": 1589,
+		"pokedex_id": 357,
+		"generation": "Hoenn",
+		"types": [
+			"Grass",
+			"Flying"
+		],
+		"attack": 136,
+		"defense": 163,
+		"stamina": 223,
+		"legendary": false,
+		"mythical": false
+	},
+	"358": {
+		"name": "Chimecho",
+		"default_form_id": 1592,
+		"pokedex_id": 358,
+		"generation": "Hoenn",
+		"types": [
+			"Psychic"
+		],
+		"attack": 175,
+		"defense": 170,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"359": {
+		"name": "Absol",
+		"default_form_id": 830,
+		"pokedex_id": 359,
+		"generation": "Hoenn",
+		"types": [
+			"Dark"
+		],
+		"attack": 246,
+		"defense": 120,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"360": {
+		"name": "Wynaut",
+		"default_form_id": 1595,
+		"pokedex_id": 360,
+		"generation": "Hoenn",
+		"types": [
+			"Psychic"
+		],
+		"attack": 41,
+		"defense": 86,
+		"stamina": 216,
+		"legendary": false,
+		"mythical": false
+	},
+	"361": {
+		"name": "Snorunt",
+		"default_form_id": 926,
+		"pokedex_id": 361,
+		"generation": "Hoenn",
+		"types": [
+			"Ice"
+		],
+		"attack": 95,
+		"defense": 95,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"362": {
+		"name": "Glalie",
+		"default_form_id": 929,
+		"pokedex_id": 362,
+		"generation": "Hoenn",
+		"types": [
+			"Ice"
+		],
+		"attack": 162,
+		"defense": 162,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"363": {
+		"name": "Spheal",
+		"default_form_id": 1598,
+		"pokedex_id": 363,
+		"generation": "Hoenn",
+		"types": [
+			"Ice",
+			"Water"
+		],
+		"attack": 95,
+		"defense": 90,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"364": {
+		"name": "Sealeo",
+		"default_form_id": 1601,
+		"pokedex_id": 364,
+		"generation": "Hoenn",
+		"types": [
+			"Ice",
+			"Water"
+		],
+		"attack": 137,
+		"defense": 132,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"365": {
+		"name": "Walrein",
+		"default_form_id": 1604,
+		"pokedex_id": 365,
+		"generation": "Hoenn",
+		"types": [
+			"Ice",
+			"Water"
+		],
+		"attack": 182,
+		"defense": 176,
+		"stamina": 242,
+		"legendary": false,
+		"mythical": false
+	},
+	"366": {
+		"name": "Clamperl",
+		"default_form_id": 1607,
+		"pokedex_id": 366,
+		"generation": "Hoenn",
+		"types": [
+			"Water"
+		],
+		"attack": 133,
+		"defense": 135,
+		"stamina": 111,
+		"legendary": false,
+		"mythical": false
+	},
+	"367": {
+		"name": "Huntail",
+		"default_form_id": 1610,
+		"pokedex_id": 367,
+		"generation": "Hoenn",
+		"types": [
+			"Water"
+		],
+		"attack": 197,
+		"defense": 179,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"368": {
+		"name": "Gorebyss",
+		"default_form_id": 1613,
+		"pokedex_id": 368,
+		"generation": "Hoenn",
+		"types": [
+			"Water"
+		],
+		"attack": 211,
+		"defense": 179,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"369": {
+		"name": "Relicanth",
+		"default_form_id": 1616,
+		"pokedex_id": 369,
+		"generation": "Hoenn",
+		"types": [
+			"Water",
+			"Rock"
+		],
+		"attack": 162,
+		"defense": 203,
+		"stamina": 225,
+		"legendary": false,
+		"mythical": false
+	},
+	"370": {
+		"name": "Luvdisc",
+		"default_form_id": 1619,
+		"pokedex_id": 370,
+		"generation": "Hoenn",
+		"types": [
+			"Water"
+		],
+		"attack": 81,
+		"defense": 128,
+		"stamina": 125,
+		"legendary": false,
+		"mythical": false
+	},
+	"371": {
+		"name": "Bagon",
+		"default_form_id": 755,
+		"pokedex_id": 371,
+		"generation": "Hoenn",
+		"types": [
+			"Dragon"
+		],
+		"attack": 134,
+		"defense": 93,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"372": {
+		"name": "Shelgon",
+		"default_form_id": 758,
+		"pokedex_id": 372,
+		"generation": "Hoenn",
+		"types": [
+			"Dragon"
+		],
+		"attack": 172,
+		"defense": 155,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"373": {
+		"name": "Salamence",
+		"default_form_id": 761,
+		"pokedex_id": 373,
+		"generation": "Hoenn",
+		"types": [
+			"Dragon",
+			"Flying"
+		],
+		"attack": 277,
+		"defense": 168,
+		"stamina": 216,
+		"legendary": false,
+		"mythical": false
+	},
+	"374": {
+		"name": "Beldum",
+		"default_form_id": 764,
+		"pokedex_id": 374,
+		"generation": "Hoenn",
+		"types": [
+			"Steel",
+			"Psychic"
+		],
+		"attack": 96,
+		"defense": 132,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"375": {
+		"name": "Metang",
+		"default_form_id": 767,
+		"pokedex_id": 375,
+		"generation": "Hoenn",
+		"types": [
+			"Steel",
+			"Psychic"
+		],
+		"attack": 138,
+		"defense": 176,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"376": {
+		"name": "Metagross",
+		"default_form_id": 770,
+		"pokedex_id": 376,
+		"generation": "Hoenn",
+		"types": [
+			"Steel",
+			"Psychic"
+		],
+		"attack": 257,
+		"defense": 228,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"377": {
+		"name": "Regirock",
+		"default_form_id": 1622,
+		"pokedex_id": 377,
+		"generation": "Hoenn",
+		"types": [
+			"Rock"
+		],
+		"attack": 179,
+		"defense": 309,
+		"stamina": 190,
+		"legendary": true,
+		"mythical": false
+	},
+	"378": {
+		"name": "Regice",
+		"default_form_id": 1625,
+		"pokedex_id": 378,
+		"generation": "Hoenn",
+		"types": [
+			"Ice"
+		],
+		"attack": 179,
+		"defense": 309,
+		"stamina": 190,
+		"legendary": true,
+		"mythical": false
+	},
+	"379": {
+		"name": "Registeel",
+		"default_form_id": 1628,
+		"pokedex_id": 379,
+		"generation": "Hoenn",
+		"types": [
+			"Steel"
+		],
+		"attack": 143,
+		"defense": 285,
+		"stamina": 190,
+		"legendary": true,
+		"mythical": false
+	},
+	"380": {
+		"name": "Latias",
+		"default_form_id": 1631,
+		"pokedex_id": 380,
+		"generation": "Hoenn",
+		"types": [
+			"Dragon",
+			"Psychic"
+		],
+		"attack": 228,
+		"defense": 246,
+		"stamina": 190,
+		"legendary": true,
+		"mythical": false
+	},
+	"381": {
+		"name": "Latios",
+		"default_form_id": 1634,
+		"pokedex_id": 381,
+		"generation": "Hoenn",
+		"types": [
+			"Dragon",
+			"Psychic"
+		],
+		"attack": 268,
+		"defense": 212,
+		"stamina": 190,
+		"legendary": true,
+		"mythical": false
+	},
+	"382": {
+		"name": "Kyogre",
+		"default_form_id": 1637,
+		"pokedex_id": 382,
+		"generation": "Hoenn",
+		"types": [
+			"Water"
+		],
+		"attack": 270,
+		"defense": 228,
+		"stamina": 205,
+		"legendary": true,
+		"mythical": false
+	},
+	"383": {
+		"name": "Groudon",
+		"default_form_id": 1640,
+		"pokedex_id": 383,
+		"generation": "Hoenn",
+		"types": [
+			"Ground"
+		],
+		"attack": 270,
+		"defense": 228,
+		"stamina": 205,
+		"legendary": true,
+		"mythical": false
+	},
+	"384": {
+		"name": "Rayquaza",
+		"default_form_id": 1643,
+		"pokedex_id": 384,
+		"generation": "Hoenn",
+		"types": [
+			"Dragon",
+			"Flying"
+		],
+		"attack": 284,
+		"defense": 170,
+		"stamina": 213,
+		"legendary": true,
+		"mythical": false
+	},
+	"385": {
+		"name": "Jirachi",
+		"default_form_id": 1646,
+		"pokedex_id": 385,
+		"generation": "Hoenn",
+		"types": [
+			"Steel",
+			"Psychic"
+		],
+		"attack": 210,
+		"defense": 210,
+		"stamina": 225,
+		"legendary": false,
+		"mythical": true
+	},
+	"386": {
+		"name": "Deoxys",
+		"default_form_id": 33,
+		"pokedex_id": 386,
+		"generation": "Hoenn",
+		"types": [
+			"Psychic"
+		],
+		"attack": 345,
+		"defense": 115,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": true,
+		"forms": [
+			{
+				"name": "Deoxys (Attack)",
+				"attack": 414,
+				"defense": 46,
+				"stamina": 137
+			},
+			{
+				"name": "Deoxys (Defense)",
+				"attack": 144,
+				"defense": 330,
+				"stamina": 137
+			},
+			{
+				"name": "Deoxys (Speed)",
+				"attack": 230,
+				"defense": 218,
+				"stamina": 137
+			}
+		]
+	},
+	"387": {
+		"name": "Turtwig",
+		"default_form_id": 688,
+		"pokedex_id": 387,
+		"generation": "Sinnoh",
+		"types": [
+			"Grass"
+		],
+		"attack": 119,
+		"defense": 110,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"388": {
+		"name": "Grotle",
+		"default_form_id": 691,
+		"pokedex_id": 388,
+		"generation": "Sinnoh",
+		"types": [
+			"Grass"
+		],
+		"attack": 157,
+		"defense": 143,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"389": {
+		"name": "Torterra",
+		"default_form_id": 694,
+		"pokedex_id": 389,
+		"generation": "Sinnoh",
+		"types": [
+			"Grass",
+			"Ground"
+		],
+		"attack": 202,
+		"defense": 188,
+		"stamina": 216,
+		"legendary": false,
+		"mythical": false
+	},
+	"390": {
+		"name": "Chimchar",
+		"default_form_id": 818,
+		"pokedex_id": 390,
+		"generation": "Sinnoh",
+		"types": [
+			"Fire"
+		],
+		"attack": 113,
+		"defense": 86,
+		"stamina": 127,
+		"legendary": false,
+		"mythical": false
+	},
+	"391": {
+		"name": "Monferno",
+		"default_form_id": 821,
+		"pokedex_id": 391,
+		"generation": "Sinnoh",
+		"types": [
+			"Fire",
+			"Fighting"
+		],
+		"attack": 158,
+		"defense": 105,
+		"stamina": 162,
+		"legendary": false,
+		"mythical": false
+	},
+	"392": {
+		"name": "Infernape",
+		"default_form_id": 824,
+		"pokedex_id": 392,
+		"generation": "Sinnoh",
+		"types": [
+			"Fire",
+			"Fighting"
+		],
+		"attack": 222,
+		"defense": 151,
+		"stamina": 183,
+		"legendary": false,
+		"mythical": false
+	},
+	"393": {
+		"name": "Piplup",
+		"default_form_id": 1649,
+		"pokedex_id": 393,
+		"generation": "Sinnoh",
+		"types": [
+			"Water"
+		],
+		"attack": 112,
+		"defense": 102,
+		"stamina": 142,
+		"legendary": false,
+		"mythical": false
+	},
+	"394": {
+		"name": "Prinplup",
+		"default_form_id": 1652,
+		"pokedex_id": 394,
+		"generation": "Sinnoh",
+		"types": [
+			"Water"
+		],
+		"attack": 150,
+		"defense": 139,
+		"stamina": 162,
+		"legendary": false,
+		"mythical": false
+	},
+	"395": {
+		"name": "Empoleon",
+		"default_form_id": 1655,
+		"pokedex_id": 395,
+		"generation": "Sinnoh",
+		"types": [
+			"Water",
+			"Steel"
+		],
+		"attack": 210,
+		"defense": 186,
+		"stamina": 197,
+		"legendary": false,
+		"mythical": false
+	},
+	"396": {
+		"name": "Starly",
+		"default_form_id": 1658,
+		"pokedex_id": 396,
+		"generation": "Sinnoh",
+		"types": [
+			"Normal",
+			"Flying"
+		],
+		"attack": 101,
+		"defense": 58,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"397": {
+		"name": "Staravia",
+		"default_form_id": 1661,
+		"pokedex_id": 397,
+		"generation": "Sinnoh",
+		"types": [
+			"Normal",
+			"Flying"
+		],
+		"attack": 142,
+		"defense": 94,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"398": {
+		"name": "Staraptor",
+		"default_form_id": 1664,
+		"pokedex_id": 398,
+		"generation": "Sinnoh",
+		"types": [
+			"Normal",
+			"Flying"
+		],
+		"attack": 234,
+		"defense": 140,
+		"stamina": 198,
+		"legendary": false,
+		"mythical": false
+	},
+	"399": {
+		"name": "Bidoof",
+		"default_form_id": 1667,
+		"pokedex_id": 399,
+		"generation": "Sinnoh",
+		"types": [
+			"Normal"
+		],
+		"attack": 80,
+		"defense": 73,
+		"stamina": 153,
+		"legendary": false,
+		"mythical": false
+	},
+	"400": {
+		"name": "Bibarel",
+		"default_form_id": 1670,
+		"pokedex_id": 400,
+		"generation": "Sinnoh",
+		"types": [
+			"Normal",
+			"Water"
+		],
+		"attack": 162,
+		"defense": 119,
+		"stamina": 188,
+		"legendary": false,
+		"mythical": false
+	},
+	"401": {
+		"name": "Kricketot",
+		"default_form_id": 1673,
+		"pokedex_id": 401,
+		"generation": "Sinnoh",
+		"types": [
+			"Bug"
+		],
+		"attack": 45,
+		"defense": 74,
+		"stamina": 114,
+		"legendary": false,
+		"mythical": false
+	},
+	"402": {
+		"name": "Kricketune",
+		"default_form_id": 1676,
+		"pokedex_id": 402,
+		"generation": "Sinnoh",
+		"types": [
+			"Bug"
+		],
+		"attack": 160,
+		"defense": 100,
+		"stamina": 184,
+		"legendary": false,
+		"mythical": false
+	},
+	"403": {
+		"name": "Shinx",
+		"default_form_id": 1679,
+		"pokedex_id": 403,
+		"generation": "Sinnoh",
+		"types": [
+			"Electric"
+		],
+		"attack": 117,
+		"defense": 64,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"404": {
+		"name": "Luxio",
+		"default_form_id": 1682,
+		"pokedex_id": 404,
+		"generation": "Sinnoh",
+		"types": [
+			"Electric"
+		],
+		"attack": 159,
+		"defense": 95,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"405": {
+		"name": "Luxray",
+		"default_form_id": 1685,
+		"pokedex_id": 405,
+		"generation": "Sinnoh",
+		"types": [
+			"Electric"
+		],
+		"attack": 232,
+		"defense": 156,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"406": {
+		"name": "Budew",
+		"default_form_id": 1688,
+		"pokedex_id": 406,
+		"generation": "Sinnoh",
+		"types": [
+			"Grass",
+			"Poison"
+		],
+		"attack": 91,
+		"defense": 109,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"407": {
+		"name": "Roserade",
+		"default_form_id": 1691,
+		"pokedex_id": 407,
+		"generation": "Sinnoh",
+		"types": [
+			"Grass",
+			"Poison"
+		],
+		"attack": 243,
+		"defense": 185,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"408": {
+		"name": "Cranidos",
+		"default_form_id": 1694,
+		"pokedex_id": 408,
+		"generation": "Sinnoh",
+		"types": [
+			"Rock"
+		],
+		"attack": 218,
+		"defense": 71,
+		"stamina": 167,
+		"legendary": false,
+		"mythical": false
+	},
+	"409": {
+		"name": "Rampardos",
+		"default_form_id": 1697,
+		"pokedex_id": 409,
+		"generation": "Sinnoh",
+		"types": [
+			"Rock"
+		],
+		"attack": 295,
+		"defense": 109,
+		"stamina": 219,
+		"legendary": false,
+		"mythical": false
+	},
+	"410": {
+		"name": "Shieldon",
+		"default_form_id": 1700,
+		"pokedex_id": 410,
+		"generation": "Sinnoh",
+		"types": [
+			"Rock",
+			"Steel"
+		],
+		"attack": 76,
+		"defense": 195,
+		"stamina": 102,
+		"legendary": false,
+		"mythical": false
+	},
+	"411": {
+		"name": "Bastiodon",
+		"default_form_id": 1703,
+		"pokedex_id": 411,
+		"generation": "Sinnoh",
+		"types": [
+			"Rock",
+			"Steel"
+		],
+		"attack": 94,
+		"defense": 286,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"412": {
+		"name": "Burmy",
+		"default_form_id": 118,
+		"pokedex_id": 412,
+		"generation": "Sinnoh",
+		"types": [
+			"Bug"
+		],
+		"attack": 53,
+		"defense": 83,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"413": {
+		"name": "Wormadam",
+		"default_form_id": 87,
+		"pokedex_id": 413,
+		"generation": "Sinnoh",
+		"types": [
+			"Bug",
+			"Grass"
+		],
+		"attack": 141,
+		"defense": 180,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Wormadam (Trash)",
+				"types": [
+					"Bug",
+					"Steel"
+				],
+				"attack": 127,
+				"defense": 175,
+				"stamina": 155
+			}
+		]
+	},
+	"414": {
+		"name": "Mothim",
+		"default_form_id": 1712,
+		"pokedex_id": 414,
+		"generation": "Sinnoh",
+		"types": [
+			"Bug",
+			"Flying"
+		],
+		"attack": 185,
+		"defense": 98,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"415": {
+		"name": "Combee",
+		"default_form_id": 1715,
+		"pokedex_id": 415,
+		"generation": "Sinnoh",
+		"types": [
+			"Bug",
+			"Flying"
+		],
+		"attack": 59,
+		"defense": 83,
+		"stamina": 102,
+		"legendary": false,
+		"mythical": false
+	},
+	"416": {
+		"name": "Vespiquen",
+		"default_form_id": 1718,
+		"pokedex_id": 416,
+		"generation": "Sinnoh",
+		"types": [
+			"Bug",
+			"Flying"
+		],
+		"attack": 149,
+		"defense": 190,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"417": {
+		"name": "Pachirisu",
+		"default_form_id": 1721,
+		"pokedex_id": 417,
+		"generation": "Sinnoh",
+		"types": [
+			"Electric"
+		],
+		"attack": 94,
+		"defense": 172,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"418": {
+		"name": "Buizel",
+		"default_form_id": 1724,
+		"pokedex_id": 418,
+		"generation": "Sinnoh",
+		"types": [
+			"Water"
+		],
+		"attack": 132,
+		"defense": 67,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"419": {
+		"name": "Floatzel",
+		"default_form_id": 1727,
+		"pokedex_id": 419,
+		"generation": "Sinnoh",
+		"types": [
+			"Water"
+		],
+		"attack": 221,
+		"defense": 114,
+		"stamina": 198,
+		"legendary": false,
+		"mythical": false
+	},
+	"420": {
+		"name": "Cherubi",
+		"default_form_id": 1730,
+		"pokedex_id": 420,
+		"generation": "Sinnoh",
+		"types": [
+			"Grass"
+		],
+		"attack": 108,
+		"defense": 92,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"421": {
+		"name": "Cherrim",
+		"default_form_id": 94,
+		"pokedex_id": 421,
+		"generation": "Sinnoh",
+		"types": [
+			"Grass"
+		],
+		"attack": 170,
+		"defense": 153,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"422": {
+		"name": "Shellos",
+		"default_form_id": 96,
+		"pokedex_id": 422,
+		"generation": "Sinnoh",
+		"types": [
+			"Water"
+		],
+		"attack": 103,
+		"defense": 105,
+		"stamina": 183,
+		"legendary": false,
+		"mythical": false
+	},
+	"423": {
+		"name": "Gastrodon",
+		"default_form_id": 98,
+		"pokedex_id": 423,
+		"generation": "Sinnoh",
+		"types": [
+			"Water",
+			"Ground"
+		],
+		"attack": 169,
+		"defense": 143,
+		"stamina": 244,
+		"legendary": false,
+		"mythical": false
+	},
+	"424": {
+		"name": "Ambipom",
+		"default_form_id": 1742,
+		"pokedex_id": 424,
+		"generation": "Sinnoh",
+		"types": [
+			"Normal"
+		],
+		"attack": 205,
+		"defense": 143,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"425": {
+		"name": "Drifloon",
+		"default_form_id": 1745,
+		"pokedex_id": 425,
+		"generation": "Sinnoh",
+		"types": [
+			"Ghost",
+			"Flying"
+		],
+		"attack": 117,
+		"defense": 80,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"426": {
+		"name": "Drifblim",
+		"default_form_id": 1748,
+		"pokedex_id": 426,
+		"generation": "Sinnoh",
+		"types": [
+			"Ghost",
+			"Flying"
+		],
+		"attack": 180,
+		"defense": 102,
+		"stamina": 312,
+		"legendary": false,
+		"mythical": false
+	},
+	"427": {
+		"name": "Buneary",
+		"default_form_id": 1751,
+		"pokedex_id": 427,
+		"generation": "Sinnoh",
+		"types": [
+			"Normal"
+		],
+		"attack": 130,
+		"defense": 105,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"428": {
+		"name": "Lopunny",
+		"default_form_id": 1754,
+		"pokedex_id": 428,
+		"generation": "Sinnoh",
+		"types": [
+			"Normal"
+		],
+		"attack": 156,
+		"defense": 194,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"429": {
+		"name": "Mismagius",
+		"default_form_id": 722,
+		"pokedex_id": 429,
+		"generation": "Sinnoh",
+		"types": [
+			"Ghost"
+		],
+		"attack": 211,
+		"defense": 187,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"430": {
+		"name": "Honchkrow",
+		"default_form_id": 858,
+		"pokedex_id": 430,
+		"generation": "Sinnoh",
+		"types": [
+			"Dark",
+			"Flying"
+		],
+		"attack": 243,
+		"defense": 103,
+		"stamina": 225,
+		"legendary": false,
+		"mythical": false
+	},
+	"431": {
+		"name": "Glameow",
+		"default_form_id": 1757,
+		"pokedex_id": 431,
+		"generation": "Sinnoh",
+		"types": [
+			"Normal"
+		],
+		"attack": 109,
+		"defense": 82,
+		"stamina": 135,
+		"legendary": false,
+		"mythical": false
+	},
+	"432": {
+		"name": "Purugly",
+		"default_form_id": 1760,
+		"pokedex_id": 432,
+		"generation": "Sinnoh",
+		"types": [
+			"Normal"
+		],
+		"attack": 172,
+		"defense": 133,
+		"stamina": 174,
+		"legendary": false,
+		"mythical": false
+	},
+	"433": {
+		"name": "Chingling",
+		"default_form_id": 1763,
+		"pokedex_id": 433,
+		"generation": "Sinnoh",
+		"types": [
+			"Psychic"
+		],
+		"attack": 114,
+		"defense": 94,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"434": {
+		"name": "Stunky",
+		"default_form_id": 791,
+		"pokedex_id": 434,
+		"generation": "Sinnoh",
+		"types": [
+			"Poison",
+			"Dark"
+		],
+		"attack": 121,
+		"defense": 90,
+		"stamina": 160,
+		"legendary": false,
+		"mythical": false
+	},
+	"435": {
+		"name": "Skuntank",
+		"default_form_id": 794,
+		"pokedex_id": 435,
+		"generation": "Sinnoh",
+		"types": [
+			"Poison",
+			"Dark"
+		],
+		"attack": 184,
+		"defense": 132,
+		"stamina": 230,
+		"legendary": false,
+		"mythical": false
+	},
+	"436": {
+		"name": "Bronzor",
+		"default_form_id": 1766,
+		"pokedex_id": 436,
+		"generation": "Sinnoh",
+		"types": [
+			"Steel",
+			"Psychic"
+		],
+		"attack": 43,
+		"defense": 154,
+		"stamina": 149,
+		"legendary": false,
+		"mythical": false
+	},
+	"437": {
+		"name": "Bronzong",
+		"default_form_id": 1769,
+		"pokedex_id": 437,
+		"generation": "Sinnoh",
+		"types": [
+			"Steel",
+			"Psychic"
+		],
+		"attack": 161,
+		"defense": 213,
+		"stamina": 167,
+		"legendary": false,
+		"mythical": false
+	},
+	"438": {
+		"name": "Bonsly",
+		"default_form_id": 1772,
+		"pokedex_id": 438,
+		"generation": "Sinnoh",
+		"types": [
+			"Rock"
+		],
+		"attack": 124,
+		"defense": 133,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"439": {
+		"name": "Mime Jr",
+		"default_form_id": 1775,
+		"pokedex_id": 439,
+		"generation": "Sinnoh",
+		"types": [
+			"Psychic",
+			"Fairy"
+		],
+		"attack": 125,
+		"defense": 142,
+		"stamina": 85,
+		"legendary": false,
+		"mythical": false
+	},
+	"440": {
+		"name": "Happiny",
+		"default_form_id": 1778,
+		"pokedex_id": 440,
+		"generation": "Sinnoh",
+		"types": [
+			"Normal"
+		],
+		"attack": 25,
+		"defense": 77,
+		"stamina": 225,
+		"legendary": false,
+		"mythical": false
+	},
+	"441": {
+		"name": "Chatot",
+		"default_form_id": 1781,
+		"pokedex_id": 441,
+		"generation": "Sinnoh",
+		"types": [
+			"Normal",
+			"Flying"
+		],
+		"attack": 183,
+		"defense": 91,
+		"stamina": 183,
+		"legendary": false,
+		"mythical": false
+	},
+	"442": {
+		"name": "Spiritomb",
+		"default_form_id": 1784,
+		"pokedex_id": 442,
+		"generation": "Sinnoh",
+		"types": [
+			"Ghost",
+			"Dark"
+		],
+		"attack": 169,
+		"defense": 199,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"443": {
+		"name": "Gible",
+		"default_form_id": 861,
+		"pokedex_id": 443,
+		"generation": "Sinnoh",
+		"types": [
+			"Dragon",
+			"Ground"
+		],
+		"attack": 124,
+		"defense": 84,
+		"stamina": 151,
+		"legendary": false,
+		"mythical": false
+	},
+	"444": {
+		"name": "Gabite",
+		"default_form_id": 864,
+		"pokedex_id": 444,
+		"generation": "Sinnoh",
+		"types": [
+			"Dragon",
+			"Ground"
+		],
+		"attack": 172,
+		"defense": 125,
+		"stamina": 169,
+		"legendary": false,
+		"mythical": false
+	},
+	"445": {
+		"name": "Garchomp",
+		"default_form_id": 867,
+		"pokedex_id": 445,
+		"generation": "Sinnoh",
+		"types": [
+			"Dragon",
+			"Ground"
+		],
+		"attack": 261,
+		"defense": 193,
+		"stamina": 239,
+		"legendary": false,
+		"mythical": false
+	},
+	"446": {
+		"name": "Munchlax",
+		"default_form_id": 1787,
+		"pokedex_id": 446,
+		"generation": "Sinnoh",
+		"types": [
+			"Normal"
+		],
+		"attack": 137,
+		"defense": 117,
+		"stamina": 286,
+		"legendary": false,
+		"mythical": false
+	},
+	"447": {
+		"name": "Riolu",
+		"default_form_id": 1790,
+		"pokedex_id": 447,
+		"generation": "Sinnoh",
+		"types": [
+			"Fighting"
+		],
+		"attack": 127,
+		"defense": 78,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"448": {
+		"name": "Lucario",
+		"default_form_id": 1793,
+		"pokedex_id": 448,
+		"generation": "Sinnoh",
+		"types": [
+			"Fighting",
+			"Steel"
+		],
+		"attack": 236,
+		"defense": 144,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"449": {
+		"name": "Hippopotas",
+		"default_form_id": 888,
+		"pokedex_id": 449,
+		"generation": "Sinnoh",
+		"types": [
+			"Ground"
+		],
+		"attack": 124,
+		"defense": 118,
+		"stamina": 169,
+		"legendary": false,
+		"mythical": false
+	},
+	"450": {
+		"name": "Hippowdon",
+		"default_form_id": 891,
+		"pokedex_id": 450,
+		"generation": "Sinnoh",
+		"types": [
+			"Ground"
+		],
+		"attack": 201,
+		"defense": 191,
+		"stamina": 239,
+		"legendary": false,
+		"mythical": false
+	},
+	"451": {
+		"name": "Skorupi",
+		"default_form_id": 1796,
+		"pokedex_id": 451,
+		"generation": "Sinnoh",
+		"types": [
+			"Poison",
+			"Bug"
+		],
+		"attack": 93,
+		"defense": 151,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"452": {
+		"name": "Drapion",
+		"default_form_id": 1799,
+		"pokedex_id": 452,
+		"generation": "Sinnoh",
+		"types": [
+			"Poison",
+			"Dark"
+		],
+		"attack": 180,
+		"defense": 202,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"453": {
+		"name": "Croagunk",
+		"default_form_id": 1802,
+		"pokedex_id": 453,
+		"generation": "Sinnoh",
+		"types": [
+			"Poison",
+			"Fighting"
+		],
+		"attack": 116,
+		"defense": 76,
+		"stamina": 134,
+		"legendary": false,
+		"mythical": false
+	},
+	"454": {
+		"name": "Toxicroak",
+		"default_form_id": 1805,
+		"pokedex_id": 454,
+		"generation": "Sinnoh",
+		"types": [
+			"Poison",
+			"Fighting"
+		],
+		"attack": 211,
+		"defense": 133,
+		"stamina": 195,
+		"legendary": false,
+		"mythical": false
+	},
+	"455": {
+		"name": "Carnivine",
+		"default_form_id": 1808,
+		"pokedex_id": 455,
+		"generation": "Sinnoh",
+		"types": [
+			"Grass"
+		],
+		"attack": 187,
+		"defense": 136,
+		"stamina": 179,
+		"legendary": false,
+		"mythical": false
+	},
+	"456": {
+		"name": "Finneon",
+		"default_form_id": 1811,
+		"pokedex_id": 456,
+		"generation": "Sinnoh",
+		"types": [
+			"Water"
+		],
+		"attack": 96,
+		"defense": 116,
+		"stamina": 135,
+		"legendary": false,
+		"mythical": false
+	},
+	"457": {
+		"name": "Lumineon",
+		"default_form_id": 1814,
+		"pokedex_id": 457,
+		"generation": "Sinnoh",
+		"types": [
+			"Water"
+		],
+		"attack": 142,
+		"defense": 170,
+		"stamina": 170,
+		"legendary": false,
+		"mythical": false
+	},
+	"458": {
+		"name": "Mantyke",
+		"default_form_id": 1817,
+		"pokedex_id": 458,
+		"generation": "Sinnoh",
+		"types": [
+			"Water",
+			"Flying"
+		],
+		"attack": 105,
+		"defense": 179,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"459": {
+		"name": "Snover",
+		"default_form_id": 932,
+		"pokedex_id": 459,
+		"generation": "Sinnoh",
+		"types": [
+			"Grass",
+			"Ice"
+		],
+		"attack": 115,
+		"defense": 105,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"460": {
+		"name": "Abomasnow",
+		"default_form_id": 935,
+		"pokedex_id": 460,
+		"generation": "Sinnoh",
+		"types": [
+			"Grass",
+			"Ice"
+		],
+		"attack": 178,
+		"defense": 158,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"461": {
+		"name": "Weavile",
+		"default_form_id": 800,
+		"pokedex_id": 461,
+		"generation": "Sinnoh",
+		"types": [
+			"Dark",
+			"Ice"
+		],
+		"attack": 243,
+		"defense": 171,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"462": {
+		"name": "Magnezone",
+		"default_form_id": 661,
+		"pokedex_id": 462,
+		"generation": "Sinnoh",
+		"types": [
+			"Electric",
+			"Steel"
+		],
+		"attack": 238,
+		"defense": 205,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"463": {
+		"name": "Lickilicky",
+		"default_form_id": 1820,
+		"pokedex_id": 463,
+		"generation": "Sinnoh",
+		"types": [
+			"Normal"
+		],
+		"attack": 161,
+		"defense": 181,
+		"stamina": 242,
+		"legendary": false,
+		"mythical": false
+	},
+	"464": {
+		"name": "Rhyperior",
+		"default_form_id": 852,
+		"pokedex_id": 464,
+		"generation": "Sinnoh",
+		"types": [
+			"Ground",
+			"Rock"
+		],
+		"attack": 241,
+		"defense": 190,
+		"stamina": 251,
+		"legendary": false,
+		"mythical": false
+	},
+	"465": {
+		"name": "Tangrowth",
+		"default_form_id": 1823,
+		"pokedex_id": 465,
+		"generation": "Sinnoh",
+		"types": [
+			"Grass"
+		],
+		"attack": 207,
+		"defense": 184,
+		"stamina": 225,
+		"legendary": false,
+		"mythical": false
+	},
+	"466": {
+		"name": "Electivire",
+		"default_form_id": 643,
+		"pokedex_id": 466,
+		"generation": "Sinnoh",
+		"types": [
+			"Electric"
+		],
+		"attack": 249,
+		"defense": 163,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"467": {
+		"name": "Magmortar",
+		"default_form_id": 637,
+		"pokedex_id": 467,
+		"generation": "Sinnoh",
+		"types": [
+			"Fire"
+		],
+		"attack": 247,
+		"defense": 172,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"468": {
+		"name": "Togekiss",
+		"default_form_id": 1826,
+		"pokedex_id": 468,
+		"generation": "Sinnoh",
+		"types": [
+			"Fairy",
+			"Flying"
+		],
+		"attack": 225,
+		"defense": 217,
+		"stamina": 198,
+		"legendary": false,
+		"mythical": false
+	},
+	"469": {
+		"name": "Yanmega",
+		"default_form_id": 1829,
+		"pokedex_id": 469,
+		"generation": "Sinnoh",
+		"types": [
+			"Bug",
+			"Flying"
+		],
+		"attack": 231,
+		"defense": 156,
+		"stamina": 200,
+		"legendary": false,
+		"mythical": false
+	},
+	"470": {
+		"name": "Leafeon",
+		"default_form_id": 1832,
+		"pokedex_id": 470,
+		"generation": "Sinnoh",
+		"types": [
+			"Grass"
+		],
+		"attack": 216,
+		"defense": 219,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"471": {
+		"name": "Glaceon",
+		"default_form_id": 1835,
+		"pokedex_id": 471,
+		"generation": "Sinnoh",
+		"types": [
+			"Ice"
+		],
+		"attack": 238,
+		"defense": 205,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"472": {
+		"name": "Gliscor",
+		"default_form_id": 806,
+		"pokedex_id": 472,
+		"generation": "Sinnoh",
+		"types": [
+			"Ground",
+			"Flying"
+		],
+		"attack": 185,
+		"defense": 222,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"473": {
+		"name": "Mamoswine",
+		"default_form_id": 1838,
+		"pokedex_id": 473,
+		"generation": "Sinnoh",
+		"types": [
+			"Ice",
+			"Ground"
+		],
+		"attack": 247,
+		"defense": 146,
+		"stamina": 242,
+		"legendary": false,
+		"mythical": false
+	},
+	"474": {
+		"name": "Porygon Z",
+		"default_form_id": 683,
+		"pokedex_id": 474,
+		"generation": "Sinnoh",
+		"types": [
+			"Normal"
+		],
+		"attack": 264,
+		"defense": 150,
+		"stamina": 198,
+		"legendary": false,
+		"mythical": false
+	},
+	"475": {
+		"name": "Gallade",
+		"default_form_id": 301,
+		"pokedex_id": 475,
+		"generation": "Sinnoh",
+		"types": [
+			"Psychic",
+			"Fighting"
+		],
+		"attack": 237,
+		"defense": 195,
+		"stamina": 169,
+		"legendary": false,
+		"mythical": false
+	},
+	"476": {
+		"name": "Probopass",
+		"default_form_id": 1841,
+		"pokedex_id": 476,
+		"generation": "Sinnoh",
+		"types": [
+			"Rock",
+			"Steel"
+		],
+		"attack": 135,
+		"defense": 275,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"477": {
+		"name": "Dusknoir",
+		"default_form_id": 920,
+		"pokedex_id": 477,
+		"generation": "Sinnoh",
+		"types": [
+			"Ghost"
+		],
+		"attack": 180,
+		"defense": 254,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"478": {
+		"name": "Froslass",
+		"default_form_id": 1844,
+		"pokedex_id": 478,
+		"generation": "Sinnoh",
+		"types": [
+			"Ice",
+			"Ghost"
+		],
+		"attack": 171,
+		"defense": 150,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"479": {
+		"name": "Rotom",
+		"default_form_id": 81,
+		"pokedex_id": 479,
+		"generation": "Sinnoh",
+		"types": [
+			"Electric",
+			"Ghost"
+		],
+		"attack": 185,
+		"defense": 159,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Rotom (Frost)",
+				"types": [
+					"Electric",
+					"Ice"
+				],
+				"attack": 204,
+				"defense": 219,
+				"stamina": 137
+			},
+			{
+				"name": "Rotom (Fan)",
+				"types": [
+					"Electric",
+					"Flying"
+				],
+				"attack": 204,
+				"defense": 219,
+				"stamina": 137
+			},
+			{
+				"name": "Rotom (Mow)",
+				"types": [
+					"Electric",
+					"Grass"
+				],
+				"attack": 204,
+				"defense": 219,
+				"stamina": 137
+			},
+			{
+				"name": "Rotom (Wash)",
+				"types": [
+					"Electric",
+					"Water"
+				],
+				"attack": 204,
+				"defense": 219,
+				"stamina": 137
+			},
+			{
+				"name": "Rotom (Heat)",
+				"types": [
+					"Electric",
+					"Fire"
+				],
+				"attack": 204,
+				"defense": 219,
+				"stamina": 137
+			}
+		]
+	},
+	"480": {
+		"name": "Uxie",
+		"default_form_id": 1847,
+		"pokedex_id": 480,
+		"generation": "Sinnoh",
+		"types": [
+			"Psychic"
+		],
+		"attack": 156,
+		"defense": 270,
+		"stamina": 181,
+		"legendary": true,
+		"mythical": false
+	},
+	"481": {
+		"name": "Mesprit",
+		"default_form_id": 1850,
+		"pokedex_id": 481,
+		"generation": "Sinnoh",
+		"types": [
+			"Psychic"
+		],
+		"attack": 212,
+		"defense": 212,
+		"stamina": 190,
+		"legendary": true,
+		"mythical": false
+	},
+	"482": {
+		"name": "Azelf",
+		"default_form_id": 1853,
+		"pokedex_id": 482,
+		"generation": "Sinnoh",
+		"types": [
+			"Psychic"
+		],
+		"attack": 270,
+		"defense": 151,
+		"stamina": 181,
+		"legendary": true,
+		"mythical": false
+	},
+	"483": {
+		"name": "Dialga",
+		"default_form_id": 1856,
+		"pokedex_id": 483,
+		"generation": "Sinnoh",
+		"types": [
+			"Steel",
+			"Dragon"
+		],
+		"attack": 275,
+		"defense": 211,
+		"stamina": 205,
+		"legendary": true,
+		"mythical": false
+	},
+	"484": {
+		"name": "Palkia",
+		"default_form_id": 1859,
+		"pokedex_id": 484,
+		"generation": "Sinnoh",
+		"types": [
+			"Water",
+			"Dragon"
+		],
+		"attack": 280,
+		"defense": 215,
+		"stamina": 189,
+		"legendary": true,
+		"mythical": false
+	},
+	"485": {
+		"name": "Heatran",
+		"default_form_id": 1862,
+		"pokedex_id": 485,
+		"generation": "Sinnoh",
+		"types": [
+			"Fire",
+			"Steel"
+		],
+		"attack": 251,
+		"defense": 213,
+		"stamina": 209,
+		"legendary": true,
+		"mythical": false
+	},
+	"486": {
+		"name": "Regigigas",
+		"default_form_id": 1865,
+		"pokedex_id": 486,
+		"generation": "Sinnoh",
+		"types": [
+			"Normal"
+		],
+		"attack": 287,
+		"defense": 210,
+		"stamina": 221,
+		"legendary": true,
+		"mythical": false
+	},
+	"487": {
+		"name": "Giratina",
+		"default_form_id": 90,
+		"pokedex_id": 487,
+		"generation": "Sinnoh",
+		"types": [
+			"Ghost",
+			"Dragon"
+		],
+		"attack": 187,
+		"defense": 225,
+		"stamina": 284,
+		"legendary": true,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Giratina (Origin)",
+				"attack": 225,
+				"defense": 187,
+				"stamina": 284
+			}
+		]
+	},
+	"488": {
+		"name": "Cresselia",
+		"default_form_id": 1871,
+		"pokedex_id": 488,
+		"generation": "Sinnoh",
+		"types": [
+			"Psychic"
+		],
+		"attack": 152,
+		"defense": 258,
+		"stamina": 260,
+		"legendary": true,
+		"mythical": false
+	},
+	"489": {
+		"name": "Phione",
+		"default_form_id": 1874,
+		"pokedex_id": 489,
+		"generation": "Sinnoh",
+		"types": [
+			"Water"
+		],
+		"attack": 162,
+		"defense": 162,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": true
+	},
+	"490": {
+		"name": "Manaphy",
+		"default_form_id": 1877,
+		"pokedex_id": 490,
+		"generation": "Sinnoh",
+		"types": [
+			"Water"
+		],
+		"attack": 210,
+		"defense": 210,
+		"stamina": 225,
+		"legendary": false,
+		"mythical": true
+	},
+	"491": {
+		"name": "Darkrai",
+		"default_form_id": 1880,
+		"pokedex_id": 491,
+		"generation": "Sinnoh",
+		"types": [
+			"Dark"
+		],
+		"attack": 285,
+		"defense": 198,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": true
+	},
+	"492": {
+		"name": "Shaymin",
+		"default_form_id": 93,
+		"pokedex_id": 492,
+		"generation": "Sinnoh",
+		"types": [
+			"Grass"
+		],
+		"attack": 210,
+		"defense": 210,
+		"stamina": 225,
+		"legendary": false,
+		"mythical": true,
+		"forms": [
+			{
+				"name": "Shaymin (Sky)",
+				"types": [
+					"Grass",
+					"Flying"
+				],
+				"attack": 261,
+				"defense": 166,
+				"stamina": 225
+			}
+		]
+	},
+	"493": {
+		"name": "Arceus",
+		"default_form_id": 100,
+		"pokedex_id": 493,
+		"generation": "Sinnoh",
+		"types": [
+			"Normal"
+		],
+		"attack": 238,
+		"defense": 238,
+		"stamina": 237,
+		"legendary": false,
+		"mythical": true
+	},
+	"494": {
+		"name": "Victini",
+		"default_form_id": 1886,
+		"pokedex_id": 494,
+		"generation": "Sinnoh",
+		"types": [
+			"Psychic",
+			"Fire"
+		],
+		"attack": 210,
+		"defense": 210,
+		"stamina": 225,
+		"legendary": false,
+		"mythical": true
+	},
+	"495": {
+		"name": "Snivy",
+		"default_form_id": 1889,
+		"pokedex_id": 495,
+		"generation": "Unova",
+		"types": [
+			"Grass"
+		],
+		"attack": 88,
+		"defense": 107,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"496": {
+		"name": "Servine",
+		"default_form_id": 1892,
+		"pokedex_id": 496,
+		"generation": "Unova",
+		"types": [
+			"Grass"
+		],
+		"attack": 122,
+		"defense": 152,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"497": {
+		"name": "Serperior",
+		"default_form_id": 1895,
+		"pokedex_id": 497,
+		"generation": "Unova",
+		"types": [
+			"Grass"
+		],
+		"attack": 161,
+		"defense": 204,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"498": {
+		"name": "Tepig",
+		"default_form_id": 1898,
+		"pokedex_id": 498,
+		"generation": "Unova",
+		"types": [
+			"Fire"
+		],
+		"attack": 115,
+		"defense": 85,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"499": {
+		"name": "Pignite",
+		"default_form_id": 1901,
+		"pokedex_id": 499,
+		"generation": "Unova",
+		"types": [
+			"Fire",
+			"Fighting"
+		],
+		"attack": 173,
+		"defense": 106,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"500": {
+		"name": "Emboar",
+		"default_form_id": 1904,
+		"pokedex_id": 500,
+		"generation": "Unova",
+		"types": [
+			"Fire",
+			"Fighting"
+		],
+		"attack": 235,
+		"defense": 127,
+		"stamina": 242,
+		"legendary": false,
+		"mythical": false
+	},
+	"501": {
+		"name": "Oshawott",
+		"default_form_id": 1907,
+		"pokedex_id": 501,
+		"generation": "Unova",
+		"types": [
+			"Water"
+		],
+		"attack": 117,
+		"defense": 85,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"502": {
+		"name": "Dewott",
+		"default_form_id": 1910,
+		"pokedex_id": 502,
+		"generation": "Unova",
+		"types": [
+			"Water"
+		],
+		"attack": 159,
+		"defense": 116,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"503": {
+		"name": "Samurott",
+		"default_form_id": 1913,
+		"pokedex_id": 503,
+		"generation": "Unova",
+		"types": [
+			"Water"
+		],
+		"attack": 212,
+		"defense": 157,
+		"stamina": 216,
+		"legendary": false,
+		"mythical": false
+	},
+	"504": {
+		"name": "Patrat",
+		"default_form_id": 1916,
+		"pokedex_id": 504,
+		"generation": "Unova",
+		"types": [
+			"Normal"
+		],
+		"attack": 98,
+		"defense": 73,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"505": {
+		"name": "Watchog",
+		"default_form_id": 1919,
+		"pokedex_id": 505,
+		"generation": "Unova",
+		"types": [
+			"Normal"
+		],
+		"attack": 165,
+		"defense": 139,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"506": {
+		"name": "Lillipup",
+		"default_form_id": 1922,
+		"pokedex_id": 506,
+		"generation": "Unova",
+		"types": [
+			"Normal"
+		],
+		"attack": 107,
+		"defense": 86,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"507": {
+		"name": "Herdier",
+		"default_form_id": 1925,
+		"pokedex_id": 507,
+		"generation": "Unova",
+		"types": [
+			"Normal"
+		],
+		"attack": 145,
+		"defense": 126,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"508": {
+		"name": "Stoutland",
+		"default_form_id": 1928,
+		"pokedex_id": 508,
+		"generation": "Unova",
+		"types": [
+			"Normal"
+		],
+		"attack": 206,
+		"defense": 182,
+		"stamina": 198,
+		"legendary": false,
+		"mythical": false
+	},
+	"509": {
+		"name": "Purrloin",
+		"default_form_id": 1931,
+		"pokedex_id": 509,
+		"generation": "Unova",
+		"types": [
+			"Dark"
+		],
+		"attack": 98,
+		"defense": 73,
+		"stamina": 121,
+		"legendary": false,
+		"mythical": false
+	},
+	"510": {
+		"name": "Liepard",
+		"default_form_id": 1934,
+		"pokedex_id": 510,
+		"generation": "Unova",
+		"types": [
+			"Dark"
+		],
+		"attack": 187,
+		"defense": 106,
+		"stamina": 162,
+		"legendary": false,
+		"mythical": false
+	},
+	"511": {
+		"name": "Pansage",
+		"default_form_id": 1937,
+		"pokedex_id": 511,
+		"generation": "Unova",
+		"types": [
+			"Grass"
+		],
+		"attack": 104,
+		"defense": 94,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"512": {
+		"name": "Simisage",
+		"default_form_id": 1940,
+		"pokedex_id": 512,
+		"generation": "Unova",
+		"types": [
+			"Grass"
+		],
+		"attack": 206,
+		"defense": 133,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"513": {
+		"name": "Pansear",
+		"default_form_id": 1943,
+		"pokedex_id": 513,
+		"generation": "Unova",
+		"types": [
+			"Fire"
+		],
+		"attack": 104,
+		"defense": 94,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"514": {
+		"name": "Simisear",
+		"default_form_id": 1946,
+		"pokedex_id": 514,
+		"generation": "Unova",
+		"types": [
+			"Fire"
+		],
+		"attack": 206,
+		"defense": 133,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"515": {
+		"name": "Panpour",
+		"default_form_id": 1949,
+		"pokedex_id": 515,
+		"generation": "Unova",
+		"types": [
+			"Water"
+		],
+		"attack": 104,
+		"defense": 94,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"516": {
+		"name": "Simipour",
+		"default_form_id": 1952,
+		"pokedex_id": 516,
+		"generation": "Unova",
+		"types": [
+			"Water"
+		],
+		"attack": 206,
+		"defense": 133,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"517": {
+		"name": "Munna",
+		"default_form_id": 1955,
+		"pokedex_id": 517,
+		"generation": "Unova",
+		"types": [
+			"Psychic"
+		],
+		"attack": 111,
+		"defense": 92,
+		"stamina": 183,
+		"legendary": false,
+		"mythical": false
+	},
+	"518": {
+		"name": "Musharna",
+		"default_form_id": 1958,
+		"pokedex_id": 518,
+		"generation": "Unova",
+		"types": [
+			"Psychic"
+		],
+		"attack": 183,
+		"defense": 166,
+		"stamina": 253,
+		"legendary": false,
+		"mythical": false
+	},
+	"519": {
+		"name": "Pidove",
+		"default_form_id": 1961,
+		"pokedex_id": 519,
+		"generation": "Unova",
+		"types": [
+			"Normal",
+			"Flying"
+		],
+		"attack": 98,
+		"defense": 80,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"520": {
+		"name": "Tranquill",
+		"default_form_id": 1964,
+		"pokedex_id": 520,
+		"generation": "Unova",
+		"types": [
+			"Normal",
+			"Flying"
+		],
+		"attack": 144,
+		"defense": 107,
+		"stamina": 158,
+		"legendary": false,
+		"mythical": false
+	},
+	"521": {
+		"name": "Unfezant",
+		"default_form_id": 1967,
+		"pokedex_id": 521,
+		"generation": "Unova",
+		"types": [
+			"Normal",
+			"Flying"
+		],
+		"attack": 226,
+		"defense": 146,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"522": {
+		"name": "Blitzle",
+		"default_form_id": 1970,
+		"pokedex_id": 522,
+		"generation": "Unova",
+		"types": [
+			"Electric"
+		],
+		"attack": 118,
+		"defense": 64,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"523": {
+		"name": "Zebstrika",
+		"default_form_id": 1973,
+		"pokedex_id": 523,
+		"generation": "Unova",
+		"types": [
+			"Electric"
+		],
+		"attack": 211,
+		"defense": 136,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"524": {
+		"name": "Roggenrola",
+		"default_form_id": 1976,
+		"pokedex_id": 524,
+		"generation": "Unova",
+		"types": [
+			"Rock"
+		],
+		"attack": 121,
+		"defense": 110,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"525": {
+		"name": "Boldore",
+		"default_form_id": 1979,
+		"pokedex_id": 525,
+		"generation": "Unova",
+		"types": [
+			"Rock"
+		],
+		"attack": 174,
+		"defense": 143,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"526": {
+		"name": "Gigalith",
+		"default_form_id": 1982,
+		"pokedex_id": 526,
+		"generation": "Unova",
+		"types": [
+			"Rock"
+		],
+		"attack": 226,
+		"defense": 201,
+		"stamina": 198,
+		"legendary": false,
+		"mythical": false
+	},
+	"527": {
+		"name": "Woobat",
+		"default_form_id": 1985,
+		"pokedex_id": 527,
+		"generation": "Unova",
+		"types": [
+			"Psychic",
+			"Flying"
+		],
+		"attack": 107,
+		"defense": 85,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"528": {
+		"name": "Swoobat",
+		"default_form_id": 1988,
+		"pokedex_id": 528,
+		"generation": "Unova",
+		"types": [
+			"Psychic",
+			"Flying"
+		],
+		"attack": 161,
+		"defense": 119,
+		"stamina": 167,
+		"legendary": false,
+		"mythical": false
+	},
+	"529": {
+		"name": "Drilbur",
+		"default_form_id": 1991,
+		"pokedex_id": 529,
+		"generation": "Unova",
+		"types": [
+			"Ground"
+		],
+		"attack": 154,
+		"defense": 85,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"530": {
+		"name": "Excadrill",
+		"default_form_id": 1994,
+		"pokedex_id": 530,
+		"generation": "Unova",
+		"types": [
+			"Ground",
+			"Steel"
+		],
+		"attack": 255,
+		"defense": 129,
+		"stamina": 242,
+		"legendary": false,
+		"mythical": false
+	},
+	"531": {
+		"name": "Audino",
+		"default_form_id": 1997,
+		"pokedex_id": 531,
+		"generation": "Unova",
+		"types": [
+			"Normal"
+		],
+		"attack": 114,
+		"defense": 163,
+		"stamina": 230,
+		"legendary": false,
+		"mythical": false
+	},
+	"532": {
+		"name": "Timburr",
+		"default_form_id": 2000,
+		"pokedex_id": 532,
+		"generation": "Unova",
+		"types": [
+			"Fighting"
+		],
+		"attack": 134,
+		"defense": 87,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"533": {
+		"name": "Gurdurr",
+		"default_form_id": 2003,
+		"pokedex_id": 533,
+		"generation": "Unova",
+		"types": [
+			"Fighting"
+		],
+		"attack": 180,
+		"defense": 134,
+		"stamina": 198,
+		"legendary": false,
+		"mythical": false
+	},
+	"534": {
+		"name": "Conkeldurr",
+		"default_form_id": 2006,
+		"pokedex_id": 534,
+		"generation": "Unova",
+		"types": [
+			"Fighting"
+		],
+		"attack": 243,
+		"defense": 158,
+		"stamina": 233,
+		"legendary": false,
+		"mythical": false
+	},
+	"535": {
+		"name": "Tympole",
+		"default_form_id": 2009,
+		"pokedex_id": 535,
+		"generation": "Unova",
+		"types": [
+			"Water"
+		],
+		"attack": 98,
+		"defense": 78,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"536": {
+		"name": "Palpitoad",
+		"default_form_id": 2012,
+		"pokedex_id": 536,
+		"generation": "Unova",
+		"types": [
+			"Water",
+			"Ground"
+		],
+		"attack": 128,
+		"defense": 109,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"537": {
+		"name": "Seismitoad",
+		"default_form_id": 2015,
+		"pokedex_id": 537,
+		"generation": "Unova",
+		"types": [
+			"Water",
+			"Ground"
+		],
+		"attack": 188,
+		"defense": 150,
+		"stamina": 233,
+		"legendary": false,
+		"mythical": false
+	},
+	"538": {
+		"name": "Throh",
+		"default_form_id": 2018,
+		"pokedex_id": 538,
+		"generation": "Unova",
+		"types": [
+			"Fighting"
+		],
+		"attack": 172,
+		"defense": 160,
+		"stamina": 260,
+		"legendary": false,
+		"mythical": false
+	},
+	"539": {
+		"name": "Sawk",
+		"default_form_id": 2021,
+		"pokedex_id": 539,
+		"generation": "Unova",
+		"types": [
+			"Fighting"
+		],
+		"attack": 231,
+		"defense": 153,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"540": {
+		"name": "Sewaddle",
+		"default_form_id": 2024,
+		"pokedex_id": 540,
+		"generation": "Unova",
+		"types": [
+			"Bug",
+			"Grass"
+		],
+		"attack": 96,
+		"defense": 124,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"541": {
+		"name": "Swadloon",
+		"default_form_id": 2027,
+		"pokedex_id": 541,
+		"generation": "Unova",
+		"types": [
+			"Bug",
+			"Grass"
+		],
+		"attack": 115,
+		"defense": 162,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"542": {
+		"name": "Leavanny",
+		"default_form_id": 2030,
+		"pokedex_id": 542,
+		"generation": "Unova",
+		"types": [
+			"Bug",
+			"Grass"
+		],
+		"attack": 205,
+		"defense": 165,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"543": {
+		"name": "Venipede",
+		"default_form_id": 2033,
+		"pokedex_id": 543,
+		"generation": "Unova",
+		"types": [
+			"Bug",
+			"Poison"
+		],
+		"attack": 83,
+		"defense": 99,
+		"stamina": 102,
+		"legendary": false,
+		"mythical": false
+	},
+	"544": {
+		"name": "Whirlipede",
+		"default_form_id": 2036,
+		"pokedex_id": 544,
+		"generation": "Unova",
+		"types": [
+			"Bug",
+			"Poison"
+		],
+		"attack": 100,
+		"defense": 173,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"545": {
+		"name": "Scolipede",
+		"default_form_id": 2039,
+		"pokedex_id": 545,
+		"generation": "Unova",
+		"types": [
+			"Bug",
+			"Poison"
+		],
+		"attack": 203,
+		"defense": 175,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"546": {
+		"name": "Cottonee",
+		"default_form_id": 2042,
+		"pokedex_id": 546,
+		"generation": "Unova",
+		"types": [
+			"Grass",
+			"Fairy"
+		],
+		"attack": 71,
+		"defense": 111,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"547": {
+		"name": "Whimsicott",
+		"default_form_id": 2045,
+		"pokedex_id": 547,
+		"generation": "Unova",
+		"types": [
+			"Grass",
+			"Fairy"
+		],
+		"attack": 164,
+		"defense": 176,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"548": {
+		"name": "Petilil",
+		"default_form_id": 2048,
+		"pokedex_id": 548,
+		"generation": "Unova",
+		"types": [
+			"Grass"
+		],
+		"attack": 119,
+		"defense": 91,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"549": {
+		"name": "Lilligant",
+		"default_form_id": 2051,
+		"pokedex_id": 549,
+		"generation": "Unova",
+		"types": [
+			"Grass"
+		],
+		"attack": 214,
+		"defense": 155,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"550": {
+		"name": "Basculin",
+		"default_form_id": 136,
+		"pokedex_id": 550,
+		"generation": "Unova",
+		"types": [
+			"Water"
+		],
+		"attack": 189,
+		"defense": 129,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"551": {
+		"name": "Sandile",
+		"default_form_id": 2054,
+		"pokedex_id": 551,
+		"generation": "Unova",
+		"types": [
+			"Ground",
+			"Dark"
+		],
+		"attack": 132,
+		"defense": 69,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"552": {
+		"name": "Krokorok",
+		"default_form_id": 2057,
+		"pokedex_id": 552,
+		"generation": "Unova",
+		"types": [
+			"Ground",
+			"Dark"
+		],
+		"attack": 155,
+		"defense": 90,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"553": {
+		"name": "Krookodile",
+		"default_form_id": 2060,
+		"pokedex_id": 553,
+		"generation": "Unova",
+		"types": [
+			"Ground",
+			"Dark"
+		],
+		"attack": 229,
+		"defense": 158,
+		"stamina": 216,
+		"legendary": false,
+		"mythical": false
+	},
+	"554": {
+		"name": "Darumaka",
+		"default_form_id": 2063,
+		"pokedex_id": 554,
+		"generation": "Unova",
+		"types": [
+			"Fire"
+		],
+		"attack": 153,
+		"defense": 86,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"555": {
+		"name": "Darmanitan",
+		"default_form_id": 138,
+		"pokedex_id": 555,
+		"generation": "Unova",
+		"types": [
+			"Fire"
+		],
+		"attack": 263,
+		"defense": 114,
+		"stamina": 233,
+		"legendary": false,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Darmanitan (Zen)",
+				"types": [
+					"Fire",
+					"Psychic"
+				],
+				"attack": 243,
+				"defense": 202,
+				"stamina": 233
+			},
+			{
+				"name": "Darmanitan (Galarian Zen)",
+				"types": [
+					"Ice",
+					"Fire"
+				],
+				"attack": 323,
+				"defense": 123,
+				"stamina": 233
+			}
+		]
+	},
+	"556": {
+		"name": "Maractus",
+		"default_form_id": 2066,
+		"pokedex_id": 556,
+		"generation": "Unova",
+		"types": [
+			"Grass"
+		],
+		"attack": 201,
+		"defense": 130,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"557": {
+		"name": "Dwebble",
+		"default_form_id": 2069,
+		"pokedex_id": 557,
+		"generation": "Unova",
+		"types": [
+			"Bug",
+			"Rock"
+		],
+		"attack": 118,
+		"defense": 128,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"558": {
+		"name": "Crustle",
+		"default_form_id": 2072,
+		"pokedex_id": 558,
+		"generation": "Unova",
+		"types": [
+			"Bug",
+			"Rock"
+		],
+		"attack": 188,
+		"defense": 200,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"559": {
+		"name": "Scraggy",
+		"default_form_id": 2075,
+		"pokedex_id": 559,
+		"generation": "Unova",
+		"types": [
+			"Dark",
+			"Fighting"
+		],
+		"attack": 132,
+		"defense": 132,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"560": {
+		"name": "Scrafty",
+		"default_form_id": 2078,
+		"pokedex_id": 560,
+		"generation": "Unova",
+		"types": [
+			"Dark",
+			"Fighting"
+		],
+		"attack": 163,
+		"defense": 222,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"561": {
+		"name": "Sigilyph",
+		"default_form_id": 2081,
+		"pokedex_id": 561,
+		"generation": "Unova",
+		"types": [
+			"Psychic",
+			"Flying"
+		],
+		"attack": 204,
+		"defense": 167,
+		"stamina": 176,
+		"legendary": false,
+		"mythical": false
+	},
+	"562": {
+		"name": "Yamask",
+		"default_form_id": 2084,
+		"pokedex_id": 562,
+		"generation": "Unova",
+		"types": [
+			"Ghost"
+		],
+		"attack": 95,
+		"defense": 141,
+		"stamina": 116,
+		"legendary": false,
+		"mythical": false
+	},
+	"563": {
+		"name": "Cofagrigus",
+		"default_form_id": 2087,
+		"pokedex_id": 563,
+		"generation": "Unova",
+		"types": [
+			"Ghost"
+		],
+		"attack": 163,
+		"defense": 237,
+		"stamina": 151,
+		"legendary": false,
+		"mythical": false
+	},
+	"564": {
+		"name": "Tirtouga",
+		"default_form_id": 2090,
+		"pokedex_id": 564,
+		"generation": "Unova",
+		"types": [
+			"Water",
+			"Rock"
+		],
+		"attack": 134,
+		"defense": 146,
+		"stamina": 144,
+		"legendary": false,
+		"mythical": false
+	},
+	"565": {
+		"name": "Carracosta",
+		"default_form_id": 2093,
+		"pokedex_id": 565,
+		"generation": "Unova",
+		"types": [
+			"Water",
+			"Rock"
+		],
+		"attack": 192,
+		"defense": 197,
+		"stamina": 179,
+		"legendary": false,
+		"mythical": false
+	},
+	"566": {
+		"name": "Archen",
+		"default_form_id": 2096,
+		"pokedex_id": 566,
+		"generation": "Unova",
+		"types": [
+			"Rock",
+			"Flying"
+		],
+		"attack": 213,
+		"defense": 89,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"567": {
+		"name": "Archeops",
+		"default_form_id": 2099,
+		"pokedex_id": 567,
+		"generation": "Unova",
+		"types": [
+			"Rock",
+			"Flying"
+		],
+		"attack": 292,
+		"defense": 139,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"568": {
+		"name": "Trubbish",
+		"default_form_id": 2102,
+		"pokedex_id": 568,
+		"generation": "Unova",
+		"types": [
+			"Poison"
+		],
+		"attack": 96,
+		"defense": 122,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"569": {
+		"name": "Garbodor",
+		"default_form_id": 2105,
+		"pokedex_id": 569,
+		"generation": "Unova",
+		"types": [
+			"Poison"
+		],
+		"attack": 181,
+		"defense": 164,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"570": {
+		"name": "Zorua",
+		"default_form_id": 2108,
+		"pokedex_id": 570,
+		"generation": "Unova",
+		"types": [
+			"Dark"
+		],
+		"attack": 153,
+		"defense": 78,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"571": {
+		"name": "Zoroark",
+		"default_form_id": 2111,
+		"pokedex_id": 571,
+		"generation": "Unova",
+		"types": [
+			"Dark"
+		],
+		"attack": 250,
+		"defense": 127,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"572": {
+		"name": "Minccino",
+		"default_form_id": 2114,
+		"pokedex_id": 572,
+		"generation": "Unova",
+		"types": [
+			"Normal"
+		],
+		"attack": 98,
+		"defense": 80,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"573": {
+		"name": "Cinccino",
+		"default_form_id": 2117,
+		"pokedex_id": 573,
+		"generation": "Unova",
+		"types": [
+			"Normal"
+		],
+		"attack": 198,
+		"defense": 130,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"574": {
+		"name": "Gothita",
+		"default_form_id": 2120,
+		"pokedex_id": 574,
+		"generation": "Unova",
+		"types": [
+			"Psychic"
+		],
+		"attack": 98,
+		"defense": 112,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"575": {
+		"name": "Gothorita",
+		"default_form_id": 2123,
+		"pokedex_id": 575,
+		"generation": "Unova",
+		"types": [
+			"Psychic"
+		],
+		"attack": 137,
+		"defense": 153,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"576": {
+		"name": "Gothitelle",
+		"default_form_id": 2126,
+		"pokedex_id": 576,
+		"generation": "Unova",
+		"types": [
+			"Psychic"
+		],
+		"attack": 176,
+		"defense": 205,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"577": {
+		"name": "Solosis",
+		"default_form_id": 2129,
+		"pokedex_id": 577,
+		"generation": "Unova",
+		"types": [
+			"Psychic"
+		],
+		"attack": 170,
+		"defense": 83,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"578": {
+		"name": "Duosion",
+		"default_form_id": 2132,
+		"pokedex_id": 578,
+		"generation": "Unova",
+		"types": [
+			"Psychic"
+		],
+		"attack": 208,
+		"defense": 103,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"579": {
+		"name": "Reuniclus",
+		"default_form_id": 2135,
+		"pokedex_id": 579,
+		"generation": "Unova",
+		"types": [
+			"Psychic"
+		],
+		"attack": 214,
+		"defense": 148,
+		"stamina": 242,
+		"legendary": false,
+		"mythical": false
+	},
+	"580": {
+		"name": "Ducklett",
+		"default_form_id": 2138,
+		"pokedex_id": 580,
+		"generation": "Unova",
+		"types": [
+			"Water",
+			"Flying"
+		],
+		"attack": 84,
+		"defense": 96,
+		"stamina": 158,
+		"legendary": false,
+		"mythical": false
+	},
+	"581": {
+		"name": "Swanna",
+		"default_form_id": 2141,
+		"pokedex_id": 581,
+		"generation": "Unova",
+		"types": [
+			"Water",
+			"Flying"
+		],
+		"attack": 182,
+		"defense": 132,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"582": {
+		"name": "Vanillite",
+		"default_form_id": 2144,
+		"pokedex_id": 582,
+		"generation": "Unova",
+		"types": [
+			"Ice"
+		],
+		"attack": 118,
+		"defense": 106,
+		"stamina": 113,
+		"legendary": false,
+		"mythical": false
+	},
+	"583": {
+		"name": "Vanillish",
+		"default_form_id": 2147,
+		"pokedex_id": 583,
+		"generation": "Unova",
+		"types": [
+			"Ice"
+		],
+		"attack": 151,
+		"defense": 138,
+		"stamina": 139,
+		"legendary": false,
+		"mythical": false
+	},
+	"584": {
+		"name": "Vanilluxe",
+		"default_form_id": 2150,
+		"pokedex_id": 584,
+		"generation": "Unova",
+		"types": [
+			"Ice"
+		],
+		"attack": 218,
+		"defense": 184,
+		"stamina": 174,
+		"legendary": false,
+		"mythical": false
+	},
+	"585": {
+		"name": "Deerling",
+		"default_form_id": 585,
+		"pokedex_id": 585,
+		"generation": "Unova",
+		"types": [
+			"Normal",
+			"Grass"
+		],
+		"attack": 115,
+		"defense": 100,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"586": {
+		"name": "Sawsbuck",
+		"default_form_id": 589,
+		"pokedex_id": 586,
+		"generation": "Unova",
+		"types": [
+			"Normal",
+			"Grass"
+		],
+		"attack": 198,
+		"defense": 146,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"587": {
+		"name": "Emolga",
+		"default_form_id": 2153,
+		"pokedex_id": 587,
+		"generation": "Unova",
+		"types": [
+			"Electric",
+			"Flying"
+		],
+		"attack": 158,
+		"defense": 127,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"588": {
+		"name": "Karrablast",
+		"default_form_id": 2156,
+		"pokedex_id": 588,
+		"generation": "Unova",
+		"types": [
+			"Bug"
+		],
+		"attack": 137,
+		"defense": 87,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"589": {
+		"name": "Escavalier",
+		"default_form_id": 2159,
+		"pokedex_id": 589,
+		"generation": "Unova",
+		"types": [
+			"Bug",
+			"Steel"
+		],
+		"attack": 223,
+		"defense": 187,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"590": {
+		"name": "Foongus",
+		"default_form_id": 2162,
+		"pokedex_id": 590,
+		"generation": "Unova",
+		"types": [
+			"Grass",
+			"Poison"
+		],
+		"attack": 97,
+		"defense": 91,
+		"stamina": 170,
+		"legendary": false,
+		"mythical": false
+	},
+	"591": {
+		"name": "Amoonguss",
+		"default_form_id": 2165,
+		"pokedex_id": 591,
+		"generation": "Unova",
+		"types": [
+			"Grass",
+			"Poison"
+		],
+		"attack": 155,
+		"defense": 139,
+		"stamina": 249,
+		"legendary": false,
+		"mythical": false
+	},
+	"592": {
+		"name": "Frillish",
+		"default_form_id": 2168,
+		"pokedex_id": 592,
+		"generation": "Unova",
+		"types": [
+			"Water",
+			"Ghost"
+		],
+		"attack": 115,
+		"defense": 134,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"593": {
+		"name": "Jellicent",
+		"default_form_id": 2171,
+		"pokedex_id": 593,
+		"generation": "Unova",
+		"types": [
+			"Water",
+			"Ghost"
+		],
+		"attack": 159,
+		"defense": 178,
+		"stamina": 225,
+		"legendary": false,
+		"mythical": false
+	},
+	"594": {
+		"name": "Alomomola",
+		"default_form_id": 2174,
+		"pokedex_id": 594,
+		"generation": "Unova",
+		"types": [
+			"Water"
+		],
+		"attack": 138,
+		"defense": 131,
+		"stamina": 338,
+		"legendary": false,
+		"mythical": false
+	},
+	"595": {
+		"name": "Joltik",
+		"default_form_id": 2177,
+		"pokedex_id": 595,
+		"generation": "Unova",
+		"types": [
+			"Bug",
+			"Electric"
+		],
+		"attack": 110,
+		"defense": 98,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"596": {
+		"name": "Galvantula",
+		"default_form_id": 2180,
+		"pokedex_id": 596,
+		"generation": "Unova",
+		"types": [
+			"Bug",
+			"Electric"
+		],
+		"attack": 201,
+		"defense": 128,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"597": {
+		"name": "Ferroseed",
+		"default_form_id": 2183,
+		"pokedex_id": 597,
+		"generation": "Unova",
+		"types": [
+			"Grass",
+			"Steel"
+		],
+		"attack": 82,
+		"defense": 155,
+		"stamina": 127,
+		"legendary": false,
+		"mythical": false
+	},
+	"598": {
+		"name": "Ferrothorn",
+		"default_form_id": 2186,
+		"pokedex_id": 598,
+		"generation": "Unova",
+		"types": [
+			"Grass",
+			"Steel"
+		],
+		"attack": 158,
+		"defense": 223,
+		"stamina": 179,
+		"legendary": false,
+		"mythical": false
+	},
+	"599": {
+		"name": "Klink",
+		"default_form_id": 2189,
+		"pokedex_id": 599,
+		"generation": "Unova",
+		"types": [
+			"Steel"
+		],
+		"attack": 98,
+		"defense": 121,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"600": {
+		"name": "Klang",
+		"default_form_id": 2192,
+		"pokedex_id": 600,
+		"generation": "Unova",
+		"types": [
+			"Steel"
+		],
+		"attack": 150,
+		"defense": 174,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"601": {
+		"name": "Klinklang",
+		"default_form_id": 2195,
+		"pokedex_id": 601,
+		"generation": "Unova",
+		"types": [
+			"Steel"
+		],
+		"attack": 199,
+		"defense": 214,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"602": {
+		"name": "Tynamo",
+		"default_form_id": 2198,
+		"pokedex_id": 602,
+		"generation": "Unova",
+		"types": [
+			"Electric"
+		],
+		"attack": 105,
+		"defense": 78,
+		"stamina": 111,
+		"legendary": false,
+		"mythical": false
+	},
+	"603": {
+		"name": "Eelektrik",
+		"default_form_id": 2201,
+		"pokedex_id": 603,
+		"generation": "Unova",
+		"types": [
+			"Electric"
+		],
+		"attack": 156,
+		"defense": 130,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"604": {
+		"name": "Eelektross",
+		"default_form_id": 2204,
+		"pokedex_id": 604,
+		"generation": "Unova",
+		"types": [
+			"Electric"
+		],
+		"attack": 217,
+		"defense": 152,
+		"stamina": 198,
+		"legendary": false,
+		"mythical": false
+	},
+	"605": {
+		"name": "Elgyem",
+		"default_form_id": 2207,
+		"pokedex_id": 605,
+		"generation": "Unova",
+		"types": [
+			"Psychic"
+		],
+		"attack": 148,
+		"defense": 100,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"606": {
+		"name": "Beheeyem",
+		"default_form_id": 2210,
+		"pokedex_id": 606,
+		"generation": "Unova",
+		"types": [
+			"Psychic"
+		],
+		"attack": 221,
+		"defense": 163,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"607": {
+		"name": "Litwick",
+		"default_form_id": 2213,
+		"pokedex_id": 607,
+		"generation": "Unova",
+		"types": [
+			"Ghost",
+			"Fire"
+		],
+		"attack": 108,
+		"defense": 98,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"608": {
+		"name": "Lampent",
+		"default_form_id": 2216,
+		"pokedex_id": 608,
+		"generation": "Unova",
+		"types": [
+			"Ghost",
+			"Fire"
+		],
+		"attack": 169,
+		"defense": 115,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"609": {
+		"name": "Chandelure",
+		"default_form_id": 2219,
+		"pokedex_id": 609,
+		"generation": "Unova",
+		"types": [
+			"Ghost",
+			"Fire"
+		],
+		"attack": 271,
+		"defense": 182,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"610": {
+		"name": "Axew",
+		"default_form_id": 2222,
+		"pokedex_id": 610,
+		"generation": "Unova",
+		"types": [
+			"Dragon"
+		],
+		"attack": 154,
+		"defense": 101,
+		"stamina": 130,
+		"legendary": false,
+		"mythical": false
+	},
+	"611": {
+		"name": "Fraxure",
+		"default_form_id": 2225,
+		"pokedex_id": 611,
+		"generation": "Unova",
+		"types": [
+			"Dragon"
+		],
+		"attack": 212,
+		"defense": 123,
+		"stamina": 165,
+		"legendary": false,
+		"mythical": false
+	},
+	"612": {
+		"name": "Haxorus",
+		"default_form_id": 2228,
+		"pokedex_id": 612,
+		"generation": "Unova",
+		"types": [
+			"Dragon"
+		],
+		"attack": 284,
+		"defense": 172,
+		"stamina": 183,
+		"legendary": false,
+		"mythical": false
+	},
+	"613": {
+		"name": "Cubchoo",
+		"default_form_id": 2231,
+		"pokedex_id": 613,
+		"generation": "Unova",
+		"types": [
+			"Ice"
+		],
+		"attack": 128,
+		"defense": 74,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"614": {
+		"name": "Beartic",
+		"default_form_id": 2234,
+		"pokedex_id": 614,
+		"generation": "Unova",
+		"types": [
+			"Ice"
+		],
+		"attack": 233,
+		"defense": 152,
+		"stamina": 216,
+		"legendary": false,
+		"mythical": false
+	},
+	"615": {
+		"name": "Cryogonal",
+		"default_form_id": 2237,
+		"pokedex_id": 615,
+		"generation": "Unova",
+		"types": [
+			"Ice"
+		],
+		"attack": 190,
+		"defense": 218,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"616": {
+		"name": "Shelmet",
+		"default_form_id": 2240,
+		"pokedex_id": 616,
+		"generation": "Unova",
+		"types": [
+			"Bug"
+		],
+		"attack": 72,
+		"defense": 140,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"617": {
+		"name": "Accelgor",
+		"default_form_id": 2243,
+		"pokedex_id": 617,
+		"generation": "Unova",
+		"types": [
+			"Bug"
+		],
+		"attack": 220,
+		"defense": 120,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"618": {
+		"name": "Stunfisk",
+		"default_form_id": 2246,
+		"pokedex_id": 618,
+		"generation": "Unova",
+		"types": [
+			"Ground",
+			"Electric"
+		],
+		"attack": 144,
+		"defense": 171,
+		"stamina": 240,
+		"legendary": false,
+		"mythical": false
+	},
+	"619": {
+		"name": "Mienfoo",
+		"default_form_id": 2249,
+		"pokedex_id": 619,
+		"generation": "Unova",
+		"types": [
+			"Fighting"
+		],
+		"attack": 160,
+		"defense": 98,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"620": {
+		"name": "Mienshao",
+		"default_form_id": 2252,
+		"pokedex_id": 620,
+		"generation": "Unova",
+		"types": [
+			"Fighting"
+		],
+		"attack": 258,
+		"defense": 127,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"621": {
+		"name": "Druddigon",
+		"default_form_id": 2255,
+		"pokedex_id": 621,
+		"generation": "Unova",
+		"types": [
+			"Dragon"
+		],
+		"attack": 213,
+		"defense": 170,
+		"stamina": 184,
+		"legendary": false,
+		"mythical": false
+	},
+	"622": {
+		"name": "Golett",
+		"default_form_id": 2258,
+		"pokedex_id": 622,
+		"generation": "Unova",
+		"types": [
+			"Ground",
+			"Ghost"
+		],
+		"attack": 127,
+		"defense": 92,
+		"stamina": 153,
+		"legendary": false,
+		"mythical": false
+	},
+	"623": {
+		"name": "Golurk",
+		"default_form_id": 2261,
+		"pokedex_id": 623,
+		"generation": "Unova",
+		"types": [
+			"Ground",
+			"Ghost"
+		],
+		"attack": 222,
+		"defense": 154,
+		"stamina": 205,
+		"legendary": false,
+		"mythical": false
+	},
+	"624": {
+		"name": "Pawniard",
+		"default_form_id": 2264,
+		"pokedex_id": 624,
+		"generation": "Unova",
+		"types": [
+			"Dark",
+			"Steel"
+		],
+		"attack": 154,
+		"defense": 114,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"625": {
+		"name": "Bisharp",
+		"default_form_id": 2267,
+		"pokedex_id": 625,
+		"generation": "Unova",
+		"types": [
+			"Dark",
+			"Steel"
+		],
+		"attack": 232,
+		"defense": 176,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"626": {
+		"name": "Bouffalant",
+		"default_form_id": 2270,
+		"pokedex_id": 626,
+		"generation": "Unova",
+		"types": [
+			"Normal"
+		],
+		"attack": 195,
+		"defense": 182,
+		"stamina": 216,
+		"legendary": false,
+		"mythical": false
+	},
+	"627": {
+		"name": "Rufflet",
+		"default_form_id": 2273,
+		"pokedex_id": 627,
+		"generation": "Unova",
+		"types": [
+			"Normal",
+			"Flying"
+		],
+		"attack": 150,
+		"defense": 97,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"628": {
+		"name": "Braviary",
+		"default_form_id": 2276,
+		"pokedex_id": 628,
+		"generation": "Unova",
+		"types": [
+			"Normal",
+			"Flying"
+		],
+		"attack": 232,
+		"defense": 152,
+		"stamina": 225,
+		"legendary": false,
+		"mythical": false
+	},
+	"629": {
+		"name": "Vullaby",
+		"default_form_id": 2279,
+		"pokedex_id": 629,
+		"generation": "Unova",
+		"types": [
+			"Dark",
+			"Flying"
+		],
+		"attack": 105,
+		"defense": 139,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"630": {
+		"name": "Mandibuzz",
+		"default_form_id": 2282,
+		"pokedex_id": 630,
+		"generation": "Unova",
+		"types": [
+			"Dark",
+			"Flying"
+		],
+		"attack": 129,
+		"defense": 205,
+		"stamina": 242,
+		"legendary": false,
+		"mythical": false
+	},
+	"631": {
+		"name": "Heatmor",
+		"default_form_id": 2285,
+		"pokedex_id": 631,
+		"generation": "Unova",
+		"types": [
+			"Fire"
+		],
+		"attack": 204,
+		"defense": 129,
+		"stamina": 198,
+		"legendary": false,
+		"mythical": false
+	},
+	"632": {
+		"name": "Durant",
+		"default_form_id": 2288,
+		"pokedex_id": 632,
+		"generation": "Unova",
+		"types": [
+			"Bug",
+			"Steel"
+		],
+		"attack": 217,
+		"defense": 188,
+		"stamina": 151,
+		"legendary": false,
+		"mythical": false
+	},
+	"633": {
+		"name": "Deino",
+		"default_form_id": 2291,
+		"pokedex_id": 633,
+		"generation": "Unova",
+		"types": [
+			"Dark",
+			"Dragon"
+		],
+		"attack": 116,
+		"defense": 93,
+		"stamina": 141,
+		"legendary": false,
+		"mythical": false
+	},
+	"634": {
+		"name": "Zweilous",
+		"default_form_id": 2294,
+		"pokedex_id": 634,
+		"generation": "Unova",
+		"types": [
+			"Dark",
+			"Dragon"
+		],
+		"attack": 159,
+		"defense": 135,
+		"stamina": 176,
+		"legendary": false,
+		"mythical": false
+	},
+	"635": {
+		"name": "Hydreigon",
+		"default_form_id": 2297,
+		"pokedex_id": 635,
+		"generation": "Unova",
+		"types": [
+			"Dark",
+			"Dragon"
+		],
+		"attack": 256,
+		"defense": 188,
+		"stamina": 211,
+		"legendary": false,
+		"mythical": false
+	},
+	"636": {
+		"name": "Larvesta",
+		"default_form_id": 2300,
+		"pokedex_id": 636,
+		"generation": "Unova",
+		"types": [
+			"Bug",
+			"Fire"
+		],
+		"attack": 156,
+		"defense": 107,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"637": {
+		"name": "Volcarona",
+		"default_form_id": 2303,
+		"pokedex_id": 637,
+		"generation": "Unova",
+		"types": [
+			"Bug",
+			"Fire"
+		],
+		"attack": 264,
+		"defense": 189,
+		"stamina": 198,
+		"legendary": false,
+		"mythical": false
+	},
+	"638": {
+		"name": "Cobalion",
+		"default_form_id": 2306,
+		"pokedex_id": 638,
+		"generation": "Unova",
+		"types": [
+			"Steel",
+			"Fighting"
+		],
+		"attack": 192,
+		"defense": 229,
+		"stamina": 209,
+		"legendary": true,
+		"mythical": false
+	},
+	"639": {
+		"name": "Terrakion",
+		"default_form_id": 2309,
+		"pokedex_id": 639,
+		"generation": "Unova",
+		"types": [
+			"Rock",
+			"Fighting"
+		],
+		"attack": 260,
+		"defense": 192,
+		"stamina": 209,
+		"legendary": true,
+		"mythical": false
+	},
+	"640": {
+		"name": "Virizion",
+		"default_form_id": 2312,
+		"pokedex_id": 640,
+		"generation": "Unova",
+		"types": [
+			"Grass",
+			"Fighting"
+		],
+		"attack": 192,
+		"defense": 229,
+		"stamina": 209,
+		"legendary": true,
+		"mythical": false
+	},
+	"641": {
+		"name": "Tornadus",
+		"default_form_id": 140,
+		"pokedex_id": 641,
+		"generation": "Unova",
+		"types": [
+			"Flying"
+		],
+		"attack": 266,
+		"defense": 164,
+		"stamina": 188,
+		"legendary": true,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Tornadus (Therian)",
+				"attack": 238,
+				"defense": 189,
+				"stamina": 188
+			}
+		]
+	},
+	"642": {
+		"name": "Thundurus",
+		"default_form_id": 142,
+		"pokedex_id": 642,
+		"generation": "Unova",
+		"types": [
+			"Electric",
+			"Flying"
+		],
+		"attack": 266,
+		"defense": 164,
+		"stamina": 188,
+		"legendary": true,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Thundurus (Therian)",
+				"attack": 295,
+				"defense": 161,
+				"stamina": 188
+			}
+		]
+	},
+	"643": {
+		"name": "Reshiram",
+		"default_form_id": 2315,
+		"pokedex_id": 643,
+		"generation": "Unova",
+		"types": [
+			"Dragon",
+			"Fire"
+		],
+		"attack": 275,
+		"defense": 211,
+		"stamina": 205,
+		"legendary": true,
+		"mythical": false
+	},
+	"644": {
+		"name": "Zekrom",
+		"default_form_id": 2318,
+		"pokedex_id": 644,
+		"generation": "Unova",
+		"types": [
+			"Dragon",
+			"Electric"
+		],
+		"attack": 275,
+		"defense": 211,
+		"stamina": 205,
+		"legendary": true,
+		"mythical": false
+	},
+	"645": {
+		"name": "Landorus",
+		"default_form_id": 144,
+		"pokedex_id": 645,
+		"generation": "Unova",
+		"types": [
+			"Ground",
+			"Flying"
+		],
+		"attack": 261,
+		"defense": 182,
+		"stamina": 205,
+		"legendary": true,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Landorus (Therian)",
+				"attack": 289,
+				"defense": 179,
+				"stamina": 205
+			}
+		]
+	},
+	"646": {
+		"name": "Kyurem",
+		"default_form_id": 146,
+		"pokedex_id": 646,
+		"generation": "Unova",
+		"types": [
+			"Dragon",
+			"Ice"
+		],
+		"attack": 246,
+		"defense": 170,
+		"stamina": 245,
+		"legendary": true,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Kyurem (Black)",
+				"attack": 310,
+				"defense": 183,
+				"stamina": 245
+			},
+			{
+				"name": "Kyurem (White)",
+				"attack": 310,
+				"defense": 183,
+				"stamina": 245
+			}
+		]
+	},
+	"647": {
+		"name": "Keldeo",
+		"default_form_id": 149,
+		"pokedex_id": 647,
+		"generation": "Unova",
+		"types": [
+			"Water",
+			"Fighting"
+		],
+		"attack": 260,
+		"defense": 192,
+		"stamina": 209,
+		"legendary": false,
+		"mythical": true
+	},
+	"648": {
+		"name": "Meloetta",
+		"default_form_id": 151,
+		"pokedex_id": 648,
+		"generation": "Unova",
+		"types": [
+			"Normal",
+			"Psychic"
+		],
+		"attack": 250,
+		"defense": 225,
+		"stamina": 225,
+		"legendary": false,
+		"mythical": true,
+		"forms": [
+			{
+				"name": "Meloetta (Pirouette)",
+				"types": [
+					"Normal",
+					"Fighting"
+				],
+				"attack": 269,
+				"defense": 188,
+				"stamina": 225
+			}
+		]
+	},
+	"649": {
+		"name": "Genesect",
+		"default_form_id": 593,
+		"pokedex_id": 649,
+		"generation": "Unova",
+		"types": [
+			"Bug",
+			"Steel"
+		],
+		"attack": 252,
+		"defense": 199,
+		"stamina": 174,
+		"legendary": false,
+		"mythical": true
+	},
+	"650": {
+		"name": "Chespin",
+		"pokedex_id": 650,
+		"generation": "Kalos",
+		"types": [
+			"Grass"
+		],
+		"attack": 110,
+		"defense": 106,
+		"stamina": 148,
+		"legendary": false,
+		"mythical": false
+	},
+	"651": {
+		"name": "Quilladin",
+		"pokedex_id": 651,
+		"generation": "Kalos",
+		"types": [
+			"Grass"
+		],
+		"attack": 146,
+		"defense": 156,
+		"stamina": 156,
+		"legendary": false,
+		"mythical": false
+	},
+	"652": {
+		"name": "Chesnaught",
+		"pokedex_id": 652,
+		"generation": "Kalos",
+		"types": [
+			"Grass",
+			"Fighting"
+		],
+		"attack": 201,
+		"defense": 204,
+		"stamina": 204,
+		"legendary": false,
+		"mythical": false
+	},
+	"653": {
+		"name": "Fennekin",
+		"pokedex_id": 653,
+		"generation": "Kalos",
+		"types": [
+			"Fire"
+		],
+		"attack": 116,
+		"defense": 102,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"654": {
+		"name": "Braixen",
+		"pokedex_id": 654,
+		"generation": "Kalos",
+		"types": [
+			"Fire"
+		],
+		"attack": 171,
+		"defense": 130,
+		"stamina": 153,
+		"legendary": false,
+		"mythical": false
+	},
+	"655": {
+		"name": "Delphox",
+		"pokedex_id": 655,
+		"generation": "Kalos",
+		"types": [
+			"Fire",
+			"Psychic"
+		],
+		"attack": 230,
+		"defense": 189,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"656": {
+		"name": "Froakie",
+		"pokedex_id": 656,
+		"generation": "Kalos",
+		"types": [
+			"Water"
+		],
+		"attack": 122,
+		"defense": 84,
+		"stamina": 121,
+		"legendary": false,
+		"mythical": false
+	},
+	"657": {
+		"name": "Frogadier",
+		"pokedex_id": 657,
+		"generation": "Kalos",
+		"types": [
+			"Water"
+		],
+		"attack": 168,
+		"defense": 114,
+		"stamina": 144,
+		"legendary": false,
+		"mythical": false
+	},
+	"658": {
+		"name": "Greninja",
+		"pokedex_id": 658,
+		"generation": "Kalos",
+		"types": [
+			"Water",
+			"Dark"
+		],
+		"attack": 223,
+		"defense": 152,
+		"stamina": 176,
+		"legendary": false,
+		"mythical": false
+	},
+	"659": {
+		"name": "Bunnelby",
+		"pokedex_id": 659,
+		"generation": "Kalos",
+		"types": [
+			"Normal"
+		],
+		"attack": 68,
+		"defense": 72,
+		"stamina": 116,
+		"legendary": false,
+		"mythical": false
+	},
+	"660": {
+		"name": "Diggersby",
+		"pokedex_id": 660,
+		"generation": "Kalos",
+		"types": [
+			"Normal",
+			"Ground"
+		],
+		"attack": 112,
+		"defense": 155,
+		"stamina": 198,
+		"legendary": false,
+		"mythical": false
+	},
+	"661": {
+		"name": "Fletchling",
+		"pokedex_id": 661,
+		"generation": "Kalos",
+		"types": [
+			"Normal",
+			"Flying"
+		],
+		"attack": 95,
+		"defense": 80,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"662": {
+		"name": "Fletchinder",
+		"pokedex_id": 662,
+		"generation": "Kalos",
+		"types": [
+			"Fire",
+			"Flying"
+		],
+		"attack": 145,
+		"defense": 110,
+		"stamina": 158,
+		"legendary": false,
+		"mythical": false
+	},
+	"663": {
+		"name": "Talonflame",
+		"pokedex_id": 663,
+		"generation": "Kalos",
+		"types": [
+			"Fire",
+			"Flying"
+		],
+		"attack": 176,
+		"defense": 155,
+		"stamina": 186,
+		"legendary": false,
+		"mythical": false
+	},
+	"664": {
+		"name": "Scatterbug",
+		"pokedex_id": 664,
+		"generation": "Kalos",
+		"types": [
+			"Bug"
+		],
+		"attack": 63,
+		"defense": 63,
+		"stamina": 116,
+		"legendary": false,
+		"mythical": false
+	},
+	"665": {
+		"name": "Spewpa",
+		"pokedex_id": 665,
+		"generation": "Kalos",
+		"types": [
+			"Bug"
+		],
+		"attack": 48,
+		"defense": 89,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"666": {
+		"name": "Vivillon",
+		"pokedex_id": 666,
+		"generation": "Kalos",
+		"types": [
+			"Bug",
+			"Flying"
+		],
+		"attack": 176,
+		"defense": 103,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"667": {
+		"name": "Litleo",
+		"pokedex_id": 667,
+		"generation": "Kalos",
+		"types": [
+			"Fire",
+			"Normal"
+		],
+		"attack": 139,
+		"defense": 112,
+		"stamina": 158,
+		"legendary": false,
+		"mythical": false
+	},
+	"668": {
+		"name": "Pyroar",
+		"default_form_id": 2587,
+		"pokedex_id": 668,
+		"generation": "Kalos",
+		"types": [
+			"Fire",
+			"Normal"
+		],
+		"attack": 221,
+		"defense": 149,
+		"stamina": 200,
+		"legendary": false,
+		"mythical": false
+	},
+	"669": {
+		"name": "Flabebe",
+		"pokedex_id": 669,
+		"generation": "Kalos",
+		"types": [
+			"Fairy"
+		],
+		"attack": 108,
+		"defense": 120,
+		"stamina": 127,
+		"legendary": false,
+		"mythical": false
+	},
+	"670": {
+		"name": "Floette",
+		"pokedex_id": 670,
+		"generation": "Kalos",
+		"types": [
+			"Fairy"
+		],
+		"attack": 136,
+		"defense": 151,
+		"stamina": 144,
+		"legendary": false,
+		"mythical": false
+	},
+	"671": {
+		"name": "Florges",
+		"pokedex_id": 671,
+		"generation": "Kalos",
+		"types": [
+			"Fairy"
+		],
+		"attack": 212,
+		"defense": 244,
+		"stamina": 186,
+		"legendary": false,
+		"mythical": false
+	},
+	"672": {
+		"name": "Skiddo",
+		"pokedex_id": 672,
+		"generation": "Kalos",
+		"types": [
+			"Grass"
+		],
+		"attack": 123,
+		"defense": 102,
+		"stamina": 165,
+		"legendary": false,
+		"mythical": false
+	},
+	"673": {
+		"name": "Gogoat",
+		"pokedex_id": 673,
+		"generation": "Kalos",
+		"types": [
+			"Grass"
+		],
+		"attack": 196,
+		"defense": 146,
+		"stamina": 265,
+		"legendary": false,
+		"mythical": false
+	},
+	"674": {
+		"name": "Pancham",
+		"pokedex_id": 674,
+		"generation": "Kalos",
+		"types": [
+			"Fighting"
+		],
+		"attack": 145,
+		"defense": 107,
+		"stamina": 167,
+		"legendary": false,
+		"mythical": false
+	},
+	"675": {
+		"name": "Pangoro",
+		"pokedex_id": 675,
+		"generation": "Kalos",
+		"types": [
+			"Fighting",
+			"Dark"
+		],
+		"attack": 226,
+		"defense": 146,
+		"stamina": 216,
+		"legendary": false,
+		"mythical": false
+	},
+	"676": {
+		"name": "Furfrou",
+		"pokedex_id": 676,
+		"generation": "Kalos",
+		"types": [
+			"Normal"
+		],
+		"attack": 164,
+		"defense": 167,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"677": {
+		"name": "Espurr",
+		"pokedex_id": 677,
+		"generation": "Kalos",
+		"types": [
+			"Psychic"
+		],
+		"attack": 120,
+		"defense": 114,
+		"stamina": 158,
+		"legendary": false,
+		"mythical": false
+	},
+	"678": {
+		"name": "Meowstic",
+		"default_form_id": 2589,
+		"pokedex_id": 678,
+		"generation": "Kalos",
+		"types": [
+			"Psychic"
+		],
+		"attack": 166,
+		"defense": 167,
+		"stamina": 179,
+		"legendary": false,
+		"mythical": false
+	},
+	"679": {
+		"name": "Honedge",
+		"pokedex_id": 679,
+		"generation": "Kalos",
+		"types": [
+			"Steel",
+			"Ghost"
+		],
+		"legendary": false,
+		"mythical": false
+	},
+	"680": {
+		"name": "Doublade",
+		"pokedex_id": 680,
+		"generation": "Kalos",
+		"types": [
+			"Steel",
+			"Ghost"
+		],
+		"legendary": false,
+		"mythical": false
+	},
+	"681": {
+		"name": "Aegislash",
+		"pokedex_id": 681,
+		"generation": "Kalos",
+		"types": [
+			"Steel",
+			"Ghost"
+		],
+		"legendary": false,
+		"mythical": false
+	},
+	"682": {
+		"name": "Spritzee",
+		"pokedex_id": 682,
+		"generation": "Kalos",
+		"types": [
+			"Fairy"
+		],
+		"attack": 110,
+		"defense": 113,
+		"stamina": 186,
+		"legendary": false,
+		"mythical": false
+	},
+	"683": {
+		"name": "Aromatisse",
+		"pokedex_id": 683,
+		"generation": "Kalos",
+		"types": [
+			"Fairy"
+		],
+		"attack": 173,
+		"defense": 150,
+		"stamina": 226,
+		"legendary": false,
+		"mythical": false
+	},
+	"684": {
+		"name": "Swirlix",
+		"pokedex_id": 684,
+		"generation": "Kalos",
+		"types": [
+			"Fairy"
+		],
+		"attack": 109,
+		"defense": 119,
+		"stamina": 158,
+		"legendary": false,
+		"mythical": false
+	},
+	"685": {
+		"name": "Slurpuff",
+		"pokedex_id": 685,
+		"generation": "Kalos",
+		"types": [
+			"Fairy"
+		],
+		"attack": 168,
+		"defense": 163,
+		"stamina": 193,
+		"legendary": false,
+		"mythical": false
+	},
+	"686": {
+		"name": "Inkay",
+		"pokedex_id": 686,
+		"generation": "Kalos",
+		"types": [
+			"Dark",
+			"Psychic"
+		],
+		"attack": 98,
+		"defense": 95,
+		"stamina": 142,
+		"legendary": false,
+		"mythical": false
+	},
+	"687": {
+		"name": "Malamar",
+		"pokedex_id": 687,
+		"generation": "Kalos",
+		"types": [
+			"Dark",
+			"Psychic"
+		],
+		"attack": 177,
+		"defense": 165,
+		"stamina": 200,
+		"legendary": false,
+		"mythical": false
+	},
+	"688": {
+		"name": "Binacle",
+		"pokedex_id": 688,
+		"generation": "Kalos",
+		"types": [
+			"Rock",
+			"Water"
+		],
+		"attack": 96,
+		"defense": 120,
+		"stamina": 123,
+		"legendary": false,
+		"mythical": false
+	},
+	"689": {
+		"name": "Barbaracle",
+		"pokedex_id": 689,
+		"generation": "Kalos",
+		"types": [
+			"Rock",
+			"Water"
+		],
+		"attack": 194,
+		"defense": 205,
+		"stamina": 176,
+		"legendary": false,
+		"mythical": false
+	},
+	"690": {
+		"name": "Skrelp",
+		"pokedex_id": 690,
+		"generation": "Kalos",
+		"types": [
+			"Poison",
+			"Water"
+		],
+		"attack": 109,
+		"defense": 109,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"691": {
+		"name": "Dragalge",
+		"pokedex_id": 691,
+		"generation": "Kalos",
+		"types": [
+			"Poison",
+			"Dragon"
+		],
+		"attack": 177,
+		"defense": 207,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"692": {
+		"name": "Clauncher",
+		"pokedex_id": 692,
+		"generation": "Kalos",
+		"types": [
+			"Water"
+		],
+		"attack": 108,
+		"defense": 117,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"693": {
+		"name": "Clawitzer",
+		"pokedex_id": 693,
+		"generation": "Kalos",
+		"types": [
+			"Water"
+		],
+		"attack": 221,
+		"defense": 171,
+		"stamina": 174,
+		"legendary": false,
+		"mythical": false
+	},
+	"694": {
+		"name": "Helioptile",
+		"pokedex_id": 694,
+		"generation": "Kalos",
+		"types": [
+			"Electric",
+			"Normal"
+		],
+		"attack": 115,
+		"defense": 78,
+		"stamina": 127,
+		"legendary": false,
+		"mythical": false
+	},
+	"695": {
+		"name": "Heliolisk",
+		"pokedex_id": 695,
+		"generation": "Kalos",
+		"types": [
+			"Electric",
+			"Normal"
+		],
+		"attack": 219,
+		"defense": 168,
+		"stamina": 158,
+		"legendary": false,
+		"mythical": false
+	},
+	"696": {
+		"name": "Tyrunt",
+		"pokedex_id": 696,
+		"generation": "Kalos",
+		"types": [
+			"Rock",
+			"Dragon"
+		],
+		"attack": 158,
+		"defense": 123,
+		"stamina": 151,
+		"legendary": false,
+		"mythical": false
+	},
+	"697": {
+		"name": "Tyrantrum",
+		"pokedex_id": 697,
+		"generation": "Kalos",
+		"types": [
+			"Rock",
+			"Dragon"
+		],
+		"attack": 227,
+		"defense": 191,
+		"stamina": 193,
+		"legendary": false,
+		"mythical": false
+	},
+	"698": {
+		"name": "Amaura",
+		"pokedex_id": 698,
+		"generation": "Kalos",
+		"types": [
+			"Rock",
+			"Ice"
+		],
+		"attack": 124,
+		"defense": 109,
+		"stamina": 184,
+		"legendary": false,
+		"mythical": false
+	},
+	"699": {
+		"name": "Aurorus",
+		"pokedex_id": 699,
+		"generation": "Kalos",
+		"types": [
+			"Rock",
+			"Ice"
+		],
+		"attack": 186,
+		"defense": 163,
+		"stamina": 265,
+		"legendary": false,
+		"mythical": false
+	},
+	"700": {
+		"name": "Sylveon",
+		"pokedex_id": 700,
+		"generation": "Kalos",
+		"types": [
+			"Fairy"
+		],
+		"attack": 203,
+		"defense": 205,
+		"stamina": 216,
+		"legendary": false,
+		"mythical": false
+	},
+	"701": {
+		"name": "Hawlucha",
+		"pokedex_id": 701,
+		"generation": "Kalos",
+		"types": [
+			"Fighting",
+			"Flying"
+		],
+		"attack": 195,
+		"defense": 153,
+		"stamina": 186,
+		"legendary": false,
+		"mythical": false
+	},
+	"702": {
+		"name": "Dedenne",
+		"pokedex_id": 702,
+		"generation": "Kalos",
+		"types": [
+			"Electric",
+			"Fairy"
+		],
+		"attack": 164,
+		"defense": 134,
+		"stamina": 167,
+		"legendary": false,
+		"mythical": false
+	},
+	"703": {
+		"name": "Carbink",
+		"pokedex_id": 703,
+		"generation": "Kalos",
+		"types": [
+			"Rock",
+			"Fairy"
+		],
+		"attack": 95,
+		"defense": 285,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"704": {
+		"name": "Goomy",
+		"pokedex_id": 704,
+		"generation": "Kalos",
+		"types": [
+			"Dragon"
+		],
+		"attack": 101,
+		"defense": 112,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"705": {
+		"name": "Sliggoo",
+		"pokedex_id": 705,
+		"generation": "Kalos",
+		"types": [
+			"Dragon"
+		],
+		"attack": 159,
+		"defense": 176,
+		"stamina": 169,
+		"legendary": false,
+		"mythical": false
+	},
+	"706": {
+		"name": "Goodra",
+		"pokedex_id": 706,
+		"generation": "Kalos",
+		"types": [
+			"Dragon"
+		],
+		"attack": 220,
+		"defense": 242,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"707": {
+		"name": "Klefki",
+		"pokedex_id": 707,
+		"generation": "Kalos",
+		"types": [
+			"Steel",
+			"Fairy"
+		],
+		"attack": 160,
+		"defense": 179,
+		"stamina": 149,
+		"legendary": false,
+		"mythical": false
+	},
+	"708": {
+		"name": "Phantump",
+		"pokedex_id": 708,
+		"generation": "Kalos",
+		"types": [
+			"Ghost",
+			"Grass"
+		],
+		"attack": 125,
+		"defense": 103,
+		"stamina": 125,
+		"legendary": false,
+		"mythical": false
+	},
+	"709": {
+		"name": "Trevenant",
+		"pokedex_id": 709,
+		"generation": "Kalos",
+		"types": [
+			"Ghost",
+			"Grass"
+		],
+		"attack": 201,
+		"defense": 154,
+		"stamina": 198,
+		"legendary": false,
+		"mythical": false
+	},
+	"710": {
+		"name": "Pumpkaboo",
+		"pokedex_id": 710,
+		"generation": "Kalos",
+		"types": [
+			"Ghost",
+			"Grass"
+		],
+		"legendary": false,
+		"mythical": false
+	},
+	"711": {
+		"name": "Gourgeist",
+		"pokedex_id": 711,
+		"generation": "Kalos",
+		"types": [
+			"Ghost",
+			"Grass"
+		],
+		"legendary": false,
+		"mythical": false
+	},
+	"712": {
+		"name": "Bergmite",
+		"pokedex_id": 712,
+		"generation": "Kalos",
+		"types": [
+			"Ice"
+		],
+		"attack": 117,
+		"defense": 120,
+		"stamina": 146,
+		"legendary": false,
+		"mythical": false
+	},
+	"713": {
+		"name": "Avalugg",
+		"pokedex_id": 713,
+		"generation": "Kalos",
+		"types": [
+			"Ice"
+		],
+		"attack": 196,
+		"defense": 240,
+		"stamina": 216,
+		"legendary": false,
+		"mythical": false
+	},
+	"714": {
+		"name": "Noibat",
+		"pokedex_id": 714,
+		"generation": "Kalos",
+		"types": [
+			"Flying",
+			"Dragon"
+		],
+		"attack": 83,
+		"defense": 73,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"715": {
+		"name": "Noivern",
+		"pokedex_id": 715,
+		"generation": "Kalos",
+		"types": [
+			"Flying",
+			"Dragon"
+		],
+		"attack": 205,
+		"defense": 175,
+		"stamina": 198,
+		"legendary": false,
+		"mythical": false
+	},
+	"716": {
+		"name": "Xerneas",
+		"pokedex_id": 716,
+		"generation": "Kalos",
+		"types": [
+			"Fairy"
+		],
+		"attack": 275,
+		"defense": 203,
+		"stamina": 270,
+		"legendary": true,
+		"mythical": false
+	},
+	"717": {
+		"name": "Yveltal",
+		"pokedex_id": 717,
+		"generation": "Kalos",
+		"types": [
+			"Dark",
+			"Flying"
+		],
+		"attack": 275,
+		"defense": 203,
+		"stamina": 270,
+		"legendary": true,
+		"mythical": false
+	},
+	"718": {
+		"name": "Zygarde",
+		"pokedex_id": 718,
+		"generation": "Kalos",
+		"types": [
+			"Dragon",
+			"Ground"
+		],
+		"legendary": true,
+		"mythical": false
+	},
+	"719": {
+		"name": "Diancie"
+	},
+	"720": {
+		"name": "Hoopa"
+	},
+	"721": {
+		"name": "Volcanion"
+	},
+	"808": {
+		"name": "Meltan",
+		"default_form_id": 2321,
+		"pokedex_id": 808,
+		"generation": "Alola",
+		"types": [
+			"Steel"
+		],
+		"attack": 118,
+		"defense": 99,
+		"stamina": 130,
+		"legendary": false,
+		"mythical": true
+	},
+	"809": {
+		"name": "Melmetal",
+		"default_form_id": 2324,
+		"pokedex_id": 809,
+		"generation": "Alola",
+		"types": [
+			"Steel"
+		],
+		"attack": 226,
+		"defense": 190,
+		"stamina": 264,
+		"legendary": false,
+		"mythical": true
+	},
+	"862": {
+		"name": "Obstagoon",
+		"default_form_id": 2501,
+		"pokedex_id": 862,
+		"generation": "Galar",
+		"types": [
+			"Dark",
+			"Normal"
+		],
+		"attack": 180,
+		"defense": 194,
+		"stamina": 212,
+		"legendary": false,
+		"mythical": false
+	},
+	"863": {
+		"name": "Perrserker",
+		"default_form_id": 2504,
+		"pokedex_id": 863,
+		"generation": "Galar",
+		"types": [
+			"Steel"
+		],
+		"attack": 195,
+		"defense": 162,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"864": {
+		"name": "Cursola"
+	},
+	"865": {
+		"name": "Sirfetchd",
+		"default_form_id": 2510,
+		"pokedex_id": 865,
+		"generation": "Galar",
+		"types": [
+			"Fighting"
+		],
+		"attack": 248,
+		"defense": 176,
+		"stamina": 158,
+		"legendary": false,
+		"mythical": false
+	},
+	"866": {
+		"name": "Mr Rime",
+		"default_form_id": 2513,
+		"pokedex_id": 866,
+		"generation": "Galar",
+		"types": [
+			"Ice",
+			"Psychic"
+		],
+		"attack": 212,
+		"defense": 179,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"867": {
+		"name": "Runerigus",
+		"default_form_id": 2516,
+		"pokedex_id": 867,
+		"generation": "Galar",
+		"types": [
+			"Ground",
+			"Ghost"
+		],
+		"attack": 163,
+		"defense": 237,
+		"stamina": 151,
+		"legendary": false,
+		"mythical": false
+	}
+}
