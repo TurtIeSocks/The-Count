@@ -116,7 +116,7 @@ module.exports = () => {
         new HtmlWebpackPlugin({
           template: './public/index.template.html',
           filename: 'index.html',
-          favicon: './public/images/favicons/favicon.ico',
+          favicon: './public/favicon.ico',
         }),
         new MiniCssExtractPlugin({
           filename: isDevelopment ? '[name].css' : '[name]-[contenthash:8].css',
