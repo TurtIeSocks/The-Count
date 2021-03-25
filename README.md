@@ -7,7 +7,7 @@ https://launch-social.herokuapp.com/
 
 ## Features 
 - Shows every possible Pokemon/IV combination for a specified CP.
-- Calculates approximately 18,4320,000 possibilities.
+- Calculates approximately 184,320,000 possibilities.
 - Limits to 50,000 results if there are more than that for performance reasons. 
 - Includes filters for IVs, Attack, Defense, Stamina, and Levels. 
 - Pokedex generator to fill in new values when new Pokemon are released.
