@@ -12,7 +12,7 @@ function fetchJson(url) {
   })
 }
 
-const generatePokedex = async () => {
+((async function generate() {
   const masterfile = await fetchJson('https://raw.githubusercontent.com/WatWowMap/Masterfile-Generator/master/master-latest.json')
 
   const newMasterfile = {}
@@ -51,6 +51,4 @@ const generatePokedex = async () => {
     spaces: '\t',
     EOL: '\n',
   })
-}
-
-module.exports = generatePokedex
+})())

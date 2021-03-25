@@ -2,9 +2,14 @@ import React, { useState } from 'react'
 import {
   Grid,
   Typography,
-  Button,
   TextField,
+  Accordion,
+  AccordionSummary,
+  AccordionDetails,
+  IconButton,
 } from '@material-ui/core'
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
+import SearchIcon from '@material-ui/icons/Search'
 
 import SliderTile from './SliderTile'
 import useStyles from '../../assets/mui/styling'
@@ -12,6 +17,7 @@ import useStyles from '../../assets/mui/styling'
 const AdvancedSearch = ({ onSubmit, filters }) => {
   const classes = useStyles()
   const [values, setValues] = useState(filters)
+  const [accordion, setAccordion] = useState(false)
 
   const handleChange = (event) => {
     if (event.target.name === 'cp') {
@@ -27,15 +33,16 @@ const AdvancedSearch = ({ onSubmit, filters }) => {
     }
   }
 
+  const handleAccordion = () => {
+    setAccordion(!accordion)
+  }
+
   const handleSubmit = event => {
     event.preventDefault()
     onSubmit(values)
   }
 
   const sliders = [
-    {
-      name: 'IV Range', shortName: 'iv', min: 0, max: 100,
-    },
     {
       name: 'Level', shortName: 'level', min: 1, max: 50,
     },
@@ -48,8 +55,11 @@ const AdvancedSearch = ({ onSubmit, filters }) => {
     {
       name: 'Stamina', shortName: 'sta', min: 1, max: 15,
     },
+    {
+      name: 'IV Range', shortName: 'iv', min: 0, max: 100,
+    },
   ].map(each => (
-    <Grid item key={each.name} xs={6} lg={12}>
+    <Grid item key={each.name} xs={each.shortName === 'iv' ? 12 : 6}>
       <SliderTile
         name={each.name}
         shortName={each.shortName}
@@ -64,7 +74,7 @@ const AdvancedSearch = ({ onSubmit, filters }) => {
 
   return (
     <>
-      <Grid item xs={11}>
+      <Grid item xs={10} sm={11}>
         <form onSubmit={handleSubmit}>
           <TextField
             color="secondary"
@@ -72,25 +82,38 @@ const AdvancedSearch = ({ onSubmit, filters }) => {
             required
             value={values.cp}
             onChange={handleChange}
-            label="Enter Desired CP"
+            label="Enter Desired CP..."
             type="number"
             variant="filled"
             fullWidth
-            InputProps={{
-              className: classes.white,
-            }}
           />
         </form>
       </Grid>
-      {sliders}
-      <Grid item xs={6} lg={12}>
-        <Button onClick={handleSubmit} color="secondary" variant="contained">
-          <Typography
-            className={classes.successButton}
+      <Grid item xs={2} sm={1}>
+        <IconButton onClick={handleSubmit} color="secondary" variant="contained">
+          <SearchIcon />
+        </IconButton>
+      </Grid>
+      <Grid item xs={12}>
+        <Accordion expanded={accordion} onChange={handleAccordion}>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon color="secondary" />}
+            aria-controls="panel1bh-content"
+            id="panel1bh-header"
           >
-            Search
-          </Typography>
-        </Button>
+            <Typography className={classes.heading}>Advanced Filters</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Grid
+              container
+              direction="row"
+              justify="center"
+              alignItems="center"
+            >
+              {sliders}
+            </Grid>
+          </AccordionDetails>
+        </Accordion>
       </Grid>
     </>
   )
