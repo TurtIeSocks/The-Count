@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
-import { TextField } from '@material-ui/core'
-import useStyles from '../../assets/mui/styling'
+import { TextField, IconButton, Grid } from '@material-ui/core'
+import SearchIcon from '@material-ui/icons/Search'
 
 const Search = ({ filters, onSubmit }) => {
-  const classes = useStyles()
   const [values, setValues] = useState(filters)
 
   const handleChange = (event) => {
@@ -19,26 +18,28 @@ const Search = ({ filters, onSubmit }) => {
   }
 
   return (
-    <form
-      className={classes.root}
-      noValidate
-      autoComplete="off"
-      onSubmit={handleSubmit}
-    >
-      <TextField
-        color="secondary"
-        name="cp"
-        required
-        onChange={handleChange}
-        label="Enter Desired CP"
-        type="number"
-        variant="filled"
-        fullWidth
-        InputProps={{
-          className: classes.white,
-        }}
-      />
-    </form>
+    <>
+      <Grid item xs={11}>
+        <form
+          onSubmit={handleSubmit}
+        >
+          <TextField
+            color="secondary"
+            name="cp"
+            onChange={handleChange}
+            label="Enter Desired CP..."
+            type="number"
+            variant="filled"
+            fullWidth
+          />
+        </form>
+      </Grid>
+      <Grid item xs={1}>
+        <IconButton onClick={handleSubmit} color="secondary" variant="contained">
+          <SearchIcon />
+        </IconButton>
+      </Grid>
+    </>
   )
 }
 

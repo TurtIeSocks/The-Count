@@ -2,24 +2,9 @@ import { makeStyles } from '@material-ui/styles'
 import theme from './theme'
 
 export default makeStyles({
-  root: {
-    '& > *': {
-      margin: theme.spacing(1),
-      width: '25ch',
-    },
-  },
-  background: {
-    top: 0,
+  app: {
     margin: 'auto',
-    backgroundColor: theme.background,
-  },
-  divider: {
-    color: 'white',
-    marginTop: theme.spacing(1),
-    marginBottom: theme.spacing(1),
-  },
-  white: {
-    color: 'white',
+    maxWidth: 600,
   },
   flexContainer: {
     display: 'flex',
@@ -27,8 +12,6 @@ export default makeStyles({
     boxSizing: 'border-box',
   },
   table: {
-    // temporary right-to-left patch, waiting for
-    // https://github.com/bvaughn/react-virtualized/issues/454
     '& .ReactVirtualized__Table__headerRow': {
       flip: false,
       paddingRight: theme.direction === 'rtl' ? '0 !important' : undefined,
@@ -49,5 +32,9 @@ export default makeStyles({
   },
   noClick: {
     cursor: 'initial',
+  },
+  heading: {
+    fontSize: theme.typography.pxToRem(15),
+    flexShrink: 0,
   },
 })

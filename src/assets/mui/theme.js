@@ -27,6 +27,19 @@ const theme = responsiveFontSizes(createMuiTheme({
     success: {
       main: '#00e676',
     },
+    text: {
+      primary: '#bdbdbd',
+      secondary: 'white',
+      hint: '#a0a0a0',
+    },
+  },
+  typography: {
+    h1: {
+      fontWeight: 450,
+    },
+    h3: {
+      fontWeight: 450,
+    },
   },
 }))
 

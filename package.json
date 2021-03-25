@@ -9,6 +9,7 @@
     "build": "webpack",
     "start": "webpack serve",
     "watch": "webpack --watch",
+    "generate": "node scripts/generatePokedex.js",
     "dev": "nodemon --ext js 'logs/*' server/index.js "
   },
   "engines": {
@@ -50,12 +51,11 @@
   },
   "dependencies": {
     "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
     "@material-ui/styles": "^4.11.3",
     "clsx": "^1.1.1",
-    "express": "^4.17.1",
     "fs-extra": "^9.1.0",
     "node-fetch": "^2.6.1",
-    "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-virtualized": "^9.22.3"
