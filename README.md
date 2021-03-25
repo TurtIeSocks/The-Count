@@ -3,7 +3,7 @@
  Pokemon GO community "The Count" Generator.
 
 ## Demo
-https://launch-social.herokuapp.com/
+https://pogo-the-count.herokuapp.com/
 
 ## Features 
 - Shows every possible Pokemon/IV combination for a specified CP.
