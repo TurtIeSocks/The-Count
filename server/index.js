@@ -1,9 +1,11 @@
 const express = require('express')
 const path = require('path')
-require('dotenv').config()
+require('dotenv').config({
+  allowEmptyValues: true,
+})
 
 const app = express()
-const port = 3000
+const port = process.env.PORT
 
 app.use(express.static(path.join(__dirname, '../dist')))
 
