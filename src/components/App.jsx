@@ -18,6 +18,36 @@ const App = () => {
     sta: [0, 15],
     level: [1, 50],
     iv: [0, 100],
+    generations: {
+      Kanto: true,
+      Johto: true,
+      Hoenn: true,
+      Sinnoh: true,
+      Unova: true,
+      Kalos: true,
+      Alola: true,
+      Galar: true,
+    },
+    types: {
+      Normal: true,
+      Fire: true,
+      Water: true,
+      Grass: true,
+      Electric: true,
+      Ice: true,
+      Fighting: true,
+      Poison: true,
+      Ground: true,
+      Flying: true,
+      Psychic: true,
+      Bug: true,
+      Rock: true,
+      Ghost: true,
+      Dark: true,
+      Dragon: true,
+      Steel: true,
+      Fairy: true,
+    },
   })
 
   const onSubmit = newFilters => {
@@ -32,20 +62,25 @@ const App = () => {
           direction="column"
           justify="space-evenly"
           alignItems="center"
-          style={{ marginTop: filters.cp === 0 ? '50%' : 0 }}
+          style={{ marginTop: filters.cp === 0 ? '45%' : 0 }}
           spacing={3}
         >
-          <Grid item xs={12}>
+          <Grid item>
             <Typography color="secondary" variant={filters.cp === 0 ? 'h1' : 'h6'}>The Count</Typography>
           </Grid>
           {filters.cp === 0
             ? (
-              <Grid container item xs={11}>
-                <Search
-                  onSubmit={onSubmit}
-                  filters={filters}
-                />
-              </Grid>
+              <>
+                <Grid item xs={8}>
+                  <Typography variant="caption" align="justify">Calculator for communities that play the popular game, &quot;The Count.&quot; </Typography>
+                </Grid>
+                <Grid container item xs={11}>
+                  <Search
+                    onSubmit={onSubmit}
+                    filters={filters}
+                  />
+                </Grid>
+              </>
             )
             : (
               <>
@@ -78,7 +113,7 @@ const App = () => {
               </>
             )}
           <Grid item>
-            <Typography style={{ marginTop: filters.cp === 0 ? '100%' : 0, color: theme.palette.text.hint }}>
+            <Typography style={{ marginTop: filters.cp === 0 ? '95%' : 0, color: theme.palette.text.hint }}>
               © TurtleSocks 2021 | <a href="https://github.com/TurtIeSocks">GitHub</a>
             </Typography>
           </Grid>

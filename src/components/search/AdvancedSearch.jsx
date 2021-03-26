@@ -11,6 +11,7 @@ import {
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import SearchIcon from '@material-ui/icons/Search'
 
+import MultiSelect from './MultiSelect'
 import SliderTile from './SliderTile'
 import useStyles from '../../assets/mui/styling'
 
@@ -111,6 +112,14 @@ const AdvancedSearch = ({ onSubmit, filters }) => {
               alignItems="center"
             >
               {sliders}
+              {['Generations', 'Types'].map(each => (
+                <MultiSelect
+                  key={each}
+                  type={each}
+                  values={values}
+                  setValues={setValues}
+                />
+              ))}
             </Grid>
           </AccordionDetails>
         </Accordion>

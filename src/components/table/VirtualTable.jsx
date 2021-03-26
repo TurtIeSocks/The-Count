@@ -5,10 +5,10 @@ import MuiVirtual from './MuiVirtual'
 
 const ReactVirtualizedTable = ({ filters }) => {
   const {
-    cp, atk, def, sta, level, iv,
+    cp, atk, def, sta, level, iv, generations, types,
   } = filters
 
-  const rows = buildData(cp, ...atk, ...def, ...sta, ...level, ...iv)
+  const rows = buildData(cp, ...atk, ...def, ...sta, ...level, ...iv, generations, types)
 
   return (
     <>
