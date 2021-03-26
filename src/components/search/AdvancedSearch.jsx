@@ -13,6 +13,7 @@ import SearchIcon from '@material-ui/icons/Search'
 
 import MultiSelect from './MultiSelect'
 import SliderTile from './SliderTile'
+import FilterSwitch from './FilterSwitch'
 import useStyles from '../../assets/mui/styling'
 
 const AdvancedSearch = ({ onSubmit, filters }) => {
@@ -116,6 +117,14 @@ const AdvancedSearch = ({ onSubmit, filters }) => {
                 <MultiSelect
                   key={each}
                   type={each}
+                  values={values}
+                  setValues={setValues}
+                />
+              ))}
+              {['Forms', 'Megas', 'Legends', 'Mythics'].map(each => (
+                <FilterSwitch
+                  key={each}
+                  name={each}
                   values={values}
                   setValues={setValues}
                 />
