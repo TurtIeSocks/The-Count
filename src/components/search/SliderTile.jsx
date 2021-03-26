@@ -8,7 +8,7 @@ const SliderTile = ({
 }) => {
   const classes = useStyles()
 
-  const width = shortName === 'iv' ? '80%' : '59.5%'
+  const width = shortName === 'iv' ? '80%' : '60%'
 
   return (
     <>

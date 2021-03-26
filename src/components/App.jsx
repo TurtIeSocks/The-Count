@@ -50,6 +50,10 @@ const App = () => {
       Steel: true,
       Fairy: true,
     },
+    forms: true,
+    megas: true,
+    legends: true,
+    mythics: true,
   })
 
   const onSubmit = newFilters => {

@@ -1,3 +1,5 @@
+/* eslint-disable no-continue */
+/* eslint-disable max-len */
 /* eslint-disable no-plusplus */
 /* eslint-disable no-unused-labels */
 /* eslint-disable nonblock-statement-body-position */
@@ -9,7 +11,7 @@ import cpCalc from './cpCalculator'
 import cpm from '../data/cpm.json'
 
 const buildData = (
-  selectedCP, minAtk, maxAtk, minDef, maxDef, minSta, maxSta, minLevel, maxLevel, minIv, maxIv, gens, types,
+  selectedCP, minAtk, maxAtk, minDef, maxDef, minSta, maxSta, minLevel, maxLevel, minIv, maxIv, gens, types, forms, megas, legends, mythics,
 ) => {
   const matches = []
 
@@ -57,8 +59,14 @@ const buildData = (
     return localMatches
   }
   pokemon: for (const [i, pokemon] of Object.entries(pokedex)) {
+    if (pokemon.legendary && !legends) {
+      continue
+    }
+    if (pokemon.mythical && !mythics) {
+      continue
+    }
     matches.push(...getMatches(i, pokemon))
-    if (pokemon.forms) {
+    if (pokemon.forms && forms) {
       pokemon.forms.forEach((form, index) => {
         pokemon.forms[index].generation = pokemon.generation
         if (!form.types) {
@@ -67,7 +75,7 @@ const buildData = (
         matches.push(...getMatches(i, form))
       })
     }
-    if (pokemon.megas) {
+    if (pokemon.megas && megas) {
       pokemon.megas.forEach((mega, index) => {
         pokemon.megas[index].generation = pokemon.generation
         if (!mega.types) {

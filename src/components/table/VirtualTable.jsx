@@ -8,12 +8,13 @@ import buildData from '../../services/buildData'
 import MuiVirtual from './MuiVirtual'
 
 const ReactVirtualizedTable = ({ filters }) => {
-  const theme = useTheme();
+  const theme = useTheme()
   const {
-    cp, atk, def, sta, level, iv, generations, types,
+    cp, atk, def, sta, level, iv, generations, types, forms, megas, legends, mythics,
   } = filters
 
-  const rows = buildData(cp, ...atk, ...def, ...sta, ...level, ...iv, generations, types)
+  // eslint-disable-next-line max-len
+  const rows = buildData(cp, ...atk, ...def, ...sta, ...level, ...iv, generations, types, forms, megas, legends, mythics)
 
   const columns = [
     {
@@ -39,12 +40,6 @@ const ReactVirtualizedTable = ({ filters }) => {
       dataKey: 'sta',
       numeric: true,
     },
-    {
-      width: 50,
-      label: 'Lvl',
-      dataKey: 'level',
-      numeric: true,
-    },
   ]
 
   if (useMediaQuery(theme.breakpoints.up('sm'))) {
@@ -55,6 +50,13 @@ const ReactVirtualizedTable = ({ filters }) => {
       numeric: true,
     })
   }
+
+  columns.push({
+    width: 50,
+    label: 'Lvl',
+    dataKey: 'level',
+    numeric: true,
+  })
 
   return (
     <>
