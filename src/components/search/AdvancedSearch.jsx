@@ -45,7 +45,7 @@ const AdvancedSearch = ({ onSubmit, filters }) => {
 
   const sliders = [
     {
-      name: 'Level', shortName: 'level', min: 1, max: 50,
+      name: 'Level', shortName: 'level', min: 1, max: 55,
     },
     {
       name: 'Attack', shortName: 'atk', min: 1, max: 15,

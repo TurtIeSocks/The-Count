@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { ThemeProvider } from '@material-ui/styles'
-import { Grid, Typography } from '@material-ui/core'
+import { Grid, Typography, Icon } from '@material-ui/core'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 import '../assets/scss/main.scss'
 import theme from '../assets/mui/theme'
@@ -114,7 +116,7 @@ const App = () => {
             )}
           <Grid item>
             <Typography style={{ marginTop: filters.cp === 0 ? '95%' : 0, color: theme.palette.text.hint }}>
-              © TurtleSocks 2021 | <a href="https://github.com/TurtIeSocks">GitHub</a>
+              © TurtleSocks 2021 <a href="https://github.com/TurtIeSocks" target="_blank" rel="noreferrer"><Icon className="fab fa-github" style={{ fontSize: 12 }} /></a>
             </Typography>
           </Grid>
         </Grid>
