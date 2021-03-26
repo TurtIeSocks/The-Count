@@ -29,7 +29,7 @@ const buildData = (
               atk: for (let a = minAtk; a <= maxAtk; a++) {
                 def: for (let d = minDef; d <= maxDef; d++) {
                   sta: for (let s = minSta; s <= maxSta; s++) {
-                    const iv = ((a + d + s) / 45) * 100
+                    const iv = Math.floor(((a + d + s) / 45) * 100)
                     if (iv >= minIv && iv <= maxIv) {
                       const cp = cpCalc(pokemon.attack + a, pokemon.defense + d, pokemon.stamina + s, level)
                       if (cp === selectedCP) {
@@ -41,6 +41,7 @@ const buildData = (
                             def: d,
                             sta: s,
                             level,
+                            iv,
                           },
                         )
                       }
