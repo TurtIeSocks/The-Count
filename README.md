@@ -23,4 +23,13 @@ https://pogo-the-count.herokuapp.com/
 1. Clone the repo
 2. Open up the directory (`cd The-Count`)
 3. `npm install`
-4. `npm start`
+4. `npm run build`
+5. `npm start`
+
+## For Development
+1. `npm install`
+2. `npm run clientStart`
+
+## Updating the Pokedex!
+1. Shut down the server if running
+2. `npm run generate`

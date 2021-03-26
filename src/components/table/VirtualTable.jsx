@@ -1,14 +1,60 @@
 import React from 'react'
-import { Paper, Typography, Grid } from '@material-ui/core'
+import {
+  Paper, Typography, Grid, useMediaQuery,
+} from '@material-ui/core'
+import { useTheme } from '@material-ui/core/styles'
+
 import buildData from '../../services/buildData'
 import MuiVirtual from './MuiVirtual'
 
 const ReactVirtualizedTable = ({ filters }) => {
+  const theme = useTheme();
   const {
     cp, atk, def, sta, level, iv, generations, types,
   } = filters
 
   const rows = buildData(cp, ...atk, ...def, ...sta, ...level, ...iv, generations, types)
+
+  const columns = [
+    {
+      width: 120,
+      label: 'Pokemon',
+      dataKey: 'name',
+    },
+    {
+      width: 50,
+      label: 'Atk',
+      dataKey: 'atk',
+      numeric: true,
+    },
+    {
+      width: 50,
+      label: 'Def',
+      dataKey: 'def',
+      numeric: true,
+    },
+    {
+      width: 50,
+      label: 'Sta',
+      dataKey: 'sta',
+      numeric: true,
+    },
+    {
+      width: 50,
+      label: 'Lvl',
+      dataKey: 'level',
+      numeric: true,
+    },
+  ]
+
+  if (useMediaQuery(theme.breakpoints.up('sm'))) {
+    columns.push({
+      width: 50,
+      label: '%',
+      dataKey: 'iv',
+      numeric: true,
+    })
+  }
 
   return (
     <>
@@ -28,37 +74,7 @@ const ReactVirtualizedTable = ({ filters }) => {
           <MuiVirtual
             rowCount={rows.length}
             rowGetter={({ index }) => rows[index]}
-            columns={[
-              {
-                width: 120,
-                label: 'Pokemon',
-                dataKey: 'name',
-              },
-              {
-                width: 50,
-                label: 'Atk',
-                dataKey: 'atk',
-                numeric: true,
-              },
-              {
-                width: 50,
-                label: 'Def',
-                dataKey: 'def',
-                numeric: true,
-              },
-              {
-                width: 50,
-                label: 'Sta',
-                dataKey: 'sta',
-                numeric: true,
-              },
-              {
-                width: 50,
-                label: 'Lvl',
-                dataKey: 'level',
-                numeric: true,
-              },
-            ]}
+            columns={columns}
           />
         </Paper>
       </Grid>
