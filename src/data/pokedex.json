@@ -42,7 +42,15 @@
 		"defense": 189,
 		"stamina": 190,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Venusaur",
+				"attack": 241,
+				"defense": 246,
+				"stamina": 190
+			}
+		]
 	},
 	"4": {
 		"name": "Charmander",
@@ -85,7 +93,25 @@
 		"defense": 173,
 		"stamina": 186,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Charizard X",
+				"types": [
+					"Fire",
+					"Dragon"
+				],
+				"attack": 273,
+				"defense": 213,
+				"stamina": 186
+			},
+			{
+				"name": "Mega Charizard Y",
+				"attack": 319,
+				"defense": 212,
+				"stamina": 186
+			}
+		]
 	},
 	"7": {
 		"name": "Squirtle",
@@ -127,7 +153,15 @@
 		"defense": 207,
 		"stamina": 188,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Blastoise",
+				"attack": 264,
+				"defense": 237,
+				"stamina": 188
+			}
+		]
 	},
 	"10": {
 		"name": "Caterpie",
@@ -215,7 +249,15 @@
 		"defense": 130,
 		"stamina": 163,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Beedrill",
+				"attack": 303,
+				"defense": 148,
+				"stamina": 163
+			}
+		]
 	},
 	"16": {
 		"name": "Pidgey",
@@ -260,7 +302,15 @@
 		"defense": 154,
 		"stamina": 195,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Pidgeot",
+				"attack": 280,
+				"defense": 175,
+				"stamina": 195
+			}
+		]
 	},
 	"19": {
 		"name": "Rattata",
@@ -1055,7 +1105,15 @@
 		"defense": 167,
 		"stamina": 146,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Alakazam",
+				"attack": 367,
+				"defense": 207,
+				"stamina": 146
+			}
+		]
 	},
 	"66": {
 		"name": "Machop",
@@ -1275,7 +1333,15 @@
 		"defense": 180,
 		"stamina": 216,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Slowbro",
+				"attack": 224,
+				"defense": 259,
+				"stamina": 216
+			}
+		]
 	},
 	"81": {
 		"name": "Magnemite",
@@ -1492,7 +1558,15 @@
 		"defense": 149,
 		"stamina": 155,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Gengar",
+				"attack": 349,
+				"defense": 199,
+				"stamina": 155
+			}
+		]
 	},
 	"95": {
 		"name": "Onix",
@@ -1803,7 +1877,15 @@
 		"defense": 165,
 		"stamina": 233,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Kangaskhan",
+				"attack": 246,
+				"defense": 210,
+				"stamina": 233
+			}
+		]
 	},
 	"116": {
 		"name": "Horsea",
@@ -1987,7 +2069,19 @@
 		"defense": 182,
 		"stamina": 163,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Pinsir",
+				"types": [
+					"Bug",
+					"Flying"
+				],
+				"attack": 305,
+				"defense": 231,
+				"stamina": 163
+			}
+		]
 	},
 	"128": {
 		"name": "Tauros",
@@ -2030,7 +2124,19 @@
 		"defense": 186,
 		"stamina": 216,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Gyarados",
+				"types": [
+					"Water",
+					"Dark"
+				],
+				"attack": 292,
+				"defense": 247,
+				"stamina": 216
+			}
+		]
 	},
 	"131": {
 		"name": "Lapras",
@@ -2204,7 +2310,15 @@
 		"defense": 159,
 		"stamina": 190,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Aerodactyl",
+				"attack": 292,
+				"defense": 210,
+				"stamina": 190
+			}
+		]
 	},
 	"143": {
 		"name": "Snorlax",
@@ -2327,6 +2441,24 @@
 				"attack": 182,
 				"defense": 278,
 				"stamina": 214
+			}
+		],
+		"megas": [
+			{
+				"name": "Mega Mewtwo X",
+				"types": [
+					"Psychic",
+					"Fighting"
+				],
+				"attack": 412,
+				"defense": 222,
+				"stamina": 235
+			},
+			{
+				"name": "Mega Mewtwo Y",
+				"attack": 426,
+				"defense": 229,
+				"stamina": 235
 			}
 		]
 	},
@@ -2775,7 +2907,19 @@
 		"defense": 169,
 		"stamina": 207,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Ampharos",
+				"types": [
+					"Electric",
+					"Dragon"
+				],
+				"attack": 294,
+				"defense": 203,
+				"stamina": 207
+			}
+		]
 	},
 	"182": {
 		"name": "Bellossom",
@@ -3167,7 +3311,15 @@
 		"defense": 272,
 		"stamina": 181,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Steelix",
+				"attack": 212,
+				"defense": 327,
+				"stamina": 181
+			}
+		]
 	},
 	"209": {
 		"name": "Snubbull",
@@ -3225,7 +3377,15 @@
 		"defense": 181,
 		"stamina": 172,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Scizor",
+				"attack": 279,
+				"defense": 250,
+				"stamina": 172
+			}
+		]
 	},
 	"213": {
 		"name": "Shuckle",
@@ -3255,7 +3415,15 @@
 		"defense": 179,
 		"stamina": 190,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Heracross",
+				"attack": 334,
+				"defense": 223,
+				"stamina": 190
+			}
+		]
 	},
 	"215": {
 		"name": "Sneasel",
@@ -3475,7 +3643,15 @@
 		"defense": 144,
 		"stamina": 181,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Houndoom",
+				"attack": 289,
+				"defense": 194,
+				"stamina": 181
+			}
+		]
 	},
 	"230": {
 		"name": "Kingdra",
@@ -3746,7 +3922,15 @@
 		"defense": 207,
 		"stamina": 225,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Tyranitar",
+				"attack": 309,
+				"defense": 276,
+				"stamina": 225
+			}
+		]
 	},
 	"249": {
 		"name": "Lugia",
@@ -3833,7 +4017,19 @@
 		"defense": 169,
 		"stamina": 172,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Sceptile",
+				"types": [
+					"Grass",
+					"Dragon"
+				],
+				"attack": 320,
+				"defense": 186,
+				"stamina": 172
+			}
+		]
 	},
 	"255": {
 		"name": "Torchic",
@@ -3877,7 +4073,15 @@
 		"defense": 141,
 		"stamina": 190,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Blaziken",
+				"attack": 329,
+				"defense": 168,
+				"stamina": 190
+			}
+		]
 	},
 	"258": {
 		"name": "Mudkip",
@@ -3921,7 +4125,15 @@
 		"defense": 175,
 		"stamina": 225,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Swampert",
+				"attack": 283,
+				"defense": 218,
+				"stamina": 225
+			}
+		]
 	},
 	"261": {
 		"name": "Poochyena",
@@ -4243,7 +4455,15 @@
 		"defense": 195,
 		"stamina": 169,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Gardevoir",
+				"attack": 326,
+				"defense": 229,
+				"stamina": 169
+			}
+		]
 	},
 	"283": {
 		"name": "Surskit",
@@ -4531,7 +4751,15 @@
 		"defense": 136,
 		"stamina": 137,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Sableye",
+				"attack": 151,
+				"defense": 216,
+				"stamina": 137
+			}
+		]
 	},
 	"303": {
 		"name": "Mawile",
@@ -4546,7 +4774,15 @@
 		"defense": 141,
 		"stamina": 137,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Mawile",
+				"attack": 188,
+				"defense": 217,
+				"stamina": 137
+			}
+		]
 	},
 	"304": {
 		"name": "Aron",
@@ -4591,7 +4827,18 @@
 		"defense": 257,
 		"stamina": 172,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Aggron",
+				"types": [
+					"Steel"
+				],
+				"attack": 247,
+				"defense": 331,
+				"stamina": 172
+			}
+		]
 	},
 	"307": {
 		"name": "Meditite",
@@ -4621,7 +4868,15 @@
 		"defense": 152,
 		"stamina": 155,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Medicham",
+				"attack": 205,
+				"defense": 179,
+				"stamina": 155
+			}
+		]
 	},
 	"309": {
 		"name": "Electrike",
@@ -4649,7 +4904,15 @@
 		"defense": 127,
 		"stamina": 172,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Manectric",
+				"attack": 286,
+				"defense": 179,
+				"stamina": 172
+			}
+		]
 	},
 	"311": {
 		"name": "Plusle",
@@ -4778,7 +5041,15 @@
 		"defense": 83,
 		"stamina": 172,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Sharpedo",
+				"attack": 289,
+				"defense": 144,
+				"stamina": 172
+			}
+		]
 	},
 	"320": {
 		"name": "Wailmer",
@@ -4836,7 +5107,15 @@
 		"defense": 136,
 		"stamina": 172,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Camerupt",
+				"attack": 253,
+				"defense": 183,
+				"stamina": 172
+			}
+		]
 	},
 	"324": {
 		"name": "Torkoal",
@@ -4995,7 +5274,19 @@
 		"defense": 201,
 		"stamina": 181,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Altaria",
+				"types": [
+					"Dragon",
+					"Fairy"
+				],
+				"attack": 222,
+				"defense": 218,
+				"stamina": 181
+			}
+		]
 	},
 	"335": {
 		"name": "Zangoose",
@@ -5286,7 +5577,15 @@
 		"defense": 126,
 		"stamina": 162,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Banette",
+				"attack": 312,
+				"defense": 160,
+				"stamina": 162
+			}
+		]
 	},
 	"355": {
 		"name": "Duskull",
@@ -5357,7 +5656,15 @@
 		"defense": 120,
 		"stamina": 163,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Absol",
+				"attack": 314,
+				"defense": 130,
+				"stamina": 163
+			}
+		]
 	},
 	"360": {
 		"name": "Wynaut",
@@ -5399,7 +5706,15 @@
 		"defense": 162,
 		"stamina": 190,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Glalie",
+				"attack": 252,
+				"defense": 168,
+				"stamina": 190
+			}
+		]
 	},
 	"363": {
 		"name": "Spheal",
@@ -5558,7 +5873,15 @@
 		"defense": 168,
 		"stamina": 216,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Salamence",
+				"attack": 310,
+				"defense": 251,
+				"stamina": 216
+			}
+		]
 	},
 	"374": {
 		"name": "Beldum",
@@ -5603,7 +5926,15 @@
 		"defense": 228,
 		"stamina": 190,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Metagross",
+				"attack": 300,
+				"defense": 289,
+				"stamina": 190
+			}
+		]
 	},
 	"377": {
 		"name": "Regirock",
@@ -5660,7 +5991,15 @@
 		"defense": 246,
 		"stamina": 190,
 		"legendary": true,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Latias",
+				"attack": 289,
+				"defense": 297,
+				"stamina": 190
+			}
+		]
 	},
 	"381": {
 		"name": "Latios",
@@ -5675,7 +6014,15 @@
 		"defense": 212,
 		"stamina": 190,
 		"legendary": true,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Latios",
+				"attack": 335,
+				"defense": 241,
+				"stamina": 190
+			}
+		]
 	},
 	"382": {
 		"name": "Kyogre",
@@ -5718,7 +6065,15 @@
 		"defense": 170,
 		"stamina": 213,
 		"legendary": true,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Rayquaza",
+				"attack": 389,
+				"defense": 216,
+				"stamina": 233
+			}
+		]
 	},
 	"385": {
 		"name": "Jirachi",
@@ -6386,7 +6741,19 @@
 		"defense": 194,
 		"stamina": 163,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Lopunny",
+				"types": [
+					"Normal",
+					"Fighting"
+				],
+				"attack": 282,
+				"defense": 214,
+				"stamina": 163
+			}
+		]
 	},
 	"429": {
 		"name": "Mismagius",
@@ -6635,7 +7002,15 @@
 		"defense": 193,
 		"stamina": 239,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Garchomp",
+				"attack": 339,
+				"defense": 222,
+				"stamina": 239
+			}
+		]
 	},
 	"446": {
 		"name": "Munchlax",
@@ -6678,7 +7053,15 @@
 		"defense": 144,
 		"stamina": 172,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Lucario",
+				"attack": 310,
+				"defense": 175,
+				"stamina": 172
+			}
+		]
 	},
 	"449": {
 		"name": "Hippopotas",
@@ -6853,7 +7236,15 @@
 		"defense": 158,
 		"stamina": 207,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Abomasnow",
+				"attack": 240,
+				"defense": 191,
+				"stamina": 207
+			}
+		]
 	},
 	"461": {
 		"name": "Weavile",
@@ -7071,7 +7462,15 @@
 		"defense": 195,
 		"stamina": 169,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Gallade",
+				"attack": 326,
+				"defense": 230,
+				"stamina": 169
+			}
+		]
 	},
 	"476": {
 		"name": "Probopass",
@@ -7943,7 +8342,19 @@
 		"defense": 163,
 		"stamina": 230,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"megas": [
+			{
+				"name": "Mega Audino",
+				"types": [
+					"Normal",
+					"Fairy"
+				],
+				"attack": 147,
+				"defense": 239,
+				"stamina": 230
+			}
+		]
 	},
 	"532": {
 		"name": "Timburr",
@@ -10654,7 +11065,19 @@
 		"mythical": false
 	},
 	"719": {
-		"name": "Diancie"
+		"name": "Diancie",
+		"megas": [
+			{
+				"name": "Mega Diancie",
+				"types": [
+					"Fairy",
+					"Rock"
+				],
+				"attack": 342,
+				"defense": 235,
+				"stamina": 137
+			}
+		]
 	},
 	"720": {
 		"name": "Hoopa"

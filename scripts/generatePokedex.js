@@ -15,9 +15,9 @@ function fetchJson(url) {
 ((async function generate() {
   const masterfile = await fetchJson('https://raw.githubusercontent.com/WatWowMap/Masterfile-Generator/master/master-latest.json')
 
-  const newMasterfile = {}
+  const pokedex = {}
   for (const [i, pkmn] of Object.entries(masterfile.pokemon)) {
-    newMasterfile[i] = {
+    pokedex[i] = {
       name: pkmn.name,
       default_form_id: pkmn.default_form_id,
       pokedex_id: pkmn.pokedex_id,
@@ -29,12 +29,13 @@ function fetchJson(url) {
       legendary: pkmn.legendary,
       mythical: pkmn.mythic,
       forms: [],
+      megas: [],
     }
     const forms = Object.keys(pkmn.forms)
-    for (let j = 0; j <= forms.length; j++) {
+    for (let j = 0; j < forms.length; j++) {
       const formName = pkmn.forms[forms[j]]
       if (formName && formName.attack) {
-        newMasterfile[i].forms.push({
+        pokedex[i].forms.push({
           name: `${pkmn.name} (${formName.name})`,
           types: formName.types,
           attack: formName.attack,
@@ -43,11 +44,35 @@ function fetchJson(url) {
         })
       }
     }
-    if (newMasterfile[i].forms.length === 0) {
-      delete newMasterfile[i].forms
+    if (pokedex[i].forms.length === 0) {
+      delete pokedex[i].forms
+    }
+    if (pkmn.temp_evolutions) {
+      const megas = Object.keys(pkmn.temp_evolutions)
+      for (let j = 0; j < megas.length; j++) {
+        if (megas) {
+          const megaForm = pkmn.temp_evolutions[megas[j]]
+          let megaSuffix = ''
+          if (megas[j] === '2') {
+            megaSuffix = ' X'
+          } else if (megas[j] === '3') {
+            megaSuffix = ' Y'
+          }
+          pokedex[i].megas.push({
+            name: `Mega ${pkmn.name}${megaSuffix}`,
+            types: megaForm.types,
+            attack: megaForm.attack,
+            defense: megaForm.defense,
+            stamina: megaForm.stamina,
+          })
+        }
+      }
+    }
+    if (pokedex[i].megas.length === 0) {
+      delete pokedex[i].megas
     }
   }
-  Fs.writeJSONSync('./src/data/pokedex.json', newMasterfile, {
+  Fs.writeJSONSync('./src/data/pokedex.json', pokedex, {
     spaces: '\t',
     EOL: '\n',
   })

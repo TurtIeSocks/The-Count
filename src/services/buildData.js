@@ -59,8 +59,21 @@ const buildData = (
   pokemon: for (const [i, pokemon] of Object.entries(pokedex)) {
     matches.push(...getMatches(i, pokemon))
     if (pokemon.forms) {
-      pokemon.forms.forEach(form => {
+      pokemon.forms.forEach((form, index) => {
+        pokemon.forms[index].generation = pokemon.generation
+        if (!form.types) {
+          pokemon.forms[index].types = pokemon.types
+        }
         matches.push(...getMatches(i, form))
+      })
+    }
+    if (pokemon.megas) {
+      pokemon.megas.forEach((mega, index) => {
+        pokemon.megas[index].generation = pokemon.generation
+        if (!mega.types) {
+          pokemon.megas[index].types = pokemon.types
+        }
+        matches.push(...getMatches(i, mega))
       })
     }
   }
