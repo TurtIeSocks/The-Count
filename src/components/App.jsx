@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import { ThemeProvider } from '@material-ui/styles'
 import { Grid, Typography, Icon } from '@material-ui/core'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 import '../assets/scss/main.scss'
 import theme from '../assets/mui/theme'
