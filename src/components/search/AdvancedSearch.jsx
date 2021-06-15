@@ -49,13 +49,13 @@ const AdvancedSearch = ({ onSubmit, filters }) => {
       name: 'Level', shortName: 'level', min: 1, max: 55,
     },
     {
-      name: 'Attack', shortName: 'atk', min: 1, max: 15,
+      name: 'Attack', shortName: 'atk', min: 0, max: 15,
     },
     {
-      name: 'Defense', shortName: 'def', min: 1, max: 15,
+      name: 'Defense', shortName: 'def', min: 0, max: 15,
     },
     {
-      name: 'Stamina', shortName: 'sta', min: 1, max: 15,
+      name: 'Stamina', shortName: 'sta', min: 0, max: 15,
     },
     {
       name: 'IV Range', shortName: 'iv', min: 0, max: 100,
