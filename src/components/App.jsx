@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { ThemeProvider } from '@material-ui/styles'
-import { Grid, Typography, Icon } from '@material-ui/core'
+import {
+  Grid, Typography, Icon, useMediaQuery,
+} from '@material-ui/core'
 
 import '@assets/scss/main.scss'
 import theme from '@assets/mui/theme'
@@ -8,10 +10,9 @@ import theme from '@assets/mui/theme'
 import ReactVirtualizedTable from '@components/table/VirtualTable'
 import Search from '@components/search/Search'
 import AdvancedSearch from '@components/search/AdvancedSearch'
-import useStyles from '@hooks/useStyles'
 
 const App = () => {
-  const classes = useStyles()
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'))
   const [filters, setFilters] = useState({
     cp: '',
     atk: [0, 15],
@@ -55,75 +56,90 @@ const App = () => {
     mythics: true,
   })
 
-  const onSubmit = newFilters => {
-    setFilters(newFilters)
-  }
+  const onSubmit = newFilters => setFilters(newFilters)
+
+  const getStyling = () => (
+    isMobile ? {
+      marginTop: filters.cp ? 0 : '45%',
+      maxWidth: '95vw',
+    } : {
+      marginTop: filters.cp ? 0 : '20%',
+      maxWidth: filters.cp ? '80vw' : '50vw',
+    }
+  )
 
   return (
     <ThemeProvider theme={theme}>
-      <div className={classes.app}>
-        <Grid
-          container
-          direction="column"
-          justify="space-evenly"
-          alignItems="center"
-          style={{ marginTop: filters.cp ? 0 : '45%' }}
-          spacing={3}
-        >
-          <Grid item>
-            <Typography color="secondary" variant={filters.cp ? 'h4' : 'h1'}>The Count</Typography>
-          </Grid>
-          {filters.cp
-            ? (
-              <>
-                <Grid
-                  container
-                  item
-                  xs={11}
-                  direction="row"
-                  justify="center"
-                  alignItems="center"
-                >
-                  <AdvancedSearch
-                    onSubmit={onSubmit}
-                    filters={filters}
-                  />
-                </Grid>
-                <Grid
-                  container
-                  item
-                  xs={11}
-                  direction="row"
-                  justify="center"
-                  alignItems="center"
-                  spacing={3}
-                >
-                  <ReactVirtualizedTable
-                    filters={filters}
-                  />
-                </Grid>
-              </>
-            )
-            : (
-              <>
-                <Grid item xs={8}>
-                  <Typography variant="caption" align="justify">Calculator for communities that play the popular game, &quot;The Count.&quot; </Typography>
-                </Grid>
-                <Grid container item xs={11}>
-                  <Search
-                    onSubmit={onSubmit}
-                    filters={filters}
-                  />
-                </Grid>
-              </>
-            )}
-          <Grid item>
-            <Typography style={{ marginTop: filters.cp ? 0 : '95%', color: theme.palette.text.hint }}>
-              © TurtleSocks 2021 <a href="https://github.com/TurtIeSocks" target="_blank" rel="noreferrer"><Icon className="fab fa-github" style={{ fontSize: 12 }} /></a>
-            </Typography>
-          </Grid>
+      <Grid
+        container
+        direction="row"
+        justify="space-between"
+        alignItems="center"
+        style={{
+          margin: 'auto',
+          height: '100%',
+          ...getStyling(),
+        }}
+        spacing={3}
+      >
+        <Grid item xs={12} style={{ textAlign: 'center' }}>
+          <Typography color="secondary" variant={filters.cp ? 'h4' : 'h1'}>The Count</Typography>
         </Grid>
-      </div>
+        {filters.cp
+          ? (
+            <>
+              <Grid
+                container
+                item
+                xs={12}
+                sm={7}
+                direction="row"
+                justify="center"
+                alignItems="center"
+              >
+                <AdvancedSearch
+                  onSubmit={onSubmit}
+                  filters={filters}
+                  isMobile={isMobile}
+                />
+              </Grid>
+              <Grid
+                container
+                item
+                xs={12}
+                sm={5}
+                direction="row"
+                justify="center"
+                alignItems="center"
+                spacing={3}
+              >
+                <ReactVirtualizedTable
+                  filters={filters}
+                  isMobile={isMobile}
+                />
+              </Grid>
+            </>
+          )
+          : (
+            <>
+              <Grid item xs={12} style={{ textAlign: 'center' }}>
+                <Typography variant="subtitle2" align="center">Calculator for communities that play the popular game, &quot;The Count&quot; </Typography>
+              </Grid>
+              <Grid container item xs={12} justify="center" alignItems="center">
+                <Search
+                  onSubmit={onSubmit}
+                  filters={filters}
+                  isMobile={isMobile}
+                />
+              </Grid>
+            </>
+          )}
+        <Grid item xs={12} style={{ textAlign: 'center' }}>
+          <Typography style={{ marginTop: filters.cp ? 0 : '95%', color: theme.palette.text.hint }}>
+            © TurtleSocks 2021 <a href="https://github.com/TurtIeSocks" target="_blank" rel="noreferrer"><Icon className="fab fa-github" style={{ fontSize: 12 }} /></a>
+          </Typography>
+        </Grid>
+      </Grid>
     </ThemeProvider>
   )
 }

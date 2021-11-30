@@ -15,9 +15,9 @@ import SliderTile from './SliderTile'
 import FilterSwitch from './FilterSwitch'
 import Search from './Search'
 
-const AdvancedSearch = ({ onSubmit, filters }) => {
+const AdvancedSearch = ({ onSubmit, filters, isMobile }) => {
   const classes = useStyles()
-  const [accordion, setAccordion] = useState(false)
+  const [accordion, setAccordion] = useState(!isMobile)
 
   const handleChange = (event) => {
     const newFilters = {
@@ -48,7 +48,7 @@ const AdvancedSearch = ({ onSubmit, filters }) => {
       name: 'IV Range', shortName: 'iv', min: 0, max: 100,
     },
   ].map(each => (
-    <Grid item key={each.name} xs={each.shortName === 'iv' ? 12 : 6}>
+    <Grid item key={each.name} xs={each.shortName === 'iv' ? 12 : 6} style={{ textAlign: 'center' }}>
       <SliderTile
         name={each.name}
         shortName={each.shortName}
@@ -63,14 +63,10 @@ const AdvancedSearch = ({ onSubmit, filters }) => {
 
   return (
     <>
-      <Search onSubmit={onSubmit} filters={filters} />
+      <Search onSubmit={onSubmit} filters={filters} isMobile={isMobile} />
       <Grid item xs={12}>
         <Accordion expanded={accordion} onChange={handleAccordion}>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon color="secondary" />}
-            aria-controls="panel1bh-content"
-            id="panel1bh-header"
-          >
+          <AccordionSummary expandIcon={<ExpandMoreIcon color="secondary" />}>
             <Typography className={classes.heading}>Advanced Filters</Typography>
           </AccordionSummary>
           <AccordionDetails>
