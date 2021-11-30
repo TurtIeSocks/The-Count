@@ -1,8 +1,6 @@
 {
 	"1": {
 		"name": "Bulbasaur",
-		"default_form_id": 163,
-		"pokedex_id": 1,
 		"generation": "Kanto",
 		"types": [
 			"Grass",
@@ -16,8 +14,6 @@
 	},
 	"2": {
 		"name": "Ivysaur",
-		"default_form_id": 166,
-		"pokedex_id": 2,
 		"generation": "Kanto",
 		"types": [
 			"Grass",
@@ -31,8 +27,6 @@
 	},
 	"3": {
 		"name": "Venusaur",
-		"default_form_id": 169,
-		"pokedex_id": 3,
 		"generation": "Kanto",
 		"types": [
 			"Grass",
@@ -54,8 +48,6 @@
 	},
 	"4": {
 		"name": "Charmander",
-		"default_form_id": 172,
-		"pokedex_id": 4,
 		"generation": "Kanto",
 		"types": [
 			"Fire"
@@ -68,8 +60,6 @@
 	},
 	"5": {
 		"name": "Charmeleon",
-		"default_form_id": 175,
-		"pokedex_id": 5,
 		"generation": "Kanto",
 		"types": [
 			"Fire"
@@ -82,8 +72,6 @@
 	},
 	"6": {
 		"name": "Charizard",
-		"default_form_id": 178,
-		"pokedex_id": 6,
 		"generation": "Kanto",
 		"types": [
 			"Fire",
@@ -115,8 +103,6 @@
 	},
 	"7": {
 		"name": "Squirtle",
-		"default_form_id": 181,
-		"pokedex_id": 7,
 		"generation": "Kanto",
 		"types": [
 			"Water"
@@ -129,8 +115,6 @@
 	},
 	"8": {
 		"name": "Wartortle",
-		"default_form_id": 184,
-		"pokedex_id": 8,
 		"generation": "Kanto",
 		"types": [
 			"Water"
@@ -143,8 +127,6 @@
 	},
 	"9": {
 		"name": "Blastoise",
-		"default_form_id": 187,
-		"pokedex_id": 9,
 		"generation": "Kanto",
 		"types": [
 			"Water"
@@ -165,8 +147,6 @@
 	},
 	"10": {
 		"name": "Caterpie",
-		"default_form_id": 953,
-		"pokedex_id": 10,
 		"generation": "Kanto",
 		"types": [
 			"Bug"
@@ -179,8 +159,6 @@
 	},
 	"11": {
 		"name": "Metapod",
-		"default_form_id": 956,
-		"pokedex_id": 11,
 		"generation": "Kanto",
 		"types": [
 			"Bug"
@@ -193,8 +171,6 @@
 	},
 	"12": {
 		"name": "Butterfree",
-		"default_form_id": 959,
-		"pokedex_id": 12,
 		"generation": "Kanto",
 		"types": [
 			"Bug",
@@ -208,8 +184,6 @@
 	},
 	"13": {
 		"name": "Weedle",
-		"default_form_id": 616,
-		"pokedex_id": 13,
 		"generation": "Kanto",
 		"types": [
 			"Bug",
@@ -223,8 +197,6 @@
 	},
 	"14": {
 		"name": "Kakuna",
-		"default_form_id": 619,
-		"pokedex_id": 14,
 		"generation": "Kanto",
 		"types": [
 			"Bug",
@@ -238,8 +210,6 @@
 	},
 	"15": {
 		"name": "Beedrill",
-		"default_form_id": 622,
-		"pokedex_id": 15,
 		"generation": "Kanto",
 		"types": [
 			"Bug",
@@ -261,8 +231,6 @@
 	},
 	"16": {
 		"name": "Pidgey",
-		"default_form_id": 962,
-		"pokedex_id": 16,
 		"generation": "Kanto",
 		"types": [
 			"Normal",
@@ -276,8 +244,6 @@
 	},
 	"17": {
 		"name": "Pidgeotto",
-		"default_form_id": 965,
-		"pokedex_id": 17,
 		"generation": "Kanto",
 		"types": [
 			"Normal",
@@ -291,8 +257,6 @@
 	},
 	"18": {
 		"name": "Pidgeot",
-		"default_form_id": 968,
-		"pokedex_id": 18,
 		"generation": "Kanto",
 		"types": [
 			"Normal",
@@ -314,8 +278,6 @@
 	},
 	"19": {
 		"name": "Rattata",
-		"default_form_id": 45,
-		"pokedex_id": 19,
 		"generation": "Kanto",
 		"types": [
 			"Normal"
@@ -328,8 +290,6 @@
 	},
 	"20": {
 		"name": "Raticate",
-		"default_form_id": 47,
-		"pokedex_id": 20,
 		"generation": "Kanto",
 		"types": [
 			"Normal"
@@ -354,8 +314,6 @@
 	},
 	"21": {
 		"name": "Spearow",
-		"default_form_id": 971,
-		"pokedex_id": 21,
 		"generation": "Kanto",
 		"types": [
 			"Normal",
@@ -369,8 +327,6 @@
 	},
 	"22": {
 		"name": "Fearow",
-		"default_form_id": 974,
-		"pokedex_id": 22,
 		"generation": "Kanto",
 		"types": [
 			"Normal",
@@ -384,8 +340,6 @@
 	},
 	"23": {
 		"name": "Ekans",
-		"default_form_id": 697,
-		"pokedex_id": 23,
 		"generation": "Kanto",
 		"types": [
 			"Poison"
@@ -398,8 +352,6 @@
 	},
 	"24": {
 		"name": "Arbok",
-		"default_form_id": 700,
-		"pokedex_id": 24,
 		"generation": "Kanto",
 		"types": [
 			"Poison"
@@ -412,8 +364,6 @@
 	},
 	"25": {
 		"name": "Pikachu",
-		"default_form_id": 598,
-		"pokedex_id": 25,
 		"generation": "Kanto",
 		"types": [
 			"Electric"
@@ -426,8 +376,6 @@
 	},
 	"26": {
 		"name": "Raichu",
-		"default_form_id": 49,
-		"pokedex_id": 26,
 		"generation": "Kanto",
 		"types": [
 			"Electric"
@@ -452,8 +400,6 @@
 	},
 	"27": {
 		"name": "Sandshrew",
-		"default_form_id": 51,
-		"pokedex_id": 27,
 		"generation": "Kanto",
 		"types": [
 			"Ground"
@@ -478,8 +424,6 @@
 	},
 	"28": {
 		"name": "Sandslash",
-		"default_form_id": 53,
-		"pokedex_id": 28,
 		"generation": "Kanto",
 		"types": [
 			"Ground"
@@ -504,8 +448,6 @@
 	},
 	"29": {
 		"name": "Nidoran♀",
-		"default_form_id": 776,
-		"pokedex_id": 29,
 		"generation": "Kanto",
 		"types": [
 			"Poison"
@@ -518,8 +460,6 @@
 	},
 	"30": {
 		"name": "Nidorina",
-		"default_form_id": 779,
-		"pokedex_id": 30,
 		"generation": "Kanto",
 		"types": [
 			"Poison"
@@ -532,8 +472,6 @@
 	},
 	"31": {
 		"name": "Nidoqueen",
-		"default_form_id": 782,
-		"pokedex_id": 31,
 		"generation": "Kanto",
 		"types": [
 			"Poison",
@@ -547,8 +485,6 @@
 	},
 	"32": {
 		"name": "Nidoran♂",
-		"default_form_id": 776,
-		"pokedex_id": 32,
 		"generation": "Kanto",
 		"types": [
 			"Poison"
@@ -561,8 +497,6 @@
 	},
 	"33": {
 		"name": "Nidorino",
-		"default_form_id": 785,
-		"pokedex_id": 33,
 		"generation": "Kanto",
 		"types": [
 			"Poison"
@@ -575,8 +509,6 @@
 	},
 	"34": {
 		"name": "Nidoking",
-		"default_form_id": 788,
-		"pokedex_id": 34,
 		"generation": "Kanto",
 		"types": [
 			"Poison",
@@ -590,8 +522,6 @@
 	},
 	"35": {
 		"name": "Clefairy",
-		"default_form_id": 981,
-		"pokedex_id": 35,
 		"generation": "Kanto",
 		"types": [
 			"Fairy"
@@ -604,8 +534,6 @@
 	},
 	"36": {
 		"name": "Clefable",
-		"default_form_id": 984,
-		"pokedex_id": 36,
 		"generation": "Kanto",
 		"types": [
 			"Fairy"
@@ -618,8 +546,6 @@
 	},
 	"37": {
 		"name": "Vulpix",
-		"default_form_id": 55,
-		"pokedex_id": 37,
 		"generation": "Kanto",
 		"types": [
 			"Fire"
@@ -632,8 +558,6 @@
 	},
 	"38": {
 		"name": "Ninetales",
-		"default_form_id": 57,
-		"pokedex_id": 38,
 		"generation": "Kanto",
 		"types": [
 			"Fire"
@@ -658,8 +582,6 @@
 	},
 	"39": {
 		"name": "Jigglypuff",
-		"default_form_id": 987,
-		"pokedex_id": 39,
 		"generation": "Kanto",
 		"types": [
 			"Normal",
@@ -673,8 +595,6 @@
 	},
 	"40": {
 		"name": "Wigglytuff",
-		"default_form_id": 990,
-		"pokedex_id": 40,
 		"generation": "Kanto",
 		"types": [
 			"Normal",
@@ -688,8 +608,6 @@
 	},
 	"41": {
 		"name": "Zubat",
-		"default_form_id": 157,
-		"pokedex_id": 41,
 		"generation": "Kanto",
 		"types": [
 			"Poison",
@@ -703,8 +621,6 @@
 	},
 	"42": {
 		"name": "Golbat",
-		"default_form_id": 160,
-		"pokedex_id": 42,
 		"generation": "Kanto",
 		"types": [
 			"Poison",
@@ -718,8 +634,6 @@
 	},
 	"43": {
 		"name": "Oddish",
-		"default_form_id": 265,
-		"pokedex_id": 43,
 		"generation": "Kanto",
 		"types": [
 			"Grass",
@@ -733,8 +647,6 @@
 	},
 	"44": {
 		"name": "Gloom",
-		"default_form_id": 268,
-		"pokedex_id": 44,
 		"generation": "Kanto",
 		"types": [
 			"Grass",
@@ -748,8 +660,6 @@
 	},
 	"45": {
 		"name": "Vileplume",
-		"default_form_id": 271,
-		"pokedex_id": 45,
 		"generation": "Kanto",
 		"types": [
 			"Grass",
@@ -763,8 +673,6 @@
 	},
 	"46": {
 		"name": "Paras",
-		"default_form_id": 993,
-		"pokedex_id": 46,
 		"generation": "Kanto",
 		"types": [
 			"Bug",
@@ -778,8 +686,6 @@
 	},
 	"47": {
 		"name": "Parasect",
-		"default_form_id": 996,
-		"pokedex_id": 47,
 		"generation": "Kanto",
 		"types": [
 			"Bug",
@@ -793,8 +699,6 @@
 	},
 	"48": {
 		"name": "Venonat",
-		"default_form_id": 259,
-		"pokedex_id": 48,
 		"generation": "Kanto",
 		"types": [
 			"Bug",
@@ -808,8 +712,6 @@
 	},
 	"49": {
 		"name": "Venomoth",
-		"default_form_id": 262,
-		"pokedex_id": 49,
 		"generation": "Kanto",
 		"types": [
 			"Bug",
@@ -823,8 +725,6 @@
 	},
 	"50": {
 		"name": "Diglett",
-		"default_form_id": 59,
-		"pokedex_id": 50,
 		"generation": "Kanto",
 		"types": [
 			"Ground"
@@ -849,8 +749,6 @@
 	},
 	"51": {
 		"name": "Dugtrio",
-		"default_form_id": 61,
-		"pokedex_id": 51,
 		"generation": "Kanto",
 		"types": [
 			"Ground"
@@ -881,8 +779,6 @@
 	},
 	"52": {
 		"name": "Meowth",
-		"default_form_id": 63,
-		"pokedex_id": 52,
 		"generation": "Kanto",
 		"types": [
 			"Normal"
@@ -915,8 +811,6 @@
 	},
 	"53": {
 		"name": "Persian",
-		"default_form_id": 65,
-		"pokedex_id": 53,
 		"generation": "Kanto",
 		"types": [
 			"Normal"
@@ -940,8 +834,6 @@
 	},
 	"54": {
 		"name": "Psyduck",
-		"default_form_id": 286,
-		"pokedex_id": 54,
 		"generation": "Kanto",
 		"types": [
 			"Water"
@@ -954,8 +846,6 @@
 	},
 	"55": {
 		"name": "Golduck",
-		"default_form_id": 289,
-		"pokedex_id": 55,
 		"generation": "Kanto",
 		"types": [
 			"Water"
@@ -968,8 +858,6 @@
 	},
 	"56": {
 		"name": "Mankey",
-		"default_form_id": 999,
-		"pokedex_id": 56,
 		"generation": "Kanto",
 		"types": [
 			"Fighting"
@@ -982,8 +870,6 @@
 	},
 	"57": {
 		"name": "Primeape",
-		"default_form_id": 1002,
-		"pokedex_id": 57,
 		"generation": "Kanto",
 		"types": [
 			"Fighting"
@@ -996,8 +882,6 @@
 	},
 	"58": {
 		"name": "Growlithe",
-		"default_form_id": 280,
-		"pokedex_id": 58,
 		"generation": "Kanto",
 		"types": [
 			"Fire"
@@ -1010,8 +894,6 @@
 	},
 	"59": {
 		"name": "Arcanine",
-		"default_form_id": 283,
-		"pokedex_id": 59,
 		"generation": "Kanto",
 		"types": [
 			"Fire"
@@ -1024,8 +906,6 @@
 	},
 	"60": {
 		"name": "Poliwag",
-		"default_form_id": 235,
-		"pokedex_id": 60,
 		"generation": "Kanto",
 		"types": [
 			"Water"
@@ -1038,8 +918,6 @@
 	},
 	"61": {
 		"name": "Poliwhirl",
-		"default_form_id": 238,
-		"pokedex_id": 61,
 		"generation": "Kanto",
 		"types": [
 			"Water"
@@ -1052,8 +930,6 @@
 	},
 	"62": {
 		"name": "Poliwrath",
-		"default_form_id": 241,
-		"pokedex_id": 62,
 		"generation": "Kanto",
 		"types": [
 			"Water",
@@ -1067,8 +943,6 @@
 	},
 	"63": {
 		"name": "Abra",
-		"default_form_id": 304,
-		"pokedex_id": 63,
 		"generation": "Kanto",
 		"types": [
 			"Psychic"
@@ -1081,8 +955,6 @@
 	},
 	"64": {
 		"name": "Kadabra",
-		"default_form_id": 307,
-		"pokedex_id": 64,
 		"generation": "Kanto",
 		"types": [
 			"Psychic"
@@ -1095,8 +967,6 @@
 	},
 	"65": {
 		"name": "Alakazam",
-		"default_form_id": 310,
-		"pokedex_id": 65,
 		"generation": "Kanto",
 		"types": [
 			"Psychic"
@@ -1117,8 +987,6 @@
 	},
 	"66": {
 		"name": "Machop",
-		"default_form_id": 809,
-		"pokedex_id": 66,
 		"generation": "Kanto",
 		"types": [
 			"Fighting"
@@ -1131,8 +999,6 @@
 	},
 	"67": {
 		"name": "Machoke",
-		"default_form_id": 812,
-		"pokedex_id": 67,
 		"generation": "Kanto",
 		"types": [
 			"Fighting"
@@ -1145,8 +1011,6 @@
 	},
 	"68": {
 		"name": "Machamp",
-		"default_form_id": 815,
-		"pokedex_id": 68,
 		"generation": "Kanto",
 		"types": [
 			"Fighting"
@@ -1159,8 +1023,6 @@
 	},
 	"69": {
 		"name": "Bellsprout",
-		"default_form_id": 664,
-		"pokedex_id": 69,
 		"generation": "Kanto",
 		"types": [
 			"Grass",
@@ -1174,8 +1036,6 @@
 	},
 	"70": {
 		"name": "Weepinbell",
-		"default_form_id": 667,
-		"pokedex_id": 70,
 		"generation": "Kanto",
 		"types": [
 			"Grass",
@@ -1189,8 +1049,6 @@
 	},
 	"71": {
 		"name": "Victreebel",
-		"default_form_id": 670,
-		"pokedex_id": 71,
 		"generation": "Kanto",
 		"types": [
 			"Grass",
@@ -1204,8 +1062,6 @@
 	},
 	"72": {
 		"name": "Tentacool",
-		"default_form_id": 1005,
-		"pokedex_id": 72,
 		"generation": "Kanto",
 		"types": [
 			"Water",
@@ -1219,8 +1075,6 @@
 	},
 	"73": {
 		"name": "Tentacruel",
-		"default_form_id": 1008,
-		"pokedex_id": 73,
 		"generation": "Kanto",
 		"types": [
 			"Water",
@@ -1234,8 +1088,6 @@
 	},
 	"74": {
 		"name": "Geodude",
-		"default_form_id": 67,
-		"pokedex_id": 74,
 		"generation": "Kanto",
 		"types": [
 			"Rock",
@@ -1249,8 +1101,6 @@
 	},
 	"75": {
 		"name": "Graveler",
-		"default_form_id": 69,
-		"pokedex_id": 75,
 		"generation": "Kanto",
 		"types": [
 			"Rock",
@@ -1264,8 +1114,6 @@
 	},
 	"76": {
 		"name": "Golem",
-		"default_form_id": 71,
-		"pokedex_id": 76,
 		"generation": "Kanto",
 		"types": [
 			"Rock",
@@ -1279,8 +1127,6 @@
 	},
 	"77": {
 		"name": "Ponyta",
-		"default_form_id": 1011,
-		"pokedex_id": 77,
 		"generation": "Kanto",
 		"types": [
 			"Fire"
@@ -1293,8 +1139,6 @@
 	},
 	"78": {
 		"name": "Rapidash",
-		"default_form_id": 1014,
-		"pokedex_id": 78,
 		"generation": "Kanto",
 		"types": [
 			"Fire"
@@ -1307,8 +1151,6 @@
 	},
 	"79": {
 		"name": "Slowpoke",
-		"default_form_id": 1017,
-		"pokedex_id": 79,
 		"generation": "Kanto",
 		"types": [
 			"Water",
@@ -1322,8 +1164,6 @@
 	},
 	"80": {
 		"name": "Slowbro",
-		"default_form_id": 1020,
-		"pokedex_id": 80,
 		"generation": "Kanto",
 		"types": [
 			"Water",
@@ -1334,6 +1174,18 @@
 		"stamina": 216,
 		"legendary": false,
 		"mythical": false,
+		"forms": [
+			{
+				"name": "Slowbro (Galarian)",
+				"types": [
+					"Poison",
+					"Psychic"
+				],
+				"attack": 182,
+				"defense": 156,
+				"stamina": 216
+			}
+		],
 		"megas": [
 			{
 				"name": "Mega Slowbro",
@@ -1345,8 +1197,6 @@
 	},
 	"81": {
 		"name": "Magnemite",
-		"default_form_id": 655,
-		"pokedex_id": 81,
 		"generation": "Kanto",
 		"types": [
 			"Electric",
@@ -1360,8 +1210,6 @@
 	},
 	"82": {
 		"name": "Magneton",
-		"default_form_id": 658,
-		"pokedex_id": 82,
 		"generation": "Kanto",
 		"types": [
 			"Electric",
@@ -1375,8 +1223,6 @@
 	},
 	"83": {
 		"name": "Farfetchd",
-		"default_form_id": 1023,
-		"pokedex_id": 83,
 		"generation": "Kanto",
 		"types": [
 			"Normal",
@@ -1401,8 +1247,6 @@
 	},
 	"84": {
 		"name": "Doduo",
-		"default_form_id": 1026,
-		"pokedex_id": 84,
 		"generation": "Kanto",
 		"types": [
 			"Normal",
@@ -1416,8 +1260,6 @@
 	},
 	"85": {
 		"name": "Dodrio",
-		"default_form_id": 1029,
-		"pokedex_id": 85,
 		"generation": "Kanto",
 		"types": [
 			"Normal",
@@ -1431,8 +1273,6 @@
 	},
 	"86": {
 		"name": "Seel",
-		"default_form_id": 1032,
-		"pokedex_id": 86,
 		"generation": "Kanto",
 		"types": [
 			"Water"
@@ -1445,8 +1285,6 @@
 	},
 	"87": {
 		"name": "Dewgong",
-		"default_form_id": 1035,
-		"pokedex_id": 87,
 		"generation": "Kanto",
 		"types": [
 			"Water",
@@ -1460,8 +1298,6 @@
 	},
 	"88": {
 		"name": "Grimer",
-		"default_form_id": 73,
-		"pokedex_id": 88,
 		"generation": "Kanto",
 		"types": [
 			"Poison"
@@ -1474,8 +1310,6 @@
 	},
 	"89": {
 		"name": "Muk",
-		"default_form_id": 75,
-		"pokedex_id": 89,
 		"generation": "Kanto",
 		"types": [
 			"Poison"
@@ -1488,8 +1322,6 @@
 	},
 	"90": {
 		"name": "Shellder",
-		"default_form_id": 876,
-		"pokedex_id": 90,
 		"generation": "Kanto",
 		"types": [
 			"Water"
@@ -1502,8 +1334,6 @@
 	},
 	"91": {
 		"name": "Cloyster",
-		"default_form_id": 879,
-		"pokedex_id": 91,
 		"generation": "Kanto",
 		"types": [
 			"Water",
@@ -1517,8 +1347,6 @@
 	},
 	"92": {
 		"name": "Gastly",
-		"default_form_id": 1038,
-		"pokedex_id": 92,
 		"generation": "Kanto",
 		"types": [
 			"Ghost",
@@ -1532,8 +1360,6 @@
 	},
 	"93": {
 		"name": "Haunter",
-		"default_form_id": 1041,
-		"pokedex_id": 93,
 		"generation": "Kanto",
 		"types": [
 			"Ghost",
@@ -1547,8 +1373,6 @@
 	},
 	"94": {
 		"name": "Gengar",
-		"default_form_id": 1044,
-		"pokedex_id": 94,
 		"generation": "Kanto",
 		"types": [
 			"Ghost",
@@ -1570,8 +1394,6 @@
 	},
 	"95": {
 		"name": "Onix",
-		"default_form_id": 902,
-		"pokedex_id": 95,
 		"generation": "Kanto",
 		"types": [
 			"Rock",
@@ -1585,8 +1407,6 @@
 	},
 	"96": {
 		"name": "Drowzee",
-		"default_form_id": 214,
-		"pokedex_id": 96,
 		"generation": "Kanto",
 		"types": [
 			"Psychic"
@@ -1599,8 +1419,6 @@
 	},
 	"97": {
 		"name": "Hypno",
-		"default_form_id": 217,
-		"pokedex_id": 97,
 		"generation": "Kanto",
 		"types": [
 			"Psychic"
@@ -1613,8 +1431,6 @@
 	},
 	"98": {
 		"name": "Krabby",
-		"default_form_id": 870,
-		"pokedex_id": 98,
 		"generation": "Kanto",
 		"types": [
 			"Water"
@@ -1627,8 +1443,6 @@
 	},
 	"99": {
 		"name": "Kingler",
-		"default_form_id": 873,
-		"pokedex_id": 99,
 		"generation": "Kanto",
 		"types": [
 			"Water"
@@ -1641,8 +1455,6 @@
 	},
 	"100": {
 		"name": "Voltorb",
-		"default_form_id": 1047,
-		"pokedex_id": 100,
 		"generation": "Kanto",
 		"types": [
 			"Electric"
@@ -1655,8 +1467,6 @@
 	},
 	"101": {
 		"name": "Electrode",
-		"default_form_id": 1050,
-		"pokedex_id": 101,
 		"generation": "Kanto",
 		"types": [
 			"Electric"
@@ -1669,8 +1479,6 @@
 	},
 	"102": {
 		"name": "Exeggcute",
-		"default_form_id": 729,
-		"pokedex_id": 102,
 		"generation": "Kanto",
 		"types": [
 			"Grass",
@@ -1684,8 +1492,6 @@
 	},
 	"103": {
 		"name": "Exeggutor",
-		"default_form_id": 77,
-		"pokedex_id": 103,
 		"generation": "Kanto",
 		"types": [
 			"Grass",
@@ -1711,8 +1517,6 @@
 	},
 	"104": {
 		"name": "Cubone",
-		"default_form_id": 224,
-		"pokedex_id": 104,
 		"generation": "Kanto",
 		"types": [
 			"Ground"
@@ -1725,8 +1529,6 @@
 	},
 	"105": {
 		"name": "Marowak",
-		"default_form_id": 79,
-		"pokedex_id": 105,
 		"generation": "Kanto",
 		"types": [
 			"Ground"
@@ -1739,8 +1541,6 @@
 	},
 	"106": {
 		"name": "Hitmonlee",
-		"default_form_id": 713,
-		"pokedex_id": 106,
 		"generation": "Kanto",
 		"types": [
 			"Fighting"
@@ -1753,8 +1553,6 @@
 	},
 	"107": {
 		"name": "Hitmonchan",
-		"default_form_id": 277,
-		"pokedex_id": 107,
 		"generation": "Kanto",
 		"types": [
 			"Fighting"
@@ -1767,8 +1565,6 @@
 	},
 	"108": {
 		"name": "Lickitung",
-		"default_form_id": 1053,
-		"pokedex_id": 108,
 		"generation": "Kanto",
 		"types": [
 			"Normal"
@@ -1781,8 +1577,6 @@
 	},
 	"109": {
 		"name": "Koffing",
-		"default_form_id": 703,
-		"pokedex_id": 109,
 		"generation": "Kanto",
 		"types": [
 			"Poison"
@@ -1795,8 +1589,6 @@
 	},
 	"110": {
 		"name": "Weezing",
-		"default_form_id": 706,
-		"pokedex_id": 110,
 		"generation": "Kanto",
 		"types": [
 			"Poison"
@@ -1809,8 +1601,6 @@
 	},
 	"111": {
 		"name": "Rhyhorn",
-		"default_form_id": 846,
-		"pokedex_id": 111,
 		"generation": "Kanto",
 		"types": [
 			"Ground",
@@ -1824,8 +1614,6 @@
 	},
 	"112": {
 		"name": "Rhydon",
-		"default_form_id": 849,
-		"pokedex_id": 112,
 		"generation": "Kanto",
 		"types": [
 			"Ground",
@@ -1839,8 +1627,6 @@
 	},
 	"113": {
 		"name": "Chansey",
-		"default_form_id": 1056,
-		"pokedex_id": 113,
 		"generation": "Kanto",
 		"types": [
 			"Normal"
@@ -1853,8 +1639,6 @@
 	},
 	"114": {
 		"name": "Tangela",
-		"default_form_id": 1059,
-		"pokedex_id": 114,
 		"generation": "Kanto",
 		"types": [
 			"Grass"
@@ -1867,8 +1651,6 @@
 	},
 	"115": {
 		"name": "Kangaskhan",
-		"default_form_id": 839,
-		"pokedex_id": 115,
 		"generation": "Kanto",
 		"types": [
 			"Normal"
@@ -1889,8 +1671,6 @@
 	},
 	"116": {
 		"name": "Horsea",
-		"default_form_id": 1062,
-		"pokedex_id": 116,
 		"generation": "Kanto",
 		"types": [
 			"Water"
@@ -1903,8 +1683,6 @@
 	},
 	"117": {
 		"name": "Seadra",
-		"default_form_id": 1065,
-		"pokedex_id": 117,
 		"generation": "Kanto",
 		"types": [
 			"Water"
@@ -1917,8 +1695,6 @@
 	},
 	"118": {
 		"name": "Goldeen",
-		"default_form_id": 1068,
-		"pokedex_id": 118,
 		"generation": "Kanto",
 		"types": [
 			"Water"
@@ -1931,8 +1707,6 @@
 	},
 	"119": {
 		"name": "Seaking",
-		"default_form_id": 1071,
-		"pokedex_id": 119,
 		"generation": "Kanto",
 		"types": [
 			"Water"
@@ -1945,8 +1719,6 @@
 	},
 	"120": {
 		"name": "Staryu",
-		"default_form_id": 1074,
-		"pokedex_id": 120,
 		"generation": "Kanto",
 		"types": [
 			"Water"
@@ -1959,8 +1731,6 @@
 	},
 	"121": {
 		"name": "Starmie",
-		"default_form_id": 1077,
-		"pokedex_id": 121,
 		"generation": "Kanto",
 		"types": [
 			"Water",
@@ -1974,8 +1744,6 @@
 	},
 	"122": {
 		"name": "Mr Mime",
-		"default_form_id": 1080,
-		"pokedex_id": 122,
 		"generation": "Kanto",
 		"types": [
 			"Psychic",
@@ -2001,8 +1769,6 @@
 	},
 	"123": {
 		"name": "Scyther",
-		"default_form_id": 247,
-		"pokedex_id": 123,
 		"generation": "Kanto",
 		"types": [
 			"Bug",
@@ -2016,8 +1782,6 @@
 	},
 	"124": {
 		"name": "Jynx",
-		"default_form_id": 1083,
-		"pokedex_id": 124,
 		"generation": "Kanto",
 		"types": [
 			"Ice",
@@ -2031,8 +1795,6 @@
 	},
 	"125": {
 		"name": "Electabuzz",
-		"default_form_id": 640,
-		"pokedex_id": 125,
 		"generation": "Kanto",
 		"types": [
 			"Electric"
@@ -2045,8 +1807,6 @@
 	},
 	"126": {
 		"name": "Magmar",
-		"default_form_id": 634,
-		"pokedex_id": 126,
 		"generation": "Kanto",
 		"types": [
 			"Fire"
@@ -2059,8 +1819,6 @@
 	},
 	"127": {
 		"name": "Pinsir",
-		"default_form_id": 898,
-		"pokedex_id": 127,
 		"generation": "Kanto",
 		"types": [
 			"Bug"
@@ -2085,8 +1843,6 @@
 	},
 	"128": {
 		"name": "Tauros",
-		"default_form_id": 1086,
-		"pokedex_id": 128,
 		"generation": "Kanto",
 		"types": [
 			"Normal"
@@ -2099,8 +1855,6 @@
 	},
 	"129": {
 		"name": "Magikarp",
-		"default_form_id": 253,
-		"pokedex_id": 129,
 		"generation": "Kanto",
 		"types": [
 			"Water"
@@ -2113,8 +1867,6 @@
 	},
 	"130": {
 		"name": "Gyarados",
-		"default_form_id": 256,
-		"pokedex_id": 130,
 		"generation": "Kanto",
 		"types": [
 			"Water",
@@ -2140,8 +1892,6 @@
 	},
 	"131": {
 		"name": "Lapras",
-		"default_form_id": 322,
-		"pokedex_id": 131,
 		"generation": "Kanto",
 		"types": [
 			"Water",
@@ -2155,8 +1905,6 @@
 	},
 	"132": {
 		"name": "Ditto",
-		"default_form_id": 1089,
-		"pokedex_id": 132,
 		"generation": "Kanto",
 		"types": [
 			"Normal"
@@ -2169,8 +1917,6 @@
 	},
 	"133": {
 		"name": "Eevee",
-		"default_form_id": 1092,
-		"pokedex_id": 133,
 		"generation": "Kanto",
 		"types": [
 			"Normal"
@@ -2183,8 +1929,6 @@
 	},
 	"134": {
 		"name": "Vaporeon",
-		"default_form_id": 1095,
-		"pokedex_id": 134,
 		"generation": "Kanto",
 		"types": [
 			"Water"
@@ -2197,8 +1941,6 @@
 	},
 	"135": {
 		"name": "Jolteon",
-		"default_form_id": 1098,
-		"pokedex_id": 135,
 		"generation": "Kanto",
 		"types": [
 			"Electric"
@@ -2211,8 +1953,6 @@
 	},
 	"136": {
 		"name": "Flareon",
-		"default_form_id": 1101,
-		"pokedex_id": 136,
 		"generation": "Kanto",
 		"types": [
 			"Fire"
@@ -2225,8 +1965,6 @@
 	},
 	"137": {
 		"name": "Porygon",
-		"default_form_id": 677,
-		"pokedex_id": 137,
 		"generation": "Kanto",
 		"types": [
 			"Normal"
@@ -2239,8 +1977,6 @@
 	},
 	"138": {
 		"name": "Omanyte",
-		"default_form_id": 740,
-		"pokedex_id": 138,
 		"generation": "Kanto",
 		"types": [
 			"Rock",
@@ -2254,8 +1990,6 @@
 	},
 	"139": {
 		"name": "Omastar",
-		"default_form_id": 743,
-		"pokedex_id": 139,
 		"generation": "Kanto",
 		"types": [
 			"Rock",
@@ -2269,8 +2003,6 @@
 	},
 	"140": {
 		"name": "Kabuto",
-		"default_form_id": 1104,
-		"pokedex_id": 140,
 		"generation": "Kanto",
 		"types": [
 			"Rock",
@@ -2284,8 +2016,6 @@
 	},
 	"141": {
 		"name": "Kabutops",
-		"default_form_id": 1107,
-		"pokedex_id": 141,
 		"generation": "Kanto",
 		"types": [
 			"Rock",
@@ -2299,8 +2029,6 @@
 	},
 	"142": {
 		"name": "Aerodactyl",
-		"default_form_id": 1110,
-		"pokedex_id": 142,
 		"generation": "Kanto",
 		"types": [
 			"Rock",
@@ -2322,8 +2050,6 @@
 	},
 	"143": {
 		"name": "Snorlax",
-		"default_form_id": 199,
-		"pokedex_id": 143,
 		"generation": "Kanto",
 		"types": [
 			"Normal"
@@ -2336,8 +2062,6 @@
 	},
 	"144": {
 		"name": "Articuno",
-		"default_form_id": 716,
-		"pokedex_id": 144,
 		"generation": "Kanto",
 		"types": [
 			"Ice",
@@ -2351,8 +2075,6 @@
 	},
 	"145": {
 		"name": "Zapdos",
-		"default_form_id": 773,
-		"pokedex_id": 145,
 		"generation": "Kanto",
 		"types": [
 			"Electric",
@@ -2366,8 +2088,6 @@
 	},
 	"146": {
 		"name": "Moltres",
-		"default_form_id": 836,
-		"pokedex_id": 146,
 		"generation": "Kanto",
 		"types": [
 			"Fire",
@@ -2381,8 +2101,6 @@
 	},
 	"147": {
 		"name": "Dratini",
-		"default_form_id": 190,
-		"pokedex_id": 147,
 		"generation": "Kanto",
 		"types": [
 			"Dragon"
@@ -2395,8 +2113,6 @@
 	},
 	"148": {
 		"name": "Dragonair",
-		"default_form_id": 193,
-		"pokedex_id": 148,
 		"generation": "Kanto",
 		"types": [
 			"Dragon"
@@ -2409,8 +2125,6 @@
 	},
 	"149": {
 		"name": "Dragonite",
-		"default_form_id": 196,
-		"pokedex_id": 149,
 		"generation": "Kanto",
 		"types": [
 			"Dragon",
@@ -2424,8 +2138,6 @@
 	},
 	"150": {
 		"name": "Mewtwo",
-		"default_form_id": 135,
-		"pokedex_id": 150,
 		"generation": "Kanto",
 		"types": [
 			"Psychic"
@@ -2464,8 +2176,6 @@
 	},
 	"151": {
 		"name": "Mew",
-		"default_form_id": 1115,
-		"pokedex_id": 151,
 		"generation": "Kanto",
 		"types": [
 			"Psychic"
@@ -2478,8 +2188,6 @@
 	},
 	"152": {
 		"name": "Chikorita",
-		"default_form_id": 1118,
-		"pokedex_id": 152,
 		"generation": "Johto",
 		"types": [
 			"Grass"
@@ -2492,8 +2200,6 @@
 	},
 	"153": {
 		"name": "Bayleef",
-		"default_form_id": 1121,
-		"pokedex_id": 153,
 		"generation": "Johto",
 		"types": [
 			"Grass"
@@ -2506,8 +2212,6 @@
 	},
 	"154": {
 		"name": "Meganium",
-		"default_form_id": 1124,
-		"pokedex_id": 154,
 		"generation": "Johto",
 		"types": [
 			"Grass"
@@ -2520,8 +2224,6 @@
 	},
 	"155": {
 		"name": "Cyndaquil",
-		"default_form_id": 1127,
-		"pokedex_id": 155,
 		"generation": "Johto",
 		"types": [
 			"Fire"
@@ -2534,8 +2236,6 @@
 	},
 	"156": {
 		"name": "Quilava",
-		"default_form_id": 1130,
-		"pokedex_id": 156,
 		"generation": "Johto",
 		"types": [
 			"Fire"
@@ -2548,8 +2248,6 @@
 	},
 	"157": {
 		"name": "Typhlosion",
-		"default_form_id": 1133,
-		"pokedex_id": 157,
 		"generation": "Johto",
 		"types": [
 			"Fire"
@@ -2562,8 +2260,6 @@
 	},
 	"158": {
 		"name": "Totodile",
-		"default_form_id": 1136,
-		"pokedex_id": 158,
 		"generation": "Johto",
 		"types": [
 			"Water"
@@ -2576,8 +2272,6 @@
 	},
 	"159": {
 		"name": "Croconaw",
-		"default_form_id": 1139,
-		"pokedex_id": 159,
 		"generation": "Johto",
 		"types": [
 			"Water"
@@ -2590,8 +2284,6 @@
 	},
 	"160": {
 		"name": "Feraligatr",
-		"default_form_id": 1142,
-		"pokedex_id": 160,
 		"generation": "Johto",
 		"types": [
 			"Water"
@@ -2604,8 +2296,6 @@
 	},
 	"161": {
 		"name": "Sentret",
-		"default_form_id": 1145,
-		"pokedex_id": 161,
 		"generation": "Johto",
 		"types": [
 			"Normal"
@@ -2618,8 +2308,6 @@
 	},
 	"162": {
 		"name": "Furret",
-		"default_form_id": 1148,
-		"pokedex_id": 162,
 		"generation": "Johto",
 		"types": [
 			"Normal"
@@ -2632,8 +2320,6 @@
 	},
 	"163": {
 		"name": "Hoothoot",
-		"default_form_id": 1151,
-		"pokedex_id": 163,
 		"generation": "Johto",
 		"types": [
 			"Normal",
@@ -2647,8 +2333,6 @@
 	},
 	"164": {
 		"name": "Noctowl",
-		"default_form_id": 1154,
-		"pokedex_id": 164,
 		"generation": "Johto",
 		"types": [
 			"Normal",
@@ -2662,8 +2346,6 @@
 	},
 	"165": {
 		"name": "Ledyba",
-		"default_form_id": 1157,
-		"pokedex_id": 165,
 		"generation": "Johto",
 		"types": [
 			"Bug",
@@ -2677,8 +2359,6 @@
 	},
 	"166": {
 		"name": "Ledian",
-		"default_form_id": 1160,
-		"pokedex_id": 166,
 		"generation": "Johto",
 		"types": [
 			"Bug",
@@ -2692,8 +2372,6 @@
 	},
 	"167": {
 		"name": "Spinarak",
-		"default_form_id": 1163,
-		"pokedex_id": 167,
 		"generation": "Johto",
 		"types": [
 			"Bug",
@@ -2707,8 +2385,6 @@
 	},
 	"168": {
 		"name": "Ariados",
-		"default_form_id": 1166,
-		"pokedex_id": 168,
 		"generation": "Johto",
 		"types": [
 			"Bug",
@@ -2722,8 +2398,6 @@
 	},
 	"169": {
 		"name": "Crobat",
-		"default_form_id": 202,
-		"pokedex_id": 169,
 		"generation": "Johto",
 		"types": [
 			"Poison",
@@ -2737,8 +2411,6 @@
 	},
 	"170": {
 		"name": "Chinchou",
-		"default_form_id": 1169,
-		"pokedex_id": 170,
 		"generation": "Johto",
 		"types": [
 			"Water",
@@ -2752,8 +2424,6 @@
 	},
 	"171": {
 		"name": "Lanturn",
-		"default_form_id": 1172,
-		"pokedex_id": 171,
 		"generation": "Johto",
 		"types": [
 			"Water",
@@ -2767,8 +2437,6 @@
 	},
 	"172": {
 		"name": "Pichu",
-		"default_form_id": 1175,
-		"pokedex_id": 172,
 		"generation": "Johto",
 		"types": [
 			"Electric"
@@ -2781,8 +2449,6 @@
 	},
 	"173": {
 		"name": "Cleffa",
-		"default_form_id": 1178,
-		"pokedex_id": 173,
 		"generation": "Johto",
 		"types": [
 			"Fairy"
@@ -2795,8 +2461,6 @@
 	},
 	"174": {
 		"name": "Igglybuff",
-		"default_form_id": 1181,
-		"pokedex_id": 174,
 		"generation": "Johto",
 		"types": [
 			"Normal",
@@ -2810,8 +2474,6 @@
 	},
 	"175": {
 		"name": "Togepi",
-		"default_form_id": 1184,
-		"pokedex_id": 175,
 		"generation": "Johto",
 		"types": [
 			"Fairy"
@@ -2824,8 +2486,6 @@
 	},
 	"176": {
 		"name": "Togetic",
-		"default_form_id": 1187,
-		"pokedex_id": 176,
 		"generation": "Johto",
 		"types": [
 			"Fairy",
@@ -2839,8 +2499,6 @@
 	},
 	"177": {
 		"name": "Natu",
-		"default_form_id": 1190,
-		"pokedex_id": 177,
 		"generation": "Johto",
 		"types": [
 			"Psychic",
@@ -2854,8 +2512,6 @@
 	},
 	"178": {
 		"name": "Xatu",
-		"default_form_id": 1193,
-		"pokedex_id": 178,
 		"generation": "Johto",
 		"types": [
 			"Psychic",
@@ -2869,8 +2525,6 @@
 	},
 	"179": {
 		"name": "Mareep",
-		"default_form_id": 646,
-		"pokedex_id": 179,
 		"generation": "Johto",
 		"types": [
 			"Electric"
@@ -2883,8 +2537,6 @@
 	},
 	"180": {
 		"name": "Flaaffy",
-		"default_form_id": 649,
-		"pokedex_id": 180,
 		"generation": "Johto",
 		"types": [
 			"Electric"
@@ -2897,8 +2549,6 @@
 	},
 	"181": {
 		"name": "Ampharos",
-		"default_form_id": 652,
-		"pokedex_id": 181,
 		"generation": "Johto",
 		"types": [
 			"Electric"
@@ -2923,8 +2573,6 @@
 	},
 	"182": {
 		"name": "Bellossom",
-		"default_form_id": 274,
-		"pokedex_id": 182,
 		"generation": "Johto",
 		"types": [
 			"Grass"
@@ -2937,8 +2585,6 @@
 	},
 	"183": {
 		"name": "Marill",
-		"default_form_id": 1196,
-		"pokedex_id": 183,
 		"generation": "Johto",
 		"types": [
 			"Water",
@@ -2952,8 +2598,6 @@
 	},
 	"184": {
 		"name": "Azumarill",
-		"default_form_id": 1199,
-		"pokedex_id": 184,
 		"generation": "Johto",
 		"types": [
 			"Water",
@@ -2967,8 +2611,6 @@
 	},
 	"185": {
 		"name": "Sudowoodo",
-		"default_form_id": 1202,
-		"pokedex_id": 185,
 		"generation": "Johto",
 		"types": [
 			"Rock"
@@ -2981,8 +2623,6 @@
 	},
 	"186": {
 		"name": "Politoed",
-		"default_form_id": 244,
-		"pokedex_id": 186,
 		"generation": "Johto",
 		"types": [
 			"Water"
@@ -2995,8 +2635,6 @@
 	},
 	"187": {
 		"name": "Hoppip",
-		"default_form_id": 1205,
-		"pokedex_id": 187,
 		"generation": "Johto",
 		"types": [
 			"Grass",
@@ -3010,8 +2648,6 @@
 	},
 	"188": {
 		"name": "Skiploom",
-		"default_form_id": 1208,
-		"pokedex_id": 188,
 		"generation": "Johto",
 		"types": [
 			"Grass",
@@ -3025,8 +2661,6 @@
 	},
 	"189": {
 		"name": "Jumpluff",
-		"default_form_id": 1211,
-		"pokedex_id": 189,
 		"generation": "Johto",
 		"types": [
 			"Grass",
@@ -3040,8 +2674,6 @@
 	},
 	"190": {
 		"name": "Aipom",
-		"default_form_id": 1214,
-		"pokedex_id": 190,
 		"generation": "Johto",
 		"types": [
 			"Normal"
@@ -3054,8 +2686,6 @@
 	},
 	"191": {
 		"name": "Sunkern",
-		"default_form_id": 1217,
-		"pokedex_id": 191,
 		"generation": "Johto",
 		"types": [
 			"Grass"
@@ -3068,8 +2698,6 @@
 	},
 	"192": {
 		"name": "Sunflora",
-		"default_form_id": 1220,
-		"pokedex_id": 192,
 		"generation": "Johto",
 		"types": [
 			"Grass"
@@ -3082,8 +2710,6 @@
 	},
 	"193": {
 		"name": "Yanma",
-		"default_form_id": 1223,
-		"pokedex_id": 193,
 		"generation": "Johto",
 		"types": [
 			"Bug",
@@ -3097,8 +2723,6 @@
 	},
 	"194": {
 		"name": "Wooper",
-		"default_form_id": 1226,
-		"pokedex_id": 194,
 		"generation": "Johto",
 		"types": [
 			"Water",
@@ -3112,8 +2736,6 @@
 	},
 	"195": {
 		"name": "Quagsire",
-		"default_form_id": 1229,
-		"pokedex_id": 195,
 		"generation": "Johto",
 		"types": [
 			"Water",
@@ -3127,8 +2749,6 @@
 	},
 	"196": {
 		"name": "Espeon",
-		"default_form_id": 1232,
-		"pokedex_id": 196,
 		"generation": "Johto",
 		"types": [
 			"Psychic"
@@ -3141,8 +2761,6 @@
 	},
 	"197": {
 		"name": "Umbreon",
-		"default_form_id": 1235,
-		"pokedex_id": 197,
 		"generation": "Johto",
 		"types": [
 			"Dark"
@@ -3155,8 +2773,6 @@
 	},
 	"198": {
 		"name": "Murkrow",
-		"default_form_id": 855,
-		"pokedex_id": 198,
 		"generation": "Johto",
 		"types": [
 			"Dark",
@@ -3170,8 +2786,6 @@
 	},
 	"199": {
 		"name": "Slowking",
-		"default_form_id": 1238,
-		"pokedex_id": 199,
 		"generation": "Johto",
 		"types": [
 			"Water",
@@ -3181,12 +2795,22 @@
 		"defense": 180,
 		"stamina": 216,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Slowking (Galarian)",
+				"types": [
+					"Poison",
+					"Psychic"
+				],
+				"attack": 190,
+				"defense": 180,
+				"stamina": 216
+			}
+		]
 	},
 	"200": {
 		"name": "Misdreavus",
-		"default_form_id": 719,
-		"pokedex_id": 200,
 		"generation": "Johto",
 		"types": [
 			"Ghost"
@@ -3199,8 +2823,6 @@
 	},
 	"201": {
 		"name": "Unown",
-		"default_form_id": 6,
-		"pokedex_id": 201,
 		"generation": "Johto",
 		"types": [
 			"Psychic"
@@ -3213,8 +2835,6 @@
 	},
 	"202": {
 		"name": "Wobbuffet",
-		"default_form_id": 602,
-		"pokedex_id": 202,
 		"generation": "Johto",
 		"types": [
 			"Psychic"
@@ -3227,8 +2847,6 @@
 	},
 	"203": {
 		"name": "Girafarig",
-		"default_form_id": 1241,
-		"pokedex_id": 203,
 		"generation": "Johto",
 		"types": [
 			"Normal",
@@ -3242,8 +2860,6 @@
 	},
 	"204": {
 		"name": "Pineco",
-		"default_form_id": 1244,
-		"pokedex_id": 204,
 		"generation": "Johto",
 		"types": [
 			"Bug"
@@ -3256,8 +2872,6 @@
 	},
 	"205": {
 		"name": "Forretress",
-		"default_form_id": 1247,
-		"pokedex_id": 205,
 		"generation": "Johto",
 		"types": [
 			"Bug",
@@ -3271,8 +2885,6 @@
 	},
 	"206": {
 		"name": "Dunsparce",
-		"default_form_id": 1250,
-		"pokedex_id": 206,
 		"generation": "Johto",
 		"types": [
 			"Normal"
@@ -3285,8 +2897,6 @@
 	},
 	"207": {
 		"name": "Gligar",
-		"default_form_id": 803,
-		"pokedex_id": 207,
 		"generation": "Johto",
 		"types": [
 			"Ground",
@@ -3300,8 +2910,6 @@
 	},
 	"208": {
 		"name": "Steelix",
-		"default_form_id": 905,
-		"pokedex_id": 208,
 		"generation": "Johto",
 		"types": [
 			"Steel",
@@ -3323,8 +2931,6 @@
 	},
 	"209": {
 		"name": "Snubbull",
-		"default_form_id": 1253,
-		"pokedex_id": 209,
 		"generation": "Johto",
 		"types": [
 			"Fairy"
@@ -3337,8 +2943,6 @@
 	},
 	"210": {
 		"name": "Granbull",
-		"default_form_id": 1256,
-		"pokedex_id": 210,
 		"generation": "Johto",
 		"types": [
 			"Fairy"
@@ -3351,8 +2955,6 @@
 	},
 	"211": {
 		"name": "Qwilfish",
-		"default_form_id": 1259,
-		"pokedex_id": 211,
 		"generation": "Johto",
 		"types": [
 			"Water",
@@ -3366,8 +2968,6 @@
 	},
 	"212": {
 		"name": "Scizor",
-		"default_form_id": 250,
-		"pokedex_id": 212,
 		"generation": "Johto",
 		"types": [
 			"Bug",
@@ -3389,8 +2989,6 @@
 	},
 	"213": {
 		"name": "Shuckle",
-		"default_form_id": 827,
-		"pokedex_id": 213,
 		"generation": "Johto",
 		"types": [
 			"Bug",
@@ -3404,8 +3002,6 @@
 	},
 	"214": {
 		"name": "Heracross",
-		"default_form_id": 1262,
-		"pokedex_id": 214,
 		"generation": "Johto",
 		"types": [
 			"Bug",
@@ -3427,8 +3023,6 @@
 	},
 	"215": {
 		"name": "Sneasel",
-		"default_form_id": 797,
-		"pokedex_id": 215,
 		"generation": "Johto",
 		"types": [
 			"Dark",
@@ -3442,8 +3036,6 @@
 	},
 	"216": {
 		"name": "Teddiursa",
-		"default_form_id": 1265,
-		"pokedex_id": 216,
 		"generation": "Johto",
 		"types": [
 			"Normal"
@@ -3456,8 +3048,6 @@
 	},
 	"217": {
 		"name": "Ursaring",
-		"default_form_id": 1268,
-		"pokedex_id": 217,
 		"generation": "Johto",
 		"types": [
 			"Normal"
@@ -3470,8 +3060,6 @@
 	},
 	"218": {
 		"name": "Slugma",
-		"default_form_id": 1271,
-		"pokedex_id": 218,
 		"generation": "Johto",
 		"types": [
 			"Fire"
@@ -3484,8 +3072,6 @@
 	},
 	"219": {
 		"name": "Magcargo",
-		"default_form_id": 1274,
-		"pokedex_id": 219,
 		"generation": "Johto",
 		"types": [
 			"Fire",
@@ -3499,8 +3085,6 @@
 	},
 	"220": {
 		"name": "Swinub",
-		"default_form_id": 1277,
-		"pokedex_id": 220,
 		"generation": "Johto",
 		"types": [
 			"Ice",
@@ -3514,8 +3098,6 @@
 	},
 	"221": {
 		"name": "Piloswine",
-		"default_form_id": 1280,
-		"pokedex_id": 221,
 		"generation": "Johto",
 		"types": [
 			"Ice",
@@ -3529,8 +3111,6 @@
 	},
 	"222": {
 		"name": "Corsola",
-		"default_form_id": 1283,
-		"pokedex_id": 222,
 		"generation": "Johto",
 		"types": [
 			"Water",
@@ -3544,8 +3124,6 @@
 	},
 	"223": {
 		"name": "Remoraid",
-		"default_form_id": 1286,
-		"pokedex_id": 223,
 		"generation": "Johto",
 		"types": [
 			"Water"
@@ -3558,8 +3136,6 @@
 	},
 	"224": {
 		"name": "Octillery",
-		"default_form_id": 1289,
-		"pokedex_id": 224,
 		"generation": "Johto",
 		"types": [
 			"Water"
@@ -3572,8 +3148,6 @@
 	},
 	"225": {
 		"name": "Delibird",
-		"default_form_id": 938,
-		"pokedex_id": 225,
 		"generation": "Johto",
 		"types": [
 			"Ice",
@@ -3587,8 +3161,6 @@
 	},
 	"226": {
 		"name": "Mantine",
-		"default_form_id": 1292,
-		"pokedex_id": 226,
 		"generation": "Johto",
 		"types": [
 			"Water",
@@ -3602,8 +3174,6 @@
 	},
 	"227": {
 		"name": "Skarmory",
-		"default_form_id": 1295,
-		"pokedex_id": 227,
 		"generation": "Johto",
 		"types": [
 			"Steel",
@@ -3617,8 +3187,6 @@
 	},
 	"228": {
 		"name": "Houndour",
-		"default_form_id": 229,
-		"pokedex_id": 228,
 		"generation": "Johto",
 		"types": [
 			"Dark",
@@ -3632,8 +3200,6 @@
 	},
 	"229": {
 		"name": "Houndoom",
-		"default_form_id": 232,
-		"pokedex_id": 229,
 		"generation": "Johto",
 		"types": [
 			"Dark",
@@ -3655,8 +3221,6 @@
 	},
 	"230": {
 		"name": "Kingdra",
-		"default_form_id": 1298,
-		"pokedex_id": 230,
 		"generation": "Johto",
 		"types": [
 			"Water",
@@ -3670,8 +3234,6 @@
 	},
 	"231": {
 		"name": "Phanpy",
-		"default_form_id": 1301,
-		"pokedex_id": 231,
 		"generation": "Johto",
 		"types": [
 			"Ground"
@@ -3684,8 +3246,6 @@
 	},
 	"232": {
 		"name": "Donphan",
-		"default_form_id": 1304,
-		"pokedex_id": 232,
 		"generation": "Johto",
 		"types": [
 			"Ground"
@@ -3698,8 +3258,6 @@
 	},
 	"233": {
 		"name": "Porygon2",
-		"default_form_id": 680,
-		"pokedex_id": 233,
 		"generation": "Johto",
 		"types": [
 			"Normal"
@@ -3712,8 +3270,6 @@
 	},
 	"234": {
 		"name": "Stantler",
-		"default_form_id": 941,
-		"pokedex_id": 234,
 		"generation": "Johto",
 		"types": [
 			"Normal"
@@ -3726,8 +3282,6 @@
 	},
 	"235": {
 		"name": "Smeargle",
-		"default_form_id": 1307,
-		"pokedex_id": 235,
 		"generation": "Johto",
 		"types": [
 			"Normal"
@@ -3740,8 +3294,6 @@
 	},
 	"236": {
 		"name": "Tyrogue",
-		"default_form_id": 1310,
-		"pokedex_id": 236,
 		"generation": "Johto",
 		"types": [
 			"Fighting"
@@ -3754,8 +3306,6 @@
 	},
 	"237": {
 		"name": "Hitmontop",
-		"default_form_id": 1313,
-		"pokedex_id": 237,
 		"generation": "Johto",
 		"types": [
 			"Fighting"
@@ -3768,8 +3318,6 @@
 	},
 	"238": {
 		"name": "Smoochum",
-		"default_form_id": 1316,
-		"pokedex_id": 238,
 		"generation": "Johto",
 		"types": [
 			"Ice",
@@ -3783,8 +3331,6 @@
 	},
 	"239": {
 		"name": "Elekid",
-		"default_form_id": 1319,
-		"pokedex_id": 239,
 		"generation": "Johto",
 		"types": [
 			"Electric"
@@ -3797,8 +3343,6 @@
 	},
 	"240": {
 		"name": "Magby",
-		"default_form_id": 1322,
-		"pokedex_id": 240,
 		"generation": "Johto",
 		"types": [
 			"Fire"
@@ -3811,8 +3355,6 @@
 	},
 	"241": {
 		"name": "Miltank",
-		"default_form_id": 1325,
-		"pokedex_id": 241,
 		"generation": "Johto",
 		"types": [
 			"Normal"
@@ -3825,8 +3367,6 @@
 	},
 	"242": {
 		"name": "Blissey",
-		"default_form_id": 1328,
-		"pokedex_id": 242,
 		"generation": "Johto",
 		"types": [
 			"Normal"
@@ -3839,8 +3379,6 @@
 	},
 	"243": {
 		"name": "Raikou",
-		"default_form_id": 1331,
-		"pokedex_id": 243,
 		"generation": "Johto",
 		"types": [
 			"Electric"
@@ -3853,8 +3391,6 @@
 	},
 	"244": {
 		"name": "Entei",
-		"default_form_id": 1334,
-		"pokedex_id": 244,
 		"generation": "Johto",
 		"types": [
 			"Fire"
@@ -3867,8 +3403,6 @@
 	},
 	"245": {
 		"name": "Suicune",
-		"default_form_id": 1337,
-		"pokedex_id": 245,
 		"generation": "Johto",
 		"types": [
 			"Water"
@@ -3881,8 +3415,6 @@
 	},
 	"246": {
 		"name": "Larvitar",
-		"default_form_id": 313,
-		"pokedex_id": 246,
 		"generation": "Johto",
 		"types": [
 			"Rock",
@@ -3896,8 +3428,6 @@
 	},
 	"247": {
 		"name": "Pupitar",
-		"default_form_id": 316,
-		"pokedex_id": 247,
 		"generation": "Johto",
 		"types": [
 			"Rock",
@@ -3911,8 +3441,6 @@
 	},
 	"248": {
 		"name": "Tyranitar",
-		"default_form_id": 319,
-		"pokedex_id": 248,
 		"generation": "Johto",
 		"types": [
 			"Rock",
@@ -3934,8 +3462,6 @@
 	},
 	"249": {
 		"name": "Lugia",
-		"default_form_id": 1340,
-		"pokedex_id": 249,
 		"generation": "Johto",
 		"types": [
 			"Psychic",
@@ -3949,8 +3475,6 @@
 	},
 	"250": {
 		"name": "Ho Oh",
-		"default_form_id": 1343,
-		"pokedex_id": 250,
 		"generation": "Johto",
 		"types": [
 			"Fire",
@@ -3964,8 +3488,6 @@
 	},
 	"251": {
 		"name": "Celebi",
-		"default_form_id": 1346,
-		"pokedex_id": 251,
 		"generation": "Johto",
 		"types": [
 			"Psychic",
@@ -3979,8 +3501,6 @@
 	},
 	"252": {
 		"name": "Treecko",
-		"default_form_id": 1349,
-		"pokedex_id": 252,
 		"generation": "Hoenn",
 		"types": [
 			"Grass"
@@ -3993,8 +3513,6 @@
 	},
 	"253": {
 		"name": "Grovyle",
-		"default_form_id": 1352,
-		"pokedex_id": 253,
 		"generation": "Hoenn",
 		"types": [
 			"Grass"
@@ -4007,8 +3525,6 @@
 	},
 	"254": {
 		"name": "Sceptile",
-		"default_form_id": 1355,
-		"pokedex_id": 254,
 		"generation": "Hoenn",
 		"types": [
 			"Grass"
@@ -4033,8 +3549,6 @@
 	},
 	"255": {
 		"name": "Torchic",
-		"default_form_id": 1358,
-		"pokedex_id": 255,
 		"generation": "Hoenn",
 		"types": [
 			"Fire"
@@ -4047,8 +3561,6 @@
 	},
 	"256": {
 		"name": "Combusken",
-		"default_form_id": 1361,
-		"pokedex_id": 256,
 		"generation": "Hoenn",
 		"types": [
 			"Fire",
@@ -4062,8 +3574,6 @@
 	},
 	"257": {
 		"name": "Blaziken",
-		"default_form_id": 1364,
-		"pokedex_id": 257,
 		"generation": "Hoenn",
 		"types": [
 			"Fire",
@@ -4085,8 +3595,6 @@
 	},
 	"258": {
 		"name": "Mudkip",
-		"default_form_id": 205,
-		"pokedex_id": 258,
 		"generation": "Hoenn",
 		"types": [
 			"Water"
@@ -4099,8 +3607,6 @@
 	},
 	"259": {
 		"name": "Marshtomp",
-		"default_form_id": 208,
-		"pokedex_id": 259,
 		"generation": "Hoenn",
 		"types": [
 			"Water",
@@ -4114,8 +3620,6 @@
 	},
 	"260": {
 		"name": "Swampert",
-		"default_form_id": 211,
-		"pokedex_id": 260,
 		"generation": "Hoenn",
 		"types": [
 			"Water",
@@ -4137,8 +3641,6 @@
 	},
 	"261": {
 		"name": "Poochyena",
-		"default_form_id": 1367,
-		"pokedex_id": 261,
 		"generation": "Hoenn",
 		"types": [
 			"Dark"
@@ -4151,8 +3653,6 @@
 	},
 	"262": {
 		"name": "Mightyena",
-		"default_form_id": 1370,
-		"pokedex_id": 262,
 		"generation": "Hoenn",
 		"types": [
 			"Dark"
@@ -4165,8 +3665,6 @@
 	},
 	"263": {
 		"name": "Zigzagoon",
-		"default_form_id": 945,
-		"pokedex_id": 263,
 		"generation": "Hoenn",
 		"types": [
 			"Normal"
@@ -4179,8 +3677,6 @@
 	},
 	"264": {
 		"name": "Linoone",
-		"default_form_id": 947,
-		"pokedex_id": 264,
 		"generation": "Hoenn",
 		"types": [
 			"Normal"
@@ -4193,8 +3689,6 @@
 	},
 	"265": {
 		"name": "Wurmple",
-		"default_form_id": 600,
-		"pokedex_id": 265,
 		"generation": "Hoenn",
 		"types": [
 			"Bug"
@@ -4207,8 +3701,6 @@
 	},
 	"266": {
 		"name": "Silcoon",
-		"default_form_id": 1379,
-		"pokedex_id": 266,
 		"generation": "Hoenn",
 		"types": [
 			"Bug"
@@ -4221,8 +3713,6 @@
 	},
 	"267": {
 		"name": "Beautifly",
-		"default_form_id": 1382,
-		"pokedex_id": 267,
 		"generation": "Hoenn",
 		"types": [
 			"Bug",
@@ -4236,8 +3726,6 @@
 	},
 	"268": {
 		"name": "Cascoon",
-		"default_form_id": 1385,
-		"pokedex_id": 268,
 		"generation": "Hoenn",
 		"types": [
 			"Bug"
@@ -4250,8 +3738,6 @@
 	},
 	"269": {
 		"name": "Dustox",
-		"default_form_id": 1388,
-		"pokedex_id": 269,
 		"generation": "Hoenn",
 		"types": [
 			"Bug",
@@ -4265,8 +3751,6 @@
 	},
 	"270": {
 		"name": "Lotad",
-		"default_form_id": 1391,
-		"pokedex_id": 270,
 		"generation": "Hoenn",
 		"types": [
 			"Water",
@@ -4280,8 +3764,6 @@
 	},
 	"271": {
 		"name": "Lombre",
-		"default_form_id": 1394,
-		"pokedex_id": 271,
 		"generation": "Hoenn",
 		"types": [
 			"Water",
@@ -4295,8 +3777,6 @@
 	},
 	"272": {
 		"name": "Ludicolo",
-		"default_form_id": 1397,
-		"pokedex_id": 272,
 		"generation": "Hoenn",
 		"types": [
 			"Water",
@@ -4310,8 +3790,6 @@
 	},
 	"273": {
 		"name": "Seedot",
-		"default_form_id": 625,
-		"pokedex_id": 273,
 		"generation": "Hoenn",
 		"types": [
 			"Grass"
@@ -4324,8 +3802,6 @@
 	},
 	"274": {
 		"name": "Nuzleaf",
-		"default_form_id": 628,
-		"pokedex_id": 274,
 		"generation": "Hoenn",
 		"types": [
 			"Grass",
@@ -4339,8 +3815,6 @@
 	},
 	"275": {
 		"name": "Shiftry",
-		"default_form_id": 631,
-		"pokedex_id": 275,
 		"generation": "Hoenn",
 		"types": [
 			"Grass",
@@ -4354,8 +3828,6 @@
 	},
 	"276": {
 		"name": "Taillow",
-		"default_form_id": 1400,
-		"pokedex_id": 276,
 		"generation": "Hoenn",
 		"types": [
 			"Normal",
@@ -4369,8 +3841,6 @@
 	},
 	"277": {
 		"name": "Swellow",
-		"default_form_id": 1403,
-		"pokedex_id": 277,
 		"generation": "Hoenn",
 		"types": [
 			"Normal",
@@ -4384,8 +3854,6 @@
 	},
 	"278": {
 		"name": "Wingull",
-		"default_form_id": 1406,
-		"pokedex_id": 278,
 		"generation": "Hoenn",
 		"types": [
 			"Water",
@@ -4399,8 +3867,6 @@
 	},
 	"279": {
 		"name": "Pelipper",
-		"default_form_id": 1409,
-		"pokedex_id": 279,
 		"generation": "Hoenn",
 		"types": [
 			"Water",
@@ -4414,8 +3880,6 @@
 	},
 	"280": {
 		"name": "Ralts",
-		"default_form_id": 292,
-		"pokedex_id": 280,
 		"generation": "Hoenn",
 		"types": [
 			"Psychic",
@@ -4429,8 +3893,6 @@
 	},
 	"281": {
 		"name": "Kirlia",
-		"default_form_id": 295,
-		"pokedex_id": 281,
 		"generation": "Hoenn",
 		"types": [
 			"Psychic",
@@ -4444,8 +3906,6 @@
 	},
 	"282": {
 		"name": "Gardevoir",
-		"default_form_id": 298,
-		"pokedex_id": 282,
 		"generation": "Hoenn",
 		"types": [
 			"Psychic",
@@ -4467,8 +3927,6 @@
 	},
 	"283": {
 		"name": "Surskit",
-		"default_form_id": 1412,
-		"pokedex_id": 283,
 		"generation": "Hoenn",
 		"types": [
 			"Bug",
@@ -4482,8 +3940,6 @@
 	},
 	"284": {
 		"name": "Masquerain",
-		"default_form_id": 1415,
-		"pokedex_id": 284,
 		"generation": "Hoenn",
 		"types": [
 			"Bug",
@@ -4497,8 +3953,6 @@
 	},
 	"285": {
 		"name": "Shroomish",
-		"default_form_id": 1418,
-		"pokedex_id": 285,
 		"generation": "Hoenn",
 		"types": [
 			"Grass"
@@ -4511,8 +3965,6 @@
 	},
 	"286": {
 		"name": "Breloom",
-		"default_form_id": 1421,
-		"pokedex_id": 286,
 		"generation": "Hoenn",
 		"types": [
 			"Grass",
@@ -4526,8 +3978,6 @@
 	},
 	"287": {
 		"name": "Slakoth",
-		"default_form_id": 1424,
-		"pokedex_id": 287,
 		"generation": "Hoenn",
 		"types": [
 			"Normal"
@@ -4540,8 +3990,6 @@
 	},
 	"288": {
 		"name": "Vigoroth",
-		"default_form_id": 1427,
-		"pokedex_id": 288,
 		"generation": "Hoenn",
 		"types": [
 			"Normal"
@@ -4554,8 +4002,6 @@
 	},
 	"289": {
 		"name": "Slaking",
-		"default_form_id": 1430,
-		"pokedex_id": 289,
 		"generation": "Hoenn",
 		"types": [
 			"Normal"
@@ -4568,8 +4014,6 @@
 	},
 	"290": {
 		"name": "Nincada",
-		"default_form_id": 1433,
-		"pokedex_id": 290,
 		"generation": "Hoenn",
 		"types": [
 			"Bug",
@@ -4583,8 +4027,6 @@
 	},
 	"291": {
 		"name": "Ninjask",
-		"default_form_id": 1436,
-		"pokedex_id": 291,
 		"generation": "Hoenn",
 		"types": [
 			"Bug",
@@ -4598,8 +4040,6 @@
 	},
 	"292": {
 		"name": "Shedinja",
-		"default_form_id": 1439,
-		"pokedex_id": 292,
 		"generation": "Hoenn",
 		"types": [
 			"Bug",
@@ -4613,8 +4053,6 @@
 	},
 	"293": {
 		"name": "Whismur",
-		"default_form_id": 1442,
-		"pokedex_id": 293,
 		"generation": "Hoenn",
 		"types": [
 			"Normal"
@@ -4627,8 +4065,6 @@
 	},
 	"294": {
 		"name": "Loudred",
-		"default_form_id": 1445,
-		"pokedex_id": 294,
 		"generation": "Hoenn",
 		"types": [
 			"Normal"
@@ -4641,8 +4077,6 @@
 	},
 	"295": {
 		"name": "Exploud",
-		"default_form_id": 1448,
-		"pokedex_id": 295,
 		"generation": "Hoenn",
 		"types": [
 			"Normal"
@@ -4655,8 +4089,6 @@
 	},
 	"296": {
 		"name": "Makuhita",
-		"default_form_id": 1451,
-		"pokedex_id": 296,
 		"generation": "Hoenn",
 		"types": [
 			"Fighting"
@@ -4669,8 +4101,6 @@
 	},
 	"297": {
 		"name": "Hariyama",
-		"default_form_id": 1454,
-		"pokedex_id": 297,
 		"generation": "Hoenn",
 		"types": [
 			"Fighting"
@@ -4683,8 +4113,6 @@
 	},
 	"298": {
 		"name": "Azurill",
-		"default_form_id": 1457,
-		"pokedex_id": 298,
 		"generation": "Hoenn",
 		"types": [
 			"Normal",
@@ -4698,8 +4126,6 @@
 	},
 	"299": {
 		"name": "Nosepass",
-		"default_form_id": 1460,
-		"pokedex_id": 299,
 		"generation": "Hoenn",
 		"types": [
 			"Rock"
@@ -4712,8 +4138,6 @@
 	},
 	"300": {
 		"name": "Skitty",
-		"default_form_id": 1463,
-		"pokedex_id": 300,
 		"generation": "Hoenn",
 		"types": [
 			"Normal"
@@ -4726,8 +4150,6 @@
 	},
 	"301": {
 		"name": "Delcatty",
-		"default_form_id": 1466,
-		"pokedex_id": 301,
 		"generation": "Hoenn",
 		"types": [
 			"Normal"
@@ -4740,8 +4162,6 @@
 	},
 	"302": {
 		"name": "Sableye",
-		"default_form_id": 923,
-		"pokedex_id": 302,
 		"generation": "Hoenn",
 		"types": [
 			"Dark",
@@ -4763,8 +4183,6 @@
 	},
 	"303": {
 		"name": "Mawile",
-		"default_form_id": 833,
-		"pokedex_id": 303,
 		"generation": "Hoenn",
 		"types": [
 			"Steel",
@@ -4786,8 +4204,6 @@
 	},
 	"304": {
 		"name": "Aron",
-		"default_form_id": 1469,
-		"pokedex_id": 304,
 		"generation": "Hoenn",
 		"types": [
 			"Steel",
@@ -4801,8 +4217,6 @@
 	},
 	"305": {
 		"name": "Lairon",
-		"default_form_id": 1472,
-		"pokedex_id": 305,
 		"generation": "Hoenn",
 		"types": [
 			"Steel",
@@ -4816,8 +4230,6 @@
 	},
 	"306": {
 		"name": "Aggron",
-		"default_form_id": 1475,
-		"pokedex_id": 306,
 		"generation": "Hoenn",
 		"types": [
 			"Steel",
@@ -4842,8 +4254,6 @@
 	},
 	"307": {
 		"name": "Meditite",
-		"default_form_id": 1478,
-		"pokedex_id": 307,
 		"generation": "Hoenn",
 		"types": [
 			"Fighting",
@@ -4857,8 +4267,6 @@
 	},
 	"308": {
 		"name": "Medicham",
-		"default_form_id": 1481,
-		"pokedex_id": 308,
 		"generation": "Hoenn",
 		"types": [
 			"Fighting",
@@ -4880,8 +4288,6 @@
 	},
 	"309": {
 		"name": "Electrike",
-		"default_form_id": 1484,
-		"pokedex_id": 309,
 		"generation": "Hoenn",
 		"types": [
 			"Electric"
@@ -4894,8 +4300,6 @@
 	},
 	"310": {
 		"name": "Manectric",
-		"default_form_id": 1487,
-		"pokedex_id": 310,
 		"generation": "Hoenn",
 		"types": [
 			"Electric"
@@ -4916,8 +4320,6 @@
 	},
 	"311": {
 		"name": "Plusle",
-		"default_form_id": 1490,
-		"pokedex_id": 311,
 		"generation": "Hoenn",
 		"types": [
 			"Electric"
@@ -4930,8 +4332,6 @@
 	},
 	"312": {
 		"name": "Minun",
-		"default_form_id": 1493,
-		"pokedex_id": 312,
 		"generation": "Hoenn",
 		"types": [
 			"Electric"
@@ -4944,8 +4344,6 @@
 	},
 	"313": {
 		"name": "Volbeat",
-		"default_form_id": 1496,
-		"pokedex_id": 313,
 		"generation": "Hoenn",
 		"types": [
 			"Bug"
@@ -4958,8 +4356,6 @@
 	},
 	"314": {
 		"name": "Illumise",
-		"default_form_id": 1499,
-		"pokedex_id": 314,
 		"generation": "Hoenn",
 		"types": [
 			"Bug"
@@ -4972,8 +4368,6 @@
 	},
 	"315": {
 		"name": "Roselia",
-		"default_form_id": 1502,
-		"pokedex_id": 315,
 		"generation": "Hoenn",
 		"types": [
 			"Grass",
@@ -4987,8 +4381,6 @@
 	},
 	"316": {
 		"name": "Gulpin",
-		"default_form_id": 1505,
-		"pokedex_id": 316,
 		"generation": "Hoenn",
 		"types": [
 			"Poison"
@@ -5001,8 +4393,6 @@
 	},
 	"317": {
 		"name": "Swalot",
-		"default_form_id": 1508,
-		"pokedex_id": 317,
 		"generation": "Hoenn",
 		"types": [
 			"Poison"
@@ -5015,8 +4405,6 @@
 	},
 	"318": {
 		"name": "Carvanha",
-		"default_form_id": 734,
-		"pokedex_id": 318,
 		"generation": "Hoenn",
 		"types": [
 			"Water",
@@ -5030,8 +4418,6 @@
 	},
 	"319": {
 		"name": "Sharpedo",
-		"default_form_id": 737,
-		"pokedex_id": 319,
 		"generation": "Hoenn",
 		"types": [
 			"Water",
@@ -5053,8 +4439,6 @@
 	},
 	"320": {
 		"name": "Wailmer",
-		"default_form_id": 1511,
-		"pokedex_id": 320,
 		"generation": "Hoenn",
 		"types": [
 			"Water"
@@ -5067,8 +4451,6 @@
 	},
 	"321": {
 		"name": "Wailord",
-		"default_form_id": 1514,
-		"pokedex_id": 321,
 		"generation": "Hoenn",
 		"types": [
 			"Water"
@@ -5081,8 +4463,6 @@
 	},
 	"322": {
 		"name": "Numel",
-		"default_form_id": 1517,
-		"pokedex_id": 322,
 		"generation": "Hoenn",
 		"types": [
 			"Fire",
@@ -5096,8 +4476,6 @@
 	},
 	"323": {
 		"name": "Camerupt",
-		"default_form_id": 1520,
-		"pokedex_id": 323,
 		"generation": "Hoenn",
 		"types": [
 			"Fire",
@@ -5119,8 +4497,6 @@
 	},
 	"324": {
 		"name": "Torkoal",
-		"default_form_id": 1523,
-		"pokedex_id": 324,
 		"generation": "Hoenn",
 		"types": [
 			"Fire"
@@ -5133,8 +4509,6 @@
 	},
 	"325": {
 		"name": "Spoink",
-		"default_form_id": 1526,
-		"pokedex_id": 325,
 		"generation": "Hoenn",
 		"types": [
 			"Psychic"
@@ -5147,8 +4521,6 @@
 	},
 	"326": {
 		"name": "Grumpig",
-		"default_form_id": 1529,
-		"pokedex_id": 326,
 		"generation": "Hoenn",
 		"types": [
 			"Psychic"
@@ -5161,8 +4533,6 @@
 	},
 	"327": {
 		"name": "Spinda",
-		"default_form_id": 37,
-		"pokedex_id": 327,
 		"generation": "Hoenn",
 		"types": [
 			"Normal"
@@ -5175,8 +4545,6 @@
 	},
 	"328": {
 		"name": "Trapinch",
-		"default_form_id": 746,
-		"pokedex_id": 328,
 		"generation": "Hoenn",
 		"types": [
 			"Ground"
@@ -5189,8 +4557,6 @@
 	},
 	"329": {
 		"name": "Vibrava",
-		"default_form_id": 749,
-		"pokedex_id": 329,
 		"generation": "Hoenn",
 		"types": [
 			"Ground",
@@ -5204,8 +4570,6 @@
 	},
 	"330": {
 		"name": "Flygon",
-		"default_form_id": 752,
-		"pokedex_id": 330,
 		"generation": "Hoenn",
 		"types": [
 			"Ground",
@@ -5219,8 +4583,6 @@
 	},
 	"331": {
 		"name": "Cacnea",
-		"default_form_id": 610,
-		"pokedex_id": 331,
 		"generation": "Hoenn",
 		"types": [
 			"Grass"
@@ -5233,8 +4595,6 @@
 	},
 	"332": {
 		"name": "Cacturne",
-		"default_form_id": 613,
-		"pokedex_id": 332,
 		"generation": "Hoenn",
 		"types": [
 			"Grass",
@@ -5248,8 +4608,6 @@
 	},
 	"333": {
 		"name": "Swablu",
-		"default_form_id": 1532,
-		"pokedex_id": 333,
 		"generation": "Hoenn",
 		"types": [
 			"Normal",
@@ -5263,8 +4621,6 @@
 	},
 	"334": {
 		"name": "Altaria",
-		"default_form_id": 1535,
-		"pokedex_id": 334,
 		"generation": "Hoenn",
 		"types": [
 			"Dragon",
@@ -5290,8 +4646,6 @@
 	},
 	"335": {
 		"name": "Zangoose",
-		"default_form_id": 1538,
-		"pokedex_id": 335,
 		"generation": "Hoenn",
 		"types": [
 			"Normal"
@@ -5304,8 +4658,6 @@
 	},
 	"336": {
 		"name": "Seviper",
-		"default_form_id": 1541,
-		"pokedex_id": 336,
 		"generation": "Hoenn",
 		"types": [
 			"Poison"
@@ -5318,8 +4670,6 @@
 	},
 	"337": {
 		"name": "Lunatone",
-		"default_form_id": 1544,
-		"pokedex_id": 337,
 		"generation": "Hoenn",
 		"types": [
 			"Rock",
@@ -5333,8 +4683,6 @@
 	},
 	"338": {
 		"name": "Solrock",
-		"default_form_id": 1547,
-		"pokedex_id": 338,
 		"generation": "Hoenn",
 		"types": [
 			"Rock",
@@ -5348,8 +4696,6 @@
 	},
 	"339": {
 		"name": "Barboach",
-		"default_form_id": 1550,
-		"pokedex_id": 339,
 		"generation": "Hoenn",
 		"types": [
 			"Water",
@@ -5363,8 +4709,6 @@
 	},
 	"340": {
 		"name": "Whiscash",
-		"default_form_id": 1553,
-		"pokedex_id": 340,
 		"generation": "Hoenn",
 		"types": [
 			"Water",
@@ -5378,8 +4722,6 @@
 	},
 	"341": {
 		"name": "Corphish",
-		"default_form_id": 1556,
-		"pokedex_id": 341,
 		"generation": "Hoenn",
 		"types": [
 			"Water"
@@ -5392,8 +4734,6 @@
 	},
 	"342": {
 		"name": "Crawdaunt",
-		"default_form_id": 1559,
-		"pokedex_id": 342,
 		"generation": "Hoenn",
 		"types": [
 			"Water",
@@ -5407,8 +4747,6 @@
 	},
 	"343": {
 		"name": "Baltoy",
-		"default_form_id": 1562,
-		"pokedex_id": 343,
 		"generation": "Hoenn",
 		"types": [
 			"Ground",
@@ -5422,8 +4760,6 @@
 	},
 	"344": {
 		"name": "Claydol",
-		"default_form_id": 1565,
-		"pokedex_id": 344,
 		"generation": "Hoenn",
 		"types": [
 			"Ground",
@@ -5437,8 +4773,6 @@
 	},
 	"345": {
 		"name": "Lileep",
-		"default_form_id": 1568,
-		"pokedex_id": 345,
 		"generation": "Hoenn",
 		"types": [
 			"Rock",
@@ -5452,8 +4786,6 @@
 	},
 	"346": {
 		"name": "Cradily",
-		"default_form_id": 1571,
-		"pokedex_id": 346,
 		"generation": "Hoenn",
 		"types": [
 			"Rock",
@@ -5467,8 +4799,6 @@
 	},
 	"347": {
 		"name": "Anorith",
-		"default_form_id": 1574,
-		"pokedex_id": 347,
 		"generation": "Hoenn",
 		"types": [
 			"Rock",
@@ -5482,8 +4812,6 @@
 	},
 	"348": {
 		"name": "Armaldo",
-		"default_form_id": 1577,
-		"pokedex_id": 348,
 		"generation": "Hoenn",
 		"types": [
 			"Rock",
@@ -5497,8 +4825,6 @@
 	},
 	"349": {
 		"name": "Feebas",
-		"default_form_id": 1580,
-		"pokedex_id": 349,
 		"generation": "Hoenn",
 		"types": [
 			"Water"
@@ -5511,8 +4837,6 @@
 	},
 	"350": {
 		"name": "Milotic",
-		"default_form_id": 1583,
-		"pokedex_id": 350,
 		"generation": "Hoenn",
 		"types": [
 			"Water"
@@ -5525,8 +4849,6 @@
 	},
 	"351": {
 		"name": "Castform",
-		"default_form_id": 29,
-		"pokedex_id": 351,
 		"generation": "Hoenn",
 		"types": [
 			"Normal"
@@ -5539,8 +4861,6 @@
 	},
 	"352": {
 		"name": "Kecleon",
-		"default_form_id": 1586,
-		"pokedex_id": 352,
 		"generation": "Hoenn",
 		"types": [
 			"Normal"
@@ -5553,8 +4873,6 @@
 	},
 	"353": {
 		"name": "Shuppet",
-		"default_form_id": 908,
-		"pokedex_id": 353,
 		"generation": "Hoenn",
 		"types": [
 			"Ghost"
@@ -5567,8 +4885,6 @@
 	},
 	"354": {
 		"name": "Banette",
-		"default_form_id": 911,
-		"pokedex_id": 354,
 		"generation": "Hoenn",
 		"types": [
 			"Ghost"
@@ -5589,8 +4905,6 @@
 	},
 	"355": {
 		"name": "Duskull",
-		"default_form_id": 914,
-		"pokedex_id": 355,
 		"generation": "Hoenn",
 		"types": [
 			"Ghost"
@@ -5603,8 +4917,6 @@
 	},
 	"356": {
 		"name": "Dusclops",
-		"default_form_id": 917,
-		"pokedex_id": 356,
 		"generation": "Hoenn",
 		"types": [
 			"Ghost"
@@ -5617,8 +4929,6 @@
 	},
 	"357": {
 		"name": "Tropius",
-		"default_form_id": 1589,
-		"pokedex_id": 357,
 		"generation": "Hoenn",
 		"types": [
 			"Grass",
@@ -5632,8 +4942,6 @@
 	},
 	"358": {
 		"name": "Chimecho",
-		"default_form_id": 1592,
-		"pokedex_id": 358,
 		"generation": "Hoenn",
 		"types": [
 			"Psychic"
@@ -5646,8 +4954,6 @@
 	},
 	"359": {
 		"name": "Absol",
-		"default_form_id": 830,
-		"pokedex_id": 359,
 		"generation": "Hoenn",
 		"types": [
 			"Dark"
@@ -5668,8 +4974,6 @@
 	},
 	"360": {
 		"name": "Wynaut",
-		"default_form_id": 1595,
-		"pokedex_id": 360,
 		"generation": "Hoenn",
 		"types": [
 			"Psychic"
@@ -5682,8 +4986,6 @@
 	},
 	"361": {
 		"name": "Snorunt",
-		"default_form_id": 926,
-		"pokedex_id": 361,
 		"generation": "Hoenn",
 		"types": [
 			"Ice"
@@ -5696,8 +4998,6 @@
 	},
 	"362": {
 		"name": "Glalie",
-		"default_form_id": 929,
-		"pokedex_id": 362,
 		"generation": "Hoenn",
 		"types": [
 			"Ice"
@@ -5718,8 +5018,6 @@
 	},
 	"363": {
 		"name": "Spheal",
-		"default_form_id": 1598,
-		"pokedex_id": 363,
 		"generation": "Hoenn",
 		"types": [
 			"Ice",
@@ -5733,8 +5031,6 @@
 	},
 	"364": {
 		"name": "Sealeo",
-		"default_form_id": 1601,
-		"pokedex_id": 364,
 		"generation": "Hoenn",
 		"types": [
 			"Ice",
@@ -5748,8 +5044,6 @@
 	},
 	"365": {
 		"name": "Walrein",
-		"default_form_id": 1604,
-		"pokedex_id": 365,
 		"generation": "Hoenn",
 		"types": [
 			"Ice",
@@ -5763,8 +5057,6 @@
 	},
 	"366": {
 		"name": "Clamperl",
-		"default_form_id": 1607,
-		"pokedex_id": 366,
 		"generation": "Hoenn",
 		"types": [
 			"Water"
@@ -5777,8 +5069,6 @@
 	},
 	"367": {
 		"name": "Huntail",
-		"default_form_id": 1610,
-		"pokedex_id": 367,
 		"generation": "Hoenn",
 		"types": [
 			"Water"
@@ -5791,8 +5081,6 @@
 	},
 	"368": {
 		"name": "Gorebyss",
-		"default_form_id": 1613,
-		"pokedex_id": 368,
 		"generation": "Hoenn",
 		"types": [
 			"Water"
@@ -5805,8 +5093,6 @@
 	},
 	"369": {
 		"name": "Relicanth",
-		"default_form_id": 1616,
-		"pokedex_id": 369,
 		"generation": "Hoenn",
 		"types": [
 			"Water",
@@ -5820,8 +5106,6 @@
 	},
 	"370": {
 		"name": "Luvdisc",
-		"default_form_id": 1619,
-		"pokedex_id": 370,
 		"generation": "Hoenn",
 		"types": [
 			"Water"
@@ -5834,8 +5118,6 @@
 	},
 	"371": {
 		"name": "Bagon",
-		"default_form_id": 755,
-		"pokedex_id": 371,
 		"generation": "Hoenn",
 		"types": [
 			"Dragon"
@@ -5848,8 +5130,6 @@
 	},
 	"372": {
 		"name": "Shelgon",
-		"default_form_id": 758,
-		"pokedex_id": 372,
 		"generation": "Hoenn",
 		"types": [
 			"Dragon"
@@ -5862,8 +5142,6 @@
 	},
 	"373": {
 		"name": "Salamence",
-		"default_form_id": 761,
-		"pokedex_id": 373,
 		"generation": "Hoenn",
 		"types": [
 			"Dragon",
@@ -5885,8 +5163,6 @@
 	},
 	"374": {
 		"name": "Beldum",
-		"default_form_id": 764,
-		"pokedex_id": 374,
 		"generation": "Hoenn",
 		"types": [
 			"Steel",
@@ -5900,8 +5176,6 @@
 	},
 	"375": {
 		"name": "Metang",
-		"default_form_id": 767,
-		"pokedex_id": 375,
 		"generation": "Hoenn",
 		"types": [
 			"Steel",
@@ -5915,8 +5189,6 @@
 	},
 	"376": {
 		"name": "Metagross",
-		"default_form_id": 770,
-		"pokedex_id": 376,
 		"generation": "Hoenn",
 		"types": [
 			"Steel",
@@ -5938,8 +5210,6 @@
 	},
 	"377": {
 		"name": "Regirock",
-		"default_form_id": 1622,
-		"pokedex_id": 377,
 		"generation": "Hoenn",
 		"types": [
 			"Rock"
@@ -5952,8 +5222,6 @@
 	},
 	"378": {
 		"name": "Regice",
-		"default_form_id": 1625,
-		"pokedex_id": 378,
 		"generation": "Hoenn",
 		"types": [
 			"Ice"
@@ -5966,8 +5234,6 @@
 	},
 	"379": {
 		"name": "Registeel",
-		"default_form_id": 1628,
-		"pokedex_id": 379,
 		"generation": "Hoenn",
 		"types": [
 			"Steel"
@@ -5980,8 +5246,6 @@
 	},
 	"380": {
 		"name": "Latias",
-		"default_form_id": 1631,
-		"pokedex_id": 380,
 		"generation": "Hoenn",
 		"types": [
 			"Dragon",
@@ -6003,8 +5267,6 @@
 	},
 	"381": {
 		"name": "Latios",
-		"default_form_id": 1634,
-		"pokedex_id": 381,
 		"generation": "Hoenn",
 		"types": [
 			"Dragon",
@@ -6026,8 +5288,6 @@
 	},
 	"382": {
 		"name": "Kyogre",
-		"default_form_id": 1637,
-		"pokedex_id": 382,
 		"generation": "Hoenn",
 		"types": [
 			"Water"
@@ -6040,8 +5300,6 @@
 	},
 	"383": {
 		"name": "Groudon",
-		"default_form_id": 1640,
-		"pokedex_id": 383,
 		"generation": "Hoenn",
 		"types": [
 			"Ground"
@@ -6054,8 +5312,6 @@
 	},
 	"384": {
 		"name": "Rayquaza",
-		"default_form_id": 1643,
-		"pokedex_id": 384,
 		"generation": "Hoenn",
 		"types": [
 			"Dragon",
@@ -6077,8 +5333,6 @@
 	},
 	"385": {
 		"name": "Jirachi",
-		"default_form_id": 1646,
-		"pokedex_id": 385,
 		"generation": "Hoenn",
 		"types": [
 			"Steel",
@@ -6092,8 +5346,6 @@
 	},
 	"386": {
 		"name": "Deoxys",
-		"default_form_id": 33,
-		"pokedex_id": 386,
 		"generation": "Hoenn",
 		"types": [
 			"Psychic"
@@ -6126,8 +5378,6 @@
 	},
 	"387": {
 		"name": "Turtwig",
-		"default_form_id": 688,
-		"pokedex_id": 387,
 		"generation": "Sinnoh",
 		"types": [
 			"Grass"
@@ -6140,8 +5390,6 @@
 	},
 	"388": {
 		"name": "Grotle",
-		"default_form_id": 691,
-		"pokedex_id": 388,
 		"generation": "Sinnoh",
 		"types": [
 			"Grass"
@@ -6154,8 +5402,6 @@
 	},
 	"389": {
 		"name": "Torterra",
-		"default_form_id": 694,
-		"pokedex_id": 389,
 		"generation": "Sinnoh",
 		"types": [
 			"Grass",
@@ -6169,8 +5415,6 @@
 	},
 	"390": {
 		"name": "Chimchar",
-		"default_form_id": 818,
-		"pokedex_id": 390,
 		"generation": "Sinnoh",
 		"types": [
 			"Fire"
@@ -6183,8 +5427,6 @@
 	},
 	"391": {
 		"name": "Monferno",
-		"default_form_id": 821,
-		"pokedex_id": 391,
 		"generation": "Sinnoh",
 		"types": [
 			"Fire",
@@ -6198,8 +5440,6 @@
 	},
 	"392": {
 		"name": "Infernape",
-		"default_form_id": 824,
-		"pokedex_id": 392,
 		"generation": "Sinnoh",
 		"types": [
 			"Fire",
@@ -6213,8 +5453,6 @@
 	},
 	"393": {
 		"name": "Piplup",
-		"default_form_id": 1649,
-		"pokedex_id": 393,
 		"generation": "Sinnoh",
 		"types": [
 			"Water"
@@ -6227,8 +5465,6 @@
 	},
 	"394": {
 		"name": "Prinplup",
-		"default_form_id": 1652,
-		"pokedex_id": 394,
 		"generation": "Sinnoh",
 		"types": [
 			"Water"
@@ -6241,8 +5477,6 @@
 	},
 	"395": {
 		"name": "Empoleon",
-		"default_form_id": 1655,
-		"pokedex_id": 395,
 		"generation": "Sinnoh",
 		"types": [
 			"Water",
@@ -6256,8 +5490,6 @@
 	},
 	"396": {
 		"name": "Starly",
-		"default_form_id": 1658,
-		"pokedex_id": 396,
 		"generation": "Sinnoh",
 		"types": [
 			"Normal",
@@ -6271,8 +5503,6 @@
 	},
 	"397": {
 		"name": "Staravia",
-		"default_form_id": 1661,
-		"pokedex_id": 397,
 		"generation": "Sinnoh",
 		"types": [
 			"Normal",
@@ -6286,8 +5516,6 @@
 	},
 	"398": {
 		"name": "Staraptor",
-		"default_form_id": 1664,
-		"pokedex_id": 398,
 		"generation": "Sinnoh",
 		"types": [
 			"Normal",
@@ -6301,8 +5529,6 @@
 	},
 	"399": {
 		"name": "Bidoof",
-		"default_form_id": 1667,
-		"pokedex_id": 399,
 		"generation": "Sinnoh",
 		"types": [
 			"Normal"
@@ -6315,8 +5541,6 @@
 	},
 	"400": {
 		"name": "Bibarel",
-		"default_form_id": 1670,
-		"pokedex_id": 400,
 		"generation": "Sinnoh",
 		"types": [
 			"Normal",
@@ -6330,8 +5554,6 @@
 	},
 	"401": {
 		"name": "Kricketot",
-		"default_form_id": 1673,
-		"pokedex_id": 401,
 		"generation": "Sinnoh",
 		"types": [
 			"Bug"
@@ -6344,8 +5566,6 @@
 	},
 	"402": {
 		"name": "Kricketune",
-		"default_form_id": 1676,
-		"pokedex_id": 402,
 		"generation": "Sinnoh",
 		"types": [
 			"Bug"
@@ -6358,8 +5578,6 @@
 	},
 	"403": {
 		"name": "Shinx",
-		"default_form_id": 1679,
-		"pokedex_id": 403,
 		"generation": "Sinnoh",
 		"types": [
 			"Electric"
@@ -6372,8 +5590,6 @@
 	},
 	"404": {
 		"name": "Luxio",
-		"default_form_id": 1682,
-		"pokedex_id": 404,
 		"generation": "Sinnoh",
 		"types": [
 			"Electric"
@@ -6386,8 +5602,6 @@
 	},
 	"405": {
 		"name": "Luxray",
-		"default_form_id": 1685,
-		"pokedex_id": 405,
 		"generation": "Sinnoh",
 		"types": [
 			"Electric"
@@ -6400,8 +5614,6 @@
 	},
 	"406": {
 		"name": "Budew",
-		"default_form_id": 1688,
-		"pokedex_id": 406,
 		"generation": "Sinnoh",
 		"types": [
 			"Grass",
@@ -6415,8 +5627,6 @@
 	},
 	"407": {
 		"name": "Roserade",
-		"default_form_id": 1691,
-		"pokedex_id": 407,
 		"generation": "Sinnoh",
 		"types": [
 			"Grass",
@@ -6430,8 +5640,6 @@
 	},
 	"408": {
 		"name": "Cranidos",
-		"default_form_id": 1694,
-		"pokedex_id": 408,
 		"generation": "Sinnoh",
 		"types": [
 			"Rock"
@@ -6444,8 +5652,6 @@
 	},
 	"409": {
 		"name": "Rampardos",
-		"default_form_id": 1697,
-		"pokedex_id": 409,
 		"generation": "Sinnoh",
 		"types": [
 			"Rock"
@@ -6458,8 +5664,6 @@
 	},
 	"410": {
 		"name": "Shieldon",
-		"default_form_id": 1700,
-		"pokedex_id": 410,
 		"generation": "Sinnoh",
 		"types": [
 			"Rock",
@@ -6473,8 +5677,6 @@
 	},
 	"411": {
 		"name": "Bastiodon",
-		"default_form_id": 1703,
-		"pokedex_id": 411,
 		"generation": "Sinnoh",
 		"types": [
 			"Rock",
@@ -6488,8 +5690,6 @@
 	},
 	"412": {
 		"name": "Burmy",
-		"default_form_id": 118,
-		"pokedex_id": 412,
 		"generation": "Sinnoh",
 		"types": [
 			"Bug"
@@ -6502,8 +5702,6 @@
 	},
 	"413": {
 		"name": "Wormadam",
-		"default_form_id": 87,
-		"pokedex_id": 413,
 		"generation": "Sinnoh",
 		"types": [
 			"Bug",
@@ -6529,8 +5727,6 @@
 	},
 	"414": {
 		"name": "Mothim",
-		"default_form_id": 1712,
-		"pokedex_id": 414,
 		"generation": "Sinnoh",
 		"types": [
 			"Bug",
@@ -6544,8 +5740,6 @@
 	},
 	"415": {
 		"name": "Combee",
-		"default_form_id": 1715,
-		"pokedex_id": 415,
 		"generation": "Sinnoh",
 		"types": [
 			"Bug",
@@ -6559,8 +5753,6 @@
 	},
 	"416": {
 		"name": "Vespiquen",
-		"default_form_id": 1718,
-		"pokedex_id": 416,
 		"generation": "Sinnoh",
 		"types": [
 			"Bug",
@@ -6574,8 +5766,6 @@
 	},
 	"417": {
 		"name": "Pachirisu",
-		"default_form_id": 1721,
-		"pokedex_id": 417,
 		"generation": "Sinnoh",
 		"types": [
 			"Electric"
@@ -6588,8 +5778,6 @@
 	},
 	"418": {
 		"name": "Buizel",
-		"default_form_id": 1724,
-		"pokedex_id": 418,
 		"generation": "Sinnoh",
 		"types": [
 			"Water"
@@ -6602,8 +5790,6 @@
 	},
 	"419": {
 		"name": "Floatzel",
-		"default_form_id": 1727,
-		"pokedex_id": 419,
 		"generation": "Sinnoh",
 		"types": [
 			"Water"
@@ -6616,8 +5802,6 @@
 	},
 	"420": {
 		"name": "Cherubi",
-		"default_form_id": 1730,
-		"pokedex_id": 420,
 		"generation": "Sinnoh",
 		"types": [
 			"Grass"
@@ -6630,8 +5814,6 @@
 	},
 	"421": {
 		"name": "Cherrim",
-		"default_form_id": 94,
-		"pokedex_id": 421,
 		"generation": "Sinnoh",
 		"types": [
 			"Grass"
@@ -6644,8 +5826,6 @@
 	},
 	"422": {
 		"name": "Shellos",
-		"default_form_id": 96,
-		"pokedex_id": 422,
 		"generation": "Sinnoh",
 		"types": [
 			"Water"
@@ -6658,8 +5838,6 @@
 	},
 	"423": {
 		"name": "Gastrodon",
-		"default_form_id": 98,
-		"pokedex_id": 423,
 		"generation": "Sinnoh",
 		"types": [
 			"Water",
@@ -6673,8 +5851,6 @@
 	},
 	"424": {
 		"name": "Ambipom",
-		"default_form_id": 1742,
-		"pokedex_id": 424,
 		"generation": "Sinnoh",
 		"types": [
 			"Normal"
@@ -6687,8 +5863,6 @@
 	},
 	"425": {
 		"name": "Drifloon",
-		"default_form_id": 1745,
-		"pokedex_id": 425,
 		"generation": "Sinnoh",
 		"types": [
 			"Ghost",
@@ -6702,8 +5876,6 @@
 	},
 	"426": {
 		"name": "Drifblim",
-		"default_form_id": 1748,
-		"pokedex_id": 426,
 		"generation": "Sinnoh",
 		"types": [
 			"Ghost",
@@ -6717,8 +5889,6 @@
 	},
 	"427": {
 		"name": "Buneary",
-		"default_form_id": 1751,
-		"pokedex_id": 427,
 		"generation": "Sinnoh",
 		"types": [
 			"Normal"
@@ -6731,8 +5901,6 @@
 	},
 	"428": {
 		"name": "Lopunny",
-		"default_form_id": 1754,
-		"pokedex_id": 428,
 		"generation": "Sinnoh",
 		"types": [
 			"Normal"
@@ -6757,8 +5925,6 @@
 	},
 	"429": {
 		"name": "Mismagius",
-		"default_form_id": 722,
-		"pokedex_id": 429,
 		"generation": "Sinnoh",
 		"types": [
 			"Ghost"
@@ -6771,8 +5937,6 @@
 	},
 	"430": {
 		"name": "Honchkrow",
-		"default_form_id": 858,
-		"pokedex_id": 430,
 		"generation": "Sinnoh",
 		"types": [
 			"Dark",
@@ -6786,8 +5950,6 @@
 	},
 	"431": {
 		"name": "Glameow",
-		"default_form_id": 1757,
-		"pokedex_id": 431,
 		"generation": "Sinnoh",
 		"types": [
 			"Normal"
@@ -6800,8 +5962,6 @@
 	},
 	"432": {
 		"name": "Purugly",
-		"default_form_id": 1760,
-		"pokedex_id": 432,
 		"generation": "Sinnoh",
 		"types": [
 			"Normal"
@@ -6814,8 +5974,6 @@
 	},
 	"433": {
 		"name": "Chingling",
-		"default_form_id": 1763,
-		"pokedex_id": 433,
 		"generation": "Sinnoh",
 		"types": [
 			"Psychic"
@@ -6828,8 +5986,6 @@
 	},
 	"434": {
 		"name": "Stunky",
-		"default_form_id": 791,
-		"pokedex_id": 434,
 		"generation": "Sinnoh",
 		"types": [
 			"Poison",
@@ -6843,8 +5999,6 @@
 	},
 	"435": {
 		"name": "Skuntank",
-		"default_form_id": 794,
-		"pokedex_id": 435,
 		"generation": "Sinnoh",
 		"types": [
 			"Poison",
@@ -6858,8 +6012,6 @@
 	},
 	"436": {
 		"name": "Bronzor",
-		"default_form_id": 1766,
-		"pokedex_id": 436,
 		"generation": "Sinnoh",
 		"types": [
 			"Steel",
@@ -6873,8 +6025,6 @@
 	},
 	"437": {
 		"name": "Bronzong",
-		"default_form_id": 1769,
-		"pokedex_id": 437,
 		"generation": "Sinnoh",
 		"types": [
 			"Steel",
@@ -6888,8 +6038,6 @@
 	},
 	"438": {
 		"name": "Bonsly",
-		"default_form_id": 1772,
-		"pokedex_id": 438,
 		"generation": "Sinnoh",
 		"types": [
 			"Rock"
@@ -6902,8 +6050,6 @@
 	},
 	"439": {
 		"name": "Mime Jr",
-		"default_form_id": 1775,
-		"pokedex_id": 439,
 		"generation": "Sinnoh",
 		"types": [
 			"Psychic",
@@ -6917,8 +6063,6 @@
 	},
 	"440": {
 		"name": "Happiny",
-		"default_form_id": 1778,
-		"pokedex_id": 440,
 		"generation": "Sinnoh",
 		"types": [
 			"Normal"
@@ -6931,8 +6075,6 @@
 	},
 	"441": {
 		"name": "Chatot",
-		"default_form_id": 1781,
-		"pokedex_id": 441,
 		"generation": "Sinnoh",
 		"types": [
 			"Normal",
@@ -6946,8 +6088,6 @@
 	},
 	"442": {
 		"name": "Spiritomb",
-		"default_form_id": 1784,
-		"pokedex_id": 442,
 		"generation": "Sinnoh",
 		"types": [
 			"Ghost",
@@ -6961,8 +6101,6 @@
 	},
 	"443": {
 		"name": "Gible",
-		"default_form_id": 861,
-		"pokedex_id": 443,
 		"generation": "Sinnoh",
 		"types": [
 			"Dragon",
@@ -6976,8 +6114,6 @@
 	},
 	"444": {
 		"name": "Gabite",
-		"default_form_id": 864,
-		"pokedex_id": 444,
 		"generation": "Sinnoh",
 		"types": [
 			"Dragon",
@@ -6991,8 +6127,6 @@
 	},
 	"445": {
 		"name": "Garchomp",
-		"default_form_id": 867,
-		"pokedex_id": 445,
 		"generation": "Sinnoh",
 		"types": [
 			"Dragon",
@@ -7014,8 +6148,6 @@
 	},
 	"446": {
 		"name": "Munchlax",
-		"default_form_id": 1787,
-		"pokedex_id": 446,
 		"generation": "Sinnoh",
 		"types": [
 			"Normal"
@@ -7028,8 +6160,6 @@
 	},
 	"447": {
 		"name": "Riolu",
-		"default_form_id": 1790,
-		"pokedex_id": 447,
 		"generation": "Sinnoh",
 		"types": [
 			"Fighting"
@@ -7042,8 +6172,6 @@
 	},
 	"448": {
 		"name": "Lucario",
-		"default_form_id": 1793,
-		"pokedex_id": 448,
 		"generation": "Sinnoh",
 		"types": [
 			"Fighting",
@@ -7065,8 +6193,6 @@
 	},
 	"449": {
 		"name": "Hippopotas",
-		"default_form_id": 888,
-		"pokedex_id": 449,
 		"generation": "Sinnoh",
 		"types": [
 			"Ground"
@@ -7079,8 +6205,6 @@
 	},
 	"450": {
 		"name": "Hippowdon",
-		"default_form_id": 891,
-		"pokedex_id": 450,
 		"generation": "Sinnoh",
 		"types": [
 			"Ground"
@@ -7093,8 +6217,6 @@
 	},
 	"451": {
 		"name": "Skorupi",
-		"default_form_id": 1796,
-		"pokedex_id": 451,
 		"generation": "Sinnoh",
 		"types": [
 			"Poison",
@@ -7108,8 +6230,6 @@
 	},
 	"452": {
 		"name": "Drapion",
-		"default_form_id": 1799,
-		"pokedex_id": 452,
 		"generation": "Sinnoh",
 		"types": [
 			"Poison",
@@ -7123,8 +6243,6 @@
 	},
 	"453": {
 		"name": "Croagunk",
-		"default_form_id": 1802,
-		"pokedex_id": 453,
 		"generation": "Sinnoh",
 		"types": [
 			"Poison",
@@ -7138,8 +6256,6 @@
 	},
 	"454": {
 		"name": "Toxicroak",
-		"default_form_id": 1805,
-		"pokedex_id": 454,
 		"generation": "Sinnoh",
 		"types": [
 			"Poison",
@@ -7153,8 +6269,6 @@
 	},
 	"455": {
 		"name": "Carnivine",
-		"default_form_id": 1808,
-		"pokedex_id": 455,
 		"generation": "Sinnoh",
 		"types": [
 			"Grass"
@@ -7167,8 +6281,6 @@
 	},
 	"456": {
 		"name": "Finneon",
-		"default_form_id": 1811,
-		"pokedex_id": 456,
 		"generation": "Sinnoh",
 		"types": [
 			"Water"
@@ -7181,8 +6293,6 @@
 	},
 	"457": {
 		"name": "Lumineon",
-		"default_form_id": 1814,
-		"pokedex_id": 457,
 		"generation": "Sinnoh",
 		"types": [
 			"Water"
@@ -7195,8 +6305,6 @@
 	},
 	"458": {
 		"name": "Mantyke",
-		"default_form_id": 1817,
-		"pokedex_id": 458,
 		"generation": "Sinnoh",
 		"types": [
 			"Water",
@@ -7210,8 +6318,6 @@
 	},
 	"459": {
 		"name": "Snover",
-		"default_form_id": 932,
-		"pokedex_id": 459,
 		"generation": "Sinnoh",
 		"types": [
 			"Grass",
@@ -7225,8 +6331,6 @@
 	},
 	"460": {
 		"name": "Abomasnow",
-		"default_form_id": 935,
-		"pokedex_id": 460,
 		"generation": "Sinnoh",
 		"types": [
 			"Grass",
@@ -7248,8 +6352,6 @@
 	},
 	"461": {
 		"name": "Weavile",
-		"default_form_id": 800,
-		"pokedex_id": 461,
 		"generation": "Sinnoh",
 		"types": [
 			"Dark",
@@ -7263,8 +6365,6 @@
 	},
 	"462": {
 		"name": "Magnezone",
-		"default_form_id": 661,
-		"pokedex_id": 462,
 		"generation": "Sinnoh",
 		"types": [
 			"Electric",
@@ -7278,8 +6378,6 @@
 	},
 	"463": {
 		"name": "Lickilicky",
-		"default_form_id": 1820,
-		"pokedex_id": 463,
 		"generation": "Sinnoh",
 		"types": [
 			"Normal"
@@ -7292,8 +6390,6 @@
 	},
 	"464": {
 		"name": "Rhyperior",
-		"default_form_id": 852,
-		"pokedex_id": 464,
 		"generation": "Sinnoh",
 		"types": [
 			"Ground",
@@ -7307,8 +6403,6 @@
 	},
 	"465": {
 		"name": "Tangrowth",
-		"default_form_id": 1823,
-		"pokedex_id": 465,
 		"generation": "Sinnoh",
 		"types": [
 			"Grass"
@@ -7321,8 +6415,6 @@
 	},
 	"466": {
 		"name": "Electivire",
-		"default_form_id": 643,
-		"pokedex_id": 466,
 		"generation": "Sinnoh",
 		"types": [
 			"Electric"
@@ -7335,8 +6427,6 @@
 	},
 	"467": {
 		"name": "Magmortar",
-		"default_form_id": 637,
-		"pokedex_id": 467,
 		"generation": "Sinnoh",
 		"types": [
 			"Fire"
@@ -7349,8 +6439,6 @@
 	},
 	"468": {
 		"name": "Togekiss",
-		"default_form_id": 1826,
-		"pokedex_id": 468,
 		"generation": "Sinnoh",
 		"types": [
 			"Fairy",
@@ -7364,8 +6452,6 @@
 	},
 	"469": {
 		"name": "Yanmega",
-		"default_form_id": 1829,
-		"pokedex_id": 469,
 		"generation": "Sinnoh",
 		"types": [
 			"Bug",
@@ -7379,8 +6465,6 @@
 	},
 	"470": {
 		"name": "Leafeon",
-		"default_form_id": 1832,
-		"pokedex_id": 470,
 		"generation": "Sinnoh",
 		"types": [
 			"Grass"
@@ -7393,8 +6477,6 @@
 	},
 	"471": {
 		"name": "Glaceon",
-		"default_form_id": 1835,
-		"pokedex_id": 471,
 		"generation": "Sinnoh",
 		"types": [
 			"Ice"
@@ -7407,8 +6489,6 @@
 	},
 	"472": {
 		"name": "Gliscor",
-		"default_form_id": 806,
-		"pokedex_id": 472,
 		"generation": "Sinnoh",
 		"types": [
 			"Ground",
@@ -7422,8 +6502,6 @@
 	},
 	"473": {
 		"name": "Mamoswine",
-		"default_form_id": 1838,
-		"pokedex_id": 473,
 		"generation": "Sinnoh",
 		"types": [
 			"Ice",
@@ -7437,8 +6515,6 @@
 	},
 	"474": {
 		"name": "Porygon Z",
-		"default_form_id": 683,
-		"pokedex_id": 474,
 		"generation": "Sinnoh",
 		"types": [
 			"Normal"
@@ -7451,8 +6527,6 @@
 	},
 	"475": {
 		"name": "Gallade",
-		"default_form_id": 301,
-		"pokedex_id": 475,
 		"generation": "Sinnoh",
 		"types": [
 			"Psychic",
@@ -7474,8 +6548,6 @@
 	},
 	"476": {
 		"name": "Probopass",
-		"default_form_id": 1841,
-		"pokedex_id": 476,
 		"generation": "Sinnoh",
 		"types": [
 			"Rock",
@@ -7489,8 +6561,6 @@
 	},
 	"477": {
 		"name": "Dusknoir",
-		"default_form_id": 920,
-		"pokedex_id": 477,
 		"generation": "Sinnoh",
 		"types": [
 			"Ghost"
@@ -7503,8 +6573,6 @@
 	},
 	"478": {
 		"name": "Froslass",
-		"default_form_id": 1844,
-		"pokedex_id": 478,
 		"generation": "Sinnoh",
 		"types": [
 			"Ice",
@@ -7518,8 +6586,6 @@
 	},
 	"479": {
 		"name": "Rotom",
-		"default_form_id": 81,
-		"pokedex_id": 479,
 		"generation": "Sinnoh",
 		"types": [
 			"Electric",
@@ -7585,8 +6651,6 @@
 	},
 	"480": {
 		"name": "Uxie",
-		"default_form_id": 1847,
-		"pokedex_id": 480,
 		"generation": "Sinnoh",
 		"types": [
 			"Psychic"
@@ -7599,8 +6663,6 @@
 	},
 	"481": {
 		"name": "Mesprit",
-		"default_form_id": 1850,
-		"pokedex_id": 481,
 		"generation": "Sinnoh",
 		"types": [
 			"Psychic"
@@ -7613,8 +6675,6 @@
 	},
 	"482": {
 		"name": "Azelf",
-		"default_form_id": 1853,
-		"pokedex_id": 482,
 		"generation": "Sinnoh",
 		"types": [
 			"Psychic"
@@ -7627,8 +6687,6 @@
 	},
 	"483": {
 		"name": "Dialga",
-		"default_form_id": 1856,
-		"pokedex_id": 483,
 		"generation": "Sinnoh",
 		"types": [
 			"Steel",
@@ -7642,8 +6700,6 @@
 	},
 	"484": {
 		"name": "Palkia",
-		"default_form_id": 1859,
-		"pokedex_id": 484,
 		"generation": "Sinnoh",
 		"types": [
 			"Water",
@@ -7657,8 +6713,6 @@
 	},
 	"485": {
 		"name": "Heatran",
-		"default_form_id": 1862,
-		"pokedex_id": 485,
 		"generation": "Sinnoh",
 		"types": [
 			"Fire",
@@ -7672,8 +6726,6 @@
 	},
 	"486": {
 		"name": "Regigigas",
-		"default_form_id": 1865,
-		"pokedex_id": 486,
 		"generation": "Sinnoh",
 		"types": [
 			"Normal"
@@ -7686,8 +6738,6 @@
 	},
 	"487": {
 		"name": "Giratina",
-		"default_form_id": 90,
-		"pokedex_id": 487,
 		"generation": "Sinnoh",
 		"types": [
 			"Ghost",
@@ -7709,8 +6759,6 @@
 	},
 	"488": {
 		"name": "Cresselia",
-		"default_form_id": 1871,
-		"pokedex_id": 488,
 		"generation": "Sinnoh",
 		"types": [
 			"Psychic"
@@ -7723,8 +6771,6 @@
 	},
 	"489": {
 		"name": "Phione",
-		"default_form_id": 1874,
-		"pokedex_id": 489,
 		"generation": "Sinnoh",
 		"types": [
 			"Water"
@@ -7737,8 +6783,6 @@
 	},
 	"490": {
 		"name": "Manaphy",
-		"default_form_id": 1877,
-		"pokedex_id": 490,
 		"generation": "Sinnoh",
 		"types": [
 			"Water"
@@ -7751,8 +6795,6 @@
 	},
 	"491": {
 		"name": "Darkrai",
-		"default_form_id": 1880,
-		"pokedex_id": 491,
 		"generation": "Sinnoh",
 		"types": [
 			"Dark"
@@ -7765,8 +6807,6 @@
 	},
 	"492": {
 		"name": "Shaymin",
-		"default_form_id": 93,
-		"pokedex_id": 492,
 		"generation": "Sinnoh",
 		"types": [
 			"Grass"
@@ -7791,8 +6831,6 @@
 	},
 	"493": {
 		"name": "Arceus",
-		"default_form_id": 100,
-		"pokedex_id": 493,
 		"generation": "Sinnoh",
 		"types": [
 			"Normal"
@@ -7805,9 +6843,7 @@
 	},
 	"494": {
 		"name": "Victini",
-		"default_form_id": 1886,
-		"pokedex_id": 494,
-		"generation": "Sinnoh",
+		"generation": "Unova",
 		"types": [
 			"Psychic",
 			"Fire"
@@ -7820,8 +6856,6 @@
 	},
 	"495": {
 		"name": "Snivy",
-		"default_form_id": 1889,
-		"pokedex_id": 495,
 		"generation": "Unova",
 		"types": [
 			"Grass"
@@ -7834,8 +6868,6 @@
 	},
 	"496": {
 		"name": "Servine",
-		"default_form_id": 1892,
-		"pokedex_id": 496,
 		"generation": "Unova",
 		"types": [
 			"Grass"
@@ -7848,8 +6880,6 @@
 	},
 	"497": {
 		"name": "Serperior",
-		"default_form_id": 1895,
-		"pokedex_id": 497,
 		"generation": "Unova",
 		"types": [
 			"Grass"
@@ -7862,8 +6892,6 @@
 	},
 	"498": {
 		"name": "Tepig",
-		"default_form_id": 1898,
-		"pokedex_id": 498,
 		"generation": "Unova",
 		"types": [
 			"Fire"
@@ -7876,8 +6904,6 @@
 	},
 	"499": {
 		"name": "Pignite",
-		"default_form_id": 1901,
-		"pokedex_id": 499,
 		"generation": "Unova",
 		"types": [
 			"Fire",
@@ -7891,8 +6917,6 @@
 	},
 	"500": {
 		"name": "Emboar",
-		"default_form_id": 1904,
-		"pokedex_id": 500,
 		"generation": "Unova",
 		"types": [
 			"Fire",
@@ -7906,8 +6930,6 @@
 	},
 	"501": {
 		"name": "Oshawott",
-		"default_form_id": 1907,
-		"pokedex_id": 501,
 		"generation": "Unova",
 		"types": [
 			"Water"
@@ -7920,8 +6942,6 @@
 	},
 	"502": {
 		"name": "Dewott",
-		"default_form_id": 1910,
-		"pokedex_id": 502,
 		"generation": "Unova",
 		"types": [
 			"Water"
@@ -7934,8 +6954,6 @@
 	},
 	"503": {
 		"name": "Samurott",
-		"default_form_id": 1913,
-		"pokedex_id": 503,
 		"generation": "Unova",
 		"types": [
 			"Water"
@@ -7948,8 +6966,6 @@
 	},
 	"504": {
 		"name": "Patrat",
-		"default_form_id": 1916,
-		"pokedex_id": 504,
 		"generation": "Unova",
 		"types": [
 			"Normal"
@@ -7962,8 +6978,6 @@
 	},
 	"505": {
 		"name": "Watchog",
-		"default_form_id": 1919,
-		"pokedex_id": 505,
 		"generation": "Unova",
 		"types": [
 			"Normal"
@@ -7976,8 +6990,6 @@
 	},
 	"506": {
 		"name": "Lillipup",
-		"default_form_id": 1922,
-		"pokedex_id": 506,
 		"generation": "Unova",
 		"types": [
 			"Normal"
@@ -7990,8 +7002,6 @@
 	},
 	"507": {
 		"name": "Herdier",
-		"default_form_id": 1925,
-		"pokedex_id": 507,
 		"generation": "Unova",
 		"types": [
 			"Normal"
@@ -8004,8 +7014,6 @@
 	},
 	"508": {
 		"name": "Stoutland",
-		"default_form_id": 1928,
-		"pokedex_id": 508,
 		"generation": "Unova",
 		"types": [
 			"Normal"
@@ -8018,8 +7026,6 @@
 	},
 	"509": {
 		"name": "Purrloin",
-		"default_form_id": 1931,
-		"pokedex_id": 509,
 		"generation": "Unova",
 		"types": [
 			"Dark"
@@ -8032,8 +7038,6 @@
 	},
 	"510": {
 		"name": "Liepard",
-		"default_form_id": 1934,
-		"pokedex_id": 510,
 		"generation": "Unova",
 		"types": [
 			"Dark"
@@ -8046,8 +7050,6 @@
 	},
 	"511": {
 		"name": "Pansage",
-		"default_form_id": 1937,
-		"pokedex_id": 511,
 		"generation": "Unova",
 		"types": [
 			"Grass"
@@ -8060,8 +7062,6 @@
 	},
 	"512": {
 		"name": "Simisage",
-		"default_form_id": 1940,
-		"pokedex_id": 512,
 		"generation": "Unova",
 		"types": [
 			"Grass"
@@ -8074,8 +7074,6 @@
 	},
 	"513": {
 		"name": "Pansear",
-		"default_form_id": 1943,
-		"pokedex_id": 513,
 		"generation": "Unova",
 		"types": [
 			"Fire"
@@ -8088,8 +7086,6 @@
 	},
 	"514": {
 		"name": "Simisear",
-		"default_form_id": 1946,
-		"pokedex_id": 514,
 		"generation": "Unova",
 		"types": [
 			"Fire"
@@ -8102,8 +7098,6 @@
 	},
 	"515": {
 		"name": "Panpour",
-		"default_form_id": 1949,
-		"pokedex_id": 515,
 		"generation": "Unova",
 		"types": [
 			"Water"
@@ -8116,8 +7110,6 @@
 	},
 	"516": {
 		"name": "Simipour",
-		"default_form_id": 1952,
-		"pokedex_id": 516,
 		"generation": "Unova",
 		"types": [
 			"Water"
@@ -8130,8 +7122,6 @@
 	},
 	"517": {
 		"name": "Munna",
-		"default_form_id": 1955,
-		"pokedex_id": 517,
 		"generation": "Unova",
 		"types": [
 			"Psychic"
@@ -8144,8 +7134,6 @@
 	},
 	"518": {
 		"name": "Musharna",
-		"default_form_id": 1958,
-		"pokedex_id": 518,
 		"generation": "Unova",
 		"types": [
 			"Psychic"
@@ -8158,8 +7146,6 @@
 	},
 	"519": {
 		"name": "Pidove",
-		"default_form_id": 1961,
-		"pokedex_id": 519,
 		"generation": "Unova",
 		"types": [
 			"Normal",
@@ -8173,8 +7159,6 @@
 	},
 	"520": {
 		"name": "Tranquill",
-		"default_form_id": 1964,
-		"pokedex_id": 520,
 		"generation": "Unova",
 		"types": [
 			"Normal",
@@ -8188,8 +7172,6 @@
 	},
 	"521": {
 		"name": "Unfezant",
-		"default_form_id": 1967,
-		"pokedex_id": 521,
 		"generation": "Unova",
 		"types": [
 			"Normal",
@@ -8203,8 +7185,6 @@
 	},
 	"522": {
 		"name": "Blitzle",
-		"default_form_id": 1970,
-		"pokedex_id": 522,
 		"generation": "Unova",
 		"types": [
 			"Electric"
@@ -8217,8 +7197,6 @@
 	},
 	"523": {
 		"name": "Zebstrika",
-		"default_form_id": 1973,
-		"pokedex_id": 523,
 		"generation": "Unova",
 		"types": [
 			"Electric"
@@ -8231,8 +7209,6 @@
 	},
 	"524": {
 		"name": "Roggenrola",
-		"default_form_id": 1976,
-		"pokedex_id": 524,
 		"generation": "Unova",
 		"types": [
 			"Rock"
@@ -8245,8 +7221,6 @@
 	},
 	"525": {
 		"name": "Boldore",
-		"default_form_id": 1979,
-		"pokedex_id": 525,
 		"generation": "Unova",
 		"types": [
 			"Rock"
@@ -8259,8 +7233,6 @@
 	},
 	"526": {
 		"name": "Gigalith",
-		"default_form_id": 1982,
-		"pokedex_id": 526,
 		"generation": "Unova",
 		"types": [
 			"Rock"
@@ -8273,8 +7245,6 @@
 	},
 	"527": {
 		"name": "Woobat",
-		"default_form_id": 1985,
-		"pokedex_id": 527,
 		"generation": "Unova",
 		"types": [
 			"Psychic",
@@ -8288,8 +7258,6 @@
 	},
 	"528": {
 		"name": "Swoobat",
-		"default_form_id": 1988,
-		"pokedex_id": 528,
 		"generation": "Unova",
 		"types": [
 			"Psychic",
@@ -8303,8 +7271,6 @@
 	},
 	"529": {
 		"name": "Drilbur",
-		"default_form_id": 1991,
-		"pokedex_id": 529,
 		"generation": "Unova",
 		"types": [
 			"Ground"
@@ -8317,8 +7283,6 @@
 	},
 	"530": {
 		"name": "Excadrill",
-		"default_form_id": 1994,
-		"pokedex_id": 530,
 		"generation": "Unova",
 		"types": [
 			"Ground",
@@ -8332,8 +7296,6 @@
 	},
 	"531": {
 		"name": "Audino",
-		"default_form_id": 1997,
-		"pokedex_id": 531,
 		"generation": "Unova",
 		"types": [
 			"Normal"
@@ -8358,8 +7320,6 @@
 	},
 	"532": {
 		"name": "Timburr",
-		"default_form_id": 2000,
-		"pokedex_id": 532,
 		"generation": "Unova",
 		"types": [
 			"Fighting"
@@ -8372,8 +7332,6 @@
 	},
 	"533": {
 		"name": "Gurdurr",
-		"default_form_id": 2003,
-		"pokedex_id": 533,
 		"generation": "Unova",
 		"types": [
 			"Fighting"
@@ -8386,8 +7344,6 @@
 	},
 	"534": {
 		"name": "Conkeldurr",
-		"default_form_id": 2006,
-		"pokedex_id": 534,
 		"generation": "Unova",
 		"types": [
 			"Fighting"
@@ -8400,8 +7356,6 @@
 	},
 	"535": {
 		"name": "Tympole",
-		"default_form_id": 2009,
-		"pokedex_id": 535,
 		"generation": "Unova",
 		"types": [
 			"Water"
@@ -8414,8 +7368,6 @@
 	},
 	"536": {
 		"name": "Palpitoad",
-		"default_form_id": 2012,
-		"pokedex_id": 536,
 		"generation": "Unova",
 		"types": [
 			"Water",
@@ -8429,8 +7381,6 @@
 	},
 	"537": {
 		"name": "Seismitoad",
-		"default_form_id": 2015,
-		"pokedex_id": 537,
 		"generation": "Unova",
 		"types": [
 			"Water",
@@ -8444,8 +7394,6 @@
 	},
 	"538": {
 		"name": "Throh",
-		"default_form_id": 2018,
-		"pokedex_id": 538,
 		"generation": "Unova",
 		"types": [
 			"Fighting"
@@ -8458,8 +7406,6 @@
 	},
 	"539": {
 		"name": "Sawk",
-		"default_form_id": 2021,
-		"pokedex_id": 539,
 		"generation": "Unova",
 		"types": [
 			"Fighting"
@@ -8472,8 +7418,6 @@
 	},
 	"540": {
 		"name": "Sewaddle",
-		"default_form_id": 2024,
-		"pokedex_id": 540,
 		"generation": "Unova",
 		"types": [
 			"Bug",
@@ -8487,8 +7431,6 @@
 	},
 	"541": {
 		"name": "Swadloon",
-		"default_form_id": 2027,
-		"pokedex_id": 541,
 		"generation": "Unova",
 		"types": [
 			"Bug",
@@ -8502,8 +7444,6 @@
 	},
 	"542": {
 		"name": "Leavanny",
-		"default_form_id": 2030,
-		"pokedex_id": 542,
 		"generation": "Unova",
 		"types": [
 			"Bug",
@@ -8517,8 +7457,6 @@
 	},
 	"543": {
 		"name": "Venipede",
-		"default_form_id": 2033,
-		"pokedex_id": 543,
 		"generation": "Unova",
 		"types": [
 			"Bug",
@@ -8532,8 +7470,6 @@
 	},
 	"544": {
 		"name": "Whirlipede",
-		"default_form_id": 2036,
-		"pokedex_id": 544,
 		"generation": "Unova",
 		"types": [
 			"Bug",
@@ -8547,8 +7483,6 @@
 	},
 	"545": {
 		"name": "Scolipede",
-		"default_form_id": 2039,
-		"pokedex_id": 545,
 		"generation": "Unova",
 		"types": [
 			"Bug",
@@ -8562,8 +7496,6 @@
 	},
 	"546": {
 		"name": "Cottonee",
-		"default_form_id": 2042,
-		"pokedex_id": 546,
 		"generation": "Unova",
 		"types": [
 			"Grass",
@@ -8577,8 +7509,6 @@
 	},
 	"547": {
 		"name": "Whimsicott",
-		"default_form_id": 2045,
-		"pokedex_id": 547,
 		"generation": "Unova",
 		"types": [
 			"Grass",
@@ -8592,8 +7522,6 @@
 	},
 	"548": {
 		"name": "Petilil",
-		"default_form_id": 2048,
-		"pokedex_id": 548,
 		"generation": "Unova",
 		"types": [
 			"Grass"
@@ -8606,8 +7534,6 @@
 	},
 	"549": {
 		"name": "Lilligant",
-		"default_form_id": 2051,
-		"pokedex_id": 549,
 		"generation": "Unova",
 		"types": [
 			"Grass"
@@ -8620,8 +7546,6 @@
 	},
 	"550": {
 		"name": "Basculin",
-		"default_form_id": 136,
-		"pokedex_id": 550,
 		"generation": "Unova",
 		"types": [
 			"Water"
@@ -8634,8 +7558,6 @@
 	},
 	"551": {
 		"name": "Sandile",
-		"default_form_id": 2054,
-		"pokedex_id": 551,
 		"generation": "Unova",
 		"types": [
 			"Ground",
@@ -8649,8 +7571,6 @@
 	},
 	"552": {
 		"name": "Krokorok",
-		"default_form_id": 2057,
-		"pokedex_id": 552,
 		"generation": "Unova",
 		"types": [
 			"Ground",
@@ -8664,8 +7584,6 @@
 	},
 	"553": {
 		"name": "Krookodile",
-		"default_form_id": 2060,
-		"pokedex_id": 553,
 		"generation": "Unova",
 		"types": [
 			"Ground",
@@ -8679,8 +7597,6 @@
 	},
 	"554": {
 		"name": "Darumaka",
-		"default_form_id": 2063,
-		"pokedex_id": 554,
 		"generation": "Unova",
 		"types": [
 			"Fire"
@@ -8693,8 +7609,6 @@
 	},
 	"555": {
 		"name": "Darmanitan",
-		"default_form_id": 138,
-		"pokedex_id": 555,
 		"generation": "Unova",
 		"types": [
 			"Fire"
@@ -8729,8 +7643,6 @@
 	},
 	"556": {
 		"name": "Maractus",
-		"default_form_id": 2066,
-		"pokedex_id": 556,
 		"generation": "Unova",
 		"types": [
 			"Grass"
@@ -8743,8 +7655,6 @@
 	},
 	"557": {
 		"name": "Dwebble",
-		"default_form_id": 2069,
-		"pokedex_id": 557,
 		"generation": "Unova",
 		"types": [
 			"Bug",
@@ -8758,8 +7668,6 @@
 	},
 	"558": {
 		"name": "Crustle",
-		"default_form_id": 2072,
-		"pokedex_id": 558,
 		"generation": "Unova",
 		"types": [
 			"Bug",
@@ -8773,8 +7681,6 @@
 	},
 	"559": {
 		"name": "Scraggy",
-		"default_form_id": 2075,
-		"pokedex_id": 559,
 		"generation": "Unova",
 		"types": [
 			"Dark",
@@ -8788,8 +7694,6 @@
 	},
 	"560": {
 		"name": "Scrafty",
-		"default_form_id": 2078,
-		"pokedex_id": 560,
 		"generation": "Unova",
 		"types": [
 			"Dark",
@@ -8803,8 +7707,6 @@
 	},
 	"561": {
 		"name": "Sigilyph",
-		"default_form_id": 2081,
-		"pokedex_id": 561,
 		"generation": "Unova",
 		"types": [
 			"Psychic",
@@ -8818,8 +7720,6 @@
 	},
 	"562": {
 		"name": "Yamask",
-		"default_form_id": 2084,
-		"pokedex_id": 562,
 		"generation": "Unova",
 		"types": [
 			"Ghost"
@@ -8832,8 +7732,6 @@
 	},
 	"563": {
 		"name": "Cofagrigus",
-		"default_form_id": 2087,
-		"pokedex_id": 563,
 		"generation": "Unova",
 		"types": [
 			"Ghost"
@@ -8846,8 +7744,6 @@
 	},
 	"564": {
 		"name": "Tirtouga",
-		"default_form_id": 2090,
-		"pokedex_id": 564,
 		"generation": "Unova",
 		"types": [
 			"Water",
@@ -8861,8 +7757,6 @@
 	},
 	"565": {
 		"name": "Carracosta",
-		"default_form_id": 2093,
-		"pokedex_id": 565,
 		"generation": "Unova",
 		"types": [
 			"Water",
@@ -8876,8 +7770,6 @@
 	},
 	"566": {
 		"name": "Archen",
-		"default_form_id": 2096,
-		"pokedex_id": 566,
 		"generation": "Unova",
 		"types": [
 			"Rock",
@@ -8891,8 +7783,6 @@
 	},
 	"567": {
 		"name": "Archeops",
-		"default_form_id": 2099,
-		"pokedex_id": 567,
 		"generation": "Unova",
 		"types": [
 			"Rock",
@@ -8906,8 +7796,6 @@
 	},
 	"568": {
 		"name": "Trubbish",
-		"default_form_id": 2102,
-		"pokedex_id": 568,
 		"generation": "Unova",
 		"types": [
 			"Poison"
@@ -8920,8 +7808,6 @@
 	},
 	"569": {
 		"name": "Garbodor",
-		"default_form_id": 2105,
-		"pokedex_id": 569,
 		"generation": "Unova",
 		"types": [
 			"Poison"
@@ -8934,8 +7820,6 @@
 	},
 	"570": {
 		"name": "Zorua",
-		"default_form_id": 2108,
-		"pokedex_id": 570,
 		"generation": "Unova",
 		"types": [
 			"Dark"
@@ -8948,8 +7832,6 @@
 	},
 	"571": {
 		"name": "Zoroark",
-		"default_form_id": 2111,
-		"pokedex_id": 571,
 		"generation": "Unova",
 		"types": [
 			"Dark"
@@ -8962,8 +7844,6 @@
 	},
 	"572": {
 		"name": "Minccino",
-		"default_form_id": 2114,
-		"pokedex_id": 572,
 		"generation": "Unova",
 		"types": [
 			"Normal"
@@ -8976,8 +7856,6 @@
 	},
 	"573": {
 		"name": "Cinccino",
-		"default_form_id": 2117,
-		"pokedex_id": 573,
 		"generation": "Unova",
 		"types": [
 			"Normal"
@@ -8990,8 +7868,6 @@
 	},
 	"574": {
 		"name": "Gothita",
-		"default_form_id": 2120,
-		"pokedex_id": 574,
 		"generation": "Unova",
 		"types": [
 			"Psychic"
@@ -9004,8 +7880,6 @@
 	},
 	"575": {
 		"name": "Gothorita",
-		"default_form_id": 2123,
-		"pokedex_id": 575,
 		"generation": "Unova",
 		"types": [
 			"Psychic"
@@ -9018,8 +7892,6 @@
 	},
 	"576": {
 		"name": "Gothitelle",
-		"default_form_id": 2126,
-		"pokedex_id": 576,
 		"generation": "Unova",
 		"types": [
 			"Psychic"
@@ -9032,8 +7904,6 @@
 	},
 	"577": {
 		"name": "Solosis",
-		"default_form_id": 2129,
-		"pokedex_id": 577,
 		"generation": "Unova",
 		"types": [
 			"Psychic"
@@ -9046,8 +7916,6 @@
 	},
 	"578": {
 		"name": "Duosion",
-		"default_form_id": 2132,
-		"pokedex_id": 578,
 		"generation": "Unova",
 		"types": [
 			"Psychic"
@@ -9060,8 +7928,6 @@
 	},
 	"579": {
 		"name": "Reuniclus",
-		"default_form_id": 2135,
-		"pokedex_id": 579,
 		"generation": "Unova",
 		"types": [
 			"Psychic"
@@ -9074,8 +7940,6 @@
 	},
 	"580": {
 		"name": "Ducklett",
-		"default_form_id": 2138,
-		"pokedex_id": 580,
 		"generation": "Unova",
 		"types": [
 			"Water",
@@ -9089,8 +7953,6 @@
 	},
 	"581": {
 		"name": "Swanna",
-		"default_form_id": 2141,
-		"pokedex_id": 581,
 		"generation": "Unova",
 		"types": [
 			"Water",
@@ -9104,8 +7966,6 @@
 	},
 	"582": {
 		"name": "Vanillite",
-		"default_form_id": 2144,
-		"pokedex_id": 582,
 		"generation": "Unova",
 		"types": [
 			"Ice"
@@ -9118,8 +7978,6 @@
 	},
 	"583": {
 		"name": "Vanillish",
-		"default_form_id": 2147,
-		"pokedex_id": 583,
 		"generation": "Unova",
 		"types": [
 			"Ice"
@@ -9132,8 +7990,6 @@
 	},
 	"584": {
 		"name": "Vanilluxe",
-		"default_form_id": 2150,
-		"pokedex_id": 584,
 		"generation": "Unova",
 		"types": [
 			"Ice"
@@ -9146,8 +8002,6 @@
 	},
 	"585": {
 		"name": "Deerling",
-		"default_form_id": 585,
-		"pokedex_id": 585,
 		"generation": "Unova",
 		"types": [
 			"Normal",
@@ -9161,8 +8015,6 @@
 	},
 	"586": {
 		"name": "Sawsbuck",
-		"default_form_id": 589,
-		"pokedex_id": 586,
 		"generation": "Unova",
 		"types": [
 			"Normal",
@@ -9176,8 +8028,6 @@
 	},
 	"587": {
 		"name": "Emolga",
-		"default_form_id": 2153,
-		"pokedex_id": 587,
 		"generation": "Unova",
 		"types": [
 			"Electric",
@@ -9191,8 +8041,6 @@
 	},
 	"588": {
 		"name": "Karrablast",
-		"default_form_id": 2156,
-		"pokedex_id": 588,
 		"generation": "Unova",
 		"types": [
 			"Bug"
@@ -9205,8 +8053,6 @@
 	},
 	"589": {
 		"name": "Escavalier",
-		"default_form_id": 2159,
-		"pokedex_id": 589,
 		"generation": "Unova",
 		"types": [
 			"Bug",
@@ -9220,8 +8066,6 @@
 	},
 	"590": {
 		"name": "Foongus",
-		"default_form_id": 2162,
-		"pokedex_id": 590,
 		"generation": "Unova",
 		"types": [
 			"Grass",
@@ -9235,8 +8079,6 @@
 	},
 	"591": {
 		"name": "Amoonguss",
-		"default_form_id": 2165,
-		"pokedex_id": 591,
 		"generation": "Unova",
 		"types": [
 			"Grass",
@@ -9250,8 +8092,6 @@
 	},
 	"592": {
 		"name": "Frillish",
-		"default_form_id": 2168,
-		"pokedex_id": 592,
 		"generation": "Unova",
 		"types": [
 			"Water",
@@ -9265,8 +8105,6 @@
 	},
 	"593": {
 		"name": "Jellicent",
-		"default_form_id": 2171,
-		"pokedex_id": 593,
 		"generation": "Unova",
 		"types": [
 			"Water",
@@ -9280,8 +8118,6 @@
 	},
 	"594": {
 		"name": "Alomomola",
-		"default_form_id": 2174,
-		"pokedex_id": 594,
 		"generation": "Unova",
 		"types": [
 			"Water"
@@ -9294,8 +8130,6 @@
 	},
 	"595": {
 		"name": "Joltik",
-		"default_form_id": 2177,
-		"pokedex_id": 595,
 		"generation": "Unova",
 		"types": [
 			"Bug",
@@ -9309,8 +8143,6 @@
 	},
 	"596": {
 		"name": "Galvantula",
-		"default_form_id": 2180,
-		"pokedex_id": 596,
 		"generation": "Unova",
 		"types": [
 			"Bug",
@@ -9324,8 +8156,6 @@
 	},
 	"597": {
 		"name": "Ferroseed",
-		"default_form_id": 2183,
-		"pokedex_id": 597,
 		"generation": "Unova",
 		"types": [
 			"Grass",
@@ -9339,8 +8169,6 @@
 	},
 	"598": {
 		"name": "Ferrothorn",
-		"default_form_id": 2186,
-		"pokedex_id": 598,
 		"generation": "Unova",
 		"types": [
 			"Grass",
@@ -9354,8 +8182,6 @@
 	},
 	"599": {
 		"name": "Klink",
-		"default_form_id": 2189,
-		"pokedex_id": 599,
 		"generation": "Unova",
 		"types": [
 			"Steel"
@@ -9368,8 +8194,6 @@
 	},
 	"600": {
 		"name": "Klang",
-		"default_form_id": 2192,
-		"pokedex_id": 600,
 		"generation": "Unova",
 		"types": [
 			"Steel"
@@ -9382,8 +8206,6 @@
 	},
 	"601": {
 		"name": "Klinklang",
-		"default_form_id": 2195,
-		"pokedex_id": 601,
 		"generation": "Unova",
 		"types": [
 			"Steel"
@@ -9396,8 +8218,6 @@
 	},
 	"602": {
 		"name": "Tynamo",
-		"default_form_id": 2198,
-		"pokedex_id": 602,
 		"generation": "Unova",
 		"types": [
 			"Electric"
@@ -9410,8 +8230,6 @@
 	},
 	"603": {
 		"name": "Eelektrik",
-		"default_form_id": 2201,
-		"pokedex_id": 603,
 		"generation": "Unova",
 		"types": [
 			"Electric"
@@ -9424,8 +8242,6 @@
 	},
 	"604": {
 		"name": "Eelektross",
-		"default_form_id": 2204,
-		"pokedex_id": 604,
 		"generation": "Unova",
 		"types": [
 			"Electric"
@@ -9438,8 +8254,6 @@
 	},
 	"605": {
 		"name": "Elgyem",
-		"default_form_id": 2207,
-		"pokedex_id": 605,
 		"generation": "Unova",
 		"types": [
 			"Psychic"
@@ -9452,8 +8266,6 @@
 	},
 	"606": {
 		"name": "Beheeyem",
-		"default_form_id": 2210,
-		"pokedex_id": 606,
 		"generation": "Unova",
 		"types": [
 			"Psychic"
@@ -9466,8 +8278,6 @@
 	},
 	"607": {
 		"name": "Litwick",
-		"default_form_id": 2213,
-		"pokedex_id": 607,
 		"generation": "Unova",
 		"types": [
 			"Ghost",
@@ -9481,8 +8291,6 @@
 	},
 	"608": {
 		"name": "Lampent",
-		"default_form_id": 2216,
-		"pokedex_id": 608,
 		"generation": "Unova",
 		"types": [
 			"Ghost",
@@ -9496,8 +8304,6 @@
 	},
 	"609": {
 		"name": "Chandelure",
-		"default_form_id": 2219,
-		"pokedex_id": 609,
 		"generation": "Unova",
 		"types": [
 			"Ghost",
@@ -9511,8 +8317,6 @@
 	},
 	"610": {
 		"name": "Axew",
-		"default_form_id": 2222,
-		"pokedex_id": 610,
 		"generation": "Unova",
 		"types": [
 			"Dragon"
@@ -9525,8 +8329,6 @@
 	},
 	"611": {
 		"name": "Fraxure",
-		"default_form_id": 2225,
-		"pokedex_id": 611,
 		"generation": "Unova",
 		"types": [
 			"Dragon"
@@ -9539,8 +8341,6 @@
 	},
 	"612": {
 		"name": "Haxorus",
-		"default_form_id": 2228,
-		"pokedex_id": 612,
 		"generation": "Unova",
 		"types": [
 			"Dragon"
@@ -9553,8 +8353,6 @@
 	},
 	"613": {
 		"name": "Cubchoo",
-		"default_form_id": 2231,
-		"pokedex_id": 613,
 		"generation": "Unova",
 		"types": [
 			"Ice"
@@ -9567,8 +8365,6 @@
 	},
 	"614": {
 		"name": "Beartic",
-		"default_form_id": 2234,
-		"pokedex_id": 614,
 		"generation": "Unova",
 		"types": [
 			"Ice"
@@ -9581,8 +8377,6 @@
 	},
 	"615": {
 		"name": "Cryogonal",
-		"default_form_id": 2237,
-		"pokedex_id": 615,
 		"generation": "Unova",
 		"types": [
 			"Ice"
@@ -9595,8 +8389,6 @@
 	},
 	"616": {
 		"name": "Shelmet",
-		"default_form_id": 2240,
-		"pokedex_id": 616,
 		"generation": "Unova",
 		"types": [
 			"Bug"
@@ -9609,8 +8401,6 @@
 	},
 	"617": {
 		"name": "Accelgor",
-		"default_form_id": 2243,
-		"pokedex_id": 617,
 		"generation": "Unova",
 		"types": [
 			"Bug"
@@ -9623,8 +8413,6 @@
 	},
 	"618": {
 		"name": "Stunfisk",
-		"default_form_id": 2246,
-		"pokedex_id": 618,
 		"generation": "Unova",
 		"types": [
 			"Ground",
@@ -9638,8 +8426,6 @@
 	},
 	"619": {
 		"name": "Mienfoo",
-		"default_form_id": 2249,
-		"pokedex_id": 619,
 		"generation": "Unova",
 		"types": [
 			"Fighting"
@@ -9652,8 +8438,6 @@
 	},
 	"620": {
 		"name": "Mienshao",
-		"default_form_id": 2252,
-		"pokedex_id": 620,
 		"generation": "Unova",
 		"types": [
 			"Fighting"
@@ -9666,8 +8450,6 @@
 	},
 	"621": {
 		"name": "Druddigon",
-		"default_form_id": 2255,
-		"pokedex_id": 621,
 		"generation": "Unova",
 		"types": [
 			"Dragon"
@@ -9680,8 +8462,6 @@
 	},
 	"622": {
 		"name": "Golett",
-		"default_form_id": 2258,
-		"pokedex_id": 622,
 		"generation": "Unova",
 		"types": [
 			"Ground",
@@ -9695,8 +8475,6 @@
 	},
 	"623": {
 		"name": "Golurk",
-		"default_form_id": 2261,
-		"pokedex_id": 623,
 		"generation": "Unova",
 		"types": [
 			"Ground",
@@ -9710,8 +8488,6 @@
 	},
 	"624": {
 		"name": "Pawniard",
-		"default_form_id": 2264,
-		"pokedex_id": 624,
 		"generation": "Unova",
 		"types": [
 			"Dark",
@@ -9725,8 +8501,6 @@
 	},
 	"625": {
 		"name": "Bisharp",
-		"default_form_id": 2267,
-		"pokedex_id": 625,
 		"generation": "Unova",
 		"types": [
 			"Dark",
@@ -9740,8 +8514,6 @@
 	},
 	"626": {
 		"name": "Bouffalant",
-		"default_form_id": 2270,
-		"pokedex_id": 626,
 		"generation": "Unova",
 		"types": [
 			"Normal"
@@ -9754,8 +8526,6 @@
 	},
 	"627": {
 		"name": "Rufflet",
-		"default_form_id": 2273,
-		"pokedex_id": 627,
 		"generation": "Unova",
 		"types": [
 			"Normal",
@@ -9769,8 +8539,6 @@
 	},
 	"628": {
 		"name": "Braviary",
-		"default_form_id": 2276,
-		"pokedex_id": 628,
 		"generation": "Unova",
 		"types": [
 			"Normal",
@@ -9784,8 +8552,6 @@
 	},
 	"629": {
 		"name": "Vullaby",
-		"default_form_id": 2279,
-		"pokedex_id": 629,
 		"generation": "Unova",
 		"types": [
 			"Dark",
@@ -9799,8 +8565,6 @@
 	},
 	"630": {
 		"name": "Mandibuzz",
-		"default_form_id": 2282,
-		"pokedex_id": 630,
 		"generation": "Unova",
 		"types": [
 			"Dark",
@@ -9814,8 +8578,6 @@
 	},
 	"631": {
 		"name": "Heatmor",
-		"default_form_id": 2285,
-		"pokedex_id": 631,
 		"generation": "Unova",
 		"types": [
 			"Fire"
@@ -9828,8 +8590,6 @@
 	},
 	"632": {
 		"name": "Durant",
-		"default_form_id": 2288,
-		"pokedex_id": 632,
 		"generation": "Unova",
 		"types": [
 			"Bug",
@@ -9843,8 +8603,6 @@
 	},
 	"633": {
 		"name": "Deino",
-		"default_form_id": 2291,
-		"pokedex_id": 633,
 		"generation": "Unova",
 		"types": [
 			"Dark",
@@ -9858,8 +8616,6 @@
 	},
 	"634": {
 		"name": "Zweilous",
-		"default_form_id": 2294,
-		"pokedex_id": 634,
 		"generation": "Unova",
 		"types": [
 			"Dark",
@@ -9873,8 +8629,6 @@
 	},
 	"635": {
 		"name": "Hydreigon",
-		"default_form_id": 2297,
-		"pokedex_id": 635,
 		"generation": "Unova",
 		"types": [
 			"Dark",
@@ -9888,8 +8642,6 @@
 	},
 	"636": {
 		"name": "Larvesta",
-		"default_form_id": 2300,
-		"pokedex_id": 636,
 		"generation": "Unova",
 		"types": [
 			"Bug",
@@ -9903,8 +8655,6 @@
 	},
 	"637": {
 		"name": "Volcarona",
-		"default_form_id": 2303,
-		"pokedex_id": 637,
 		"generation": "Unova",
 		"types": [
 			"Bug",
@@ -9918,8 +8668,6 @@
 	},
 	"638": {
 		"name": "Cobalion",
-		"default_form_id": 2306,
-		"pokedex_id": 638,
 		"generation": "Unova",
 		"types": [
 			"Steel",
@@ -9933,8 +8681,6 @@
 	},
 	"639": {
 		"name": "Terrakion",
-		"default_form_id": 2309,
-		"pokedex_id": 639,
 		"generation": "Unova",
 		"types": [
 			"Rock",
@@ -9948,8 +8694,6 @@
 	},
 	"640": {
 		"name": "Virizion",
-		"default_form_id": 2312,
-		"pokedex_id": 640,
 		"generation": "Unova",
 		"types": [
 			"Grass",
@@ -9963,8 +8707,6 @@
 	},
 	"641": {
 		"name": "Tornadus",
-		"default_form_id": 140,
-		"pokedex_id": 641,
 		"generation": "Unova",
 		"types": [
 			"Flying"
@@ -9985,8 +8727,6 @@
 	},
 	"642": {
 		"name": "Thundurus",
-		"default_form_id": 142,
-		"pokedex_id": 642,
 		"generation": "Unova",
 		"types": [
 			"Electric",
@@ -10008,8 +8748,6 @@
 	},
 	"643": {
 		"name": "Reshiram",
-		"default_form_id": 2315,
-		"pokedex_id": 643,
 		"generation": "Unova",
 		"types": [
 			"Dragon",
@@ -10023,8 +8761,6 @@
 	},
 	"644": {
 		"name": "Zekrom",
-		"default_form_id": 2318,
-		"pokedex_id": 644,
 		"generation": "Unova",
 		"types": [
 			"Dragon",
@@ -10038,8 +8774,6 @@
 	},
 	"645": {
 		"name": "Landorus",
-		"default_form_id": 144,
-		"pokedex_id": 645,
 		"generation": "Unova",
 		"types": [
 			"Ground",
@@ -10061,8 +8795,6 @@
 	},
 	"646": {
 		"name": "Kyurem",
-		"default_form_id": 146,
-		"pokedex_id": 646,
 		"generation": "Unova",
 		"types": [
 			"Dragon",
@@ -10090,8 +8822,6 @@
 	},
 	"647": {
 		"name": "Keldeo",
-		"default_form_id": 149,
-		"pokedex_id": 647,
 		"generation": "Unova",
 		"types": [
 			"Water",
@@ -10105,8 +8835,6 @@
 	},
 	"648": {
 		"name": "Meloetta",
-		"default_form_id": 151,
-		"pokedex_id": 648,
 		"generation": "Unova",
 		"types": [
 			"Normal",
@@ -10132,8 +8860,6 @@
 	},
 	"649": {
 		"name": "Genesect",
-		"default_form_id": 593,
-		"pokedex_id": 649,
 		"generation": "Unova",
 		"types": [
 			"Bug",
@@ -10147,7 +8873,6 @@
 	},
 	"650": {
 		"name": "Chespin",
-		"pokedex_id": 650,
 		"generation": "Kalos",
 		"types": [
 			"Grass"
@@ -10160,7 +8885,6 @@
 	},
 	"651": {
 		"name": "Quilladin",
-		"pokedex_id": 651,
 		"generation": "Kalos",
 		"types": [
 			"Grass"
@@ -10173,7 +8897,6 @@
 	},
 	"652": {
 		"name": "Chesnaught",
-		"pokedex_id": 652,
 		"generation": "Kalos",
 		"types": [
 			"Grass",
@@ -10187,7 +8910,6 @@
 	},
 	"653": {
 		"name": "Fennekin",
-		"pokedex_id": 653,
 		"generation": "Kalos",
 		"types": [
 			"Fire"
@@ -10200,7 +8922,6 @@
 	},
 	"654": {
 		"name": "Braixen",
-		"pokedex_id": 654,
 		"generation": "Kalos",
 		"types": [
 			"Fire"
@@ -10213,7 +8934,6 @@
 	},
 	"655": {
 		"name": "Delphox",
-		"pokedex_id": 655,
 		"generation": "Kalos",
 		"types": [
 			"Fire",
@@ -10227,7 +8947,6 @@
 	},
 	"656": {
 		"name": "Froakie",
-		"pokedex_id": 656,
 		"generation": "Kalos",
 		"types": [
 			"Water"
@@ -10240,7 +8959,6 @@
 	},
 	"657": {
 		"name": "Frogadier",
-		"pokedex_id": 657,
 		"generation": "Kalos",
 		"types": [
 			"Water"
@@ -10253,7 +8971,6 @@
 	},
 	"658": {
 		"name": "Greninja",
-		"pokedex_id": 658,
 		"generation": "Kalos",
 		"types": [
 			"Water",
@@ -10267,7 +8984,6 @@
 	},
 	"659": {
 		"name": "Bunnelby",
-		"pokedex_id": 659,
 		"generation": "Kalos",
 		"types": [
 			"Normal"
@@ -10280,7 +8996,6 @@
 	},
 	"660": {
 		"name": "Diggersby",
-		"pokedex_id": 660,
 		"generation": "Kalos",
 		"types": [
 			"Normal",
@@ -10294,7 +9009,6 @@
 	},
 	"661": {
 		"name": "Fletchling",
-		"pokedex_id": 661,
 		"generation": "Kalos",
 		"types": [
 			"Normal",
@@ -10308,7 +9022,6 @@
 	},
 	"662": {
 		"name": "Fletchinder",
-		"pokedex_id": 662,
 		"generation": "Kalos",
 		"types": [
 			"Fire",
@@ -10322,7 +9035,6 @@
 	},
 	"663": {
 		"name": "Talonflame",
-		"pokedex_id": 663,
 		"generation": "Kalos",
 		"types": [
 			"Fire",
@@ -10336,7 +9048,6 @@
 	},
 	"664": {
 		"name": "Scatterbug",
-		"pokedex_id": 664,
 		"generation": "Kalos",
 		"types": [
 			"Bug"
@@ -10349,7 +9060,6 @@
 	},
 	"665": {
 		"name": "Spewpa",
-		"pokedex_id": 665,
 		"generation": "Kalos",
 		"types": [
 			"Bug"
@@ -10362,7 +9072,6 @@
 	},
 	"666": {
 		"name": "Vivillon",
-		"pokedex_id": 666,
 		"generation": "Kalos",
 		"types": [
 			"Bug",
@@ -10376,7 +9085,6 @@
 	},
 	"667": {
 		"name": "Litleo",
-		"pokedex_id": 667,
 		"generation": "Kalos",
 		"types": [
 			"Fire",
@@ -10390,8 +9098,6 @@
 	},
 	"668": {
 		"name": "Pyroar",
-		"default_form_id": 2587,
-		"pokedex_id": 668,
 		"generation": "Kalos",
 		"types": [
 			"Fire",
@@ -10405,7 +9111,6 @@
 	},
 	"669": {
 		"name": "Flabebe",
-		"pokedex_id": 669,
 		"generation": "Kalos",
 		"types": [
 			"Fairy"
@@ -10418,7 +9123,6 @@
 	},
 	"670": {
 		"name": "Floette",
-		"pokedex_id": 670,
 		"generation": "Kalos",
 		"types": [
 			"Fairy"
@@ -10431,7 +9135,6 @@
 	},
 	"671": {
 		"name": "Florges",
-		"pokedex_id": 671,
 		"generation": "Kalos",
 		"types": [
 			"Fairy"
@@ -10444,7 +9147,6 @@
 	},
 	"672": {
 		"name": "Skiddo",
-		"pokedex_id": 672,
 		"generation": "Kalos",
 		"types": [
 			"Grass"
@@ -10457,7 +9159,6 @@
 	},
 	"673": {
 		"name": "Gogoat",
-		"pokedex_id": 673,
 		"generation": "Kalos",
 		"types": [
 			"Grass"
@@ -10470,7 +9171,6 @@
 	},
 	"674": {
 		"name": "Pancham",
-		"pokedex_id": 674,
 		"generation": "Kalos",
 		"types": [
 			"Fighting"
@@ -10483,7 +9183,6 @@
 	},
 	"675": {
 		"name": "Pangoro",
-		"pokedex_id": 675,
 		"generation": "Kalos",
 		"types": [
 			"Fighting",
@@ -10497,7 +9196,6 @@
 	},
 	"676": {
 		"name": "Furfrou",
-		"pokedex_id": 676,
 		"generation": "Kalos",
 		"types": [
 			"Normal"
@@ -10510,7 +9208,6 @@
 	},
 	"677": {
 		"name": "Espurr",
-		"pokedex_id": 677,
 		"generation": "Kalos",
 		"types": [
 			"Psychic"
@@ -10523,8 +9220,6 @@
 	},
 	"678": {
 		"name": "Meowstic",
-		"default_form_id": 2589,
-		"pokedex_id": 678,
 		"generation": "Kalos",
 		"types": [
 			"Psychic"
@@ -10537,40 +9232,45 @@
 	},
 	"679": {
 		"name": "Honedge",
-		"pokedex_id": 679,
 		"generation": "Kalos",
 		"types": [
 			"Steel",
 			"Ghost"
 		],
+		"attack": 135,
+		"defense": 139,
+		"stamina": 128,
 		"legendary": false,
 		"mythical": false
 	},
 	"680": {
 		"name": "Doublade",
-		"pokedex_id": 680,
 		"generation": "Kalos",
 		"types": [
 			"Steel",
 			"Ghost"
 		],
+		"attack": 188,
+		"defense": 206,
+		"stamina": 153,
 		"legendary": false,
 		"mythical": false
 	},
 	"681": {
 		"name": "Aegislash",
-		"pokedex_id": 681,
 		"generation": "Kalos",
 		"types": [
 			"Steel",
 			"Ghost"
 		],
+		"attack": 97,
+		"defense": 272,
+		"stamina": 155,
 		"legendary": false,
 		"mythical": false
 	},
 	"682": {
 		"name": "Spritzee",
-		"pokedex_id": 682,
 		"generation": "Kalos",
 		"types": [
 			"Fairy"
@@ -10583,7 +9283,6 @@
 	},
 	"683": {
 		"name": "Aromatisse",
-		"pokedex_id": 683,
 		"generation": "Kalos",
 		"types": [
 			"Fairy"
@@ -10596,7 +9295,6 @@
 	},
 	"684": {
 		"name": "Swirlix",
-		"pokedex_id": 684,
 		"generation": "Kalos",
 		"types": [
 			"Fairy"
@@ -10609,7 +9307,6 @@
 	},
 	"685": {
 		"name": "Slurpuff",
-		"pokedex_id": 685,
 		"generation": "Kalos",
 		"types": [
 			"Fairy"
@@ -10622,7 +9319,6 @@
 	},
 	"686": {
 		"name": "Inkay",
-		"pokedex_id": 686,
 		"generation": "Kalos",
 		"types": [
 			"Dark",
@@ -10636,7 +9332,6 @@
 	},
 	"687": {
 		"name": "Malamar",
-		"pokedex_id": 687,
 		"generation": "Kalos",
 		"types": [
 			"Dark",
@@ -10650,7 +9345,6 @@
 	},
 	"688": {
 		"name": "Binacle",
-		"pokedex_id": 688,
 		"generation": "Kalos",
 		"types": [
 			"Rock",
@@ -10664,7 +9358,6 @@
 	},
 	"689": {
 		"name": "Barbaracle",
-		"pokedex_id": 689,
 		"generation": "Kalos",
 		"types": [
 			"Rock",
@@ -10678,7 +9371,6 @@
 	},
 	"690": {
 		"name": "Skrelp",
-		"pokedex_id": 690,
 		"generation": "Kalos",
 		"types": [
 			"Poison",
@@ -10692,7 +9384,6 @@
 	},
 	"691": {
 		"name": "Dragalge",
-		"pokedex_id": 691,
 		"generation": "Kalos",
 		"types": [
 			"Poison",
@@ -10706,7 +9397,6 @@
 	},
 	"692": {
 		"name": "Clauncher",
-		"pokedex_id": 692,
 		"generation": "Kalos",
 		"types": [
 			"Water"
@@ -10719,7 +9409,6 @@
 	},
 	"693": {
 		"name": "Clawitzer",
-		"pokedex_id": 693,
 		"generation": "Kalos",
 		"types": [
 			"Water"
@@ -10732,7 +9421,6 @@
 	},
 	"694": {
 		"name": "Helioptile",
-		"pokedex_id": 694,
 		"generation": "Kalos",
 		"types": [
 			"Electric",
@@ -10746,7 +9434,6 @@
 	},
 	"695": {
 		"name": "Heliolisk",
-		"pokedex_id": 695,
 		"generation": "Kalos",
 		"types": [
 			"Electric",
@@ -10760,7 +9447,6 @@
 	},
 	"696": {
 		"name": "Tyrunt",
-		"pokedex_id": 696,
 		"generation": "Kalos",
 		"types": [
 			"Rock",
@@ -10774,7 +9460,6 @@
 	},
 	"697": {
 		"name": "Tyrantrum",
-		"pokedex_id": 697,
 		"generation": "Kalos",
 		"types": [
 			"Rock",
@@ -10788,7 +9473,6 @@
 	},
 	"698": {
 		"name": "Amaura",
-		"pokedex_id": 698,
 		"generation": "Kalos",
 		"types": [
 			"Rock",
@@ -10802,7 +9486,6 @@
 	},
 	"699": {
 		"name": "Aurorus",
-		"pokedex_id": 699,
 		"generation": "Kalos",
 		"types": [
 			"Rock",
@@ -10816,7 +9499,6 @@
 	},
 	"700": {
 		"name": "Sylveon",
-		"pokedex_id": 700,
 		"generation": "Kalos",
 		"types": [
 			"Fairy"
@@ -10829,7 +9511,6 @@
 	},
 	"701": {
 		"name": "Hawlucha",
-		"pokedex_id": 701,
 		"generation": "Kalos",
 		"types": [
 			"Fighting",
@@ -10843,7 +9524,6 @@
 	},
 	"702": {
 		"name": "Dedenne",
-		"pokedex_id": 702,
 		"generation": "Kalos",
 		"types": [
 			"Electric",
@@ -10857,7 +9537,6 @@
 	},
 	"703": {
 		"name": "Carbink",
-		"pokedex_id": 703,
 		"generation": "Kalos",
 		"types": [
 			"Rock",
@@ -10871,7 +9550,6 @@
 	},
 	"704": {
 		"name": "Goomy",
-		"pokedex_id": 704,
 		"generation": "Kalos",
 		"types": [
 			"Dragon"
@@ -10884,7 +9562,6 @@
 	},
 	"705": {
 		"name": "Sliggoo",
-		"pokedex_id": 705,
 		"generation": "Kalos",
 		"types": [
 			"Dragon"
@@ -10897,7 +9574,6 @@
 	},
 	"706": {
 		"name": "Goodra",
-		"pokedex_id": 706,
 		"generation": "Kalos",
 		"types": [
 			"Dragon"
@@ -10910,7 +9586,6 @@
 	},
 	"707": {
 		"name": "Klefki",
-		"pokedex_id": 707,
 		"generation": "Kalos",
 		"types": [
 			"Steel",
@@ -10924,7 +9599,6 @@
 	},
 	"708": {
 		"name": "Phantump",
-		"pokedex_id": 708,
 		"generation": "Kalos",
 		"types": [
 			"Ghost",
@@ -10938,7 +9612,6 @@
 	},
 	"709": {
 		"name": "Trevenant",
-		"pokedex_id": 709,
 		"generation": "Kalos",
 		"types": [
 			"Ghost",
@@ -10952,29 +9625,72 @@
 	},
 	"710": {
 		"name": "Pumpkaboo",
-		"pokedex_id": 710,
 		"generation": "Kalos",
 		"types": [
 			"Ghost",
 			"Grass"
 		],
+		"attack": 122,
+		"defense": 124,
+		"stamina": 127,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Pumpkaboo (Average)",
+				"attack": 121,
+				"defense": 123,
+				"stamina": 135
+			},
+			{
+				"name": "Pumpkaboo (Large)",
+				"attack": 120,
+				"defense": 122,
+				"stamina": 144
+			},
+			{
+				"name": "Pumpkaboo (Super)",
+				"attack": 118,
+				"defense": 120,
+				"stamina": 153
+			}
+		]
 	},
 	"711": {
 		"name": "Gourgeist",
-		"pokedex_id": 711,
 		"generation": "Kalos",
 		"types": [
 			"Ghost",
 			"Grass"
 		],
+		"attack": 171,
+		"defense": 219,
+		"stamina": 146,
 		"legendary": false,
-		"mythical": false
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Gourgeist (Average)",
+				"attack": 175,
+				"defense": 213,
+				"stamina": 163
+			},
+			{
+				"name": "Gourgeist (Large)",
+				"attack": 179,
+				"defense": 206,
+				"stamina": 181
+			},
+			{
+				"name": "Gourgeist (Super)",
+				"attack": 182,
+				"defense": 200,
+				"stamina": 198
+			}
+		]
 	},
 	"712": {
 		"name": "Bergmite",
-		"pokedex_id": 712,
 		"generation": "Kalos",
 		"types": [
 			"Ice"
@@ -10987,7 +9703,6 @@
 	},
 	"713": {
 		"name": "Avalugg",
-		"pokedex_id": 713,
 		"generation": "Kalos",
 		"types": [
 			"Ice"
@@ -11000,7 +9715,6 @@
 	},
 	"714": {
 		"name": "Noibat",
-		"pokedex_id": 714,
 		"generation": "Kalos",
 		"types": [
 			"Flying",
@@ -11014,7 +9728,6 @@
 	},
 	"715": {
 		"name": "Noivern",
-		"pokedex_id": 715,
 		"generation": "Kalos",
 		"types": [
 			"Flying",
@@ -11028,51 +9741,57 @@
 	},
 	"716": {
 		"name": "Xerneas",
-		"pokedex_id": 716,
 		"generation": "Kalos",
 		"types": [
 			"Fairy"
 		],
-		"attack": 275,
-		"defense": 203,
-		"stamina": 270,
+		"attack": 250,
+		"defense": 185,
+		"stamina": 246,
 		"legendary": true,
 		"mythical": false
 	},
 	"717": {
 		"name": "Yveltal",
-		"pokedex_id": 717,
 		"generation": "Kalos",
 		"types": [
 			"Dark",
 			"Flying"
 		],
-		"attack": 275,
-		"defense": 203,
-		"stamina": 270,
+		"attack": 250,
+		"defense": 185,
+		"stamina": 246,
 		"legendary": true,
 		"mythical": false
 	},
 	"718": {
 		"name": "Zygarde",
-		"pokedex_id": 718,
 		"generation": "Kalos",
 		"types": [
 			"Dragon",
 			"Ground"
 		],
+		"attack": 203,
+		"defense": 232,
+		"stamina": 239,
 		"legendary": true,
 		"mythical": false
 	},
 	"719": {
 		"name": "Diancie",
+		"generation": "Kalos",
+		"types": [
+			"Rock",
+			"Fairy"
+		],
+		"attack": 190,
+		"defense": 285,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": true,
 		"megas": [
 			{
 				"name": "Mega Diancie",
-				"types": [
-					"Fairy",
-					"Rock"
-				],
 				"attack": 342,
 				"defense": 235,
 				"stamina": 137
@@ -11080,15 +9799,960 @@
 		]
 	},
 	"720": {
-		"name": "Hoopa"
+		"name": "Hoopa",
+		"generation": "Kalos",
+		"types": [
+			"Psychic",
+			"Ghost"
+		],
+		"attack": 261,
+		"defense": 187,
+		"stamina": 173,
+		"legendary": false,
+		"mythical": true,
+		"forms": [
+			{
+				"name": "Hoopa (Unbound)",
+				"types": [
+					"Psychic",
+					"Dark"
+				],
+				"attack": 311,
+				"defense": 191,
+				"stamina": 173
+			}
+		]
 	},
 	"721": {
-		"name": "Volcanion"
+		"name": "Volcanion",
+		"generation": "Kalos",
+		"types": [
+			"Fire",
+			"Water"
+		],
+		"attack": 252,
+		"defense": 216,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": true
+	},
+	"722": {
+		"name": "Rowlet",
+		"generation": "Alola",
+		"types": [
+			"Grass",
+			"Flying"
+		],
+		"attack": 102,
+		"defense": 99,
+		"stamina": 169
+	},
+	"723": {
+		"name": "Dartrix",
+		"generation": "Alola",
+		"types": [
+			"Grass",
+			"Flying"
+		],
+		"attack": 142,
+		"defense": 139,
+		"stamina": 186
+	},
+	"724": {
+		"name": "Decidueye",
+		"generation": "Alola",
+		"types": [
+			"Grass",
+			"Ghost"
+		],
+		"attack": 210,
+		"defense": 179,
+		"stamina": 186
+	},
+	"725": {
+		"name": "Litten",
+		"generation": "Alola",
+		"types": [
+			"Fire"
+		],
+		"attack": 128,
+		"defense": 79,
+		"stamina": 128
+	},
+	"726": {
+		"name": "Torracat",
+		"generation": "Alola",
+		"types": [
+			"Fire"
+		],
+		"attack": 174,
+		"defense": 103,
+		"stamina": 163
+	},
+	"727": {
+		"name": "Incineroar",
+		"generation": "Alola",
+		"types": [
+			"Fire",
+			"Dark"
+		],
+		"attack": 214,
+		"defense": 175,
+		"stamina": 216
+	},
+	"728": {
+		"name": "Popplio",
+		"generation": "Alola",
+		"types": [
+			"Water"
+		],
+		"attack": 120,
+		"defense": 103,
+		"stamina": 137
+	},
+	"729": {
+		"name": "Brionne",
+		"generation": "Alola",
+		"types": [
+			"Water"
+		],
+		"attack": 168,
+		"defense": 145,
+		"stamina": 155
+	},
+	"730": {
+		"name": "Primarina",
+		"generation": "Alola",
+		"types": [
+			"Water",
+			"Fairy"
+		],
+		"attack": 232,
+		"defense": 195,
+		"stamina": 190
+	},
+	"731": {
+		"name": "Pikipek",
+		"generation": "Alola",
+		"types": [
+			"Normal",
+			"Flying"
+		],
+		"attack": 136,
+		"defense": 59,
+		"stamina": 111
+	},
+	"732": {
+		"name": "Trumbeak",
+		"generation": "Alola",
+		"types": [
+			"Normal",
+			"Flying"
+		],
+		"attack": 159,
+		"defense": 100,
+		"stamina": 146
+	},
+	"733": {
+		"name": "Toucannon",
+		"generation": "Alola",
+		"types": [
+			"Normal",
+			"Flying"
+		],
+		"attack": 222,
+		"defense": 146,
+		"stamina": 190
+	},
+	"734": {
+		"name": "Yungoos",
+		"generation": "Alola",
+		"types": [
+			"Normal"
+		],
+		"attack": 122,
+		"defense": 56,
+		"stamina": 134
+	},
+	"735": {
+		"name": "Gumshoos",
+		"generation": "Alola",
+		"types": [
+			"Normal"
+		],
+		"attack": 194,
+		"defense": 113,
+		"stamina": 204
+	},
+	"736": {
+		"name": "Grubbin",
+		"generation": "Alola",
+		"types": [
+			"Bug"
+		],
+		"attack": 115,
+		"defense": 85,
+		"stamina": 132
+	},
+	"737": {
+		"name": "Charjabug",
+		"generation": "Alola",
+		"types": [
+			"Bug",
+			"Electric"
+		],
+		"attack": 145,
+		"defense": 161,
+		"stamina": 149
+	},
+	"738": {
+		"name": "Vikavolt",
+		"generation": "Alola",
+		"types": [
+			"Bug",
+			"Electric"
+		],
+		"attack": 254,
+		"defense": 158,
+		"stamina": 184
+	},
+	"739": {
+		"name": "Crabrawler",
+		"generation": "Alola",
+		"types": [
+			"Fighting"
+		],
+		"attack": 150,
+		"defense": 104,
+		"stamina": 132
+	},
+	"740": {
+		"name": "Crabominable",
+		"generation": "Alola",
+		"types": [
+			"Fighting",
+			"Ice"
+		],
+		"attack": 231,
+		"defense": 138,
+		"stamina": 219
+	},
+	"741": {
+		"name": "Oricorio",
+		"generation": "Alola",
+		"types": [
+			"Fire",
+			"Flying"
+		],
+		"attack": 196,
+		"defense": 145,
+		"stamina": 181
+	},
+	"742": {
+		"name": "Cutiefly",
+		"generation": "Alola",
+		"types": [
+			"Bug",
+			"Fairy"
+		],
+		"attack": 110,
+		"defense": 81,
+		"stamina": 120
+	},
+	"743": {
+		"name": "Ribombee",
+		"generation": "Alola",
+		"types": [
+			"Bug",
+			"Fairy"
+		],
+		"attack": 198,
+		"defense": 146,
+		"stamina": 155
+	},
+	"744": {
+		"name": "Rockruff",
+		"generation": "Alola",
+		"types": [
+			"Rock"
+		],
+		"attack": 117,
+		"defense": 78,
+		"stamina": 128
+	},
+	"745": {
+		"name": "Lycanroc",
+		"generation": "Alola",
+		"types": [
+			"Rock"
+		],
+		"attack": 231,
+		"defense": 140,
+		"stamina": 181
+	},
+	"746": {
+		"name": "Wishiwashi",
+		"generation": "Alola",
+		"types": [
+			"Water"
+		],
+		"attack": 46,
+		"defense": 43,
+		"stamina": 128
+	},
+	"747": {
+		"name": "Mareanie",
+		"generation": "Alola",
+		"types": [
+			"Poison",
+			"Water"
+		],
+		"attack": 98,
+		"defense": 110,
+		"stamina": 137
+	},
+	"748": {
+		"name": "Toxapex",
+		"generation": "Alola",
+		"types": [
+			"Poison",
+			"Water"
+		],
+		"attack": 114,
+		"defense": 273,
+		"stamina": 137
+	},
+	"749": {
+		"name": "Mudbray",
+		"generation": "Alola",
+		"types": [
+			"Ground"
+		],
+		"attack": 175,
+		"defense": 121,
+		"stamina": 172
+	},
+	"750": {
+		"name": "Mudsdale",
+		"generation": "Alola",
+		"types": [
+			"Ground"
+		],
+		"attack": 214,
+		"defense": 174,
+		"stamina": 225
+	},
+	"751": {
+		"name": "Dewpider",
+		"generation": "Alola",
+		"types": [
+			"Water",
+			"Bug"
+		],
+		"attack": 72,
+		"defense": 117,
+		"stamina": 116
+	},
+	"752": {
+		"name": "Araquanid",
+		"generation": "Alola",
+		"types": [
+			"Water",
+			"Bug"
+		],
+		"attack": 126,
+		"defense": 219,
+		"stamina": 169
+	},
+	"753": {
+		"name": "Fomantis",
+		"generation": "Alola",
+		"types": [
+			"Grass"
+		],
+		"attack": 100,
+		"defense": 64,
+		"stamina": 120
+	},
+	"754": {
+		"name": "Lurantis",
+		"generation": "Alola",
+		"types": [
+			"Grass"
+		],
+		"attack": 192,
+		"defense": 169,
+		"stamina": 172
+	},
+	"755": {
+		"name": "Morelull",
+		"generation": "Alola",
+		"types": [
+			"Grass",
+			"Fairy"
+		],
+		"attack": 108,
+		"defense": 119,
+		"stamina": 120
+	},
+	"756": {
+		"name": "Shiinotic",
+		"generation": "Alola",
+		"types": [
+			"Grass",
+			"Fairy"
+		],
+		"attack": 154,
+		"defense": 168,
+		"stamina": 155
+	},
+	"757": {
+		"name": "Salandit",
+		"generation": "Alola",
+		"types": [
+			"Poison",
+			"Fire"
+		],
+		"attack": 136,
+		"defense": 80,
+		"stamina": 134
+	},
+	"758": {
+		"name": "Salazzle",
+		"generation": "Alola",
+		"types": [
+			"Poison",
+			"Fire"
+		],
+		"attack": 228,
+		"defense": 130,
+		"stamina": 169
+	},
+	"759": {
+		"name": "Stufful",
+		"generation": "Alola",
+		"types": [
+			"Normal",
+			"Fighting"
+		],
+		"attack": 136,
+		"defense": 95,
+		"stamina": 172
+	},
+	"760": {
+		"name": "Bewear",
+		"generation": "Alola",
+		"types": [
+			"Normal",
+			"Fighting"
+		],
+		"attack": 226,
+		"defense": 141,
+		"stamina": 260
+	},
+	"761": {
+		"name": "Bounsweet",
+		"generation": "Alola",
+		"types": [
+			"Grass"
+		],
+		"attack": 55,
+		"defense": 69,
+		"stamina": 123
+	},
+	"762": {
+		"name": "Steenee",
+		"generation": "Alola",
+		"types": [
+			"Grass"
+		],
+		"attack": 78,
+		"defense": 94,
+		"stamina": 141
+	},
+	"763": {
+		"name": "Tsareena",
+		"generation": "Alola",
+		"types": [
+			"Grass"
+		],
+		"attack": 222,
+		"defense": 195,
+		"stamina": 176
+	},
+	"764": {
+		"name": "Comfey",
+		"generation": "Alola",
+		"types": [
+			"Fairy"
+		],
+		"attack": 165,
+		"defense": 215,
+		"stamina": 139
+	},
+	"765": {
+		"name": "Oranguru",
+		"generation": "Alola",
+		"types": [
+			"Normal",
+			"Psychic"
+		],
+		"attack": 168,
+		"defense": 192,
+		"stamina": 207
+	},
+	"766": {
+		"name": "Passimian",
+		"generation": "Alola",
+		"types": [
+			"Fighting"
+		],
+		"attack": 222,
+		"defense": 160,
+		"stamina": 225
+	},
+	"767": {
+		"name": "Wimpod",
+		"generation": "Alola",
+		"types": [
+			"Bug",
+			"Water"
+		],
+		"attack": 67,
+		"defense": 74,
+		"stamina": 93
+	},
+	"768": {
+		"name": "Golisopod",
+		"generation": "Alola",
+		"types": [
+			"Bug",
+			"Water"
+		],
+		"attack": 218,
+		"defense": 226,
+		"stamina": 181
+	},
+	"769": {
+		"name": "Sandygast",
+		"generation": "Alola",
+		"types": [
+			"Ghost",
+			"Ground"
+		],
+		"attack": 120,
+		"defense": 118,
+		"stamina": 146
+	},
+	"770": {
+		"name": "Palossand",
+		"generation": "Alola",
+		"types": [
+			"Ghost",
+			"Ground"
+		],
+		"attack": 178,
+		"defense": 178,
+		"stamina": 198
+	},
+	"771": {
+		"name": "Pyukumuku",
+		"generation": "Alola",
+		"types": [
+			"Water"
+		],
+		"attack": 97,
+		"defense": 224,
+		"stamina": 146
+	},
+	"772": {
+		"name": "Type Null",
+		"generation": "Alola",
+		"types": [
+			"Normal"
+		],
+		"attack": 184,
+		"defense": 184,
+		"stamina": 216
+	},
+	"773": {
+		"name": "Silvally",
+		"generation": "Alola",
+		"types": [
+			"Normal"
+		],
+		"attack": 198,
+		"defense": 198,
+		"stamina": 216
+	},
+	"774": {
+		"name": "Minior",
+		"generation": "Alola",
+		"types": [
+			"Rock",
+			"Flying"
+		],
+		"attack": 116,
+		"defense": 194,
+		"stamina": 155
+	},
+	"775": {
+		"name": "Komala",
+		"generation": "Alola",
+		"types": [
+			"Normal"
+		],
+		"attack": 216,
+		"defense": 165,
+		"stamina": 163
+	},
+	"776": {
+		"name": "Turtonator",
+		"generation": "Alola",
+		"types": [
+			"Fire",
+			"Dragon"
+		],
+		"attack": 165,
+		"defense": 215,
+		"stamina": 155
+	},
+	"777": {
+		"name": "Togedemaru",
+		"generation": "Alola",
+		"types": [
+			"Electric",
+			"Steel"
+		],
+		"attack": 190,
+		"defense": 145,
+		"stamina": 163
+	},
+	"778": {
+		"name": "Mimikyu",
+		"generation": "Alola",
+		"types": [
+			"Ghost",
+			"Fairy"
+		],
+		"attack": 177,
+		"defense": 199,
+		"stamina": 146
+	},
+	"779": {
+		"name": "Bruxish",
+		"generation": "Alola",
+		"types": [
+			"Water",
+			"Psychic"
+		],
+		"attack": 208,
+		"defense": 145,
+		"stamina": 169
+	},
+	"780": {
+		"name": "Drampa",
+		"generation": "Alola",
+		"types": [
+			"Normal",
+			"Dragon"
+		],
+		"attack": 231,
+		"defense": 164,
+		"stamina": 186
+	},
+	"781": {
+		"name": "Dhelmise",
+		"generation": "Alola",
+		"types": [
+			"Ghost",
+			"Grass"
+		],
+		"attack": 233,
+		"defense": 179,
+		"stamina": 172
+	},
+	"782": {
+		"name": "Jangmo O",
+		"generation": "Alola",
+		"types": [
+			"Dragon"
+		],
+		"attack": 102,
+		"defense": 108,
+		"stamina": 128
+	},
+	"783": {
+		"name": "Hakamo O",
+		"generation": "Alola",
+		"types": [
+			"Dragon",
+			"Fighting"
+		],
+		"attack": 145,
+		"defense": 162,
+		"stamina": 146
+	},
+	"784": {
+		"name": "Kommo O",
+		"generation": "Alola",
+		"types": [
+			"Dragon",
+			"Fighting"
+		],
+		"attack": 222,
+		"defense": 240,
+		"stamina": 181
+	},
+	"785": {
+		"name": "Tapu Koko",
+		"generation": "Alola",
+		"types": [
+			"Electric",
+			"Fairy"
+		],
+		"attack": 250,
+		"defense": 181,
+		"stamina": 172
+	},
+	"786": {
+		"name": "Tapu Lele",
+		"generation": "Alola",
+		"types": [
+			"Psychic",
+			"Fairy"
+		],
+		"attack": 259,
+		"defense": 208,
+		"stamina": 172
+	},
+	"787": {
+		"name": "Tapu Bulu",
+		"generation": "Alola",
+		"types": [
+			"Grass",
+			"Fairy"
+		],
+		"attack": 249,
+		"defense": 215,
+		"stamina": 172
+	},
+	"788": {
+		"name": "Tapu Fini",
+		"generation": "Alola",
+		"types": [
+			"Water",
+			"Fairy"
+		],
+		"attack": 189,
+		"defense": 254,
+		"stamina": 172
+	},
+	"789": {
+		"name": "Cosmog",
+		"generation": "Alola",
+		"types": [
+			"Psychic"
+		],
+		"attack": 54,
+		"defense": 57,
+		"stamina": 125
+	},
+	"790": {
+		"name": "Cosmoem",
+		"generation": "Alola",
+		"types": [
+			"Psychic"
+		],
+		"attack": 54,
+		"defense": 242,
+		"stamina": 125
+	},
+	"791": {
+		"name": "Solgaleo",
+		"generation": "Alola",
+		"types": [
+			"Psychic",
+			"Steel"
+		],
+		"attack": 255,
+		"defense": 191,
+		"stamina": 264
+	},
+	"792": {
+		"name": "Lunala",
+		"generation": "Alola",
+		"types": [
+			"Psychic",
+			"Ghost"
+		],
+		"attack": 255,
+		"defense": 191,
+		"stamina": 264
+	},
+	"793": {
+		"name": "Nihilego",
+		"generation": "Alola",
+		"types": [
+			"Rock",
+			"Poison"
+		],
+		"attack": 249,
+		"defense": 210,
+		"stamina": 240
+	},
+	"794": {
+		"name": "Buzzwole",
+		"generation": "Alola",
+		"types": [
+			"Bug",
+			"Fighting"
+		],
+		"attack": 236,
+		"defense": 196,
+		"stamina": 216
+	},
+	"795": {
+		"name": "Pheromosa",
+		"generation": "Alola",
+		"types": [
+			"Bug",
+			"Fighting"
+		],
+		"attack": 316,
+		"defense": 85,
+		"stamina": 174
+	},
+	"796": {
+		"name": "Xurkitree",
+		"generation": "Alola",
+		"types": [
+			"Electric"
+		],
+		"attack": 330,
+		"defense": 144,
+		"stamina": 195
+	},
+	"797": {
+		"name": "Celesteela",
+		"generation": "Alola",
+		"types": [
+			"Steel",
+			"Flying"
+		],
+		"attack": 207,
+		"defense": 199,
+		"stamina": 219
+	},
+	"798": {
+		"name": "Kartana",
+		"generation": "Alola",
+		"types": [
+			"Grass",
+			"Steel"
+		],
+		"attack": 323,
+		"defense": 182,
+		"stamina": 139
+	},
+	"799": {
+		"name": "Guzzlord",
+		"generation": "Alola",
+		"types": [
+			"Dark",
+			"Dragon"
+		],
+		"attack": 188,
+		"defense": 99,
+		"stamina": 440
+	},
+	"800": {
+		"name": "Necrozma",
+		"generation": "Alola",
+		"types": [
+			"Psychic"
+		],
+		"attack": 251,
+		"defense": 195,
+		"stamina": 219
+	},
+	"801": {
+		"name": "Magearna",
+		"generation": "Alola",
+		"types": [
+			"Steel",
+			"Fairy"
+		],
+		"attack": 246,
+		"defense": 225,
+		"stamina": 190
+	},
+	"802": {
+		"name": "Marshadow",
+		"generation": "Alola",
+		"types": [
+			"Fighting",
+			"Ghost"
+		],
+		"attack": 265,
+		"defense": 190,
+		"stamina": 207
+	},
+	"803": {
+		"name": "Poipole",
+		"generation": "Alola",
+		"types": [
+			"Poison"
+		],
+		"attack": 145,
+		"defense": 133,
+		"stamina": 167
+	},
+	"804": {
+		"name": "Naganadel",
+		"generation": "Alola",
+		"types": [
+			"Poison",
+			"Dragon"
+		],
+		"attack": 263,
+		"defense": 159,
+		"stamina": 177
+	},
+	"805": {
+		"name": "Stakataka",
+		"generation": "Alola",
+		"types": [
+			"Rock",
+			"Steel"
+		],
+		"attack": 213,
+		"defense": 298,
+		"stamina": 156
+	},
+	"806": {
+		"name": "Blacephalon",
+		"generation": "Alola",
+		"types": [
+			"Fire",
+			"Ghost"
+		],
+		"attack": 315,
+		"defense": 148,
+		"stamina": 142
+	},
+	"807": {
+		"name": "Zeraora",
+		"generation": "Alola",
+		"types": [
+			"Electric"
+		],
+		"attack": 252,
+		"defense": 177,
+		"stamina": 204
 	},
 	"808": {
 		"name": "Meltan",
-		"default_form_id": 2321,
-		"pokedex_id": 808,
 		"generation": "Alola",
 		"types": [
 			"Steel"
@@ -11101,8 +10765,6 @@
 	},
 	"809": {
 		"name": "Melmetal",
-		"default_form_id": 2324,
-		"pokedex_id": 809,
 		"generation": "Alola",
 		"types": [
 			"Steel"
@@ -11113,10 +10775,650 @@
 		"legendary": false,
 		"mythical": true
 	},
+	"810": {
+		"name": "Grookey",
+		"generation": "Galar",
+		"types": [
+			"Grass"
+		],
+		"attack": 122,
+		"defense": 91,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"811": {
+		"name": "Thwackey",
+		"generation": "Galar",
+		"types": [
+			"Grass"
+		],
+		"attack": 165,
+		"defense": 134,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"812": {
+		"name": "Rillaboom",
+		"generation": "Galar",
+		"types": [
+			"Grass"
+		],
+		"attack": 239,
+		"defense": 168,
+		"stamina": 225,
+		"legendary": false,
+		"mythical": false
+	},
+	"813": {
+		"name": "Scorbunny",
+		"generation": "Galar",
+		"types": [
+			"Fire"
+		],
+		"attack": 132,
+		"defense": 79,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"814": {
+		"name": "Raboot",
+		"generation": "Galar",
+		"types": [
+			"Fire"
+		],
+		"attack": 170,
+		"defense": 125,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"815": {
+		"name": "Cinderace",
+		"generation": "Galar",
+		"types": [
+			"Fire"
+		],
+		"attack": 238,
+		"defense": 163,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"816": {
+		"name": "Sobble",
+		"generation": "Galar",
+		"types": [
+			"Water"
+		],
+		"attack": 132,
+		"defense": 79,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"817": {
+		"name": "Drizzile",
+		"generation": "Galar",
+		"types": [
+			"Water"
+		],
+		"attack": 186,
+		"defense": 113,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"818": {
+		"name": "Inteleon",
+		"generation": "Galar",
+		"types": [
+			"Water"
+		],
+		"attack": 262,
+		"defense": 142,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"819": {
+		"name": "Skwovet",
+		"generation": "Galar",
+		"types": [
+			"Normal"
+		],
+		"attack": 95,
+		"defense": 86,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"820": {
+		"name": "Greedent",
+		"generation": "Galar",
+		"types": [
+			"Normal"
+		],
+		"attack": 160,
+		"defense": 156,
+		"stamina": 260,
+		"legendary": false,
+		"mythical": false
+	},
+	"821": {
+		"name": "Rookidee",
+		"generation": "Galar",
+		"types": [
+			"Flying"
+		],
+		"attack": 88,
+		"defense": 67,
+		"stamina": 116,
+		"legendary": false,
+		"mythical": false
+	},
+	"822": {
+		"name": "Corvisquire",
+		"generation": "Galar",
+		"types": [
+			"Flying"
+		],
+		"attack": 129,
+		"defense": 110,
+		"stamina": 169,
+		"legendary": false,
+		"mythical": false
+	},
+	"823": {
+		"name": "Corviknight",
+		"generation": "Galar",
+		"types": [
+			"Flying",
+			"Steel"
+		],
+		"attack": 163,
+		"defense": 192,
+		"stamina": 221,
+		"legendary": false,
+		"mythical": false
+	},
+	"824": {
+		"name": "Blipbug",
+		"generation": "Galar",
+		"types": [
+			"Bug"
+		],
+		"attack": 46,
+		"defense": 67,
+		"stamina": 93,
+		"legendary": false,
+		"mythical": false
+	},
+	"825": {
+		"name": "Dottler",
+		"generation": "Galar",
+		"types": [
+			"Bug",
+			"Psychic"
+		],
+		"attack": 87,
+		"defense": 157,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"826": {
+		"name": "Orbeetle",
+		"generation": "Galar",
+		"types": [
+			"Bug",
+			"Psychic"
+		],
+		"attack": 156,
+		"defense": 240,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"827": {
+		"name": "Nickit",
+		"generation": "Galar",
+		"types": [
+			"Dark"
+		],
+		"attack": 85,
+		"defense": 82,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"828": {
+		"name": "Thievul",
+		"generation": "Galar",
+		"types": [
+			"Dark"
+		],
+		"attack": 172,
+		"defense": 164,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"829": {
+		"name": "Gossifleur",
+		"generation": "Galar",
+		"types": [
+			"Grass"
+		],
+		"attack": 70,
+		"defense": 104,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"830": {
+		"name": "Eldegoss",
+		"generation": "Galar",
+		"types": [
+			"Grass"
+		],
+		"attack": 148,
+		"defense": 211,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"831": {
+		"name": "Wooloo",
+		"generation": "Galar",
+		"types": [
+			"Normal"
+		],
+		"attack": 76,
+		"defense": 97,
+		"stamina": 123,
+		"legendary": false,
+		"mythical": false
+	},
+	"832": {
+		"name": "Dubwool",
+		"generation": "Galar",
+		"types": [
+			"Normal"
+		],
+		"attack": 159,
+		"defense": 198,
+		"stamina": 176,
+		"legendary": false,
+		"mythical": false
+	},
+	"833": {
+		"name": "Chewtle",
+		"generation": "Galar",
+		"types": [
+			"Water"
+		],
+		"attack": 114,
+		"defense": 85,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"834": {
+		"name": "Drednaw",
+		"generation": "Galar",
+		"types": [
+			"Water",
+			"Rock"
+		],
+		"attack": 213,
+		"defense": 164,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"835": {
+		"name": "Yamper",
+		"generation": "Galar",
+		"types": [
+			"Electric"
+		],
+		"attack": 80,
+		"defense": 90,
+		"stamina": 153,
+		"legendary": false,
+		"mythical": false
+	},
+	"836": {
+		"name": "Boltund",
+		"generation": "Galar",
+		"types": [
+			"Electric"
+		],
+		"attack": 197,
+		"defense": 131,
+		"stamina": 170,
+		"legendary": false,
+		"mythical": false
+	},
+	"837": {
+		"name": "Rolycoly",
+		"generation": "Galar",
+		"types": [
+			"Rock"
+		],
+		"attack": 73,
+		"defense": 91,
+		"stamina": 102,
+		"legendary": false,
+		"mythical": false
+	},
+	"838": {
+		"name": "Carkol",
+		"generation": "Galar",
+		"types": [
+			"Rock",
+			"Fire"
+		],
+		"attack": 114,
+		"defense": 157,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"839": {
+		"name": "Coalossal",
+		"generation": "Galar",
+		"types": [
+			"Rock",
+			"Fire"
+		],
+		"attack": 146,
+		"defense": 198,
+		"stamina": 242,
+		"legendary": false,
+		"mythical": false
+	},
+	"840": {
+		"name": "Applin",
+		"generation": "Galar",
+		"types": [
+			"Grass",
+			"Dragon"
+		],
+		"attack": 71,
+		"defense": 116,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"841": {
+		"name": "Flapple",
+		"generation": "Galar",
+		"types": [
+			"Grass",
+			"Dragon"
+		],
+		"attack": 214,
+		"defense": 144,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"842": {
+		"name": "Appletun",
+		"generation": "Galar",
+		"types": [
+			"Grass",
+			"Dragon"
+		],
+		"attack": 178,
+		"defense": 146,
+		"stamina": 242,
+		"legendary": false,
+		"mythical": false
+	},
+	"843": {
+		"name": "Silicobra",
+		"generation": "Galar",
+		"types": [
+			"Ground"
+		],
+		"attack": 103,
+		"defense": 123,
+		"stamina": 141,
+		"legendary": false,
+		"mythical": false
+	},
+	"844": {
+		"name": "Sandaconda",
+		"generation": "Galar",
+		"types": [
+			"Ground"
+		],
+		"attack": 202,
+		"defense": 207,
+		"stamina": 176,
+		"legendary": false,
+		"mythical": false
+	},
+	"845": {
+		"name": "Cramorant",
+		"generation": "Galar",
+		"types": [
+			"Flying",
+			"Water"
+		],
+		"attack": 173,
+		"defense": 163,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"846": {
+		"name": "Arrokuda",
+		"generation": "Galar",
+		"types": [
+			"Water"
+		],
+		"attack": 118,
+		"defense": 72,
+		"stamina": 121,
+		"legendary": false,
+		"mythical": false
+	},
+	"847": {
+		"name": "Barraskewda",
+		"generation": "Galar",
+		"types": [
+			"Water"
+		],
+		"attack": 258,
+		"defense": 127,
+		"stamina": 156,
+		"legendary": false,
+		"mythical": false
+	},
+	"848": {
+		"name": "Toxel",
+		"generation": "Galar",
+		"types": [
+			"Electric",
+			"Poison"
+		],
+		"attack": 97,
+		"defense": 65,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"849": {
+		"name": "Toxtricity",
+		"generation": "Galar",
+		"types": [
+			"Electric",
+			"Poison"
+		],
+		"attack": 224,
+		"defense": 140,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false
+	},
+	"850": {
+		"name": "Sizzlipede",
+		"generation": "Galar",
+		"types": [
+			"Fire",
+			"Bug"
+		],
+		"attack": 118,
+		"defense": 90,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"851": {
+		"name": "Centiskorch",
+		"generation": "Galar",
+		"types": [
+			"Fire",
+			"Bug"
+		],
+		"attack": 220,
+		"defense": 158,
+		"stamina": 225,
+		"legendary": false,
+		"mythical": false
+	},
+	"852": {
+		"name": "Clobbopus",
+		"generation": "Galar",
+		"types": [
+			"Fighting"
+		],
+		"attack": 121,
+		"defense": 103,
+		"stamina": 137,
+		"legendary": false,
+		"mythical": false
+	},
+	"853": {
+		"name": "Grapploct",
+		"generation": "Galar",
+		"types": [
+			"Fighting"
+		],
+		"attack": 209,
+		"defense": 162,
+		"stamina": 190,
+		"legendary": false,
+		"mythical": false
+	},
+	"854": {
+		"name": "Sinistea",
+		"generation": "Galar",
+		"types": [
+			"Ghost"
+		],
+		"attack": 134,
+		"defense": 96,
+		"stamina": 120,
+		"legendary": false,
+		"mythical": false
+	},
+	"855": {
+		"name": "Polteageist",
+		"generation": "Galar",
+		"types": [
+			"Ghost"
+		],
+		"attack": 248,
+		"defense": 189,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
+	},
+	"856": {
+		"name": "Hatenna",
+		"generation": "Galar",
+		"types": [
+			"Psychic"
+		],
+		"attack": 98,
+		"defense": 93,
+		"stamina": 123,
+		"legendary": false,
+		"mythical": false
+	},
+	"857": {
+		"name": "Hattrem",
+		"generation": "Galar",
+		"types": [
+			"Psychic"
+		],
+		"attack": 153,
+		"defense": 133,
+		"stamina": 149,
+		"legendary": false,
+		"mythical": false
+	},
+	"858": {
+		"name": "Hatterene",
+		"generation": "Galar",
+		"types": [
+			"Psychic",
+			"Fairy"
+		],
+		"attack": 237,
+		"defense": 182,
+		"stamina": 149,
+		"legendary": false,
+		"mythical": false
+	},
+	"859": {
+		"name": "Impidimp",
+		"generation": "Galar",
+		"types": [
+			"Dark",
+			"Fairy"
+		],
+		"attack": 103,
+		"defense": 69,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"860": {
+		"name": "Morgrem",
+		"generation": "Galar",
+		"types": [
+			"Dark",
+			"Fairy"
+		],
+		"attack": 145,
+		"defense": 102,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"861": {
+		"name": "Grimmsnarl",
+		"generation": "Galar",
+		"types": [
+			"Dark",
+			"Fairy"
+		],
+		"attack": 227,
+		"defense": 139,
+		"stamina": 216,
+		"legendary": false,
+		"mythical": false
+	},
 	"862": {
 		"name": "Obstagoon",
-		"default_form_id": 2501,
-		"pokedex_id": 862,
 		"generation": "Galar",
 		"types": [
 			"Dark",
@@ -11130,8 +11432,6 @@
 	},
 	"863": {
 		"name": "Perrserker",
-		"default_form_id": 2504,
-		"pokedex_id": 863,
 		"generation": "Galar",
 		"types": [
 			"Steel"
@@ -11143,12 +11443,19 @@
 		"mythical": false
 	},
 	"864": {
-		"name": "Cursola"
+		"name": "Cursola",
+		"generation": "Galar",
+		"types": [
+			"Ghost"
+		],
+		"attack": 253,
+		"defense": 182,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false
 	},
 	"865": {
 		"name": "Sirfetchd",
-		"default_form_id": 2510,
-		"pokedex_id": 865,
 		"generation": "Galar",
 		"types": [
 			"Fighting"
@@ -11161,8 +11468,6 @@
 	},
 	"866": {
 		"name": "Mr Rime",
-		"default_form_id": 2513,
-		"pokedex_id": 866,
 		"generation": "Galar",
 		"types": [
 			"Ice",
@@ -11176,8 +11481,6 @@
 	},
 	"867": {
 		"name": "Runerigus",
-		"default_form_id": 2516,
-		"pokedex_id": 867,
 		"generation": "Galar",
 		"types": [
 			"Ground",
@@ -11188,5 +11491,456 @@
 		"stamina": 151,
 		"legendary": false,
 		"mythical": false
+	},
+	"868": {
+		"name": "Milcery",
+		"generation": "Galar",
+		"types": [
+			"Fairy"
+		],
+		"attack": 90,
+		"defense": 97,
+		"stamina": 128,
+		"legendary": false,
+		"mythical": false
+	},
+	"869": {
+		"name": "Alcremie",
+		"generation": "Galar",
+		"types": [
+			"Fairy"
+		],
+		"attack": 203,
+		"defense": 203,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"870": {
+		"name": "Falinks",
+		"generation": "Galar",
+		"types": [
+			"Fighting"
+		],
+		"attack": 193,
+		"defense": 170,
+		"stamina": 163,
+		"legendary": false,
+		"mythical": false
+	},
+	"871": {
+		"name": "Pincurchin",
+		"generation": "Galar",
+		"types": [
+			"Electric"
+		],
+		"attack": 176,
+		"defense": 161,
+		"stamina": 134,
+		"legendary": false,
+		"mythical": false
+	},
+	"872": {
+		"name": "Snom",
+		"generation": "Galar",
+		"types": [
+			"Ice",
+			"Bug"
+		],
+		"attack": 76,
+		"defense": 59,
+		"stamina": 102,
+		"legendary": false,
+		"mythical": false
+	},
+	"873": {
+		"name": "Frosmoth",
+		"generation": "Galar",
+		"types": [
+			"Ice",
+			"Bug"
+		],
+		"attack": 230,
+		"defense": 155,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"874": {
+		"name": "Stonjourner",
+		"generation": "Galar",
+		"types": [
+			"Rock"
+		],
+		"attack": 222,
+		"defense": 182,
+		"stamina": 225,
+		"legendary": false,
+		"mythical": false
+	},
+	"875": {
+		"name": "Eiscue",
+		"generation": "Galar",
+		"types": [
+			"Ice"
+		],
+		"attack": 148,
+		"defense": 195,
+		"stamina": 181,
+		"legendary": false,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Eiscue (Noice)",
+				"attack": 173,
+				"defense": 139,
+				"stamina": 181
+			}
+		]
+	},
+	"876": {
+		"name": "Indeedee",
+		"generation": "Galar",
+		"types": [
+			"Psychic",
+			"Normal"
+		],
+		"attack": 208,
+		"defense": 166,
+		"stamina": 155,
+		"legendary": false,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Indeedee (Female)",
+				"attack": 184,
+				"defense": 184,
+				"stamina": 172
+			}
+		]
+	},
+	"877": {
+		"name": "Morpeko",
+		"generation": "Galar",
+		"types": [
+			"Electric",
+			"Dark"
+		],
+		"attack": 192,
+		"defense": 121,
+		"stamina": 151,
+		"legendary": false,
+		"mythical": false
+	},
+	"878": {
+		"name": "Cufant",
+		"generation": "Galar",
+		"types": [
+			"Steel"
+		],
+		"attack": 140,
+		"defense": 91,
+		"stamina": 176,
+		"legendary": false,
+		"mythical": false
+	},
+	"879": {
+		"name": "Copperajah",
+		"generation": "Galar",
+		"types": [
+			"Steel"
+		],
+		"attack": 226,
+		"defense": 126,
+		"stamina": 263,
+		"legendary": false,
+		"mythical": false
+	},
+	"880": {
+		"name": "Dracozolt",
+		"generation": "Galar",
+		"types": [
+			"Electric",
+			"Dragon"
+		],
+		"attack": 195,
+		"defense": 165,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"881": {
+		"name": "Arctozolt",
+		"generation": "Galar",
+		"types": [
+			"Electric",
+			"Ice"
+		],
+		"attack": 190,
+		"defense": 166,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"882": {
+		"name": "Dracovish",
+		"generation": "Galar",
+		"types": [
+			"Water",
+			"Dragon"
+		],
+		"attack": 175,
+		"defense": 185,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"883": {
+		"name": "Arctovish",
+		"generation": "Galar",
+		"types": [
+			"Water",
+			"Ice"
+		],
+		"attack": 171,
+		"defense": 185,
+		"stamina": 207,
+		"legendary": false,
+		"mythical": false
+	},
+	"884": {
+		"name": "Duraludon",
+		"generation": "Galar",
+		"types": [
+			"Steel",
+			"Dragon"
+		],
+		"attack": 239,
+		"defense": 185,
+		"stamina": 172,
+		"legendary": false,
+		"mythical": false
+	},
+	"885": {
+		"name": "Dreepy",
+		"generation": "Galar",
+		"types": [
+			"Dragon",
+			"Ghost"
+		],
+		"attack": 117,
+		"defense": 61,
+		"stamina": 99,
+		"legendary": false,
+		"mythical": false
+	},
+	"886": {
+		"name": "Drakloak",
+		"generation": "Galar",
+		"types": [
+			"Dragon",
+			"Ghost"
+		],
+		"attack": 163,
+		"defense": 105,
+		"stamina": 169,
+		"legendary": false,
+		"mythical": false
+	},
+	"887": {
+		"name": "Dragapult",
+		"generation": "Galar",
+		"types": [
+			"Dragon",
+			"Ghost"
+		],
+		"attack": 266,
+		"defense": 170,
+		"stamina": 204,
+		"legendary": false,
+		"mythical": false
+	},
+	"888": {
+		"name": "Zacian",
+		"generation": "Galar",
+		"types": [
+			"Fairy",
+			"Steel"
+		],
+		"attack": 254,
+		"defense": 236,
+		"stamina": 192,
+		"legendary": true,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Zacian (Crowned Sword)",
+				"attack": 332,
+				"defense": 240,
+				"stamina": 192
+			}
+		]
+	},
+	"889": {
+		"name": "Zamazenta",
+		"generation": "Galar",
+		"types": [
+			"Fighting",
+			"Steel"
+		],
+		"attack": 254,
+		"defense": 236,
+		"stamina": 192,
+		"legendary": true,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Zamazenta (Crowned Shield)",
+				"attack": 250,
+				"defense": 292,
+				"stamina": 192
+			}
+		]
+	},
+	"890": {
+		"name": "Eternatus",
+		"generation": "Galar",
+		"types": [
+			"Poison",
+			"Dragon"
+		],
+		"attack": 278,
+		"defense": 192,
+		"stamina": 268,
+		"legendary": true,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Eternatus (Eternamax)",
+				"attack": 251,
+				"defense": 505,
+				"stamina": 452
+			}
+		]
+	},
+	"891": {
+		"name": "Kubfu",
+		"generation": "Galar",
+		"types": [
+			"Fighting"
+		],
+		"attack": 170,
+		"defense": 112,
+		"stamina": 155,
+		"legendary": true,
+		"mythical": false
+	},
+	"892": {
+		"name": "Urshifu",
+		"generation": "Galar",
+		"types": [
+			"Fighting"
+		],
+		"attack": 254,
+		"defense": 177,
+		"stamina": 225,
+		"legendary": true,
+		"mythical": false
+	},
+	"893": {
+		"name": "Zarude",
+		"generation": "Galar",
+		"types": [
+			"Dark",
+			"Grass"
+		],
+		"attack": 242,
+		"defense": 215,
+		"stamina": 233,
+		"legendary": false,
+		"mythical": true
+	},
+	"894": {
+		"name": "Regieleki",
+		"generation": "Galar",
+		"types": [
+			"Electric"
+		],
+		"attack": 250,
+		"defense": 125,
+		"stamina": 190,
+		"legendary": true,
+		"mythical": false
+	},
+	"895": {
+		"name": "Regidrago",
+		"generation": "Galar",
+		"types": [
+			"Dragon"
+		],
+		"attack": 202,
+		"defense": 101,
+		"stamina": 400,
+		"legendary": true,
+		"mythical": false
+	},
+	"896": {
+		"name": "Glastrier",
+		"generation": "Galar",
+		"types": [
+			"Ice"
+		],
+		"attack": 246,
+		"defense": 223,
+		"stamina": 225,
+		"legendary": true,
+		"mythical": false
+	},
+	"897": {
+		"name": "Spectrier",
+		"generation": "Galar",
+		"types": [
+			"Ghost"
+		],
+		"attack": 273,
+		"defense": 146,
+		"stamina": 205,
+		"legendary": true,
+		"mythical": false
+	},
+	"898": {
+		"name": "Calyrex",
+		"generation": "Galar",
+		"types": [
+			"Psychic",
+			"Grass"
+		],
+		"attack": 162,
+		"defense": 162,
+		"stamina": 225,
+		"legendary": true,
+		"mythical": false,
+		"forms": [
+			{
+				"name": "Calyrex (Ice Rider)",
+				"types": [
+					"Psychic",
+					"Ice"
+				],
+				"attack": 268,
+				"defense": 246,
+				"stamina": 205
+			},
+			{
+				"name": "Calyrex (Shadow Rider)",
+				"types": [
+					"Psychic",
+					"Ghost"
+				],
+				"attack": 324,
+				"defense": 194,
+				"stamina": 205
+			}
+		]
 	}
 }

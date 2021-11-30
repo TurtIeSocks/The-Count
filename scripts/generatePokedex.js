@@ -19,8 +19,6 @@ function fetchJson(url) {
   for (const [i, pkmn] of Object.entries(masterfile.pokemon)) {
     pokedex[i] = {
       name: pkmn.name,
-      default_form_id: pkmn.default_form_id,
-      pokedex_id: pkmn.pokedex_id,
       generation: pkmn.generation,
       types: pkmn.types,
       attack: pkmn.attack,
