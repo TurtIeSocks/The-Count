@@ -4,7 +4,7 @@ import {
 } from '@material-ui/core'
 import SearchIcon from '@material-ui/icons/Search'
 
-const Search = ({ filters, onSubmit }) => {
+const Search = ({ filters, onSubmit, isMobile }) => {
   const [values, setValues] = useState(filters)
 
   const handleChange = (event) => {
@@ -33,11 +33,12 @@ const Search = ({ filters, onSubmit }) => {
             alignItems: 'center',
             margin: 3,
             backgroundColor: '#2E2E2E',
+            maxWidth: isMobile ? 600 : 'inherit',
           }}
         >
           <InputBase
             style={{ flex: 1, margin: 6 }}
-            placeholder="Enter Desired Combat Power (CP)"
+            placeholder="Enter Combat Power (CP)"
             name="cp"
             onChange={handleChange}
             value={values.cp}

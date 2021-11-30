@@ -1,15 +1,11 @@
 import React from 'react'
-import {
-  Paper, Typography, Grid, useMediaQuery,
-} from '@material-ui/core'
-import { useTheme } from '@material-ui/core/styles'
+import { Paper, Typography, Grid } from '@material-ui/core'
 
 import buildData from '@services/buildData'
 
 import MuiVirtual from './MuiVirtual'
 
-const ReactVirtualizedTable = ({ filters }) => {
-  const theme = useTheme()
+const ReactVirtualizedTable = ({ filters, isMobile }) => {
   const {
     cp, atk, def, sta, level, iv, generations, types, forms, megas, legends, mythics,
   } = filters
@@ -19,7 +15,7 @@ const ReactVirtualizedTable = ({ filters }) => {
 
   const columns = [
     {
-      width: 120,
+      width: 150,
       label: 'Pokemon',
       dataKey: 'name',
     },
@@ -43,7 +39,7 @@ const ReactVirtualizedTable = ({ filters }) => {
     },
   ]
 
-  if (useMediaQuery(theme.breakpoints.up('sm'))) {
+  if (!isMobile) {
     columns.push({
       width: 50,
       label: '%',
@@ -62,12 +58,12 @@ const ReactVirtualizedTable = ({ filters }) => {
   return (
     <>
       <Grid item xs={12}>
-        <Typography style={{ color: 'white' }} variant="h4">
-          {rows.length} Results for {cp}cp
+        <Typography style={{ color: 'white' }} variant="h5" align="center">
+          {rows.length} results for {cp}cp
         </Typography>
       </Grid>
       <Grid item xs={12}>
-        <Paper elevation={0} style={{ height: 500, width: '100%' }}>
+        <Paper elevation={0} style={{ height: '60vh', width: isMobile ? '90vw' : 420 }}>
           <MuiVirtual
             rowCount={rows.length}
             rowGetter={({ index }) => rows[index]}

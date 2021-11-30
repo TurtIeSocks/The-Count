@@ -2,10 +2,6 @@ import { makeStyles } from '@material-ui/styles'
 import theme from '../assets/mui/theme'
 
 export default makeStyles({
-  app: {
-    margin: 'auto',
-    maxWidth: 600,
-  },
   flexContainer: {
     display: 'flex',
     alignItems: 'center',
@@ -36,5 +32,6 @@ export default makeStyles({
   heading: {
     fontSize: theme.typography.pxToRem(15),
     flexShrink: 0,
+    color: 'white',
   },
 })
