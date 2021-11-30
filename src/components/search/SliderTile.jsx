@@ -1,19 +1,20 @@
 /* eslint-disable no-param-reassign */
-import React from 'react'
+import React, { useState } from 'react'
 import { Typography, Slider } from '@material-ui/core'
-import useStyles from '../../hooks/useStyles'
+
+import useStyles from '@hooks/useStyles'
 
 const SliderTile = ({
   name, shortName, values, min, max, handleChange, color,
 }) => {
   const classes = useStyles()
-
+  const [local, setLocal] = useState(values)
   const width = shortName === 'iv' ? '80%' : '60%'
 
   return (
     <>
       <Typography gutterBottom>
-        {name} {values[0]} - {values[1]}
+        {name} {local[0]} - {local[1]}
       </Typography>
       <Slider
         name={shortName}
@@ -21,8 +22,11 @@ const SliderTile = ({
         max={max}
         color={color}
         className={classes.slider}
-        value={values}
+        value={local}
         onChange={(event, newValue) => {
+          setLocal(newValue)
+        }}
+        onChangeCommitted={(event, newValue) => {
           event.target.name = shortName
           event.target.value = newValue
           handleChange(event)

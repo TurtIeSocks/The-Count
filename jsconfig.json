@@ -6,8 +6,9 @@
     "paths": {
       "@assets/*": ["./assets/*"],
       "@components/*": ["./components/*"],
-      "@services/*": ["./services/*"],
+      "@data/*": ["./data/*"],
       "@hooks/*": ["./hooks/*"],
+      "@services/*": ["./services/*"],
     }
   }
 }

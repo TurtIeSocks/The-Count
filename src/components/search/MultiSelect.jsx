@@ -4,35 +4,20 @@ import {
 } from '@material-ui/core'
 import MenuIcon from '@material-ui/icons/Menu'
 
-const MultiSelect = ({ type, values, setValues }) => {
-  const [filters, setFilters] = useState(values[type.toLowerCase()])
+const MultiSelect = ({ name, filters, onSubmit }) => {
   const [anchorEl, setAnchorEl] = useState(null)
-  const open = Boolean(anchorEl)
-
-  const handleChange = (name, event) => {
-    setFilters({ ...filters, [name]: event.target.checked })
-  }
-
-  const handleClick = (event) => {
-    setAnchorEl(event.currentTarget)
-  }
-
-  const handleClose = () => {
-    setAnchorEl(null)
-    setValues({ ...values, [type.toLowerCase()]: filters })
-  }
 
   return (
     <>
       <Grid item xs={4}>
-        <Typography>{type}</Typography>
+        <Typography>{name}</Typography>
       </Grid>
       <Grid item xs={2}>
         <IconButton
           aria-label="more"
           aria-controls="long-menu"
           aria-haspopup="true"
-          onClick={handleClick}
+          onClick={(e) => setAnchorEl(e.currentTarget)}
         >
           <MenuIcon style={{ color: 'white' }} />
         </IconButton>
@@ -40,8 +25,8 @@ const MultiSelect = ({ type, values, setValues }) => {
       <Menu
         anchorEl={anchorEl}
         keepMounted
-        open={open}
-        onClose={handleClose}
+        open={Boolean(anchorEl)}
+        onClose={() => setAnchorEl(null)}
         PaperProps={{
           style: {
             maxHeight: 500,
@@ -49,14 +34,20 @@ const MultiSelect = ({ type, values, setValues }) => {
           },
         }}
       >
-        {Object.entries(filters).map((each) => (
-          <MenuItem key={each[0]} value={each[1]}>
+        {Object.entries(filters[name.toLowerCase()]).map(([itemName, value]) => (
+          <MenuItem key={itemName} value={value}>
             <Checkbox
-              checked={each[1]}
-              onChange={(e) => handleChange(each[0], e)}
-              name={each[0]}
+              checked={value}
+              onChange={(e) => onSubmit({
+                ...filters,
+                [name.toLowerCase()]: {
+                  ...filters[name.toLowerCase()],
+                  [itemName]: e.target.checked,
+                },
+              })}
+              name={itemName}
             />
-            <ListItemText primary={each[0]} />
+            <ListItemText primary={itemName} />
           </MenuItem>
         ))}
       </Menu>

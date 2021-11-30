@@ -2,12 +2,13 @@ import React, { useState } from 'react'
 import { ThemeProvider } from '@material-ui/styles'
 import { Grid, Typography, Icon } from '@material-ui/core'
 
-import '../assets/scss/main.scss'
-import theme from '../assets/mui/theme'
-import ReactVirtualizedTable from './table/VirtualTable'
-import Search from './search/Search'
-import AdvancedSearch from './search/AdvancedSearch'
-import useStyles from '../hooks/useStyles'
+import '@assets/scss/main.scss'
+import theme from '@assets/mui/theme'
+
+import ReactVirtualizedTable from '@components/table/VirtualTable'
+import Search from '@components/search/Search'
+import AdvancedSearch from '@components/search/AdvancedSearch'
+import useStyles from '@hooks/useStyles'
 
 const App = () => {
   const classes = useStyles()

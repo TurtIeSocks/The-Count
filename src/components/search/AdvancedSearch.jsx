@@ -8,22 +8,23 @@ import {
 } from '@material-ui/core'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 
+import useStyles from '@hooks/useStyles'
+
 import MultiSelect from './MultiSelect'
 import SliderTile from './SliderTile'
 import FilterSwitch from './FilterSwitch'
-import useStyles from '../../hooks/useStyles'
 import Search from './Search'
 
 const AdvancedSearch = ({ onSubmit, filters }) => {
   const classes = useStyles()
-  const [values, setValues] = useState(filters)
   const [accordion, setAccordion] = useState(false)
 
   const handleChange = (event) => {
-    setValues({
-      ...values,
+    const newFilters = {
+      ...filters,
       [event.target.name]: event.target.value,
-    })
+    }
+    onSubmit(newFilters)
   }
 
   const handleAccordion = () => {
@@ -54,7 +55,7 @@ const AdvancedSearch = ({ onSubmit, filters }) => {
         min={each.min}
         max={each.max}
         handleChange={handleChange}
-        values={values[each.shortName]}
+        values={filters[each.shortName]}
         color="secondary"
       />
     </Grid>
@@ -83,17 +84,17 @@ const AdvancedSearch = ({ onSubmit, filters }) => {
               {['Generations', 'Types'].map(each => (
                 <MultiSelect
                   key={each}
-                  type={each}
-                  values={values}
-                  setValues={setValues}
+                  name={each}
+                  filters={filters}
+                  onSubmit={onSubmit}
                 />
               ))}
               {['Forms', 'Megas', 'Legends', 'Mythics'].map(each => (
                 <FilterSwitch
                   key={each}
                   name={each}
-                  values={values}
-                  setValues={setValues}
+                  filters={filters}
+                  onSubmit={onSubmit}
                 />
               ))}
             </Grid>

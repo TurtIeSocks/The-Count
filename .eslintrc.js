@@ -47,10 +47,11 @@ module.exports = {
     'import/resolver': {
       alias: {
         map: [
-          ['@components', './src/components/'],
-          ['@services', './src/services/'],
-          ['@hooks', './src/hooks/'],
           ['@assets', './src/assets/'],
+          ['@components', './src/components/'],
+          ['@data', './src/data/'],
+          ['@hooks', './src/hooks/'],
+          ['@services', './src/services/'],
         ],
         extensions: ['.js', '.jsx'],
       },
