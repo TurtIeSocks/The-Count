@@ -7,12 +7,12 @@ import theme from '../assets/mui/theme'
 import ReactVirtualizedTable from './table/VirtualTable'
 import Search from './search/Search'
 import AdvancedSearch from './search/AdvancedSearch'
-import useStyles from '../assets/mui/styling'
+import useStyles from '../hooks/useStyles'
 
 const App = () => {
   const classes = useStyles()
   const [filters, setFilters] = useState({
-    cp: 0,
+    cp: '',
     atk: [0, 15],
     def: [0, 15],
     sta: [0, 15],
@@ -66,27 +66,14 @@ const App = () => {
           direction="column"
           justify="space-evenly"
           alignItems="center"
-          style={{ marginTop: filters.cp === 0 ? '45%' : 0 }}
+          style={{ marginTop: filters.cp ? 0 : '45%' }}
           spacing={3}
         >
           <Grid item>
-            <Typography color="secondary" variant={filters.cp === 0 ? 'h1' : 'h6'}>The Count</Typography>
+            <Typography color="secondary" variant={filters.cp ? 'h4' : 'h1'}>The Count</Typography>
           </Grid>
-          {filters.cp === 0
+          {filters.cp
             ? (
-              <>
-                <Grid item xs={8}>
-                  <Typography variant="caption" align="justify">Calculator for communities that play the popular game, &quot;The Count.&quot; </Typography>
-                </Grid>
-                <Grid container item xs={11}>
-                  <Search
-                    onSubmit={onSubmit}
-                    filters={filters}
-                  />
-                </Grid>
-              </>
-            )
-            : (
               <>
                 <Grid
                   container
@@ -115,9 +102,22 @@ const App = () => {
                   />
                 </Grid>
               </>
+            )
+            : (
+              <>
+                <Grid item xs={8}>
+                  <Typography variant="caption" align="justify">Calculator for communities that play the popular game, &quot;The Count.&quot; </Typography>
+                </Grid>
+                <Grid container item xs={11}>
+                  <Search
+                    onSubmit={onSubmit}
+                    filters={filters}
+                  />
+                </Grid>
+              </>
             )}
           <Grid item>
-            <Typography style={{ marginTop: filters.cp === 0 ? '95%' : 0, color: theme.palette.text.hint }}>
+            <Typography style={{ marginTop: filters.cp ? 0 : '95%', color: theme.palette.text.hint }}>
               © TurtleSocks 2021 <a href="https://github.com/TurtIeSocks" target="_blank" rel="noreferrer"><Icon className="fab fa-github" style={{ fontSize: 12 }} /></a>
             </Typography>
           </Grid>

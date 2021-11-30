@@ -14,7 +14,7 @@ const ReactVirtualizedTable = ({ filters }) => {
   } = filters
 
   // eslint-disable-next-line max-len
-  const rows = buildData(cp, ...atk, ...def, ...sta, ...level, ...iv, generations, types, forms, megas, legends, mythics)
+  const rows = buildData(parseFloat(cp), ...atk, ...def, ...sta, ...level, ...iv, generations, types, forms, megas, legends, mythics)
 
   const columns = [
     {
@@ -64,12 +64,6 @@ const ReactVirtualizedTable = ({ filters }) => {
         <Typography style={{ color: 'white' }} variant="h4">
           {rows.length} Results for {cp}cp
         </Typography>
-        {rows.length > 50000
-          && (
-            <Typography style={{ color: '#a0a0a0' }} variant="caption">
-              Results have been trimmed for increased performance...
-            </Typography>
-          )}
       </Grid>
       <Grid item xs={12}>
         <Paper elevation={0} style={{ height: 500, width: '100%' }}>

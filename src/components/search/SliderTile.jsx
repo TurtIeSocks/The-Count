@@ -1,7 +1,7 @@
 /* eslint-disable no-param-reassign */
 import React from 'react'
 import { Typography, Slider } from '@material-ui/core'
-import useStyles from '../../assets/mui/styling'
+import useStyles from '../../hooks/useStyles'
 
 const SliderTile = ({
   name, shortName, values, min, max, handleChange, color,
