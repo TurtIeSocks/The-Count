@@ -3,7 +3,8 @@ import React from 'react'
 import clsx from 'clsx'
 import TableCell from '@material-ui/core/TableCell'
 import { AutoSizer, Column, Table } from 'react-virtualized'
-import useStyles from '../../hooks/useStyles'
+
+import useStyles from '@hooks/useStyles'
 
 const MuiVirtual = props => {
   const classes = useStyles()

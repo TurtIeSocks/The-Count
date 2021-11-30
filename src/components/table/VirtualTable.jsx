@@ -4,7 +4,8 @@ import {
 } from '@material-ui/core'
 import { useTheme } from '@material-ui/core/styles'
 
-import buildData from '../../services/buildData'
+import buildData from '@services/buildData'
+
 import MuiVirtual from './MuiVirtual'
 
 const ReactVirtualizedTable = ({ filters }) => {

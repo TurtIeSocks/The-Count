@@ -1,8 +1,8 @@
 /* eslint-disable no-continue */
 /* eslint-disable no-restricted-syntax */
 
-import pokedex from '../data/pokedex.json'
-import cpms from '../data/cpm.json'
+import pokedex from '@data/pokedex.json'
+import cpms from '@data/cpm.json'
 
 const buildData = (
   selectedCP, minAtk, maxAtk, minDef, maxDef, minSta, maxSta, minLevel, maxLevel,
@@ -17,6 +17,7 @@ const buildData = (
     const cp = Math.floor((atk * def ** 0.5 * sta ** 0.5 * cpm ** 2) / 10)
     return cp < 10 ? 10 : cp
   }
+
   const getMatches = (i, pokemon) => {
     const localMatches = []
     if (gens[pokemon.generation] && (types[pokemon.types[0]] || types[pokemon.types[1]])) {
@@ -60,6 +61,7 @@ const buildData = (
     }
     return localMatches
   }
+
   for (const [i, pokemon] of Object.entries(pokedex)) {
     if (pokemon.legendary && !legends) {
       continue
