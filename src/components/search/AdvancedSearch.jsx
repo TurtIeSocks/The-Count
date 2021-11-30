@@ -2,19 +2,17 @@ import React, { useState } from 'react'
 import {
   Grid,
   Typography,
-  TextField,
   Accordion,
   AccordionSummary,
   AccordionDetails,
-  IconButton,
 } from '@material-ui/core'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
-import SearchIcon from '@material-ui/icons/Search'
 
 import MultiSelect from './MultiSelect'
 import SliderTile from './SliderTile'
 import FilterSwitch from './FilterSwitch'
-import useStyles from '../../assets/mui/styling'
+import useStyles from '../../hooks/useStyles'
+import Search from './Search'
 
 const AdvancedSearch = ({ onSubmit, filters }) => {
   const classes = useStyles()
@@ -22,26 +20,14 @@ const AdvancedSearch = ({ onSubmit, filters }) => {
   const [accordion, setAccordion] = useState(false)
 
   const handleChange = (event) => {
-    if (event.target.name === 'cp') {
-      setValues({
-        ...values,
-        [event.target.name]: parseFloat(event.target.value),
-      })
-    } else {
-      setValues({
-        ...values,
-        [event.target.name]: event.target.value,
-      })
-    }
+    setValues({
+      ...values,
+      [event.target.name]: event.target.value,
+    })
   }
 
   const handleAccordion = () => {
     setAccordion(!accordion)
-  }
-
-  const handleSubmit = event => {
-    event.preventDefault()
-    onSubmit(values)
   }
 
   const sliders = [
@@ -76,26 +62,7 @@ const AdvancedSearch = ({ onSubmit, filters }) => {
 
   return (
     <>
-      <Grid item xs={10} sm={11}>
-        <form onSubmit={handleSubmit}>
-          <TextField
-            color="secondary"
-            name="cp"
-            required
-            value={values.cp}
-            onChange={handleChange}
-            label="Enter Desired CP..."
-            type="number"
-            variant="filled"
-            fullWidth
-          />
-        </form>
-      </Grid>
-      <Grid item xs={2} sm={1}>
-        <IconButton onClick={handleSubmit} color="secondary" variant="contained">
-          <SearchIcon />
-        </IconButton>
-      </Grid>
+      <Search onSubmit={onSubmit} filters={filters} />
       <Grid item xs={12}>
         <Accordion expanded={accordion} onChange={handleAccordion}>
           <AccordionSummary

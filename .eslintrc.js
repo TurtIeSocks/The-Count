@@ -6,7 +6,6 @@ module.exports = {
   parser: '@babel/eslint-parser',
   env: {
     browser: true,
-    jest: true,
   },
   globals: {
     document: true,
@@ -44,6 +43,17 @@ module.exports = {
   settings: {
     node: {
       extensions: ['.js', '.jsx', '.ts', '.tsx'],
+    },
+    'import/resolver': {
+      alias: {
+        map: [
+          ['@components', './src/components/'],
+          ['@services', './src/services/'],
+          ['@hooks', './src/hooks/'],
+          ['@assets', './src/assets/'],
+        ],
+        extensions: ['.js', '.jsx'],
+      },
     },
   },
 }

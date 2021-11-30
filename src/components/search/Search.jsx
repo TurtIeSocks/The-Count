@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
-import { TextField, IconButton, Grid } from '@material-ui/core'
+import {
+  IconButton, Grid, Paper, InputBase,
+} from '@material-ui/core'
 import SearchIcon from '@material-ui/icons/Search'
 
 const Search = ({ filters, onSubmit }) => {
@@ -8,7 +10,7 @@ const Search = ({ filters, onSubmit }) => {
   const handleChange = (event) => {
     setValues({
       ...values,
-      [event.target.name]: parseFloat(event.target.value),
+      [event.target.name]: event.target.value,
     })
   }
 
@@ -18,28 +20,44 @@ const Search = ({ filters, onSubmit }) => {
   }
 
   return (
-    <>
-      <Grid item xs={11}>
-        <form
-          onSubmit={handleSubmit}
+    <Grid item xs={12}>
+      <form
+        onSubmit={handleSubmit}
+      >
+        <Paper
+          elevation={0}
+          variant="outlined"
+          style={{
+            padding: '2px 4px',
+            display: 'flex',
+            alignItems: 'center',
+            margin: 3,
+            backgroundColor: '#2E2E2E',
+          }}
         >
-          <TextField
-            color="secondary"
+          <InputBase
+            style={{ flex: 1, margin: 6 }}
+            placeholder="Enter Desired Combat Power (CP)"
             name="cp"
             onChange={handleChange}
-            label="Enter Desired CP..."
-            type="number"
-            variant="filled"
+            value={values.cp}
             fullWidth
+            autoComplete="off"
+            variant="filled"
+            type="number"
+            inputProps={{
+              min: 10,
+            }}
           />
-        </form>
-      </Grid>
-      <Grid item xs={1}>
-        <IconButton onClick={handleSubmit} color="secondary" variant="contained">
-          <SearchIcon />
-        </IconButton>
-      </Grid>
-    </>
+          <IconButton
+            style={{ padding: 10 }}
+            onClick={handleSubmit}
+          >
+            <SearchIcon color="secondary" />
+          </IconButton>
+        </Paper>
+      </form>
+    </Grid>
   )
 }
 

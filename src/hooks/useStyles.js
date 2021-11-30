@@ -1,5 +1,5 @@
 import { makeStyles } from '@material-ui/styles'
-import theme from './theme'
+import theme from '../assets/mui/theme'
 
 export default makeStyles({
   app: {
