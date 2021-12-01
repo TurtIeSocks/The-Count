@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { ThemeProvider } from '@material-ui/styles'
 import {
   Grid, Typography, Icon, useMediaQuery,
@@ -6,13 +6,16 @@ import {
 
 import '@assets/scss/main.scss'
 import theme from '@assets/mui/theme'
+import fetchData from '@services/fetchData'
 
 import ReactVirtualizedTable from '@components/table/VirtualTable'
 import Search from '@components/search/Search'
 import AdvancedSearch from '@components/search/AdvancedSearch'
 
 const App = () => {
-  const isMobile = useMediaQuery(theme.breakpoints.down('sm'))
+  const isMobile = useMediaQuery(theme.breakpoints.only('xs'))
+  const isTablet = useMediaQuery(theme.breakpoints.only('sm'))
+  const [pokedex, setPokedex] = useState({})
   const [filters, setFilters] = useState({
     cp: '',
     atk: [0, 15],
@@ -20,7 +23,7 @@ const App = () => {
     sta: [0, 15],
     level: [1, 50],
     iv: [0, 100],
-    generations: {
+    Generations: {
       Kanto: true,
       Johto: true,
       Hoenn: true,
@@ -30,7 +33,7 @@ const App = () => {
       Alola: true,
       Galar: true,
     },
-    types: {
+    Types: {
       Normal: true,
       Fire: true,
       Water: true,
@@ -50,23 +53,37 @@ const App = () => {
       Steel: true,
       Fairy: true,
     },
-    forms: true,
-    megas: true,
-    legends: true,
-    mythics: true,
+    Forms: true,
+    Megas: true,
+    Legends: true,
+    Mythics: true,
+    Unreleased: false,
   })
 
   const onSubmit = newFilters => setFilters(newFilters)
 
-  const getStyling = () => (
-    isMobile ? {
-      marginTop: filters.cp ? 0 : '45%',
-      maxWidth: '95vw',
-    } : {
-      marginTop: filters.cp ? 0 : '20%',
-      maxWidth: filters.cp ? '80vw' : '50vw',
+  const getStyling = () => {
+    if (isMobile) {
+      return {
+        marginTop: filters.cp ? 0 : '45%',
+        maxWidth: '95vw',
+      }
     }
-  )
+    if (isTablet) {
+      return {
+        marginTop: filters.cp ? 0 : '20%',
+        maxWidth: filters.cp ? '98vw' : '50vw',
+      }
+    }
+    return {
+      marginTop: filters.cp ? 0 : '20%',
+      maxWidth: filters.cp ? '80vw' : '40vw',
+    }
+  }
+
+  useEffect(() => {
+    fetchData().then(data => setPokedex(data))
+  }, [])
 
   return (
     <ThemeProvider theme={theme}>
@@ -92,7 +109,9 @@ const App = () => {
                 container
                 item
                 xs={12}
-                sm={7}
+                sm={5}
+                md={6}
+                lg={5}
                 direction="row"
                 justify="center"
                 alignItems="center"
@@ -107,7 +126,9 @@ const App = () => {
                 container
                 item
                 xs={12}
-                sm={5}
+                sm={7}
+                md={6}
+                lg={7}
                 direction="row"
                 justify="center"
                 alignItems="center"
@@ -116,6 +137,7 @@ const App = () => {
                 <ReactVirtualizedTable
                   filters={filters}
                   isMobile={isMobile}
+                  pokedex={pokedex}
                 />
               </Grid>
             </>
@@ -123,7 +145,7 @@ const App = () => {
           : (
             <>
               <Grid item xs={12} style={{ textAlign: 'center' }}>
-                <Typography variant="subtitle2" align="center">Calculator for communities that play the popular game, &quot;The Count&quot; </Typography>
+                <Typography variant="subtitle2" align="center">Calculator for Pokemon GO communities that play the popular game, &quot;The Count&quot; </Typography>
               </Grid>
               <Grid container item xs={12} justify="center" alignItems="center">
                 <Search
@@ -135,7 +157,7 @@ const App = () => {
             </>
           )}
         <Grid item xs={12} style={{ textAlign: 'center' }}>
-          <Typography style={{ marginTop: filters.cp ? 0 : '95%', color: theme.palette.text.hint }}>
+          <Typography style={{ marginTop: filters.cp ? 0 : '35vh', color: theme.palette.text.hint }}>
             © TurtleSocks 2021 <a href="https://github.com/TurtIeSocks" target="_blank" rel="noreferrer"><Icon className="fab fa-github" style={{ fontSize: 12 }} /></a>
           </Typography>
         </Grid>

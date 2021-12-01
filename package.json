@@ -8,10 +8,9 @@
   "scripts": {
     "build": "webpack",
     "clientStart": "webpack serve",
-    "start": "node server/index.js",
+    "start": "node server/index.js --watch server",
     "watch": "webpack --watch",
-    "generate": "node scripts/generatePokedex.js",
-    "dev": "nodemon --ext js server/index.js",
+    "dev": "nodemon server/index.js",
     "heroku-postbuild": "./node_modules/.bin/webpack"
   },
   "engines": {
@@ -61,8 +60,8 @@
     "clsx": "^1.1.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "fs-extra": "^9.1.0",
-    "node-fetch": "^2.6.1",
+    "morgan": "^1.10.0",
+    "pogo-data-generator": "^1.2.9",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-virtualized": "^9.22.3"
