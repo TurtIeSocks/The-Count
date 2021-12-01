@@ -29,25 +29,31 @@ const buildData = (
             return
           }
           emptyArr.forEach((_, a) => {
-            emptyArr.forEach((__, d) => {
-              emptyArr.forEach((___, s) => {
-                const iv = Math.floor(((a + d + s) / 45) * 100)
-                if (iv >= minIv && iv <= maxIv) {
-                  if (cpCalc(pokemon.attack + a, pokemon.defense + d, pokemon.stamina + s, cpm) === selectedCP) {
-                    localMatches.push(
-                      {
-                        name: pokemon.name,
-                        atk: a,
-                        def: d,
-                        sta: s,
-                        level,
-                        iv,
-                      },
-                    )
-                  }
+            if (a >= minAtk && a <= maxAtk) {
+              emptyArr.forEach((__, d) => {
+                if (d >= minDef && d <= maxDef) {
+                  emptyArr.forEach((___, s) => {
+                    if (s >= minSta && s <= maxSta) {
+                      const iv = Math.floor(((a + d + s) / 45) * 100)
+                      if (iv >= minIv && iv <= maxIv) {
+                        if (cpCalc(pokemon.attack + a, pokemon.defense + d, pokemon.stamina + s, cpm) === selectedCP) {
+                          localMatches.push(
+                            {
+                              name: pokemon.name,
+                              atk: a,
+                              def: d,
+                              sta: s,
+                              level,
+                              iv,
+                            },
+                          )
+                        }
+                      }
+                    }
+                  })
                 }
               })
-            })
+            }
           })
         }
       })
