@@ -34,14 +34,14 @@ const MultiSelect = ({ name, filters, onSubmit }) => {
           },
         }}
       >
-        {Object.entries(filters[name.toLowerCase()]).map(([itemName, value]) => (
+        {Object.entries(filters[name]).map(([itemName, value]) => (
           <MenuItem key={itemName} value={value}>
             <Checkbox
               checked={value}
               onChange={(e) => onSubmit({
                 ...filters,
-                [name.toLowerCase()]: {
-                  ...filters[name.toLowerCase()],
+                [name]: {
+                  ...filters[name],
                   [itemName]: e.target.checked,
                 },
               })}

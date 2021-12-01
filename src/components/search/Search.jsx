@@ -5,18 +5,11 @@ import {
 import SearchIcon from '@material-ui/icons/Search'
 
 const Search = ({ filters, onSubmit, isMobile }) => {
-  const [values, setValues] = useState(filters)
-
-  const handleChange = (event) => {
-    setValues({
-      ...values,
-      [event.target.name]: event.target.value,
-    })
-  }
+  const [value, setValue] = useState(filters.cp)
 
   const handleSubmit = event => {
     event.preventDefault()
-    onSubmit(values)
+    onSubmit({ ...filters, cp: value })
   }
 
   return (
@@ -40,8 +33,8 @@ const Search = ({ filters, onSubmit, isMobile }) => {
             style={{ flex: 1, margin: 6 }}
             placeholder="Enter Combat Power (CP)"
             name="cp"
-            onChange={handleChange}
-            value={values.cp}
+            onChange={(e) => setValue(e.target.value)}
+            value={value}
             fullWidth
             autoComplete="off"
             variant="filled"

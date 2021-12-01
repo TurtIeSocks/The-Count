@@ -19,18 +19,6 @@ const AdvancedSearch = ({ onSubmit, filters, isMobile }) => {
   const classes = useStyles()
   const [accordion, setAccordion] = useState(!isMobile)
 
-  const handleChange = (event) => {
-    const newFilters = {
-      ...filters,
-      [event.target.name]: event.target.value,
-    }
-    onSubmit(newFilters)
-  }
-
-  const handleAccordion = () => {
-    setAccordion(!accordion)
-  }
-
   const sliders = [
     {
       name: 'Level', shortName: 'level', min: 1, max: 55,
@@ -54,7 +42,7 @@ const AdvancedSearch = ({ onSubmit, filters, isMobile }) => {
         shortName={each.shortName}
         min={each.min}
         max={each.max}
-        handleChange={handleChange}
+        handleChange={(name, newValues) => onSubmit({ ...filters, [name]: newValues })}
         values={filters[each.shortName]}
         color="secondary"
       />
@@ -65,7 +53,7 @@ const AdvancedSearch = ({ onSubmit, filters, isMobile }) => {
     <>
       <Search onSubmit={onSubmit} filters={filters} isMobile={isMobile} />
       <Grid item xs={12}>
-        <Accordion expanded={accordion} onChange={handleAccordion}>
+        <Accordion expanded={accordion} onChange={() => setAccordion(!accordion)}>
           <AccordionSummary expandIcon={<ExpandMoreIcon color="secondary" />}>
             <Typography className={classes.heading}>Advanced Filters</Typography>
           </AccordionSummary>
@@ -85,7 +73,7 @@ const AdvancedSearch = ({ onSubmit, filters, isMobile }) => {
                   onSubmit={onSubmit}
                 />
               ))}
-              {['Forms', 'Megas', 'Legends', 'Mythics'].map(each => (
+              {['Forms', 'Megas', 'Unreleased', 'Legends', 'Mythics'].map(each => (
                 <FilterSwitch
                   key={each}
                   name={each}

@@ -5,13 +5,13 @@ import buildData from '@services/buildData'
 
 import MuiVirtual from './MuiVirtual'
 
-const ReactVirtualizedTable = ({ filters, isMobile }) => {
+const ReactVirtualizedTable = ({ filters, isMobile, pokedex }) => {
   const {
-    cp, atk, def, sta, level, iv, generations, types, forms, megas, legends, mythics,
+    cp, atk, def, sta, level, iv, Generations, Types, Forms, Megas, Legends, Mythics, Unreleased,
   } = filters
 
   // eslint-disable-next-line max-len
-  const rows = buildData(parseFloat(cp), ...atk, ...def, ...sta, ...level, ...iv, generations, types, forms, megas, legends, mythics)
+  const rows = buildData(parseFloat(cp), ...atk, ...def, ...sta, ...level, ...iv, Generations, Types, Forms, Megas, Legends, Mythics, Unreleased, pokedex)
 
   const columns = [
     {
@@ -71,6 +71,13 @@ const ReactVirtualizedTable = ({ filters, isMobile }) => {
           />
         </Paper>
       </Grid>
+      {filters.Unreleased && (
+        <Grid item xs={12} style={{ textAlign: 'center' }}>
+          <Typography style={{ color: 'white' }} variant="caption">
+            * Indicates the Pokemon&apos;s stats are estimated and may be inaccurate
+          </Typography>
+        </Grid>
+      )}
     </>
   )
 }

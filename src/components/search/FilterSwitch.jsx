@@ -4,14 +4,14 @@ import {
 } from '@material-ui/core'
 
 const FilterSwitch = ({ name, filters, onSubmit }) => (
-  <Grid item xs={3}>
+  <Grid item xs={4}>
     <FormGroup row>
       <FormControlLabel
         control={(
           <Switch
-            checked={filters[name.toLowerCase()]}
+            checked={filters[name]}
             onChange={(e) => onSubmit({ ...filters, [e.target.name]: e.target.checked })}
-            name={name.toLowerCase()}
+            name={name}
           />
           )}
         label={name}
