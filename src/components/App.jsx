@@ -15,7 +15,7 @@ import AdvancedSearch from '@components/search/AdvancedSearch'
 const App = () => {
   const isMobile = useMediaQuery(theme.breakpoints.only('xs'))
   const isTablet = useMediaQuery(theme.breakpoints.only('sm'))
-  const [pokedex, setPokedex] = useState({})
+  const [pokedex, setPokedex] = useState([])
   const [filters, setFilters] = useState({
     cp: '',
     atk: [0, 15],

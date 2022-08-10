@@ -14,6 +14,6 @@ export default async function fetchData() {
       return local
     }
     console.error(e.message, '\nUnable to fetch the Pokedex at this time, please try again later.')
-    return {}
+    return []
   }
 }
