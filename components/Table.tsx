@@ -91,7 +91,13 @@ export default function VirtualTable({ filters, isMobile, pokedex }: Props) {
           flexItem
           sx={{ height: 1, width: '100%', bgcolor: '#bdbdbd', my: 1 }}
         />
-        <Grid2 xs={12} sx={{ height: '60vh', width: isMobile ? '90vw' : 420 }}>
+        <Grid2
+          xs={12}
+          sx={{
+            height: isMobile ? '50vh' : '60vh',
+            width: isMobile ? '90vw' : 420,
+          }}
+        >
           <AutoSizer>
             {({ width, height }) => (
               <FixedSizeList
