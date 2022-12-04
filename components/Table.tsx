@@ -60,7 +60,9 @@ export default function VirtualTable({ filters, isMobile, pokedex }: Props) {
   const [rows, setRows] = useState<Match[]>([])
 
   useEffect(() => {
+    console.time('buildData')
     setRows(pokedex.flatMap((pokemon) => buildData(filters, pokemon)))
+    console.timeEnd('buildData')
   }, [filters])
 
   return (

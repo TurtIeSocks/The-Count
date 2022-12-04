@@ -24,7 +24,9 @@ export async function getStaticProps() {
       name,
       forms: [],
       megas: [],
-      types: [],
+      types: Object.values(poke.types).map((type: any) => {
+        return type.typeName as string
+      }),
       attack: poke.stats.attack,
       defense: poke.stats.defense,
       stamina: poke.stats.stamina,
@@ -34,18 +36,17 @@ export async function getStaticProps() {
       mythical: poke.mythic,
       ultraBeast: poke.ultraBeast,
     }
-    if (poke.types) {
-      Object.values(poke.types).forEach((type: any) => {
-        pokedex[id].types.push(type.typeName)
-      })
-    }
     if (poke.forms) {
       Object.entries(poke.forms).forEach(([formId, f]) => {
         const form: any = f
-        if (form.stats?.attack) {
+        if (form.stats?.attack && +formId) {
           pokedex[id].forms.push({
             name: `${name} (${remoteLocale[`form_${formId}`]})`,
-            types: form.types,
+            types:
+              form.types &&
+              Object.values(form.types).map((type: any) => {
+                return type.typeName as string
+              }),
             attack: form.stats.attack,
             defense: form.stats.defense,
             stamina: form.stats.stamina,
@@ -57,14 +58,20 @@ export async function getStaticProps() {
     if (poke.tempEvolutions) {
       Object.entries(poke.tempEvolutions).forEach(([megaId, m]) => {
         const mega: any = m
-        pokedex[id].megas.push({
-          name: `${name} ${remoteLocale[`mega_${megaId}`]}`,
-          types: mega.types,
-          attack: mega.stats.attack,
-          defense: mega.stats.defense,
-          stamina: mega.stats.stamina,
-          unreleased: mega.unreleased,
-        })
+        if (+megaId) {
+          pokedex[id].megas.push({
+            name: `${name} ${remoteLocale[`evo_${megaId}`]}`,
+            types:
+              mega.types &&
+              Object.values(mega.types).map((type: any) => {
+                return type.typeName as string
+              }),
+            attack: mega.stats.attack,
+            defense: mega.stats.defense,
+            stamina: mega.stats.stamina,
+            unreleased: mega.unreleased,
+          })
+        }
       })
     }
   })
@@ -79,6 +86,8 @@ interface Props {
 }
 
 export default function Home({ pokedex = [] }: Props) {
+  console.log({ pokedex })
+
   const theme = useTheme()
   const isMobile = useMediaQuery(theme.breakpoints.only('xs'))
   const [filters, setFilters] = useState<Filters>({
