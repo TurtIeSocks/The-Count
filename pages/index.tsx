@@ -1,43 +1,52 @@
 import { useState } from 'react'
 import Grid2 from '@mui/material/Unstable_Grid2/Grid2'
-import { Icon, Typography, useMediaQuery, useTheme } from '@mui/material'
+import { Typography, useMediaQuery, useTheme } from '@mui/material'
 
-import { Filters, Pokedex, Pokemon } from '../assets/types'
+import type { Filters, MasterfilePkmn, Pokedex, Pokemon } from '../assets/types'
 import AdvancedSearch from '../components/AdvSearch'
 import Search from '../components/Search'
 import ResultsTable from '../components/Table'
 
 export async function getStaticProps() {
-  const masterfile = await fetch(
+  const masterfile: { pokemon: Record<string, MasterfilePkmn> } = await fetch(
     'https://raw.githubusercontent.com/WatWowMap/Masterfile-Generator/master/master-latest-everything.json',
-  ).then((res) => res.json())
+  )
+    .then((res) => res.json())
+    .catch((err) => {
+      console.log('[Masterfile]', err)
+      return { pokemon: {} }
+    })
 
-  const remoteLocale = await fetch(
+  const remoteLocale: Record<string, string> = await fetch(
     `https://raw.githubusercontent.com/WatWowMap/pogo-translations/master/static/locales/en.json`,
-  ).then((res) => res.json())
+  )
+    .then((res) => res.json())
+    .catch((err) => {
+      console.log('[Locales]', err)
+      return {}
+    })
 
   const pokedex: Record<string, Pokemon> = {}
   Object.entries(masterfile.pokemon).forEach(([id, pkmn]) => {
-    const poke: any = pkmn
     const name = remoteLocale[`poke_${id}`]
     pokedex[id] = {
       name,
       forms: [],
       megas: [],
-      types: Object.values(poke.types).map((type: any) => {
+      types: Object.values(pkmn.types).map((type: any) => {
         return type.typeName as string
       }),
-      attack: poke.stats.attack,
-      defense: poke.stats.defense,
-      stamina: poke.stats.stamina,
-      generation: poke.generation,
-      unreleased: poke.unreleased,
-      legendary: poke.legendary,
-      mythical: poke.mythic,
-      ultraBeast: poke.ultraBeast,
+      attack: pkmn.stats.attack,
+      defense: pkmn.stats.defense,
+      stamina: pkmn.stats.stamina,
+      generation: pkmn.generation,
+      unreleased: pkmn.unreleased,
+      legendary: pkmn.legendary,
+      mythical: pkmn.mythic,
+      ultraBeast: pkmn.ultraBeast,
     }
-    if (poke.forms) {
-      Object.entries(poke.forms).forEach(([formId, f]) => {
+    if (pkmn.forms) {
+      Object.entries(pkmn.forms).forEach(([formId, f]) => {
         const form: any = f
         if (form.stats?.attack && +formId) {
           pokedex[id].forms.push({
@@ -55,8 +64,8 @@ export async function getStaticProps() {
         }
       })
     }
-    if (poke.tempEvolutions) {
-      Object.entries(poke.tempEvolutions).forEach(([megaId, m]) => {
+    if (pkmn.tempEvolutions) {
+      Object.entries(pkmn.tempEvolutions).forEach(([megaId, m]) => {
         const mega: any = m
         if (+megaId) {
           pokedex[id].megas.push({

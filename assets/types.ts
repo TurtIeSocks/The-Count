@@ -8,7 +8,7 @@ export interface Form {
 }
 
 export interface Pokemon extends Form {
-  generation: number
+  generation: string
   forms: Form[]
   megas: Form[]
   legendary: boolean
@@ -44,3 +44,80 @@ export interface Filters {
 }
 
 export type Column = keyof Match
+
+export interface MasterfilePkmn {
+  name: string
+  pokedexId: number
+  defaultFormId: number
+  types: Record<string, { typeId: number; typeName: string }>
+  quickMoves: Record<
+    string,
+    {
+      moveId: number
+      moveName: string
+      proto: string
+      type: number
+      power: number
+    }
+  >
+  chargedMoves: Record<
+    string,
+    {
+      moveId: number
+      moveName: string
+      proto: string
+      type: number
+      power: number
+    }
+  >
+  genId: number
+  generation: string
+  forms: Record<
+    string,
+    {
+      name: string
+      proto: string
+      form: number
+      evolutions?: Record<
+        string,
+        { pokemon: number; form: number; candyCost: number }
+      >
+    }
+  >
+  stats: { attack: number; defense: number; stamina: number }
+  height: number
+  weight: number
+  family: number
+  encounter: { fleeRate: number; captureRate: number }
+  legendary: boolean
+  mythic: boolean
+  ultraBeast: boolean
+  unreleased: boolean
+  misc: {
+    buddyGroupNumber: number
+    buddyDistance: number
+    buddyMegaEnergy: number
+    thirdMoveStardust: number
+    thirdMoveCandy: number
+    gymDefenderEligible: boolean
+    tradable: boolean
+    transferable: boolean
+  }
+  evolutions?: Record<
+    string,
+    { pokemon: number; form: number; candyCost: number }
+  >
+  little: boolean
+  tempEvolutions?: Record<
+    string,
+    {
+      tempEvoId: string
+      stats: { attack: number; defense: number; stamina: number }
+      height: number
+      weight: number
+      firstEnergyCost?: number
+      subsequentEnergyCost?: number
+      unreleased?: boolean
+    }
+  >
+}
