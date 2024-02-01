@@ -18,6 +18,7 @@ import Search from './Search'
 
 import { MULTI_SELECT, SLIDERS, SWITCHES } from '../lib/constants'
 import { useStorage } from '../lib/store'
+import styles from '../styles.module.css'
 
 const AdvancedOptions = () => (
   <Grid2 container>
@@ -62,7 +63,7 @@ const DesktopView = () => (
 
 const AdvancedSearch = React.memo(
   () => (
-    <Grid2 className="layout" xs={12} sm={6} p={2}>
+    <Grid2 className={styles.layout} xs={12} sm={6} p={2}>
       <Search />
       <MobileView />
       <DesktopView />

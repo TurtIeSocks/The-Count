@@ -19,6 +19,8 @@ import { Match, Pokedex } from '../lib/types'
 import { useStorage } from '../lib/store'
 import { useSearchParams } from 'next/navigation'
 
+import styles from '../styles.module.css'
+
 const Scroller = React.forwardRef<HTMLDivElement>((props, ref) => (
   <TableContainer component={Paper} {...props} ref={ref} />
 ))
@@ -78,14 +80,7 @@ export default function ResultTable({ pokedex }: { pokedex: Pokedex }) {
   const unreleased = useStorage((s) => s.filters.unreleased)
 
   return (
-    <Grid2
-      className="layout"
-      xs={12}
-      sm={6}
-      height="100%"
-      overflow="hidden"
-      p={2}
-    >
+    <Grid2 className={styles.layout} xs={12} sm={6} height="100%" p={2}>
       <Typography variant="h5" align="center" gutterBottom>
         {data.length.toLocaleString()} results for {cp.toLocaleString()} CP
       </Typography>
