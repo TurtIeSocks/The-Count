@@ -4,7 +4,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 import createEmotionServer from '@emotion/server/create-instance'
 
 import createEmotionCache from '../lib/emotionCache'
-import { theme } from '../lib/theme'
+// import { theme } from '../lib/useCreateTheme'
 
 // This follows the official recommendation for MUI and Next.js
 // See https://github.com/mui/material-ui/issues/26561#issuecomment-855286153
@@ -14,7 +14,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <meta name="theme-color" content={theme.palette.primary.main} />
+          <meta name="theme-color" content="" />
           <link rel="shortcut icon" href="/favicon.ico" />
           <link
             rel="stylesheet"

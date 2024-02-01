@@ -1,77 +1,79 @@
-import { useState } from 'react'
-import {
-  Typography,
-  Grid,
-  MenuItem,
-  ListItemText,
-  IconButton,
-  Menu,
-  Checkbox,
-  capitalize,
-} from '@mui/material'
-import MenuIcon from '@mui/icons-material/Menu'
-import type { Filters } from '../assets/types'
+import * as React from 'react'
+import Grid2 from '@mui/material/Unstable_Grid2/Grid2'
+import FormControl from '@mui/material/FormControl'
+import InputLabel from '@mui/material/InputLabel'
+import Select, { SelectProps } from '@mui/material/Select'
+import OutlinedInput from '@mui/material/OutlinedInput'
+import MenuItem from '@mui/material/MenuItem'
+import Checkbox from '@mui/material/Checkbox'
+import ListItemText from '@mui/material/ListItemText'
+import { capitalize } from '@mui/material/utils'
+
+import { MULTI_SELECT } from '../assets/constants'
+import { useStorage } from '../lib/store'
+
+const ITEM_HEIGHT = 48
+const ITEM_PADDING_TOP = 8
+const MenuProps = {
+  PaperProps: {
+    style: {
+      maxHeight: ITEM_HEIGHT * 4.5 + ITEM_PADDING_TOP,
+      width: 250,
+    },
+  },
+}
 
 interface Props {
-  name: keyof Filters
-  filters: Filters
-  onSubmit: (filters: Filters) => void
+  name: typeof MULTI_SELECT[number]
 }
 
-const MultiSelect = ({ name, filters, onSubmit }: Props) => {
-  const [anchorEl, setAnchorEl] = useState<HTMLButtonElement | null>(null)
-
-  return (
-    <>
-      <Grid item xs={4}>
-        <Typography>{capitalize(name)}</Typography>
-      </Grid>
-      <Grid item xs={2}>
-        <IconButton
-          aria-label="more"
-          aria-controls="long-menu"
-          aria-haspopup="true"
-          onClick={(e) => setAnchorEl(e.currentTarget)}
-        >
-          <MenuIcon style={{ color: 'white' }} />
-        </IconButton>
-      </Grid>
-      <Menu
-        anchorEl={anchorEl}
-        keepMounted
-        open={!!anchorEl}
-        onClose={() => setAnchorEl(null)}
-        PaperProps={{
-          style: {
-            maxHeight: 500,
-            width: '20ch',
+export default React.memo(
+  ({ name }: Props) => {
+    const filters = useStorage((s) => s.filters[name])
+    const selected = React.useMemo(
+      () => Object.keys(filters).filter((k) => filters[k]),
+      [filters],
+    )
+    const handleChange: SelectProps['onChange'] = ({ target }) => {
+      const value = Array.isArray(target.value)
+        ? target.value
+        : (target.value as string).split(',')
+      useStorage.setState((state) => ({
+        filters: {
+          ...state.filters,
+          [name]: {
+            ...Object.fromEntries(
+              Object.keys(state.filters[name]).map((k) => [k, false]),
+            ),
+            ...Object.fromEntries(value.map((v) => [v, true])),
           },
-        }}
-      >
-        {Object.entries(filters[name]).map(([itemName, value]) => (
-          <MenuItem key={itemName} dense value={value}>
-            <Checkbox
-              checked={value}
-              onChange={(e) => {
-                const filterName = filters[name]
-                if (typeof filterName === 'object') {
-                  onSubmit({
-                    ...filters,
-                    [name]: {
-                      ...filterName,
-                      [itemName]: e.target.checked,
-                    },
-                  })
-                }
-              }}
-              name={itemName}
-            />
-            <ListItemText primary={capitalize(itemName)} />
-          </MenuItem>
-        ))}
-      </Menu>
-    </>
-  )
-}
-
-export default MultiSelect
+        },
+      }))
+    }
+    return (
+      <Grid2 container xs={6} py={2}>
+        <FormControl sx={{ width: '90%' }}>
+          <InputLabel id={`ms-${name}-label`}>{capitalize(name)}</InputLabel>
+          <Select
+            labelId={`ms-${name}-label`}
+            id={`ms-${name}`}
+            multiple
+            value={selected}
+            onChange={handleChange}
+            input={<OutlinedInput label={capitalize(name)} />}
+            renderValue={(selected) => `${selected.length} selected`}
+            MenuProps={MenuProps}
+          >
+            {Object.entries(filters).map(([name, value]) => (
+              <MenuItem key={name} value={name}>
+                <Checkbox checked={value} />
+                <ListItemText primary={name} />
+              </MenuItem>
+            ))}
+          </Select>
+        </FormControl>
+      </Grid2>
+    )
+  },
+  (prev, next) => prev.name === next.name,
+)

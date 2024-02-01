@@ -43,6 +43,13 @@ export interface Filters {
   unreleased: boolean
 }
 
+export interface SliderProps {
+  name: string
+  shortName: 'def' | 'atk' | 'sta' | 'level' | 'iv'
+  min: number
+  max: number
+}
+
 export type Column = keyof Match
 
 export interface MasterfilePkmn {

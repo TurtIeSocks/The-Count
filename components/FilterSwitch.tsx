@@ -1,36 +1,34 @@
-import {
-  FormGroup,
-  Grid,
-  FormControlLabel,
-  Switch,
-  capitalize,
-} from '@mui/material'
-import type { Filters } from '../assets/types'
+import Grid2 from '@mui/material/Unstable_Grid2/Grid2'
+import FormControlLabel from '@mui/material/FormControlLabel'
+import Switch from '@mui/material/Switch'
+import { capitalize } from '@mui/material'
+
+import { SWITCHES } from '../assets/constants'
+import { useStorage } from '../lib/store'
 
 interface Props {
-  name: keyof Filters
-  filters: Filters
-  onSubmit: (filters: Filters) => void
+  name: typeof SWITCHES[number]
 }
 
-export default function FilterSwitch({ name, filters, onSubmit }: Props) {
+export default function FilterSwitch({ name }: Props) {
+  const value = useStorage((s) => !!s.filters[name])
   return (
-    <Grid item xs={4}>
-      <FormGroup row>
-        <FormControlLabel
-          control={
-            <Switch
-              checked={!!filters[name]}
-              onChange={(e) =>
-                onSubmit({ ...filters, [e.target.name]: e.target.checked })
-              }
-              name={name}
-            />
-          }
-          label={capitalize(name)}
-          labelPlacement="bottom"
-        />
-      </FormGroup>
-    </Grid>
+    <Grid2 xs={4}>
+      <FormControlLabel
+        control={
+          <Switch
+            checked={value}
+            onChange={(e) =>
+              useStorage.setState((state) => ({
+                filters: { ...state.filters, [name]: e.target.checked },
+              }))
+            }
+            name={name}
+          />
+        }
+        label={capitalize(name)}
+        labelPlacement="bottom"
+      />
+    </Grid2>
   )
 }

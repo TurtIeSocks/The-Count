@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import * as React from 'react'
 import {
   Typography,
   Accordion,
@@ -7,110 +7,64 @@ import {
 } from '@mui/material'
 import Grid2 from '@mui/material/Unstable_Grid2/Grid2'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
+import Box from '@mui/material/Box'
 
 import MultiSelect from './MultiSelect'
 import SliderTile from './SliderTile'
 import FilterSwitch from './FilterSwitch'
 import Search from './Search'
 
-import type { Filters } from '../assets/types'
+import { MULTI_SELECT, SLIDERS, SWITCHES } from '../assets/constants'
+import { useStorage } from '../lib/store'
 
-interface Props {
-  filters: Filters
-  onSubmit: (filters: Filters) => void
-  isMobile: boolean
-}
+const AdvancedOptions = () => (
+  <Grid2 container>
+    {SLIDERS.map((each) => (
+      <SliderTile key={each.name} {...each} />
+    ))}
+    {MULTI_SELECT.map((each) => (
+      <MultiSelect key={each} name={each} />
+    ))}
+    {SWITCHES.map((each) => (
+      <FilterSwitch key={each} name={each} />
+    ))}
+  </Grid2>
+)
 
-export default function AdvancedSearch({ onSubmit, filters, isMobile }: Props) {
-  const [accordion, setAccordion] = useState(!isMobile)
-
-  const sliders = [
-    {
-      name: 'Level',
-      shortName: 'level',
-      min: 1,
-      max: 55,
-    },
-    {
-      name: 'Attack',
-      shortName: 'atk',
-      min: 0,
-      max: 15,
-    },
-    {
-      name: 'Defense',
-      shortName: 'def',
-      min: 0,
-      max: 15,
-    },
-    {
-      name: 'Stamina',
-      shortName: 'sta',
-      min: 0,
-      max: 15,
-    },
-    {
-      name: 'IV Range',
-      shortName: 'iv',
-      min: 0,
-      max: 100,
-    },
-  ].map((each) => (
-    <Grid2
-      key={each.name}
-      xs={each.shortName === 'iv' ? 12 : 6}
-      style={{ textAlign: 'center' }}
-    >
-      <SliderTile
-        name={each.name}
-        shortName={each.shortName}
-        min={each.min}
-        max={each.max}
-        handleChange={(name, newValues) =>
-          onSubmit({ ...filters, [name]: newValues })
-        }
-        values={filters[each.shortName as keyof Filters] as number[]}
-        color="secondary"
-      />
-    </Grid2>
-  ))
-
+const MobileView = () => {
+  const advExpanded = useStorage((s) => s.advExpanded)
   return (
-    <>
-      <Search onSubmit={onSubmit} filters={filters} isMobile={isMobile} />
-      <Grid2 xs={12}>
-        <Accordion
-          expanded={accordion}
-          onChange={() => setAccordion(!accordion)}
-        >
-          <AccordionSummary expandIcon={<ExpandMoreIcon color="secondary" />}>
-            <Typography>Advanced Filters</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Grid2 container direction="row">
-              {sliders}
-              {['generations', 'types'].map((each) => (
-                <MultiSelect
-                  key={each}
-                  name={each as keyof Filters}
-                  filters={filters}
-                  onSubmit={onSubmit}
-                />
-              ))}
-              {['forms', 'megas', 'unreleased', 'legends', 'mythics'].map(
-                (each) => (
-                  <FilterSwitch
-                    key={each}
-                    name={each as keyof Filters}
-                    filters={filters}
-                    onSubmit={onSubmit}
-                  />
-                ),
-              )}
-            </Grid2>
-          </AccordionDetails>
-        </Accordion>
-      </Grid2>
-    </>
+    <Box display={{ xs: 'block', sm: 'none' }}>
+      <Accordion
+        expanded={advExpanded}
+        onChange={() =>
+          useStorage.setState((s) => ({ advExpanded: !s.advExpanded }))
+        }
+      >
+        <AccordionSummary expandIcon={<ExpandMoreIcon color="secondary" />}>
+          <Typography>Advanced Filters</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <AdvancedOptions />
+        </AccordionDetails>
+      </Accordion>
+    </Box>
   )
 }
+
+const DesktopView = () => (
+  <Box display={{ xs: 'none', sm: 'block' }} pt={4}>
+    <AdvancedOptions />
+  </Box>
+)
+
+export default React.memo(
+  () => (
+    <Grid2 className="layout" xs={12} sm={6} p={2}>
+      <Search />
+      <MobileView />
+      <DesktopView />
+    </Grid2>
+  ),
+  () => true,
+)

@@ -1,128 +1,95 @@
-/* eslint-disable react-hooks/exhaustive-deps */
+import * as React from 'react'
+import Table from '@mui/material/Table'
+import TableBody from '@mui/material/TableBody'
+import TableCell from '@mui/material/TableCell'
+import TableContainer from '@mui/material/TableContainer'
+import TableHead from '@mui/material/TableHead'
+import TableRow from '@mui/material/TableRow'
 import Paper from '@mui/material/Paper'
+import { TableVirtuoso, TableComponents } from 'react-virtuoso'
+import Typography from '@mui/material/Typography'
 import Grid2 from '@mui/material/Unstable_Grid2/Grid2'
-import { FixedSizeList, type ListChildComponentProps } from 'react-window'
-import AutoSizer from 'react-virtualized-auto-sizer'
+import { capitalize } from '@mui/material/utils'
 
-import { Column, Filters, Match, Pokedex } from '../assets/types'
-import { useEffect, useState } from 'react'
-import buildData from '../lib/filter'
-import { capitalize, Divider, Typography } from '@mui/material'
+import { useCalculate } from '../lib/useCalculate'
+import { COLUMNS } from '../assets/constants'
+import { Match } from '../assets/types'
+import { useStorage } from '../lib/store'
 
-interface Props {
-  filters: Filters
-  isMobile: boolean
-  pokedex: Pokedex
+const VirtuosoTableComponents: TableComponents<Match> = {
+  Scroller: React.forwardRef<HTMLDivElement>((props, ref) => (
+    <TableContainer component={Paper} {...props} ref={ref} />
+  )),
+  Table: (props) => (
+    <Table
+      {...props}
+      sx={{ borderCollapse: 'separate', tableLayout: 'fixed' }}
+    />
+  ),
+  TableHead,
+  TableRow: ({ item: _item, ...props }) => <TableRow {...props} />,
+  TableBody: React.forwardRef<HTMLTableSectionElement>((props, ref) => (
+    <TableBody {...props} ref={ref} />
+  )),
 }
 
-export function Row({ index, style, data }: ListChildComponentProps) {
-  const {
-    rows,
-    columns,
-    isMobile,
-  }: {
-    rows: Match[]
-    columns: Column[]
-    isMobile: boolean
-  } = data
-  const item = rows[index]
-
-  return item === undefined || item === null ? (
-    <Grid2 />
-  ) : (
-    <Grid2
-      container
-      direction="row"
-      justifyContent="space-between"
-      columns={isMobile ? 12 : 14}
-      style={style}
-    >
-      {columns
-        .filter((column) => (isMobile ? column !== 'iv' : true))
-        .map((column) => (
-          <Grid2 key={column} xs={column === 'name' ? 4 : 2}>
-            <Typography variant="caption">{item[column]}</Typography>
-          </Grid2>
-        ))}
-    </Grid2>
+function fixedHeaderContent() {
+  return (
+    <TableRow sx={{ bgcolor: 'background.paper' }}>
+      {COLUMNS.map((column, i) => (
+        <TableCell
+          key={column}
+          variant="head"
+          align="center"
+          width={i ? '15%' : '25%'}
+        >
+          {column.length > 3 ? capitalize(column) : column.toUpperCase()}
+        </TableCell>
+      ))}
+    </TableRow>
   )
 }
 
-export default function VirtualTable({ filters, isMobile, pokedex }: Props) {
-  const [columns] = useState<Column[]>([
-    'name',
-    'atk',
-    'def',
-    'sta',
-    'iv',
-    'level',
-  ])
-  const [rows, setRows] = useState<Match[]>([])
-
-  useEffect(() => {
-    console.time('buildData')
-    setRows(pokedex.flatMap((pokemon) => buildData(filters, pokemon)))
-    console.timeEnd('buildData')
-  }, [filters])
-
+function itemContent(_index: number, row: Match) {
   return (
-    <>
-      <Paper
-        elevation={0}
-        component={Grid2}
-        xs={12}
-        container
-        sx={{ width: isMobile ? '90vw' : 420 }}
-      >
-        <Grid2 xs={12} sx={{ my: 2 }}>
-          <Typography sx={{ color: 'white' }} variant="h5" align="center">
-            {rows.length} results for {filters.cp}cp
-          </Typography>
-        </Grid2>
-        <Grid2 container columns={isMobile ? 12 : 14} xs={isMobile ? 12 : 14}>
-          {columns
-            .filter((column) => (isMobile ? column !== 'iv' : true))
-            .map((column) => (
-              <Grid2 key={column} xs={column === 'name' ? 4 : 2}>
-                <Typography variant="caption">{capitalize(column)}</Typography>
-              </Grid2>
-            ))}
-        </Grid2>
-        <Divider
-          light
-          flexItem
-          sx={{ height: 1, width: '100%', bgcolor: '#bdbdbd', my: 1 }}
-        />
-        <Grid2
-          xs={12}
-          sx={{
-            height: isMobile ? '50vh' : '60vh',
-            width: isMobile ? '90vw' : 420,
-          }}
-        >
-          <AutoSizer>
-            {({ width, height }) => (
-              <FixedSizeList
-                height={height}
-                width={width}
-                itemCount={rows.length}
-                itemSize={40}
-                itemData={{ rows, columns, isMobile }}
-              >
-                {Row}
-              </FixedSizeList>
-            )}
-          </AutoSizer>
-        </Grid2>
-      </Paper>
-      {filters.unreleased && (
-        <Grid2 xs={12} style={{ textAlign: 'center' }}>
-          <Typography style={{ color: 'white' }} variant="caption">
-            * Indicates the Pokemon&apos;s stats are estimated and may be
-            inaccurate
-          </Typography>
-        </Grid2>
+    <React.Fragment>
+      {COLUMNS.map((column, i) => (
+        <TableCell key={column} align="center" width={i ? '15%' : '25%'}>
+          {row[column]}
+        </TableCell>
+      ))}
+    </React.Fragment>
+  )
+}
+
+export default function ResultTable() {
+  const data = useCalculate()
+  const unreleased = useStorage((s) => s.filters.unreleased)
+  return (
+    <Grid2
+      className="layout"
+      xs={12}
+      sm={6}
+      height="100%"
+      overflow="hidden"
+      p={2}
+    >
+      <Typography variant="h5" align="center" gutterBottom>
+        {data.length.toLocaleString()} results for{' '}
+        {useStorage.getState().filters.cp.toLocaleString()} CP
+      </Typography>
+      <TableVirtuoso
+        data={data}
+        components={VirtuosoTableComponents}
+        fixedHeaderContent={fixedHeaderContent}
+        itemContent={itemContent}
+      />
+      {unreleased && (
+        <Typography variant="caption">
+          * Indicates the Pokemon&apos;s stats are estimated and may be
+          inaccurate
+        </Typography>
       )}
-    </>
+    </Grid2>
   )
 }

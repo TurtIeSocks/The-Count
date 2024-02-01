@@ -4,6 +4,17 @@ body {
   margin: 0;
 }
 
-a {
-  color: #a0a0a0;
+.layout {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: min-content auto min-content;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }

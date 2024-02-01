@@ -4,7 +4,7 @@ import { ThemeProvider } from '@mui/material'
 import { CacheProvider } from '@emotion/react'
 
 import createEmotionCache from '../lib/emotionCache'
-import { theme } from '../lib/theme'
+import { useCreateTheme } from '../lib/useCreateTheme'
 
 import '../assets/index.css'
 
@@ -18,6 +18,7 @@ export default function App({
   pageProps,
   emotionCache = clientSideEmotionCache,
 }: Props) {
+  const theme = useCreateTheme()
   return (
     <CacheProvider value={emotionCache}>
       <Head>

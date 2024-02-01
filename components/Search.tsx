@@ -1,25 +1,30 @@
-import { useState } from 'react'
-import { IconButton, Grid, Paper, InputBase } from '@mui/material'
+import * as React from 'react'
+import Grid2 from '@mui/material/Unstable_Grid2/Grid2'
+import Paper from '@mui/material/Paper'
+import InputBase from '@mui/material/InputBase'
+import IconButton from '@mui/material/IconButton'
 import SearchIcon from '@mui/icons-material/Search'
 
-import type { Filters } from '../assets/types'
+import { useStorage } from '../lib/store'
 
-interface Props {
-  filters: Filters
-  onSubmit: (filters: Filters) => void
-  isMobile: boolean
-}
+export default function Search() {
+  const value = useStorage((s) => s.filters.cp)
+  const [local, setLocal] = React.useState<number | ''>(value || '')
 
-export default function Search({ filters, onSubmit, isMobile }: Props) {
-  const [value, setValue] = useState(filters.cp)
-
-  const handleSubmit = (event: React.FormEvent) => {
-    event.preventDefault()
-    onSubmit({ ...filters, cp: value })
-  }
+  const handleSubmit = React.useCallback(
+    (event: React.FormEvent) => {
+      event.preventDefault()
+      if (typeof local === 'number') {
+        useStorage.setState((prev) => ({
+          filters: { ...prev.filters, cp: local },
+        }))
+      }
+    },
+    [local],
+  )
 
   return (
-    <Grid item xs={12}>
+    <Grid2 xs={12}>
       <form onSubmit={handleSubmit}>
         <Paper
           elevation={0}
@@ -36,8 +41,12 @@ export default function Search({ filters, onSubmit, isMobile }: Props) {
             style={{ flex: 1, margin: 6 }}
             placeholder="Enter Combat Power (CP)"
             name="cp"
-            onChange={(e) => setValue(+e.target.value)}
-            value={value}
+            onChange={(e) => {
+              console.log(e.target.value)
+              const num = +e.target.value
+              return setLocal(Number.isInteger(num) ? num : '')
+            }}
+            value={local}
             fullWidth
             autoComplete="off"
             type="number"
@@ -50,6 +59,6 @@ export default function Search({ filters, onSubmit, isMobile }: Props) {
           </IconButton>
         </Paper>
       </form>
-    </Grid>
+    </Grid2>
   )
 }

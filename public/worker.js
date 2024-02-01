@@ -1,12 +1,27 @@
-import { CPM } from '../assets/constants'
-import type { Filters, Match, Pokemon } from '../assets/types'
+// @ts-check
 
-export function cpCalc(atk: number, def: number, sta: number, cpm: number) {
+/**
+ *
+ * @param {number} atk
+ * @param {number} def
+ * @param {number} sta
+ * @param {number} cpm
+ * @returns {number}
+ */
+function cpCalc(atk, def, sta, cpm) {
   const cp = Math.floor((atk * def ** 0.5 * sta ** 0.5 * cpm ** 2) / 10)
   return cp < 10 ? 10 : cp
 }
 
-export default function buildData(
+/**
+ *
+ * @param {import('../assets/types').Filters} filter
+ * @param {[string, number][]} relevantCPM
+ * @param {import('../assets/types').Pokemon} pokemon
+ * @param {import('../assets/types').Match[]} matches
+ * @returns {void}
+ */
+function buildData(
   {
     cp,
     atk: [minAtk, maxAtk],
@@ -21,21 +36,22 @@ export default function buildData(
     legends,
     mythics,
     unreleased,
-  }: Filters,
-  pokemon: Pokemon,
+  },
+  relevantCPM,
+  pokemon,
+  matches,
 ) {
-  const matches: Match[] = []
-
   if (cp < 10) {
-    return matches
+    return
   }
-  const getMatches = (mon: Pokemon) => {
-    const localMatches: Match[] = []
+  /** @param {import('../assets/types').Pokemon} mon */
+  const getMatches = (mon) => {
+    const localMatches = []
     if (
       generations[mon.generation] &&
       (types[mon.types[0]] || types[mon.types[1]])
     ) {
-      Object.entries(CPM).forEach(([lvl, cpm]) => {
+      relevantCPM.forEach(([lvl, cpm]) => {
         const level = +lvl
         if (level >= minLevel && level <= maxLevel) {
           const minCp = cpCalc(
@@ -75,7 +91,7 @@ export default function buildData(
                       def,
                       sta,
                       level,
-                      iv,
+                      iv: Math.floor(iv),
                     })
                   }
                 }
@@ -89,13 +105,13 @@ export default function buildData(
   }
 
   if (pokemon.legendary && !legends) {
-    return matches
+    return
   }
   if (pokemon.mythical && !mythics) {
-    return matches
+    return
   }
   if (pokemon.unreleased && !unreleased) {
-    return matches
+    return
   }
 
   matches.push(...getMatches(pokemon))
@@ -122,5 +138,13 @@ export default function buildData(
       )
     }
   }
-  return matches
+  return
+}
+
+self.onmessage = function ({ data: { chunk, filters, relevantCPM } }) {
+  let results = []
+  for (let i = 0; i < chunk.length; i++) {
+    buildData(filters, relevantCPM, chunk[i], results)
+  }
+  self.postMessage(results)
 }
