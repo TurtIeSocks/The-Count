@@ -51,7 +51,6 @@ export function useCalculate(pokedex: Pokedex, cp: number) {
       console.time('Total time')
       const withCp = { ...filters, cp }
       useStorage.setState({ loading: true })
-      console.log(withCp)
       try {
         const promises = chunks.map((chunk, i) => {
           const worker = workers[i]

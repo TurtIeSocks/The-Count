@@ -3,6 +3,8 @@ import Typography from '@mui/material/Typography'
 import Box from '@mui/material/Box'
 import Search from '@components/Search'
 
+import '../global.css'
+
 export default function Home() {
   return (
     <Box

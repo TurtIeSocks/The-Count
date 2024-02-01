@@ -2,7 +2,6 @@ import { create } from 'zustand'
 import { persist, createJSONStorage } from 'zustand/middleware'
 import { Filters, Pokedex } from './types'
 import { DEFAULT_FILTERS } from './constants'
-import { getMasterfile } from './masterfile'
 
 interface UseStorage {
   darkMode: boolean | null
@@ -53,8 +52,5 @@ export const setPokedex = (pokedex: Pokedex) => {
       },
     },
     ready: true,
-    darkMode:
-      prev.darkMode ??
-      !!window?.matchMedia('(prefers-color-scheme: dark)').matches,
   }))
 }

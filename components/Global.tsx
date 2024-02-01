@@ -1,3 +1,4 @@
+'use client'
 import * as React from 'react'
 import GlobalStyles from '@mui/material/GlobalStyles'
 
@@ -9,7 +10,7 @@ export function ApplyGlobal() {
         const grey = darkMode ? 900 : 50
         return {
           body: {
-            backgroundColor: theme.palette.background.paper,
+            backgroundColor: `${theme.palette.background.paper}${typeof window === 'undefined' ? '' : ' !important'}`,
           },
           '*': {
             scrollbarWidth: 'thin',

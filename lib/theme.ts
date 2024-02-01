@@ -12,7 +12,6 @@ const roboto = Roboto({
 
 export const useCreateTheme = () => {
   const darkMode = useStorage((state) => state.darkMode)
-
   return useMemo(
     () =>
       responsiveFontSizes(
