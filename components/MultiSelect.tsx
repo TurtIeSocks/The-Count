@@ -1,3 +1,5 @@
+'use client'
+
 import * as React from 'react'
 import Grid2 from '@mui/material/Unstable_Grid2/Grid2'
 import FormControl from '@mui/material/FormControl'
@@ -9,7 +11,7 @@ import Checkbox from '@mui/material/Checkbox'
 import ListItemText from '@mui/material/ListItemText'
 import { capitalize } from '@mui/material/utils'
 
-import { MULTI_SELECT } from '../assets/constants'
+import { MULTI_SELECT } from '../lib/constants'
 import { useStorage } from '../lib/store'
 
 const ITEM_HEIGHT = 48
@@ -24,10 +26,10 @@ const MenuProps = {
 }
 
 interface Props {
-  name: typeof MULTI_SELECT[number]
+  name: (typeof MULTI_SELECT)[number]
 }
 
-export default React.memo(
+const MultiSelect = React.memo(
   ({ name }: Props) => {
     const filters = useStorage((s) => s.filters[name])
     const selected = React.useMemo(
@@ -61,7 +63,7 @@ export default React.memo(
             value={selected}
             onChange={handleChange}
             input={<OutlinedInput label={capitalize(name)} />}
-            renderValue={(selected) => `${selected.length} selected`}
+            renderValue={(selected) => `${selected?.length || 0} selected`}
             MenuProps={MenuProps}
           >
             {Object.entries(filters).map(([name, value]) => (
@@ -77,3 +79,7 @@ export default React.memo(
   },
   (prev, next) => prev.name === next.name,
 )
+
+MultiSelect.displayName = 'MultiSelect'
+
+export default MultiSelect

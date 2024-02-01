@@ -1,6 +1,8 @@
+'use client'
+
 import * as React from 'react'
 import Table from '@mui/material/Table'
-import TableBody from '@mui/material/TableBody'
+import MuiTableBody from '@mui/material/TableBody'
 import TableCell from '@mui/material/TableCell'
 import TableContainer from '@mui/material/TableContainer'
 import TableHead from '@mui/material/TableHead'
@@ -12,14 +14,23 @@ import Grid2 from '@mui/material/Unstable_Grid2/Grid2'
 import { capitalize } from '@mui/material/utils'
 
 import { useCalculate } from '../lib/useCalculate'
-import { COLUMNS } from '../assets/constants'
-import { Match } from '../assets/types'
+import { COLUMNS } from '../lib/constants'
+import { Match, Pokedex } from '../lib/types'
 import { useStorage } from '../lib/store'
+import { useSearchParams } from 'next/navigation'
+
+const Scroller = React.forwardRef<HTMLDivElement>((props, ref) => (
+  <TableContainer component={Paper} {...props} ref={ref} />
+))
+Scroller.displayName = 'Scroller'
+
+const TableBody = React.forwardRef<HTMLTableSectionElement>((props, ref) => (
+  <MuiTableBody {...props} ref={ref} />
+))
+TableBody.displayName = 'TableBody'
 
 const VirtuosoTableComponents: TableComponents<Match> = {
-  Scroller: React.forwardRef<HTMLDivElement>((props, ref) => (
-    <TableContainer component={Paper} {...props} ref={ref} />
-  )),
+  Scroller,
   Table: (props) => (
     <Table
       {...props}
@@ -28,9 +39,7 @@ const VirtuosoTableComponents: TableComponents<Match> = {
   ),
   TableHead,
   TableRow: ({ item: _item, ...props }) => <TableRow {...props} />,
-  TableBody: React.forwardRef<HTMLTableSectionElement>((props, ref) => (
-    <TableBody {...props} ref={ref} />
-  )),
+  TableBody,
 }
 
 function fixedHeaderContent() {
@@ -62,9 +71,12 @@ function itemContent(_index: number, row: Match) {
   )
 }
 
-export default function ResultTable() {
-  const data = useCalculate()
+export default function ResultTable({ pokedex }: { pokedex: Pokedex }) {
+  const searchParams = useSearchParams()
+  const cp = +(searchParams.get('cp') || '0')
+  const data = useCalculate(pokedex, cp)
   const unreleased = useStorage((s) => s.filters.unreleased)
+
   return (
     <Grid2
       className="layout"
@@ -75,8 +87,7 @@ export default function ResultTable() {
       p={2}
     >
       <Typography variant="h5" align="center" gutterBottom>
-        {data.length.toLocaleString()} results for{' '}
-        {useStorage.getState().filters.cp.toLocaleString()} CP
+        {data.length.toLocaleString()} results for {cp.toLocaleString()} CP
       </Typography>
       <TableVirtuoso
         data={data}

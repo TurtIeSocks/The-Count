@@ -1,3 +1,5 @@
+'use client'
+
 import * as React from 'react'
 import {
   Typography,
@@ -14,7 +16,7 @@ import SliderTile from './SliderTile'
 import FilterSwitch from './FilterSwitch'
 import Search from './Search'
 
-import { MULTI_SELECT, SLIDERS, SWITCHES } from '../assets/constants'
+import { MULTI_SELECT, SLIDERS, SWITCHES } from '../lib/constants'
 import { useStorage } from '../lib/store'
 
 const AdvancedOptions = () => (
@@ -58,7 +60,7 @@ const DesktopView = () => (
   </Box>
 )
 
-export default React.memo(
+const AdvancedSearch = React.memo(
   () => (
     <Grid2 className="layout" xs={12} sm={6} p={2}>
       <Search />
@@ -68,3 +70,7 @@ export default React.memo(
   ),
   () => true,
 )
+
+AdvancedSearch.displayName = 'AdvancedSearch'
+
+export default AdvancedSearch

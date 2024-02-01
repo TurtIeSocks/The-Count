@@ -1,13 +1,14 @@
-/* eslint-disable no-param-reassign */
+'use client'
+
 import * as React from 'react'
 import Grid2 from '@mui/material/Unstable_Grid2/Grid2'
 import Slider from '@mui/material/Slider'
 import Typography from '@mui/material/Typography'
 
 import { useStorage } from '../lib/store'
-import { SliderProps } from '../assets/types'
+import { SliderProps } from '../lib/types'
 
-export default React.memo(
+const SliderTile = React.memo(
   ({ name, shortName, min, max }: SliderProps) => {
     const values = useStorage((s) => s.filters[shortName])
     const [local, setLocal] = React.useState(values)
@@ -43,3 +44,7 @@ export default React.memo(
   },
   (prev, next) => prev.name === next.name,
 )
+
+SliderTile.displayName = 'SliderTile'
+
+export default SliderTile

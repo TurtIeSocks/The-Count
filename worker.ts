@@ -1,26 +1,10 @@
-// @ts-check
+import type { Filters, Match, Pokemon } from '@lib/types'
 
-/**
- *
- * @param {number} atk
- * @param {number} def
- * @param {number} sta
- * @param {number} cpm
- * @returns {number}
- */
-function cpCalc(atk, def, sta, cpm) {
+function cpCalc(atk: number, def: number, sta: number, cpm: number) {
   const cp = Math.floor((atk * def ** 0.5 * sta ** 0.5 * cpm ** 2) / 10)
   return cp < 10 ? 10 : cp
 }
 
-/**
- *
- * @param {import('../assets/types').Filters} filter
- * @param {[string, number][]} relevantCPM
- * @param {import('../assets/types').Pokemon} pokemon
- * @param {import('../assets/types').Match[]} matches
- * @returns {void}
- */
 function buildData(
   {
     cp,
@@ -36,19 +20,19 @@ function buildData(
     legends,
     mythics,
     unreleased,
-  },
-  relevantCPM,
-  pokemon,
-  matches,
+  }: Filters,
+  relevantCPM: [string, number][],
+  pokemon: Pokemon,
+  matches: Match[],
 ) {
   if (cp < 10) {
     return
   }
-  /** @param {import('../assets/types').Pokemon} mon */
-  const getMatches = (mon) => {
-    const localMatches = []
+  const getMatches = (mon: Pokemon) => {
+    const localMatches: Match[] = []
     if (
       generations[mon.generation] &&
+      mon.types &&
       (types[mon.types[0]] || types[mon.types[1]])
     ) {
       relevantCPM.forEach(([lvl, cpm]) => {
@@ -141,10 +125,10 @@ function buildData(
   return
 }
 
-self.onmessage = function ({ data: { chunk, filters, relevantCPM } }) {
-  let results = []
+addEventListener('message', ({ data: { chunk, filters, relevantCPM } }) => {
+  let results: Match[] = []
   for (let i = 0; i < chunk.length; i++) {
     buildData(filters, relevantCPM, chunk[i], results)
   }
-  self.postMessage(results)
-}
+  postMessage(results)
+})

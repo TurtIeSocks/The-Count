@@ -1,63 +1,59 @@
+'use client'
+
 import * as React from 'react'
+import { useSearchParams, useRouter } from 'next/navigation'
 import Grid2 from '@mui/material/Unstable_Grid2/Grid2'
-import Paper from '@mui/material/Paper'
-import InputBase from '@mui/material/InputBase'
 import IconButton from '@mui/material/IconButton'
 import SearchIcon from '@mui/icons-material/Search'
 
-import { useStorage } from '../lib/store'
+import TextField from '@mui/material/TextField'
 
 export default function Search() {
-  const value = useStorage((s) => s.filters.cp)
-  const [local, setLocal] = React.useState<number | ''>(value || '')
+  const searchParams = useSearchParams()
+  const router = useRouter()
 
-  const handleSubmit = React.useCallback(
-    (event: React.FormEvent) => {
-      event.preventDefault()
-      if (typeof local === 'number') {
-        useStorage.setState((prev) => ({
-          filters: { ...prev.filters, cp: local },
-        }))
-      }
-    },
-    [local],
-  )
+  const [value, setValue] = React.useState(searchParams.get('cp') || '')
+
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const newValue = event.target.value === '' ? '' : event.target.value || ''
+    setValue(newValue)
+  }
+
+  const handleSubmit = (event: React.FormEvent) => {
+    event.preventDefault()
+
+    const params = new URLSearchParams()
+    if (value) {
+      params.set('cp', value)
+      router.push(`/results?${params.toString()}`)
+    } else {
+      router.push('/')
+    }
+  }
 
   return (
     <Grid2 xs={12}>
       <form onSubmit={handleSubmit}>
-        <Paper
-          elevation={0}
+        <TextField
+          placeholder="Enter Combat Power (CP)"
           variant="outlined"
-          style={{
-            padding: '2px 4px',
-            display: 'flex',
-            alignItems: 'center',
-            margin: 3,
-            backgroundColor: '#2E2E2E',
+          type="number"
+          value={value}
+          onChange={handleChange}
+          InputProps={{
+            sx: { pl: 2 },
+            endAdornment: (
+              <IconButton style={{ padding: 10 }} onClick={handleSubmit}>
+                <SearchIcon color="primary" />
+              </IconButton>
+            ),
           }}
-        >
-          <InputBase
-            style={{ flex: 1, margin: 6 }}
-            placeholder="Enter Combat Power (CP)"
-            name="cp"
-            onChange={(e) => {
-              console.log(e.target.value)
-              const num = +e.target.value
-              return setLocal(Number.isInteger(num) ? num : '')
-            }}
-            value={local}
-            fullWidth
-            autoComplete="off"
-            type="number"
-            inputProps={{
-              min: 10,
-            }}
-          />
-          <IconButton style={{ padding: 10 }} onClick={handleSubmit}>
-            <SearchIcon color="secondary" />
-          </IconButton>
-        </Paper>
+          fullWidth
+          inputProps={{
+            min: 10,
+          }}
+          sx={{ boxShadow: 1 }}
+        />
       </form>
     </Grid2>
   )

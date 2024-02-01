@@ -3,7 +3,7 @@ import FormControlLabel from '@mui/material/FormControlLabel'
 import Switch from '@mui/material/Switch'
 import { capitalize } from '@mui/material'
 
-import { SWITCHES } from '../assets/constants'
+import { SWITCHES } from '../lib/constants'
 import { useStorage } from '../lib/store'
 
 interface Props {
