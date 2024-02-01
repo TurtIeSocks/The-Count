@@ -2,7 +2,7 @@
 
 import * as React from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
-import Grid2 from '@mui/material/Unstable_Grid2/Grid2'
+import Grid2 from '@mui/material/Unstable_Grid2'
 import IconButton from '@mui/material/IconButton'
 import SearchIcon from '@mui/icons-material/Search'
 
@@ -12,7 +12,7 @@ export default function Search() {
   const searchParams = useSearchParams()
   const router = useRouter()
 
-  const [value, setValue] = React.useState(searchParams.get('cp') || '')
+  const [value, setValue] = React.useState('')
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const newValue = event.target.value === '' ? '' : event.target.value || ''
@@ -30,6 +30,10 @@ export default function Search() {
       router.push('/')
     }
   }
+
+  React.useEffect(() => {
+    setValue(searchParams.get('cp') || '')
+  }, [searchParams])
 
   return (
     <Grid2 xs={12}>

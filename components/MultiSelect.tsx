@@ -1,7 +1,7 @@
 'use client'
 
 import * as React from 'react'
-import Grid2 from '@mui/material/Unstable_Grid2/Grid2'
+import Grid2 from '@mui/material/Unstable_Grid2'
 import FormControl from '@mui/material/FormControl'
 import InputLabel from '@mui/material/InputLabel'
 import Select, { SelectProps } from '@mui/material/Select'

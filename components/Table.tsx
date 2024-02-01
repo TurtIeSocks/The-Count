@@ -10,7 +10,7 @@ import TableRow from '@mui/material/TableRow'
 import Paper from '@mui/material/Paper'
 import { TableVirtuoso, TableComponents } from 'react-virtuoso'
 import Typography from '@mui/material/Typography'
-import Grid2 from '@mui/material/Unstable_Grid2/Grid2'
+import Grid2 from '@mui/material/Unstable_Grid2'
 import { capitalize } from '@mui/material/utils'
 
 import { useCalculate } from '../lib/useCalculate'
@@ -73,10 +73,10 @@ function itemContent(_index: number, row: Match) {
   )
 }
 
-export default function ResultTable({ pokedex }: { pokedex: Pokedex }) {
+export default function ResultTable() {
   const searchParams = useSearchParams()
   const cp = +(searchParams.get('cp') || '0')
-  const data = useCalculate(pokedex, cp)
+  const data = useCalculate(cp)
   const unreleased = useStorage((s) => s.filters.unreleased)
 
   return (

@@ -1,9 +1,7 @@
-'use client'
-
 import { useEffect, useMemo, useState } from 'react'
 import { CPM } from './constants'
-import { setPokedex, useStorage } from './store'
-import { Match, Pokedex } from './types'
+import { useStorage } from './store'
+import { Match } from './types'
 
 function chunkArray<T>(array: T[], numberOfChunks: number): T[][] {
   const chunks = []
@@ -18,10 +16,11 @@ function chunkArray<T>(array: T[], numberOfChunks: number): T[][] {
   return chunks
 }
 
-export function useCalculate(pokedex: Pokedex, cp: number) {
+export function useCalculate(cp: number) {
   const filters = useStorage((state) => state.filters)
+  const pokedex = useStorage((s) => s.pokedex)
+  const ready = useStorage((s) => s.ready)
   const [matches, setMatches] = useState<Match[]>([])
-  const ready = useStorage((state) => state.ready)
 
   const relevantCPM = useMemo(
     () =>
@@ -32,23 +31,22 @@ export function useCalculate(pokedex: Pokedex, cp: number) {
     [filters.level],
   )
 
-  const workers = useMemo(() => {
-    if (typeof Worker !== 'undefined') {
-      return new Array(navigator.hardwareConcurrency || 4)
-        .fill(0)
-        .map(() => new Worker(new URL('../worker.ts', import.meta.url)))
+  const { workers, chunks } = useMemo(() => {
+    const localWorkers =
+      typeof Worker !== 'undefined'
+        ? new Array(navigator.hardwareConcurrency || 4)
+            .fill(0)
+            .map(() => new Worker(new URL('../worker.ts', import.meta.url)))
+        : []
+    return {
+      workers: localWorkers,
+      chunks: chunkArray(pokedex, localWorkers.length),
     }
-    return []
-  }, [])
-
-  const chunks = useMemo(
-    () => chunkArray(pokedex, workers.length),
-    [pokedex, workers.length],
-  )
+  }, [pokedex])
 
   useEffect(() => {
-    if (ready) {
-      console.time('Total time')
+    console.time('Total time')
+    if (ready && pokedex.length > 0 && cp > 10) {
       const withCp = { ...filters, cp }
       useStorage.setState({ loading: true })
       try {
@@ -60,7 +58,6 @@ export function useCalculate(pokedex: Pokedex, cp: number) {
             worker.onerror = (e) => reject(e)
           }) as Promise<Match[]>
         })
-
         Promise.all(promises).then((allResults) => {
           console.timeEnd('Total time')
           setMatches(allResults.flat())
@@ -70,8 +67,6 @@ export function useCalculate(pokedex: Pokedex, cp: number) {
       } finally {
         useStorage.setState({ loading: false })
       }
-    } else {
-      setPokedex(pokedex)
     }
   }, [filters, cp, relevantCPM, pokedex, chunks, workers, ready])
 

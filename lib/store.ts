@@ -10,6 +10,7 @@ interface UseStorage {
   loading: boolean
   error: Error | null
   ready: boolean
+  pokedex: Pokedex
 }
 
 export const useStorage = create<UseStorage>()(
@@ -21,6 +22,7 @@ export const useStorage = create<UseStorage>()(
       loading: false,
       error: null,
       ready: false,
+      pokedex: [],
     }),
     {
       name: 'local-state',
@@ -35,6 +37,7 @@ export const useStorage = create<UseStorage>()(
 )
 
 export const setPokedex = (pokedex: Pokedex) => {
+  if (!pokedex) return
   const generations = pokedex.reduce(
     (acc, mon) => {
       acc[mon.generation] = true
@@ -51,6 +54,7 @@ export const setPokedex = (pokedex: Pokedex) => {
         ...prev.filters.generations,
       },
     },
+    pokedex,
     ready: true,
   }))
 }

@@ -7,7 +7,7 @@ import {
   AccordionSummary,
   AccordionDetails,
 } from '@mui/material'
-import Grid2 from '@mui/material/Unstable_Grid2/Grid2'
+import Grid2 from '@mui/material/Unstable_Grid2'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 import Box from '@mui/material/Box'
 

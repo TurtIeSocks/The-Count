@@ -1,26 +1,21 @@
-'use client'
-
 import * as React from 'react'
 import IconButton from '@mui/material/IconButton'
-import useTheme from '@mui/material/styles/useTheme'
 import DarkModeIcon from '@mui/icons-material/DarkMode'
 import LightModeIcon from '@mui/icons-material/LightMode'
 
-import { useStorage } from '../lib/store'
+import { useColorScheme } from '@mui/material/styles'
 
-const handleClick = () =>
-  useStorage.setState((prev) => ({ darkMode: !prev.darkMode }))
+const lightMode = <LightModeIcon fontSize="large" />
+const darkMode = <DarkModeIcon fontSize="large" />
 
 export default function ThemeToggle() {
-  const theme = useTheme()
-
+  const { mode, setMode } = useColorScheme()
   return (
-    <IconButton onClick={handleClick} size="large">
-      {theme.palette.mode === 'dark' ? (
-        <LightModeIcon fontSize="large" />
-      ) : (
-        <DarkModeIcon fontSize="large" />
-      )}
+    <IconButton
+      onClick={() => setMode(mode === 'dark' ? 'light' : 'dark')}
+      size="large"
+    >
+      {mode === 'dark' ? lightMode : darkMode}
     </IconButton>
   )
 }

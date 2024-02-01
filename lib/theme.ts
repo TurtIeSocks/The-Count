@@ -3,6 +3,7 @@ import { Roboto } from 'next/font/google'
 import { createTheme, responsiveFontSizes } from '@mui/material/styles'
 import { useMemo } from 'react'
 import { useStorage } from './store'
+import { experimental_extendTheme as extendTheme } from '@mui/material/styles'
 
 const roboto = Roboto({
   weight: ['300', '400', '500', '700'],
@@ -10,40 +11,39 @@ const roboto = Roboto({
   display: 'swap',
 })
 
-export const useCreateTheme = () => {
-  const darkMode = useStorage((state) => state.darkMode)
-  return useMemo(
-    () =>
-      responsiveFontSizes(
-        createTheme({
-          palette: {
-            mode: darkMode ? 'dark' : 'light',
-            primary: {
-              main: '#ff5722',
-            },
-            secondary: {
-              main: '#00b0ff',
-            },
-          },
-          typography: {
-            fontFamily: roboto.style.fontFamily,
-          },
-          components: {
-            MuiGrid2: {
-              defaultProps: {
-                alignItems: 'center',
-                justifyContent: 'center',
-                textAlign: 'center',
-              },
-            },
-            MuiPaper: {
-              defaultProps: {
-                elevation: 0,
-              },
-            },
-          },
-        }),
-      ),
-    [darkMode],
-  )
+const baseTheme = {
+  primary: {
+    main: '#ff5722',
+  },
+  secondary: {
+    main: '#00b0ff',
+  },
 }
+
+export const theme = extendTheme({
+  colorSchemes: {
+    light: {
+      palette: baseTheme,
+    },
+    dark: {
+      palette: baseTheme,
+    },
+  },
+  typography: {
+    fontFamily: roboto.style.fontFamily,
+  },
+  components: {
+    MuiGrid2: {
+      defaultProps: {
+        alignItems: 'center',
+        justifyContent: 'center',
+        textAlign: 'center',
+      },
+    },
+    MuiPaper: {
+      defaultProps: {
+        elevation: 0,
+      },
+    },
+  },
+})

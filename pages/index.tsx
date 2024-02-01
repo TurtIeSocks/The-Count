@@ -2,10 +2,10 @@ import * as React from 'react'
 import Typography from '@mui/material/Typography'
 import Box from '@mui/material/Box'
 import Search from '@components/Search'
+import { getMasterfile } from '@lib/masterfile'
+import { Pokedex } from '@lib/types'
 
-import '../global.css'
-
-export default function Home() {
+export default function Home({ pokedex }: { pokedex: Pokedex }) {
   return (
     <Box
       display="flex"
