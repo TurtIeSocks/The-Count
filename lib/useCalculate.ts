@@ -52,7 +52,7 @@ export function useCalculate() {
   }, [pokedex, workers])
 
   useEffect(() => {
-    if (ready && filters.cp > 10) {
+    if (ready && filters.cp > 10 && pokedex.length > 0 && workers.length > 0) {
       const time = Date.now()
       try {
         const ivF = { ...filters, iv: filters.iv.map((iv) => iv / 100) }
@@ -79,7 +79,7 @@ export function useCalculate() {
         console.error(e)
       }
     }
-  }, [filters, relevantCPM, chunks, workers, ready])
+  }, [filters, relevantCPM, chunks, workers, ready, pokedex])
 
   return { matches, count, time, cp: filters.cp }
 }
