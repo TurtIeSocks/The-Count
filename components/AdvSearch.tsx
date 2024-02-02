@@ -39,11 +39,13 @@ const AdvancedOptions = () => (
 const MobileView = () => {
   const advExpanded = useStorage((s) => s.advExpanded)
   return (
-    <IconButton sx={{ display: { xs: 'block', sm: 'none' }, pr: 0 }}>
+    <IconButton
+      sx={{ display: { xs: 'block', sm: 'none' }, pr: 0 }}
+      onClick={() => {
+        useStorage.setState({ advExpanded: !advExpanded })
+      }}
+    >
       <ExpandMoreIcon
-        onClick={() => {
-          useStorage.setState({ advExpanded: !advExpanded })
-        }}
         className={advExpanded ? styles.expanded : styles.collapsed}
       />
     </IconButton>

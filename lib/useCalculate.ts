@@ -45,11 +45,11 @@ export function useCalculate(cp: number) {
   }, [pokedex])
 
   useEffect(() => {
-    console.time('Total time')
     if (ready && pokedex.length > 0 && cp > 10) {
       const withCp = { ...filters, cp }
       useStorage.setState({ loading: true })
       try {
+        console.time('Total time')
         const promises = chunks.map((chunk, i) => {
           const worker = workers[i]
           return new Promise((resolve, reject) => {

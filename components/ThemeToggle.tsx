@@ -5,9 +5,6 @@ import LightModeIcon from '@mui/icons-material/LightMode'
 
 import { useColorScheme } from '@mui/material/styles'
 
-const lightMode = <LightModeIcon fontSize="large" />
-const darkMode = <DarkModeIcon fontSize="large" />
-
 export default function ThemeToggle() {
   const { mode, setMode } = useColorScheme()
   return (
@@ -15,7 +12,11 @@ export default function ThemeToggle() {
       onClick={() => setMode(mode === 'dark' ? 'light' : 'dark')}
       size="large"
     >
-      {mode === 'dark' ? lightMode : darkMode}
+      {mode === 'dark' ? (
+        <LightModeIcon fontSize="large" />
+      ) : (
+        <DarkModeIcon fontSize="large" />
+      )}
     </IconButton>
   )
 }

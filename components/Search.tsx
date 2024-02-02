@@ -55,7 +55,7 @@ export default function Search() {
         inputProps={{
           min: 10,
         }}
-        sx={{ boxShadow: 1, py: 1 }}
+        sx={{ py: 1 }}
       />
     </form>
   )
