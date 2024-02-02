@@ -18,7 +18,7 @@ export function buildData(
   matches: Match[],
 ) {
   let count = 0
-  level: for (let i = 0; i < relevantCPM.length; i++) {
+  for (let i = 0; i < relevantCPM.length; i++) {
     const [level, cpm] = relevantCPM[i]
     const minCp = cpCalc(
       pokemon.attack + minAtk,
@@ -42,9 +42,9 @@ export function buildData(
         (maxAtk - minAtk + 1) * (maxDef - minDef + 1) * (maxSta - minSta + 1)
       continue
     }
-    atk: for (let atk = minAtk; atk <= maxAtk; atk++) {
-      def: for (let def = minDef; def <= maxDef; def++) {
-        sta: for (let sta = minSta; sta <= maxSta; sta++) {
+    for (let atk = minAtk; atk <= maxAtk; atk++) {
+      for (let def = minDef; def <= maxDef; def++) {
+        for (let sta = minSta; sta <= maxSta; sta++) {
           const iv = (atk + def + sta) / 45
           if (iv >= minIv && iv <= maxIv) {
             count++

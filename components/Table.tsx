@@ -74,7 +74,6 @@ function itemContent(_index: number, row: Match) {
 export default function ResultTable() {
   const { matches, count, time, cp } = useCalculate()
   const unreleased = useStorage((s) => s.filters.unreleased)
-
   return (
     <Grid2
       xs={12}

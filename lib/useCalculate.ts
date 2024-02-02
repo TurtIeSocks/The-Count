@@ -27,10 +27,13 @@ export function useCalculate() {
 
   const relevantCPM = useMemo(
     () =>
-      Object.entries(CPM).filter(([lvl, _]) => {
-        const level = +lvl
-        return level >= filters.level[0] && level <= filters.level[1]
-      }),
+      Object.entries(CPM)
+        .filter(([lvl, _]) => {
+          const level = +lvl
+          return level >= filters.level[0] && level <= filters.level[1]
+        })
+        .map(([level, cpm]) => [+level, cpm] as [number, number])
+        .sort(([a], [b]) => a - b),
     [filters.level],
   )
 
@@ -57,12 +60,11 @@ export function useCalculate() {
       return false
     })
     return chunkArray(pokedexFiltered, workers.length)
-  }, [filters, pokedex, workers.length])
+  }, [filters, pokedex, workers])
 
   useEffect(() => {
     if (ready && filters.cp > 10) {
       const time = Date.now()
-      useStorage.setState({ loading: true })
       try {
         const ivF = { ...filters, iv: filters.iv.map((iv) => iv / 100) }
         const promises = chunks.map((chunk, i) => {
@@ -86,8 +88,6 @@ export function useCalculate() {
         })
       } catch (e) {
         console.error(e)
-      } finally {
-        useStorage.setState({ loading: false })
       }
     }
   }, [filters, relevantCPM, chunks, workers, ready])
