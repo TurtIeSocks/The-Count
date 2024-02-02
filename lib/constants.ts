@@ -186,8 +186,8 @@ export const DEFAULT_FILTERS: Filters = {
   megas: true,
   legends: true,
   mythics: true,
+  ultraBeasts: true,
   unreleased: false,
-  ultraBeasts: false,
 }
 
 export const MULTI_SELECT = ['generations', 'types'] as const
