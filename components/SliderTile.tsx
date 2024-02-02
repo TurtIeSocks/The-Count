@@ -2,18 +2,26 @@ import * as React from 'react'
 import Grid2 from '@mui/material/Unstable_Grid2'
 import Slider from '@mui/material/Slider'
 import Typography from '@mui/material/Typography'
+import StarIcon from '@mui/icons-material/Star'
 
 import { useStorage } from '@lib/store'
 import { SliderProps } from '@lib/types'
 
 const IV_MARK = 100 / 45
 const roundToOne = (num: number) => +num.toFixed(1)
+
+const Star = ({ children }: { children: string }) => (
+  <Grid2 container flexWrap="nowrap">
+    {children}
+    <StarIcon fontSize="small" />
+  </Grid2>
+)
 const MARKS = [
-  { value: 0, label: '0 Star' },
-  { value: 51.1, label: '1 Star' },
-  { value: 66.7, label: '2 Star' },
-  { value: 82.2, label: '3 Star' },
-  { value: 100, label: '4 Star' },
+  { value: 0, label: <Star>0</Star> },
+  { value: 51.1, label: <Star>1</Star> },
+  { value: 66.7, label: <Star>2</Star> },
+  { value: 82.2, label: <Star>3</Star> },
+  { value: 100, label: <Star>4</Star> },
 ]
 
 const SliderTile = React.memo(
