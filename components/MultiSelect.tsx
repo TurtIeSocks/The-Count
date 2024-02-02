@@ -61,7 +61,9 @@ const MultiSelect = React.memo(
             value={selected}
             onChange={handleChange}
             input={<OutlinedInput label={capitalize(name)} />}
-            renderValue={(selected) => `${selected?.length || 0} selected`}
+            renderValue={(selected) =>
+              `${selected?.length || 0} / ${Object.keys(filters).length} selected`
+            }
             MenuProps={MenuProps}
           >
             {Object.entries(filters).map(([name, value]) => (

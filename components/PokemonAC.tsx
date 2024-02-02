@@ -38,7 +38,7 @@ export default function PokemonAC() {
         options={mons}
         value={selected}
         disableCloseOnSelect
-        renderTags={(value) => `${value.length} selected`}
+        renderTags={(value) => `${value.length} / ${mons.length} selected`}
         onChange={(_, value) => {
           useStorage.setState({ selected: value })
         }}
