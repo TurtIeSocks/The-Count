@@ -187,6 +187,7 @@ export const DEFAULT_FILTERS: Filters = {
   legends: true,
   mythics: true,
   unreleased: false,
+  ultraBeasts: false,
 }
 
 export const MULTI_SELECT = ['generations', 'types'] as const
@@ -194,9 +195,10 @@ export const MULTI_SELECT = ['generations', 'types'] as const
 export const SWITCHES = [
   'forms',
   'megas',
-  'unreleased',
   'legends',
   'mythics',
+  'ultraBeasts',
+  'unreleased',
 ] as const
 
 export const COLUMNS = ['name', 'atk', 'def', 'sta', 'iv', 'level'] as const

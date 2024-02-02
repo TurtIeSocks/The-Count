@@ -1,5 +1,3 @@
-'use client'
-
 import * as React from 'react'
 import Table from '@mui/material/Table'
 import MuiTableBody from '@mui/material/TableBody'
@@ -15,9 +13,8 @@ import { capitalize } from '@mui/material/utils'
 
 import { useCalculate } from '../lib/useCalculate'
 import { COLUMNS } from '../lib/constants'
-import { Match, Pokedex } from '../lib/types'
+import { Match } from '../lib/types'
 import { useStorage } from '../lib/store'
-import { useSearchParams } from 'next/navigation'
 
 import styles from '../styles.module.css'
 import Box from '@mui/material/Box'
@@ -75,9 +72,7 @@ function itemContent(_index: number, row: Match) {
 }
 
 export default function ResultTable() {
-  const searchParams = useSearchParams()
-  const cp = +(searchParams.get('cp') || '0')
-  const data = useCalculate(cp)
+  const { matches, count, time, cp } = useCalculate()
   const unreleased = useStorage((s) => s.filters.unreleased)
 
   return (
@@ -88,11 +83,18 @@ export default function ResultTable() {
       height={{ xs: 'calc(100% - 72px)', sm: '100%' }}
     >
       <Box className={styles.layout} height="100%">
-        <Typography variant="h5" align="center" mt={2}>
-          {data.length.toLocaleString()} results for {cp.toLocaleString()} CP
-        </Typography>
+        <Box mt={2}>
+          <Typography variant="h6" align="center" lineHeight={1}>
+            {matches.length.toLocaleString()} results for {cp.toLocaleString()}{' '}
+            CP
+          </Typography>
+          <Typography variant="caption" align="center">
+            Checked {count.toLocaleString()} combinations in{' '}
+            {time.toLocaleString()} ms
+          </Typography>
+        </Box>
         <TableVirtuoso
-          data={data}
+          data={matches}
           components={VirtuosoTableComponents}
           fixedHeaderContent={fixedHeaderContent}
           itemContent={itemContent}

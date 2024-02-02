@@ -1,19 +1,16 @@
-export interface Form {
+export interface Pokemon {
   name: string
   attack: number
   defense: number
   stamina: number
-  types?: string[]
-  unreleased: boolean
-}
-
-export interface Pokemon extends Form {
+  types: string[]
   generation: string
-  forms: Form[]
-  megas: Form[]
+  unreleased: boolean
   legendary: boolean
   mythical: boolean
   ultraBeast: boolean
+  form: boolean
+  mega: boolean
 }
 
 export type Pokedex = Pokemon[]
@@ -41,6 +38,7 @@ export interface Filters {
   legends: boolean
   mythics: boolean
   unreleased: boolean
+  ultraBeasts: boolean
 }
 
 export interface SliderProps {

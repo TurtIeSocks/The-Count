@@ -1,12 +1,10 @@
-'use client'
-
 import * as React from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
-import Grid2 from '@mui/material/Unstable_Grid2'
 import IconButton from '@mui/material/IconButton'
 import SearchIcon from '@mui/icons-material/Search'
 
 import TextField from '@mui/material/TextField'
+import { useStorage } from '@lib/store'
 
 export default function Search() {
   const searchParams = useSearchParams()
@@ -32,7 +30,14 @@ export default function Search() {
   }
 
   React.useEffect(() => {
-    setValue(searchParams.get('cp') || '')
+    const cp = searchParams.get('cp') || ''
+    setValue(cp)
+    useStorage.setState((prev) => ({
+      filters: {
+        ...prev.filters,
+        cp: +cp,
+      },
+    }))
   }, [searchParams])
 
   return (

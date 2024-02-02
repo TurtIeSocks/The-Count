@@ -1,15 +1,7 @@
-'use client'
-
 import * as React from 'react'
-import {
-  Typography,
-  Accordion,
-  AccordionSummary,
-  AccordionDetails,
-  IconButton,
-  Collapse,
-} from '@mui/material'
 import Grid2 from '@mui/material/Unstable_Grid2'
+import Collapse from '@mui/material/Collapse'
+import IconButton from '@mui/material/IconButton'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 import Box from '@mui/material/Box'
 

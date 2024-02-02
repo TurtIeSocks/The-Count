@@ -1,5 +1,3 @@
-'use client'
-
 import * as React from 'react'
 import Grid2 from '@mui/material/Unstable_Grid2'
 import Slider from '@mui/material/Slider'

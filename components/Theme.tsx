@@ -1,5 +1,3 @@
-'use client'
-
 import { theme } from '@lib/theme'
 import CssBaseline from '@mui/material/CssBaseline'
 import React from 'react'

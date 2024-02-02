@@ -1,4 +1,4 @@
-import { Masterfile, Pokemon } from './types'
+import { Masterfile, Pokedex, Pokemon } from './types'
 
 export async function getMasterfile() {
   const masterfile: Masterfile = await fetch(
@@ -21,14 +21,13 @@ export async function getMasterfile() {
       return {}
     })
 
-  const pokedex: Record<string, Pokemon> = {}
+  const pokedex: Pokedex = []
   Object.entries(masterfile.pokemon).forEach(([id, pkmn]) => {
     const name = remoteLocale[`poke_${id}`]
-    pokedex[id] = {
+    const types = pkmn.types.map((type) => remoteLocale[`poke_type_${type}`])
+    pokedex.push({
       name,
-      forms: [],
-      megas: [],
-      types: pkmn.types.map((type) => remoteLocale[`poke_type_${type}`]),
+      types,
       attack: pkmn.attack,
       defense: pkmn.defense,
       stamina: pkmn.stamina,
@@ -37,20 +36,28 @@ export async function getMasterfile() {
       legendary: pkmn.legendary,
       mythical: pkmn.mythic,
       ultraBeast: pkmn.ultraBeast,
-    }
+      form: false,
+      mega: false,
+    })
     if (pkmn.forms) {
       pkmn.forms.forEach((formId) => {
         const form = masterfile.forms[formId]
         if (form?.attack && form?.defense && form?.stamina && +formId) {
-          pokedex[id].forms.push({
+          pokedex.push({
             name: `${name} (${remoteLocale[`form_${formId}`]})`,
-            types:
-              form.types &&
-              form.types.map((type) => remoteLocale[`poke_type_${type}`]),
+            types: form.types
+              ? form.types.map((type) => remoteLocale[`poke_type_${type}`])
+              : types,
             attack: form.attack,
             defense: form.defense,
             stamina: form.stamina,
             unreleased: form.unreleased,
+            generation: pkmn.generation,
+            legendary: pkmn.legendary,
+            mythical: pkmn.mythic,
+            ultraBeast: pkmn.ultraBeast,
+            form: true,
+            mega: false,
           })
         }
       })
@@ -58,15 +65,21 @@ export async function getMasterfile() {
     if (pkmn.tempEvolutions) {
       pkmn.tempEvolutions.forEach((mega) => {
         if (+mega.tempEvoId) {
-          pokedex[id].megas.push({
+          pokedex.push({
             name: `${name} ${remoteLocale[`evo_${mega.tempEvoId}`]}`,
-            types:
-              mega.types &&
-              mega.types.map((type) => remoteLocale[`poke_type_${type}`]),
-            attack: mega.attack,
-            defense: mega.defense,
-            stamina: mega.stamina,
+            types: mega.types
+              ? mega.types.map((type) => remoteLocale[`poke_type_${type}`])
+              : types,
+            attack: mega.attack || pkmn.attack,
+            defense: mega.defense || pkmn.defense,
+            stamina: mega.stamina || pkmn.stamina,
             unreleased: !!mega.unreleased,
+            generation: pkmn.generation,
+            legendary: pkmn.legendary,
+            mythical: pkmn.mythic,
+            ultraBeast: pkmn.ultraBeast,
+            form: false,
+            mega: true,
           })
         }
       })

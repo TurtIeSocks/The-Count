@@ -11,7 +11,6 @@ import GitHubIcon from '@mui/icons-material/GitHub'
 import dynamic from 'next/dynamic'
 
 import styles from '../styles.module.css'
-import ThemeToggle from '@components/ThemeToggle'
 import IconButton from '@mui/material/IconButton'
 import { Header } from '@components/Header'
 

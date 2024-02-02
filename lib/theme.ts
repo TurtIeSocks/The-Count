@@ -1,8 +1,4 @@
-'use client'
 import { Roboto } from 'next/font/google'
-import { createTheme, responsiveFontSizes } from '@mui/material/styles'
-import { useMemo } from 'react'
-import { useStorage } from './store'
 import { experimental_extendTheme as extendTheme } from '@mui/material/styles'
 
 const roboto = Roboto({
