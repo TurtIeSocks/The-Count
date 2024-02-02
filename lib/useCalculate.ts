@@ -18,24 +18,27 @@ function chunkArray<T>(array: T[], numberOfChunks: number): T[][] {
 }
 
 export function useCalculate() {
-  const filters = useStorage((state) => state.filters)
+  const levels = useStorage((state) => state.filters.level)
   const pokedex = useStorage((s) => s.filteredDex)
   const ready = useStorage((s) => s.ready)
+  const cp = useStorage((s) => s.filters.cp)
+  const iv = useStorage((s) => s.filters.iv)
+  const atk = useStorage((s) => s.filters.atk)
+  const def = useStorage((s) => s.filters.def)
+  const sta = useStorage((s) => s.filters.sta)
   const [matches, setMatches] = useState<Match[]>([])
   const [count, setCount] = useState(0)
   const [time, setTime] = useState(0)
 
-  const relevantCPM = useMemo(
-    () =>
-      Object.entries(CPM)
-        .filter(([lvl, _]) => {
-          const level = +lvl
-          return level >= filters.level[0] && level <= filters.level[1]
-        })
-        .map(([level, cpm]) => [+level, cpm] as [number, number])
-        .sort(([a], [b]) => a - b),
-    [filters.level],
-  )
+  const relevantCPM = useMemo(() => {
+    return Object.entries(CPM)
+      .filter(([lvl, _]) => {
+        const level = +lvl
+        return level >= levels[0] && level <= levels[1]
+      })
+      .map(([level, cpm]) => [+level, cpm] as [number, number])
+      .sort(([a], [b]) => a - b)
+  }, [levels])
 
   const workers = useMemo(
     () =>
@@ -52,14 +55,14 @@ export function useCalculate() {
   }, [pokedex, workers])
 
   useEffect(() => {
-    if (ready && filters.cp > 10 && pokedex.length > 0 && workers.length > 0) {
+    if (ready && cp > 10 && pokedex.length > 0 && workers.length > 0) {
+      const { filters } = useStorage.getState()
       const time = Date.now()
       try {
-        const ivF = { ...filters, iv: filters.iv.map((iv) => iv / 100) }
         const promises = chunks.map((chunk, i) => {
           const worker = workers[i]
           return new Promise((resolve, reject) => {
-            worker.postMessage({ filters: ivF, chunk, relevantCPM })
+            worker.postMessage({ filters, chunk, relevantCPM })
             worker.onmessage = (e) => resolve(e.data)
             worker.onerror = (e) => reject(e)
           }) as Promise<{ results: Match[]; count: number }>
@@ -79,7 +82,19 @@ export function useCalculate() {
         console.error(e)
       }
     }
-  }, [filters, relevantCPM, chunks, workers, ready, pokedex])
+  }, [
+    relevantCPM,
+    chunks,
+    workers,
+    ready,
+    pokedex,
+    cp,
+    iv,
+    atk,
+    def,
+    sta,
+    levels,
+  ])
 
-  return { matches, count, time, cp: filters.cp }
+  return { matches, count, time }
 }

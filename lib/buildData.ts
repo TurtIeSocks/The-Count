@@ -11,7 +11,6 @@ export function buildData(
     atk: [minAtk, maxAtk],
     def: [minDef, maxDef],
     sta: [minSta, maxSta],
-    iv: [minIv, maxIv],
   }: Filters,
   relevantCPM: [number, number][],
   pokemon: Pokemon,
@@ -45,25 +44,21 @@ export function buildData(
     for (let atk = minAtk; atk <= maxAtk; atk++) {
       for (let def = minDef; def <= maxDef; def++) {
         for (let sta = minSta; sta <= maxSta; sta++) {
-          const iv = (atk + def + sta) / 45
-          if (iv >= minIv && iv <= maxIv) {
-            count++
-            const currentCp = cpCalc(
-              pokemon.attack + atk,
-              pokemon.defense + def,
-              pokemon.stamina + sta,
-              cpm,
-            )
-            if (currentCp === cp) {
-              matches.push({
-                name: pokemon.name,
-                atk,
-                def,
-                sta,
-                level,
-                iv: Math.round(iv * 100),
-              })
-            }
+          count++
+          const currentCp = cpCalc(
+            pokemon.attack + atk,
+            pokemon.defense + def,
+            pokemon.stamina + sta,
+            cpm,
+          )
+          if (currentCp === cp) {
+            matches.push({
+              name: pokemon.name,
+              atk,
+              def,
+              sta,
+              level,
+            })
           }
         }
       }

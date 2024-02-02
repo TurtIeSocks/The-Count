@@ -21,7 +21,6 @@ export interface Match {
   def: number
   sta: number
   level: number
-  iv: number
 }
 
 export interface Filters {
@@ -43,7 +42,7 @@ export interface Filters {
 
 export interface SliderProps {
   name: string
-  shortName: Exclude<keyof Match, 'name'>
+  shortName: Exclude<keyof Match, 'name'> | 'iv'
   min: number
   max: number
 }

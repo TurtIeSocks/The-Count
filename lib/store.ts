@@ -5,7 +5,6 @@ import { Filters, Pokedex } from './types'
 import { DEFAULT_FILTERS } from './constants'
 
 interface UseStorage {
-  darkMode: boolean | null
   filters: Filters
   advExpanded: boolean
   loading: boolean
@@ -13,13 +12,13 @@ interface UseStorage {
   ready: boolean
   pokedex: Pokedex
   filteredDex: Pokedex
+  pokemonSelection: Pokedex
   selected: Pokedex
 }
 
 export const useStorage = create<UseStorage>()(
   persist(
     (set, get) => ({
-      darkMode: null,
       filters: DEFAULT_FILTERS,
       advExpanded: false,
       loading: false,
@@ -27,13 +26,13 @@ export const useStorage = create<UseStorage>()(
       ready: false,
       selected: [],
       pokedex: [],
+      pokemonSelection: [],
       filteredDex: [],
     }),
     {
       name: 'local-state',
       storage: createJSONStorage(() => localStorage),
       partialize: (state) => ({
-        darkMode: state.darkMode,
         filters: { ...state.filters, cp: 0 },
         advExpanded: state.advExpanded,
         selected: state.selected,
@@ -56,10 +55,15 @@ export const setPokedex = (pokedex: Pokedex) => {
     const exitingSelected = new Set(prev.selected.map((mon) => mon.name))
     return {
       filters: {
+        ...DEFAULT_FILTERS,
         ...prev.filters,
         generations: {
           ...generations,
           ...prev.filters.generations,
+        },
+        types: {
+          ...DEFAULT_FILTERS.types,
+          ...prev.filters.types,
         },
       },
       pokedex,

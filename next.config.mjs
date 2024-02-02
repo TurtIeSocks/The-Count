@@ -6,6 +6,6 @@ const nextConfig = {
   swcMinify: true,
   env: {},
   poweredByHeader: false,
-};
+}
 
-export default nextConfig;
+export default nextConfig

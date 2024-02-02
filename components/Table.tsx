@@ -64,7 +64,9 @@ function itemContent(_index: number, row: Match) {
     <React.Fragment>
       {COLUMNS.map((column, i) => (
         <TableCell key={column} align="center" width={i ? '15%' : '25%'}>
-          {row[column]}
+          {column === 'iv'
+            ? (((row.atk + row.def + row.sta) / 45) * 100).toFixed(1)
+            : row[column]}
         </TableCell>
       ))}
     </React.Fragment>
@@ -72,7 +74,7 @@ function itemContent(_index: number, row: Match) {
 }
 
 export default function ResultTable() {
-  const { matches, count, time, cp } = useCalculate()
+  const { matches, count, time } = useCalculate()
   const unreleased = useStorage((s) => s.filters.unreleased)
   return (
     <Grid2
@@ -84,8 +86,8 @@ export default function ResultTable() {
       <Box className={styles.layout} height="100%">
         <Box mt={2}>
           <Typography variant="h6" align="center" lineHeight={1}>
-            {matches.length.toLocaleString()} results for {cp.toLocaleString()}{' '}
-            CP
+            {matches.length.toLocaleString()} results for{' '}
+            {useStorage.getState().filters.cp.toLocaleString()} CP
           </Typography>
           <Typography variant="caption" align="center">
             Checked {count.toLocaleString()} combinations in{' '}

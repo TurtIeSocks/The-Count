@@ -1,4 +1,4 @@
-import { Masterfile, Pokedex, Pokemon } from './types'
+import { Masterfile, Pokedex } from './types'
 
 export async function getMasterfile() {
   const masterfile: Masterfile = await fetch(

@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { useSearchParams } from 'next/navigation'
 import { useRouter } from 'next/router'
+import { useSearchParams } from 'next/navigation'
 import IconButton from '@mui/material/IconButton'
 import SearchIcon from '@mui/icons-material/Search'
 
@@ -8,8 +8,8 @@ import TextField from '@mui/material/TextField'
 import { useStorage } from '@lib/store'
 
 export default function Search() {
-  const searchParams = useSearchParams()
   const router = useRouter()
+  const cpParam = useSearchParams().get('cp')
 
   const [value, setValue] = React.useState('')
 
@@ -20,26 +20,34 @@ export default function Search() {
 
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault()
-
     const params = new URLSearchParams()
     if (value) {
       params.set('cp', value)
-      router.push(`/results?${params.toString()}`)
+      router.push(
+        { pathname: '/results', search: params.toString() },
+        undefined,
+        { shallow: true },
+      )
     } else {
       router.push('/')
     }
   }
 
   React.useEffect(() => {
-    const cp = searchParams.get('cp') || ''
+    const cp = cpParam || ''
     setValue(cp)
-    useStorage.setState((prev) => ({
-      filters: {
-        ...prev.filters,
-        cp: +cp,
-      },
-    }))
-  }, [searchParams])
+    useStorage.setState((prev) => {
+      if (+cp !== prev.filters.cp) {
+        return {
+          filters: {
+            ...prev.filters,
+            cp: +cp || 0,
+          },
+        }
+      }
+      return prev
+    })
+  }, [cpParam])
 
   return (
     <form

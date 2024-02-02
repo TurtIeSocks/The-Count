@@ -12,12 +12,10 @@ import { capitalize } from '@mui/material/utils'
 import { MULTI_SELECT } from '@lib/constants'
 import { useStorage } from '@lib/store'
 
-const ITEM_HEIGHT = 48
-const ITEM_PADDING_TOP = 8
 const MenuProps = {
   PaperProps: {
     style: {
-      maxHeight: ITEM_HEIGHT * 4.5 + ITEM_PADDING_TOP,
+      maxHeight: 48 * 4.5 + 8,
       width: 250,
     },
   },
