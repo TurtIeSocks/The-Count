@@ -68,7 +68,7 @@ export async function getMasterfile() {
           const evoName = remoteLocale[`evo_${mega.tempEvoId}`]
           const [pre, post] = evoName.split(' ', 2)
           pokedex.push({
-            name: `${pre} ${remoteLocale[`evo_${mega.tempEvoId}`]}${post ? ` ${post}` : ''}`,
+            name: `${pre} ${name}${post ? ` ${post}` : ''}`,
             types: mega.types
               ? mega.types.map((type) => remoteLocale[`poke_type_${type}`])
               : types,
