@@ -7,18 +7,13 @@ import Head from 'next/head'
 import createEmotionCache from '@lib/createEmotionCache'
 import { theme } from '@lib/theme'
 import Box from '@mui/material/Box'
-import GitHubIcon from '@mui/icons-material/GitHub'
-import dynamic from 'next/dynamic'
+
+import { Header } from '@components/Header'
+import { Footer } from '@components/Footer'
 
 import styles from '../styles.module.css'
-import IconButton from '@mui/material/IconButton'
-import { Header } from '@components/Header'
 
 const clientSideEmotionCache = createEmotionCache()
-
-const DynThemeToggle = dynamic(() => import('@components/ThemeToggle'), {
-  ssr: false,
-})
 
 export interface MyAppProps extends AppProps {
   emotionCache?: EmotionCache
@@ -40,17 +35,7 @@ export default function MyApp({
         <Box className={styles.layout} height="100svh">
           <Header />
           <Component {...pageProps} />
-          <Box className={styles.footer}>
-            <DynThemeToggle />
-            <IconButton
-              href="https://github.com/TurtIeSocks/The-Count"
-              target="_blank"
-              rel="noreferrer"
-              size="large"
-            >
-              <GitHubIcon fontSize="large" />
-            </IconButton>
-          </Box>
+          <Footer />
         </Box>
       </CssVarsProvider>
     </CacheProvider>

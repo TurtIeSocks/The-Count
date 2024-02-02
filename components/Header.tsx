@@ -17,7 +17,6 @@ export function Header() {
       >
         The Count
       </Typography>
-
       {home && (
         <Grid2 container>
           <Typography variant="h6" maxWidth={400}>

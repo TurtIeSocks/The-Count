@@ -40,7 +40,7 @@ const MobileView = () => {
   const advExpanded = useStorage((s) => s.advExpanded)
   return (
     <IconButton
-      sx={{ ...MOBILE_ONLY, pr: 0 }}
+      sx={MOBILE_ONLY}
       onClick={() => {
         useStorage.setState({ advExpanded: !advExpanded })
       }}
@@ -70,7 +70,7 @@ const DesktopView = () => (
 
 const AdvancedSearch = React.memo(
   () => (
-    <Grid2 container xs={12} sm={6} px={2}>
+    <Grid2 container xs={12} sm={5} md={6} px={2} xl={4}>
       <Search />
       <MobileView />
       <DesktopView />

@@ -20,9 +20,10 @@ const SliderTile = React.memo(
   ({ name, shortName, min, max }: SliderProps) => {
     const values = useStorage((s) => s.filters[shortName])
     const [local, setLocal] = React.useState(values)
+    const isIv = shortName === 'iv'
     React.useEffect(() => setLocal(values), [values])
     return (
-      <Grid2 xs={shortName === 'iv' ? 12 : 6}>
+      <Grid2 xs={12} md={isIv ? 12 : 6}>
         <Typography gutterBottom>
           {name} {local.map(roundToOne).join(' - ')}
         </Typography>
@@ -49,7 +50,9 @@ const SliderTile = React.memo(
           }}
           step={shortName === 'iv' ? IV_MARK : 1}
           marks={shortName === 'iv' ? MARKS : undefined}
-          sx={{ width: shortName === 'iv' ? '92.5%' : '85%' }}
+          sx={{
+            width: { xs: '85%', md: shortName === 'iv' ? '92.5%' : '85%' },
+          }}
           valueLabelDisplay="auto"
           valueLabelFormat={roundToOne}
         />

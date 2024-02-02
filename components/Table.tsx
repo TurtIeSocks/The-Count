@@ -79,8 +79,10 @@ export default function ResultTable() {
   return (
     <Grid2
       xs={12}
-      sm={6}
+      sm={7}
       px={2}
+      md={6}
+      xl={4}
       height={{ xs: 'calc(100% - 72px)', sm: '100%' }}
     >
       <Box className={styles.layout} height="100%">
