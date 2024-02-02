@@ -1,5 +1,6 @@
 import * as React from 'react'
-import { useSearchParams, useRouter } from 'next/navigation'
+import { useSearchParams } from 'next/navigation'
+import { useRouter } from 'next/router'
 import IconButton from '@mui/material/IconButton'
 import SearchIcon from '@mui/icons-material/Search'
 
@@ -41,7 +42,10 @@ export default function Search() {
   }, [searchParams])
 
   return (
-    <form onSubmit={handleSubmit} style={{ flexGrow: 1, maxWidth: 400 }}>
+    <form
+      onSubmit={handleSubmit}
+      style={{ flexGrow: 1, maxWidth: router.pathname === '/' ? 400 : '100%' }}
+    >
       <TextField
         placeholder="Enter Combat Power (CP)"
         variant="outlined"

@@ -9,8 +9,8 @@ import Checkbox from '@mui/material/Checkbox'
 import ListItemText from '@mui/material/ListItemText'
 import { capitalize } from '@mui/material/utils'
 
-import { MULTI_SELECT } from '../lib/constants'
-import { useStorage } from '../lib/store'
+import { MULTI_SELECT } from '@lib/constants'
+import { useStorage } from '@lib/store'
 
 const ITEM_HEIGHT = 48
 const ITEM_PADDING_TOP = 8
@@ -51,8 +51,8 @@ const MultiSelect = React.memo(
       }))
     }
     return (
-      <Grid2 container xs={6} py={2}>
-        <FormControl sx={{ width: '90%' }}>
+      <Grid2 xs={6} py={2}>
+        <FormControl fullWidth>
           <InputLabel id={`ms-${name}-label`}>{capitalize(name)}</InputLabel>
           <Select
             labelId={`ms-${name}-label`}

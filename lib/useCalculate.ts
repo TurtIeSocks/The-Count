@@ -19,7 +19,7 @@ function chunkArray<T>(array: T[], numberOfChunks: number): T[][] {
 
 export function useCalculate() {
   const filters = useStorage((state) => state.filters)
-  const pokedex = useStorage((s) => s.pokedex)
+  const pokedex = useStorage((s) => s.filteredDex)
   const ready = useStorage((s) => s.ready)
   const [matches, setMatches] = useState<Match[]>([])
   const [count, setCount] = useState(0)
@@ -48,19 +48,8 @@ export function useCalculate() {
   )
 
   const chunks = useMemo(() => {
-    const pokedexFiltered = pokedex.filter((pokemon) => {
-      if (pokemon.legendary && !filters.legends) return false
-      if (pokemon.mythical && !filters.mythics) return false
-      if (pokemon.unreleased && !filters.unreleased) return false
-      if (pokemon.ultraBeast && !filters.ultraBeasts) return false
-      if (pokemon.form && !filters.forms) return false
-      if (pokemon.mega && !filters.megas) return false
-      if (!filters.generations[pokemon.generation]) return false
-      if (pokemon.types.some((type) => filters.types[type])) return true
-      return false
-    })
-    return chunkArray(pokedexFiltered, workers.length)
-  }, [filters, pokedex, workers])
+    return chunkArray(pokedex, workers.length)
+  }, [pokedex, workers])
 
   useEffect(() => {
     if (ready && filters.cp > 10) {

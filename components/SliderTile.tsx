@@ -3,8 +3,8 @@ import Grid2 from '@mui/material/Unstable_Grid2'
 import Slider from '@mui/material/Slider'
 import Typography from '@mui/material/Typography'
 
-import { useStorage } from '../lib/store'
-import { SliderProps } from '../lib/types'
+import { useStorage } from '@lib/store'
+import { SliderProps } from '@lib/types'
 
 const SliderTile = React.memo(
   ({ name, shortName, min, max }: SliderProps) => {
@@ -12,7 +12,7 @@ const SliderTile = React.memo(
     const [local, setLocal] = React.useState(values)
     React.useEffect(() => setLocal(values), [values])
     return (
-      <Grid2 xs={shortName === 'iv' ? 12 : 6} textAlign="center">
+      <Grid2 xs={shortName === 'iv' ? 12 : 6}>
         <Typography gutterBottom>
           {name} {local[0]} - {local[1]}
         </Typography>
@@ -34,7 +34,7 @@ const SliderTile = React.memo(
               }))
             }
           }}
-          style={{ width: shortName === 'iv' ? '90%' : '80%' }}
+          sx={{ width: shortName === 'iv' ? '92.5%' : '85%' }}
           valueLabelDisplay="auto"
         />
       </Grid2>

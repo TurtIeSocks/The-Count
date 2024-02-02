@@ -1,5 +1,6 @@
 import { create } from 'zustand'
 import { persist, createJSONStorage } from 'zustand/middleware'
+
 import { Filters, Pokedex } from './types'
 import { DEFAULT_FILTERS } from './constants'
 
@@ -11,6 +12,8 @@ interface UseStorage {
   error: Error | null
   ready: boolean
   pokedex: Pokedex
+  filteredDex: Pokedex
+  selected: Pokedex
 }
 
 export const useStorage = create<UseStorage>()(
@@ -22,7 +25,9 @@ export const useStorage = create<UseStorage>()(
       loading: false,
       error: null,
       ready: false,
+      selected: [],
       pokedex: [],
+      filteredDex: [],
     }),
     {
       name: 'local-state',
@@ -31,6 +36,7 @@ export const useStorage = create<UseStorage>()(
         darkMode: state.darkMode,
         filters: { ...state.filters, cp: 0 },
         advExpanded: state.advExpanded,
+        selected: state.selected,
       }),
     },
   ),
@@ -46,15 +52,19 @@ export const setPokedex = (pokedex: Pokedex) => {
     {} as Record<string, boolean>,
   )
 
-  useStorage.setState((prev) => ({
-    filters: {
-      ...prev.filters,
-      generations: {
-        ...generations,
-        ...prev.filters.generations,
+  useStorage.setState((prev) => {
+    const exitingSelected = new Set(prev.selected.map((mon) => mon.name))
+    return {
+      filters: {
+        ...prev.filters,
+        generations: {
+          ...generations,
+          ...prev.filters.generations,
+        },
       },
-    },
-    pokedex,
-    ready: true,
-  }))
+      pokedex,
+      selected: pokedex.filter((mon) => exitingSelected.has(mon.name)),
+      ready: true,
+    }
+  })
 }

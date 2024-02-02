@@ -4,24 +4,32 @@ import Collapse from '@mui/material/Collapse'
 import IconButton from '@mui/material/IconButton'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 import Box from '@mui/material/Box'
+import Divider from '@mui/material/Divider'
+
+import { MULTI_SELECT, SLIDERS, SWITCHES } from '@lib/constants'
+import { useStorage } from '@lib/store'
 
 import MultiSelect from './MultiSelect'
 import SliderTile from './SliderTile'
 import FilterSwitch from './FilterSwitch'
 import Search from './Search'
-
-import { MULTI_SELECT, SLIDERS, SWITCHES } from '../lib/constants'
-import { useStorage } from '../lib/store'
+import PokemonAC from './PokemonAC'
 import styles from '../styles.module.css'
 
+const MOBILE_ONLY = { display: { xs: 'block', sm: 'none' } }
+const DESKTOP_ONLY = { xs: 'none', sm: 'block' }
+
 const AdvancedOptions = () => (
-  <Grid2 container pt={4}>
-    {SLIDERS.map((each) => (
-      <SliderTile key={each.name} {...each} />
-    ))}
+  <Grid2 container columnSpacing={1}>
+    <PokemonAC />
     {MULTI_SELECT.map((each) => (
       <MultiSelect key={each} name={each} />
     ))}
+    <Grid2 component={Divider} xs={12} mb={2} mt={1} />
+    {SLIDERS.map((each) => (
+      <SliderTile key={each.name} {...each} />
+    ))}
+    <Grid2 component={Divider} xs={12} mb={2} mt={1} />
     {SWITCHES.map((each) => (
       <FilterSwitch key={each} name={each} />
     ))}
@@ -32,7 +40,7 @@ const MobileView = () => {
   const advExpanded = useStorage((s) => s.advExpanded)
   return (
     <IconButton
-      sx={{ display: { xs: 'block', sm: 'none' }, pr: 0 }}
+      sx={{ ...MOBILE_ONLY, pr: 0 }}
       onClick={() => {
         useStorage.setState({ advExpanded: !advExpanded })
       }}
@@ -47,14 +55,15 @@ const MobileView = () => {
 const Expanded = () => {
   const advExpanded = useStorage((s) => s.advExpanded)
   return (
-    <Collapse in={advExpanded} sx={{ display: { xs: 'block', sm: 'none' } }}>
+    <Collapse in={advExpanded} sx={MOBILE_ONLY}>
       <AdvancedOptions />
+      <Grid2 component={Divider} xs={12} my={2} />
     </Collapse>
   )
 }
 
 const DesktopView = () => (
-  <Box display={{ xs: 'none', sm: 'block' }} pt={4}>
+  <Box display={DESKTOP_ONLY}>
     <AdvancedOptions />
   </Box>
 )

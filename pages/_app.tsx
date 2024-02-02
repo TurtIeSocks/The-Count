@@ -32,6 +32,7 @@ export default function MyApp({
   return (
     <CacheProvider value={emotionCache}>
       <Head>
+        <title>The Count</title>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
       </Head>
       <CssVarsProvider theme={theme} defaultMode="system">
