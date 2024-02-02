@@ -20,6 +20,7 @@ import { useStorage } from '../lib/store'
 import { useSearchParams } from 'next/navigation'
 
 import styles from '../styles.module.css'
+import Box from '@mui/material/Box'
 
 const Scroller = React.forwardRef<HTMLDivElement>((props, ref) => (
   <TableContainer component={Paper} {...props} ref={ref} />
@@ -80,22 +81,29 @@ export default function ResultTable() {
   const unreleased = useStorage((s) => s.filters.unreleased)
 
   return (
-    <Grid2 className={styles.layout} xs={12} sm={6} height="100%" p={2}>
-      <Typography variant="h5" align="center" gutterBottom>
-        {data.length.toLocaleString()} results for {cp.toLocaleString()} CP
-      </Typography>
-      <TableVirtuoso
-        data={data}
-        components={VirtuosoTableComponents}
-        fixedHeaderContent={fixedHeaderContent}
-        itemContent={itemContent}
-      />
-      {unreleased && (
-        <Typography variant="caption">
-          * Indicates the Pokemon&apos;s stats are estimated and may be
-          inaccurate
+    <Grid2
+      xs={12}
+      sm={6}
+      px={2}
+      height={{ xs: 'calc(100% - 72px)', sm: '100%' }}
+    >
+      <Box className={styles.layout} height="100%">
+        <Typography variant="h5" align="center" mt={2}>
+          {data.length.toLocaleString()} results for {cp.toLocaleString()} CP
         </Typography>
-      )}
+        <TableVirtuoso
+          data={data}
+          components={VirtuosoTableComponents}
+          fixedHeaderContent={fixedHeaderContent}
+          itemContent={itemContent}
+        />
+        {unreleased && (
+          <Typography variant="caption">
+            * Indicates the Pokemon&apos;s stats are estimated and may be
+            inaccurate
+          </Typography>
+        )}
+      </Box>
     </Grid2>
   )
 }

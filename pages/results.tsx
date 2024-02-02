@@ -14,12 +14,9 @@ export async function getStaticProps() {
 }
 
 export default function ResultsPage({ pokedex }: { pokedex: Pokedex }) {
-  React.useEffect(() => {
-    setPokedex(pokedex)
-  }, [pokedex])
-
+  React.useEffect(() => setPokedex(pokedex), [pokedex])
   return (
-    <Grid2 container overflow="hidden">
+    <Grid2 container overflow="auto">
       <AdvancedSearch />
       <ResultTable />
     </Grid2>

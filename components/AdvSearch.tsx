@@ -6,6 +6,8 @@ import {
   Accordion,
   AccordionSummary,
   AccordionDetails,
+  IconButton,
+  Collapse,
 } from '@mui/material'
 import Grid2 from '@mui/material/Unstable_Grid2'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
@@ -21,7 +23,7 @@ import { useStorage } from '../lib/store'
 import styles from '../styles.module.css'
 
 const AdvancedOptions = () => (
-  <Grid2 container>
+  <Grid2 container pt={4}>
     {SLIDERS.map((each) => (
       <SliderTile key={each.name} {...each} />
     ))}
@@ -37,21 +39,23 @@ const AdvancedOptions = () => (
 const MobileView = () => {
   const advExpanded = useStorage((s) => s.advExpanded)
   return (
-    <Box display={{ xs: 'block', sm: 'none' }}>
-      <Accordion
-        expanded={advExpanded}
-        onChange={() =>
-          useStorage.setState((s) => ({ advExpanded: !s.advExpanded }))
-        }
-      >
-        <AccordionSummary expandIcon={<ExpandMoreIcon color="secondary" />}>
-          <Typography>Advanced Filters</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <AdvancedOptions />
-        </AccordionDetails>
-      </Accordion>
-    </Box>
+    <IconButton sx={{ display: { xs: 'block', sm: 'none' }, pr: 0 }}>
+      <ExpandMoreIcon
+        onClick={() => {
+          useStorage.setState({ advExpanded: !advExpanded })
+        }}
+        className={advExpanded ? styles.expanded : styles.collapsed}
+      />
+    </IconButton>
+  )
+}
+
+const Expanded = () => {
+  const advExpanded = useStorage((s) => s.advExpanded)
+  return (
+    <Collapse in={advExpanded} sx={{ display: { xs: 'block', sm: 'none' } }}>
+      <AdvancedOptions />
+    </Collapse>
   )
 }
 
@@ -63,10 +67,11 @@ const DesktopView = () => (
 
 const AdvancedSearch = React.memo(
   () => (
-    <Grid2 className={styles.layout} xs={12} sm={6} p={2}>
+    <Grid2 container xs={12} sm={6} px={2}>
       <Search />
       <MobileView />
       <DesktopView />
+      <Expanded />
     </Grid2>
   ),
   () => true,

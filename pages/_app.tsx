@@ -13,6 +13,7 @@ import styles from '../styles.module.css'
 import Typography from '@mui/material/Typography'
 import ThemeToggle from '@components/ThemeToggle'
 import IconButton from '@mui/material/IconButton'
+import { Header } from '@components/Header'
 
 const clientSideEmotionCache = createEmotionCache()
 
@@ -32,15 +33,8 @@ export default function MyApp({
       </Head>
       <CssVarsProvider theme={theme} defaultMode="system">
         <CssBaseline />
-        <Box className={styles.layout} height="100vh">
-          <Typography
-            color="secondary"
-            variant="h1"
-            fontWeight="bold"
-            component="header"
-          >
-            The Count
-          </Typography>
+        <Box className={styles.layout} height="100svh">
+          <Header />
           <Component {...pageProps} />
           <Box className={styles.footer}>
             <ThemeToggle />

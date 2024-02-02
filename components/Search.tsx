@@ -36,29 +36,27 @@ export default function Search() {
   }, [searchParams])
 
   return (
-    <Grid2 xs={12}>
-      <form onSubmit={handleSubmit}>
-        <TextField
-          placeholder="Enter Combat Power (CP)"
-          variant="outlined"
-          type="number"
-          value={value}
-          onChange={handleChange}
-          InputProps={{
-            sx: { pl: 2 },
-            endAdornment: (
-              <IconButton style={{ padding: 10 }} onClick={handleSubmit}>
-                <SearchIcon color="primary" />
-              </IconButton>
-            ),
-          }}
-          fullWidth
-          inputProps={{
-            min: 10,
-          }}
-          sx={{ boxShadow: 1 }}
-        />
-      </form>
-    </Grid2>
+    <form onSubmit={handleSubmit} style={{ flexGrow: 1, maxWidth: 400 }}>
+      <TextField
+        placeholder="Enter Combat Power (CP)"
+        variant="outlined"
+        type="number"
+        value={value}
+        onChange={handleChange}
+        InputProps={{
+          sx: { pl: 2 },
+          endAdornment: (
+            <IconButton onClick={handleSubmit}>
+              <SearchIcon color="primary" />
+            </IconButton>
+          ),
+        }}
+        fullWidth
+        inputProps={{
+          min: 10,
+        }}
+        sx={{ boxShadow: 1, py: 1 }}
+      />
+    </form>
   )
 }
