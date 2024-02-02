@@ -9,7 +9,7 @@ const PokemonAC = React.memo(
     const selected = useStorage((s) => s.selected)
     const mons = useStorage((s) => s.pokemonSelection)
     return (
-      <Grid2 xs={12} pt={2} pb={1}>
+      <Grid2 xs={12} pt={{ xs: 1, md: 2 }} pb={1}>
         <Autocomplete
           multiple
           options={mons}

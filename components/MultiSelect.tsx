@@ -49,7 +49,7 @@ const MultiSelect = React.memo(
       }))
     }
     return (
-      <Grid2 xs={12} md={6} py={2}>
+      <Grid2 xs={12} md={6} py={{ xs: 1, md: 2 }}>
         <FormControl fullWidth>
           <InputLabel id={`ms-${name}-label`}>{capitalize(name)}</InputLabel>
           <Select
