@@ -9,11 +9,12 @@ import Divider from '@mui/material/Divider'
 import { MULTI_SELECT, SLIDERS, SWITCHES } from '@lib/constants'
 import { useStorage } from '@lib/store'
 
-import MultiSelect from './MultiSelect'
-import SliderTile from './SliderTile'
-import FilterSwitch from './FilterSwitch'
-import Search from './Search'
-import PokemonAC from './PokemonAC'
+import { MultiSelect } from './MultiSelect'
+import { SliderTile } from './SliderTile'
+import { FilterSwitch } from './FilterSwitch'
+import { Search } from './Search'
+import { PokemonAC } from './PokemonAC'
+
 import styles from '../styles.module.css'
 
 const MOBILE_ONLY = { display: { xs: 'block', sm: 'none' } }
@@ -68,7 +69,7 @@ const DesktopView = () => (
   </Box>
 )
 
-const AdvancedSearch = React.memo(
+export const AdvancedSearch = React.memo(
   () => (
     <Grid2 container xs={12} sm={5} md={6} px={2} xl={4}>
       <Search />
@@ -81,5 +82,3 @@ const AdvancedSearch = React.memo(
 )
 
 AdvancedSearch.displayName = 'AdvancedSearch'
-
-export default AdvancedSearch

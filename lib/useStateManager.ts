@@ -1,15 +1,9 @@
 import { useEffect } from 'react'
+
 import { useStorage } from '@lib/store'
+import { arrayCompare, getIv, validateIv } from './utils'
 
-const getIv = (atk: number, def: number, sta: number) =>
-  +(((atk + def + sta) / 45) * 100).toFixed(1)
-
-const arrayCompare = (a: number[], b: number[]) =>
-  a.length === b.length && a.every((v, i) => v === b[i])
-
-const checkValidIv = (iv: number) => Math.max(0, Math.min(15, iv))
-
-export function useStateManager() {
+export const useStateManager = () => {
   useEffect(() => {
     const sub = useStorage.subscribe((next, prev) => {
       if (
@@ -85,22 +79,16 @@ export function useStateManager() {
         const minStaRatio = next.filters.sta[0] / (prevMinTotal || 1)
         const maxStaRatio = next.filters.sta[1] / (prevMaxTotal || 1)
 
-        let minAtkPoints = checkValidIv(
-          Math.ceil(minAllowedPoints * minAtkRatio),
-        )
-        let maxAtkPoints = checkValidIv(
+        let minAtkPoints = validateIv(Math.ceil(minAllowedPoints * minAtkRatio))
+        let maxAtkPoints = validateIv(
           Math.floor(maxAllowedPoints * maxAtkRatio),
         )
-        let minDefPoints = checkValidIv(
-          Math.ceil(minAllowedPoints * minDefRatio),
-        )
-        let maxDefPoints = checkValidIv(
+        let minDefPoints = validateIv(Math.ceil(minAllowedPoints * minDefRatio))
+        let maxDefPoints = validateIv(
           Math.floor(maxAllowedPoints * maxDefRatio),
         )
-        let minStaPoints = checkValidIv(
-          Math.ceil(minAllowedPoints * minStaRatio),
-        )
-        let maxStaPoints = checkValidIv(
+        let minStaPoints = validateIv(Math.ceil(minAllowedPoints * minStaRatio))
+        let maxStaPoints = validateIv(
           Math.floor(maxAllowedPoints * maxStaRatio),
         )
         let currentMaxTotal = maxAtkPoints + maxDefPoints + maxStaPoints
@@ -145,9 +133,9 @@ export function useStateManager() {
         return useStorage.setState({
           filters: {
             ...next.filters,
-            atk: [checkValidIv(minAtkPoints), checkValidIv(maxAtkPoints)],
-            def: [checkValidIv(minDefPoints), checkValidIv(maxDefPoints)],
-            sta: [checkValidIv(minStaPoints), checkValidIv(maxStaPoints)],
+            atk: [validateIv(minAtkPoints), validateIv(maxAtkPoints)],
+            def: [validateIv(minDefPoints), validateIv(maxDefPoints)],
+            sta: [validateIv(minStaPoints), validateIv(maxStaPoints)],
           },
         })
       }

@@ -1,10 +1,10 @@
 import * as React from 'react'
+import { useRouter } from 'next/router'
 import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
 import Grid2 from '@mui/material/Unstable_Grid2'
-import { useRouter } from 'next/router'
 
-export function Header() {
+export const Header = () => {
   const router = useRouter()
   const home = router.pathname === '/'
   return (

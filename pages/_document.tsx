@@ -1,6 +1,5 @@
-import createEmotionServer from '@emotion/server/create-instance'
-import { getInitColorSchemeScript } from '@mui/material/styles'
-import { AppType } from 'next/app'
+import * as React from 'react'
+import { type AppType } from 'next/app'
 import Document, {
   DocumentContext,
   DocumentProps,
@@ -9,15 +8,18 @@ import Document, {
   Main,
   NextScript,
 } from 'next/document'
-import * as React from 'react'
-import createEmotionCache from '@lib/createEmotionCache'
+import createEmotionServer from '@emotion/server/create-instance'
+import { getInitColorSchemeScript } from '@mui/material/styles'
+
+import { createEmotionCache } from '@lib/createEmotionCache'
+
 import { MyAppProps } from './_app'
 
 interface MyDocumentProps extends DocumentProps {
   emotionStyleTags: JSX.Element[]
 }
 
-export default function MyDocument({ emotionStyleTags }: MyDocumentProps) {
+const MyDocument = ({ emotionStyleTags }: MyDocumentProps) => {
   return (
     <Html lang="en">
       <Head>
@@ -67,3 +69,5 @@ MyDocument.getInitialProps = async (ctx: DocumentContext) => {
     emotionStyleTags,
   }
 }
+
+export default MyDocument

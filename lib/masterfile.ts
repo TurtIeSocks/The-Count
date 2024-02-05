@@ -1,6 +1,6 @@
 import { Masterfile, Pokedex } from './types'
 
-export async function getMasterfile() {
+export const getMasterfile = async () => {
   const masterfile: Masterfile = await fetch(
     'https://raw.githubusercontent.com/WatWowMap/Masterfile-Generator/master/master-latest-raw.json',
     { next: { revalidate: 60 * 60 * 24 } },

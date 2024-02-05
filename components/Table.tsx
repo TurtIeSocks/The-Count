@@ -6,10 +6,11 @@ import TableContainer from '@mui/material/TableContainer'
 import TableHead from '@mui/material/TableHead'
 import TableRow from '@mui/material/TableRow'
 import Paper from '@mui/material/Paper'
-import { TableVirtuoso, TableComponents } from 'react-virtuoso'
 import Typography from '@mui/material/Typography'
 import Grid2 from '@mui/material/Unstable_Grid2'
+import Box from '@mui/material/Box'
 import { capitalize } from '@mui/material/utils'
+import { TableVirtuoso, TableComponents } from 'react-virtuoso'
 
 import { useCalculate } from '@lib/useCalculate'
 import { COLUMNS } from '@lib/constants'
@@ -17,7 +18,6 @@ import { Match } from '@lib/types'
 import { useStorage } from '@lib/store'
 
 import styles from '../styles.module.css'
-import Box from '@mui/material/Box'
 
 const Scroller = React.forwardRef<HTMLDivElement>((props, ref) => (
   <TableContainer component={Paper} {...props} ref={ref} />
@@ -42,7 +42,7 @@ const VirtuosoTableComponents: TableComponents<Match> = {
   TableBody,
 }
 
-function fixedHeaderContent() {
+const fixedHeaderContent = () => {
   return (
     <TableRow sx={{ bgcolor: 'background.paper' }}>
       {COLUMNS.map((column, i) => (
@@ -59,7 +59,7 @@ function fixedHeaderContent() {
   )
 }
 
-function itemContent(_index: number, row: Match) {
+const itemContent = (_index: number, row: Match) => {
   return (
     <React.Fragment>
       {COLUMNS.map((column, i) => (
@@ -73,7 +73,7 @@ function itemContent(_index: number, row: Match) {
   )
 }
 
-export default function ResultTable() {
+export const ResultTable = () => {
   const { matches, count, time } = useCalculate()
   const unreleased = useStorage((s) => s.filters.unreleased)
   return (

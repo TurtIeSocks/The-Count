@@ -5,7 +5,7 @@ import LightModeIcon from '@mui/icons-material/LightMode'
 
 import { useColorScheme } from '@mui/material/styles'
 
-export default function ThemeToggle() {
+export const ThemeToggle = () => {
   const { mode, systemMode, setMode } = useColorScheme()
   const determinedMode = mode === 'system' ? systemMode : mode
   return (

@@ -1,11 +1,7 @@
 import type { Filters, Match, Pokemon } from '@lib/types'
+import { cpCalc } from './utils'
 
-function cpCalc(atk: number, def: number, sta: number, cpm: number) {
-  const cp = Math.floor((atk * def ** 0.5 * sta ** 0.5 * cpm ** 2) / 10)
-  return cp < 10 ? 10 : cp
-}
-
-export function buildData(
+export const buildData = (
   {
     cp,
     atk: [minAtk, maxAtk],
@@ -15,7 +11,7 @@ export function buildData(
   relevantCPM: [number, number][],
   pokemon: Pokemon,
   matches: Match[],
-) {
+) => {
   let count = 0
   for (let i = 0; i < relevantCPM.length; i++) {
     const [level, cpm] = relevantCPM[i]

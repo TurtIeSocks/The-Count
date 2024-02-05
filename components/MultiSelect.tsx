@@ -25,7 +25,7 @@ interface Props {
   name: (typeof MULTI_SELECT)[number]
 }
 
-const MultiSelect = React.memo(
+export const MultiSelect = React.memo(
   ({ name }: Props) => {
     const filters = useStorage((s) => s.filters[name])
     const selected = React.useMemo(
@@ -79,5 +79,3 @@ const MultiSelect = React.memo(
 )
 
 MultiSelect.displayName = 'MultiSelect'
-
-export default MultiSelect

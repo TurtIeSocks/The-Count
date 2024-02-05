@@ -10,7 +10,7 @@ interface Props {
   name: (typeof SWITCHES)[number]
 }
 
-export default function FilterSwitch({ name }: Props) {
+export const FilterSwitch = ({ name }: Props) => {
   const value = useStorage((s) => !!s.filters[name])
   return (
     <Grid2 xs={4}>

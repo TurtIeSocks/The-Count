@@ -3,11 +3,11 @@ import { useRouter } from 'next/router'
 import { useSearchParams } from 'next/navigation'
 import IconButton from '@mui/material/IconButton'
 import SearchIcon from '@mui/icons-material/Search'
-
 import TextField from '@mui/material/TextField'
+
 import { useStorage } from '@lib/store'
 
-export default function Search() {
+export const Search = () => {
   const router = useRouter()
   const cpParam = useSearchParams().get('cp')
 

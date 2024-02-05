@@ -1,20 +1,22 @@
 import * as React from 'react'
-import AdvancedSearch from '@components/AdvSearch'
-import ResultTable from '@components/Table'
 import Grid2 from '@mui/material/Unstable_Grid2'
+
 import { setPokedex } from '@lib/store'
 import { getMasterfile } from '@lib/masterfile'
 import { Pokedex } from '@lib/types'
 import { useStateManager } from '@lib/useStateManager'
 
-export async function getStaticProps() {
+import { AdvancedSearch } from '@components/AdvSearch'
+import { ResultTable } from '@components/Table'
+
+export const getStaticProps = async () => {
   const data = await getMasterfile()
   return {
     props: { pokedex: JSON.parse(JSON.stringify(data)) },
   }
 }
 
-export default function ResultsPage({ pokedex }: { pokedex: Pokedex }) {
+const ResultsPage = ({ pokedex }: { pokedex: Pokedex }) => {
   useStateManager()
   React.useEffect(() => setPokedex(pokedex), [pokedex])
   return (
@@ -24,3 +26,5 @@ export default function ResultsPage({ pokedex }: { pokedex: Pokedex }) {
     </Grid2>
   )
 }
+
+export default ResultsPage

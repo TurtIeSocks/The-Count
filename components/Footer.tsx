@@ -6,14 +6,18 @@ import IconButton from '@mui/material/IconButton'
 
 import styles from '../styles.module.css'
 
-const DynThemeToggle = dynamic(() => import('@components/ThemeToggle'), {
-  ssr: false,
-})
+const DynThemeToggle = dynamic(
+  () => import('@components/ThemeToggle').then((comp) => comp.ThemeToggle),
+  {
+    ssr: false,
+  },
+)
 
 export const Footer = React.memo(
   () => {
     return (
       <Box component="footer" className={styles.footer}>
+        <IconButton></IconButton>
         <DynThemeToggle />
         <IconButton
           href="https://github.com/TurtIeSocks/The-Count"

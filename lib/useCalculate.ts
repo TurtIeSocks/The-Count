@@ -3,21 +3,9 @@ import { useEffect, useMemo, useState } from 'react'
 import { CPM } from './constants'
 import { useStorage } from './store'
 import { Match } from './types'
+import { chunkArray } from './utils'
 
-function chunkArray<T>(array: T[], numberOfChunks: number): T[][] {
-  const chunks = []
-  const chunkSize = Math.ceil(array.length / numberOfChunks)
-
-  for (let i = 0; i < numberOfChunks; i++) {
-    const start = i * chunkSize
-    const end = start + chunkSize
-    chunks.push(array.slice(start, end))
-  }
-
-  return chunks
-}
-
-export function useCalculate() {
+export const useCalculate = () => {
   const levels = useStorage((state) => state.filters.level)
   const pokedex = useStorage((s) => s.filteredDex)
   const ready = useStorage((s) => s.ready)

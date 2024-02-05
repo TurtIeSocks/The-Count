@@ -2,7 +2,7 @@
 
 ## Description
 
-Pokemon GO community "The Count" Generator.
+Pokemon GO community "The Count" Generator. This tool is used to calculate every possible IV combination for every single Pokemon that matches a specified Combat Power (CP).
 
 ## Demo
 

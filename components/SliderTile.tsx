@@ -24,7 +24,7 @@ const MARKS = [
   { value: 100, label: <Star>4</Star> },
 ]
 
-const SliderTile = React.memo(
+export const SliderTile = React.memo(
   ({ name, shortName, min, max }: SliderProps) => {
     const values = useStorage((s) => s.filters[shortName])
     const [local, setLocal] = React.useState(values)
@@ -71,5 +71,3 @@ const SliderTile = React.memo(
 )
 
 SliderTile.displayName = 'SliderTile'
-
-export default SliderTile

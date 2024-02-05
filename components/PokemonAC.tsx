@@ -1,10 +1,11 @@
 import * as React from 'react'
 import Autocomplete from '@mui/material/Autocomplete'
 import TextField from '@mui/material/TextField'
-import { useStorage } from '@lib/store'
 import Grid2 from '@mui/material/Unstable_Grid2'
 
-const PokemonAC = React.memo(
+import { useStorage } from '@lib/store'
+
+export const PokemonAC = React.memo(
   () => {
     const selected = useStorage((s) => s.selected)
     const mons = useStorage((s) => s.pokemonSelection)
@@ -37,5 +38,3 @@ const PokemonAC = React.memo(
 )
 
 PokemonAC.displayName = 'PokemonAC'
-
-export default PokemonAC
