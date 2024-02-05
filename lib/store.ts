@@ -7,6 +7,7 @@ import { DEFAULT_FILTERS } from './constants'
 interface UseStorage {
   filters: Filters
   advExpanded: boolean
+  helpDialog: boolean
   loading: boolean
   error: Error | null
   ready: boolean
@@ -21,6 +22,7 @@ export const useStorage = create<UseStorage>()(
     (set, get) => ({
       filters: DEFAULT_FILTERS,
       advExpanded: false,
+      helpDialog: false,
       loading: false,
       error: null,
       ready: false,

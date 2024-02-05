@@ -9,7 +9,7 @@ import type {} from '@mui/material/themeCssVarsAugmentation'
 import { createEmotionCache } from '@lib/createEmotionCache'
 import { theme } from '@lib/theme'
 import { Header } from '@components/Header'
-import { Footer } from '@components/Footer'
+import { Footer } from '@components/footer'
 
 import styles from '../styles.module.css'
 

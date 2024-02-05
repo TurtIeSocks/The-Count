@@ -3,15 +3,18 @@ import { useRouter } from 'next/router'
 import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
 import Grid2 from '@mui/material/Unstable_Grid2'
+import { Theme, useMediaQuery } from '@mui/material'
 
 export const Header = () => {
   const router = useRouter()
   const home = router.pathname === '/'
+  const isMobile = useMediaQuery<Theme>((t) => t.breakpoints.only('xs'))
+
   return (
     <Box component="header" px={4}>
       <Typography
         color="secondary"
-        variant="h2"
+        variant={home && !isMobile ? 'h1' : 'h2'}
         fontWeight="bold"
         pt={home ? 16 : 0}
       >
