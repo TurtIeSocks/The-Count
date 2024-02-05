@@ -8,11 +8,15 @@ import { useStateManager } from '@lib/useStateManager'
 
 import { AdvancedSearch } from '@components/AdvSearch'
 import { ResultTable } from '@components/Table'
+import { GetStaticPropsResult } from 'next'
 
-export const getStaticProps = async () => {
+export const getStaticProps = async (): Promise<
+  GetStaticPropsResult<{ pokedex: Pokedex }>
+> => {
   const data = await getMasterfile()
   return {
     props: { pokedex: JSON.parse(JSON.stringify(data)) },
+    revalidate: 60 * 60 * 24,
   }
 }
 

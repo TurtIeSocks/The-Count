@@ -10,20 +10,32 @@ https://the-count.vercel.app/
 
 ## Features
 
-- Shows every possible Pokemon/IV combination for a specified CP.
-- Calculates over 200,000,000 combinations.
-- Includes filters for IVs, Attack, Defense, Stamina, and Levels.
-- Pokedex generator to fill in new values when new Pokemon are released.
+- Shows every possible Pokémon/IV combination for a specified CP
+- Searches over 500,000,000 combinations in less than 1 second
+- Filter by...
+  - Pokémon
+  - IVs
+  - Level
+  - CP
+  - Generation
+  - Types
+  - And more...
+- Pokédex is automatically updated with the latest Pokemon data
 
 ## Technologies Used
 
-- React / NextJS
-- Material UI Styling
+- React 18
+- NextJS
+- Material UI
 - TypeScript
+- Vercel
+- Web Workers
+- Virtualized List
+- Zustand
 
 ## PreReqs
 
-- NodeJS (Recommend using V16.\*)
+- NodeJS (Recommend using V18.\*)
 
 ## Installation Instructions
 
