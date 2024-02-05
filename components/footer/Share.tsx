@@ -19,7 +19,7 @@ export const ShareLink = () => {
           console.log(params.get('cp'))
           navigator.share({
             title: 'The Count',
-            text: 'The Count is a simple and easy to use tally counter.',
+            text: 'Search through over 500 Million IV combinations to get the best Pokémon',
             url: window.location.href,
           })
         } else if (navigator.clipboard) {
