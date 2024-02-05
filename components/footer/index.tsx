@@ -6,6 +6,7 @@ import styles from '../../styles.module.css'
 import { HelpBtn, HelpDialog } from './Help'
 import { GitHubLink } from './GitHub'
 import { HomeLink } from './Home'
+import { ShareAlert, ShareLink } from './Share'
 
 const DynThemeToggle = dynamic(
   () =>
@@ -20,6 +21,8 @@ export const Footer = React.memo(
     return (
       <Box component="footer" className={styles.footer}>
         <HomeLink />
+        <ShareLink />
+        <ShareAlert />
         <HelpBtn />
         <HelpDialog />
         <DynThemeToggle />

@@ -3,6 +3,7 @@ import { persist, createJSONStorage } from 'zustand/middleware'
 
 import { Filters, Pokedex } from './types'
 import { DEFAULT_FILTERS } from './constants'
+import { AlertProps } from '@mui/material'
 
 interface UseStorage {
   filters: Filters
@@ -15,6 +16,11 @@ interface UseStorage {
   filteredDex: Pokedex
   pokemonSelection: Pokedex
   selected: Pokedex
+  shareAlert: {
+    open: boolean
+    message: string
+    severity: AlertProps['severity']
+  }
 }
 
 export const useStorage = create<UseStorage>()(
@@ -24,6 +30,11 @@ export const useStorage = create<UseStorage>()(
       advExpanded: false,
       helpDialog: false,
       loading: false,
+      shareAlert: {
+        open: false,
+        message: '',
+        severity: 'info',
+      },
       error: null,
       ready: false,
       selected: [],
