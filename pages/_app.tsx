@@ -1,32 +1,45 @@
 import Head from 'next/head'
-import { AppProps } from 'next/app'
-import { ThemeProvider } from '@mui/material'
-import { CacheProvider } from '@emotion/react'
+import { type AppProps } from 'next/app'
+import { CacheProvider, EmotionCache } from '@emotion/react'
+import CssBaseline from '@mui/material/CssBaseline'
+import Box from '@mui/material/Box'
+import { Experimental_CssVarsProvider as CssVarsProvider } from '@mui/material/styles'
+import type {} from '@mui/material/themeCssVarsAugmentation'
 
-import createEmotionCache from '../lib/emotionCache'
-import { theme } from '../lib/theme'
+import { createEmotionCache } from '@lib/createEmotionCache'
+import { theme } from '@lib/theme'
+import { Header } from '@components/Header'
+import { Footer } from '@components/footer'
 
-import '../assets/index.css'
+import styles from '../styles.module.css'
 
 const clientSideEmotionCache = createEmotionCache()
 
-interface Props extends AppProps {
-  emotionCache?: ReturnType<typeof createEmotionCache>
+export interface MyAppProps extends AppProps {
+  emotionCache?: EmotionCache
 }
-export default function App({
+
+const MyApp = ({
   Component,
-  pageProps,
   emotionCache = clientSideEmotionCache,
-}: Props) {
+  pageProps,
+}: MyAppProps) => {
   return (
     <CacheProvider value={emotionCache}>
       <Head>
         <title>The Count</title>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
       </Head>
-      <ThemeProvider theme={theme}>
-        <Component {...pageProps} />
-      </ThemeProvider>
+      <CssVarsProvider theme={theme} defaultMode="system">
+        <CssBaseline />
+        <Box className={styles.layout} height="100svh">
+          <Header />
+          <Component {...pageProps} />
+          <Footer />
+        </Box>
+      </CssVarsProvider>
     </CacheProvider>
   )
 }
+
+export default MyApp

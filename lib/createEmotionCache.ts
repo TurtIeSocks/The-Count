@@ -2,11 +2,8 @@ import createCache from '@emotion/cache'
 
 const isBrowser = typeof document !== 'undefined'
 
-// On the client side, Create a meta tag at the top of the <head> and set it as insertionPoint.
-// This assures that MUI styles are loaded first.
-// Which makes it easier to override MUI styles with other styling solutions, like CSS modules.
-export default function createEmotionCache() {
-  let insertionPoint: HTMLElement | undefined
+export const createEmotionCache = () => {
+  let insertionPoint
 
   if (isBrowser) {
     const emotionInsertionPoint = document.querySelector<HTMLMetaElement>(

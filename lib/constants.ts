@@ -1,3 +1,5 @@
+import { Filters, SliderProps } from './types'
+
 export const CPM = {
   '1': 0.0939999967813492,
   '1.5': 0.135137432089339,
@@ -109,3 +111,94 @@ export const CPM = {
   '54.5': 0.862803624012168,
   '55': 0.865299999713897,
 }
+
+export const SLIDERS: SliderProps[] = [
+  {
+    name: 'Level',
+    shortName: 'level',
+    min: 1,
+    max: 55,
+  },
+  {
+    name: 'Attack',
+    shortName: 'atk',
+    min: 0,
+    max: 15,
+  },
+  {
+    name: 'Defense',
+    shortName: 'def',
+    min: 0,
+    max: 15,
+  },
+  {
+    name: 'Stamina',
+    shortName: 'sta',
+    min: 0,
+    max: 15,
+  },
+  {
+    name: 'IV Range',
+    shortName: 'iv',
+    min: 0,
+    max: 100,
+  },
+]
+
+export const DEFAULT_FILTERS: Filters = {
+  cp: 0,
+  atk: [0, 15],
+  def: [0, 15],
+  sta: [0, 15],
+  level: [1, 50],
+  iv: [0, 100],
+  generations: {
+    Kanto: true,
+    Johto: true,
+    Hoenn: true,
+    Sinnoh: true,
+    Unova: true,
+    Kalos: true,
+    Alola: true,
+    Galar: true,
+  },
+  types: {
+    Normal: true,
+    Fire: true,
+    Water: true,
+    Grass: true,
+    Electric: true,
+    Ice: true,
+    Fighting: true,
+    Poison: true,
+    Ground: true,
+    Flying: true,
+    Psychic: true,
+    Bug: true,
+    Rock: true,
+    Ghost: true,
+    Dark: true,
+    Dragon: true,
+    Steel: true,
+    Fairy: true,
+  },
+  forms: true,
+  megas: true,
+  legends: true,
+  mythics: true,
+  ultraBeasts: true,
+  unreleased: false,
+}
+
+export const MULTI_SELECT = ['generations', 'types'] as const
+
+export const SWITCHES = [
+  'forms',
+  'megas',
+  'legends',
+  'mythics',
+  'ultraBeasts',
+  'unreleased',
+] as const
+
+export const COLUMNS = ['name', 'atk', 'def', 'sta', 'iv', 'level'] as const

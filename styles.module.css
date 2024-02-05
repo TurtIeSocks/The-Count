@@ -1,0 +1,22 @@
+.layout {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: min-content auto max-content;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.expanded {
+  rotate: 180deg;
+}
+
+.collapsed {
+  rotate: 0deg;
+}

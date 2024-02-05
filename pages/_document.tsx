@@ -1,45 +1,71 @@
-/* eslint-disable no-underscore-dangle */
 import * as React from 'react'
-import Document, { Html, Head, Main, NextScript } from 'next/document'
+import { type AppType } from 'next/app'
+import Document, {
+  DocumentContext,
+  DocumentProps,
+  Head,
+  Html,
+  Main,
+  NextScript,
+} from 'next/document'
 import createEmotionServer from '@emotion/server/create-instance'
+import { getInitColorSchemeScript } from '@mui/material/styles'
 
-import createEmotionCache from '../lib/emotionCache'
-import { theme } from '../lib/theme'
+import { createEmotionCache } from '@lib/createEmotionCache'
 
-// This follows the official recommendation for MUI and Next.js
-// See https://github.com/mui/material-ui/issues/26561#issuecomment-855286153
+import { MyAppProps } from './_app'
 
-export default class MyDocument extends Document {
-  render() {
-    return (
-      <Html lang="en">
-        <Head>
-          <meta name="theme-color" content={theme.palette.primary.main} />
-          <link rel="shortcut icon" href="/favicon.ico" />
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-          />
-          <meta name="emotion-insertion-point" content="" />
-          {(this.props as any).emotionStyleTags}
-        </Head>
-        <body>
-          <Main />
-          <NextScript />
-        </body>
-      </Html>
-    )
-  }
+interface MyDocumentProps extends DocumentProps {
+  emotionStyleTags: JSX.Element[]
 }
 
-MyDocument.getInitialProps = async (ctx) => {
+const MyDocument = ({ emotionStyleTags }: MyDocumentProps) => {
+  return (
+    <Html lang="en">
+      <Head>
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta name="emotion-insertion-point" content="" />
+        {emotionStyleTags}
+      </Head>
+      <body>
+        {getInitColorSchemeScript({
+          defaultMode: 'system',
+        })}
+        <Main />
+        <NextScript />
+      </body>
+    </Html>
+  )
+}
+
+MyDocument.getInitialProps = async (ctx: DocumentContext) => {
   const originalRenderPage = ctx.renderPage
   const cache = createEmotionCache()
   const { extractCriticalToChunks } = createEmotionServer(cache)
 
   ctx.renderPage = () =>
     originalRenderPage({
-      enhanceApp: (App: any) =>
+      enhanceApp: (
+        App: React.ComponentType<React.ComponentProps<AppType> & MyAppProps>,
+      ) =>
         function EnhanceApp(props) {
           return <App emotionCache={cache} {...props} />
         },
@@ -61,3 +87,5 @@ MyDocument.getInitialProps = async (ctx) => {
     emotionStyleTags,
   }
 }
+
+export default MyDocument

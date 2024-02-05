@@ -1,55 +1,79 @@
-import { useState } from 'react'
-import { IconButton, Grid, Paper, InputBase } from '@mui/material'
+import * as React from 'react'
+import { useRouter } from 'next/router'
+import { useSearchParams } from 'next/navigation'
+import IconButton from '@mui/material/IconButton'
 import SearchIcon from '@mui/icons-material/Search'
+import TextField from '@mui/material/TextField'
 
-import type { Filters } from '../assets/types'
+import { useStorage } from '@lib/store'
 
-interface Props {
-  filters: Filters
-  onSubmit: (filters: Filters) => void
-  isMobile: boolean
-}
+export const Search = () => {
+  const router = useRouter()
+  const cpParam = useSearchParams().get('cp')
 
-export default function Search({ filters, onSubmit, isMobile }: Props) {
-  const [value, setValue] = useState(filters.cp)
+  const [value, setValue] = React.useState('')
+
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const newValue = event.target.value === '' ? '' : event.target.value || ''
+    setValue(newValue)
+  }
 
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault()
-    onSubmit({ ...filters, cp: value })
+    const params = new URLSearchParams()
+    if (value) {
+      params.set('cp', value)
+      router.push(
+        { pathname: '/results', search: params.toString() },
+        undefined,
+        { shallow: true },
+      )
+    } else {
+      router.push('/')
+    }
   }
 
+  React.useEffect(() => {
+    const cp = cpParam || ''
+    setValue(cp)
+    useStorage.setState((prev) => {
+      if (+cp !== prev.filters.cp) {
+        return {
+          filters: {
+            ...prev.filters,
+            cp: +cp || 0,
+          },
+        }
+      }
+      return prev
+    })
+  }, [cpParam])
+
   return (
-    <Grid item xs={12}>
-      <form onSubmit={handleSubmit}>
-        <Paper
-          elevation={0}
-          variant="outlined"
-          style={{
-            padding: '2px 4px',
-            display: 'flex',
-            alignItems: 'center',
-            margin: 3,
-            backgroundColor: '#2E2E2E',
-          }}
-        >
-          <InputBase
-            style={{ flex: 1, margin: 6 }}
-            placeholder="Enter Combat Power (CP)"
-            name="cp"
-            onChange={(e) => setValue(+e.target.value)}
-            value={value}
-            fullWidth
-            autoComplete="off"
-            type="number"
-            inputProps={{
-              min: 10,
-            }}
-          />
-          <IconButton style={{ padding: 10 }} onClick={handleSubmit}>
-            <SearchIcon color="secondary" />
-          </IconButton>
-        </Paper>
-      </form>
-    </Grid>
+    <form
+      onSubmit={handleSubmit}
+      style={{ flexGrow: 1, maxWidth: router.pathname === '/' ? 400 : '100%' }}
+    >
+      <TextField
+        placeholder="Enter Combat Power (CP)"
+        variant="outlined"
+        type="number"
+        value={value}
+        onChange={handleChange}
+        InputProps={{
+          sx: { pl: 2 },
+          endAdornment: (
+            <IconButton onClick={handleSubmit}>
+              <SearchIcon color="primary" />
+            </IconButton>
+          ),
+        }}
+        fullWidth
+        inputProps={{
+          min: 10,
+        }}
+        sx={{ py: 1 }}
+      />
+    </form>
   )
 }
