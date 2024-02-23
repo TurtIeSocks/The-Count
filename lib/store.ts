@@ -15,6 +15,7 @@ interface UseStorage {
   pokedex: Pokedex
   filteredDex: Pokedex
   pokemonSelection: Pokedex
+  matchCount: number
   selected: Pokedex
   shareAlert: {
     open: boolean
@@ -35,6 +36,7 @@ export const useStorage = create<UseStorage>()(
         message: '',
         severity: 'info',
       },
+      matchCount: 0,
       error: null,
       ready: false,
       selected: [],

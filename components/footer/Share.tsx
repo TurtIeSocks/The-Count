@@ -14,12 +14,13 @@ export const ShareLink = () => {
     <IconButton
       size="large"
       onClick={() => {
+        const cp = new URLSearchParams(window.location.search).get('cp')
         if (navigator.share) {
-          const params = new URLSearchParams(window.location.search)
-          console.log(params.get('cp'))
           navigator.share({
             title: 'The Count',
-            text: 'Search through over 500 Million IV combinations to get the best Pokémon',
+            text: cp
+              ? `${useStorage.getState().matchCount} Pokémon IV combinations match CP ${cp}`
+              : 'Search through over 500 Million IV combinations to get the best Pokémon',
             url: window.location.href,
           })
         } else if (navigator.clipboard) {

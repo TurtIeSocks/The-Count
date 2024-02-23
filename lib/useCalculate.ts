@@ -62,9 +62,11 @@ export const useCalculate = () => {
             totalCount += result.count
             matches.push(result.results)
           })
-          setMatches(matches.flat())
+          const flattened = matches.flat()
+          setMatches(flattened)
           setCount(totalCount)
           setTime(Date.now() - time)
+          useStorage.setState({ matchCount: flattened.length })
         })
       } catch (e) {
         console.error(e)
