@@ -19,7 +19,7 @@ export const ShareLink = () => {
           navigator.share({
             title: 'The Count',
             text: cp
-              ? `${useStorage.getState().matchCount} Pokémon IV combinations match CP ${cp}`
+              ? `${useStorage.getState().matchCount.toLocaleString()} Pokémon IV combinations for CP ${(+cp).toLocaleString()}`
               : 'Search through over 500 Million IV combinations to get the best Pokémon',
             url: window.location.href,
           })
