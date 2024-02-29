@@ -87,6 +87,5 @@ export const getMasterfile = async () => {
       })
     }
   })
-
-  return Object.values(pokedex)
+  return pokedex
 }

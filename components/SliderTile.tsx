@@ -56,7 +56,7 @@ export const SliderTile = React.memo(
               }))
             }
           }}
-          step={shortName === 'iv' ? IV_MARK : 1}
+          step={shortName === 'iv' ? IV_MARK : shortName === 'level' ? 0.5 : 1}
           marks={shortName === 'iv' ? MARKS : undefined}
           sx={{
             width: { xs: '85%', md: shortName === 'iv' ? '92.5%' : '85%' },
