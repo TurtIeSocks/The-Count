@@ -6,7 +6,7 @@ import { Match } from './types'
 import { chunkArray } from './utils'
 
 export const useCalculate = () => {
-  const levels = useStorage((state) => state.filters.level)
+  const levels = useStorage((s) => s.filters.level)
   const pokedex = useStorage((s) => s.filteredDex)
   const ready = useStorage((s) => s.ready)
   const cp = useStorage((s) => s.filters.cp)
