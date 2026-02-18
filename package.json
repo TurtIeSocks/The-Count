@@ -6,28 +6,28 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint ."
   },
   "dependencies": {
-    "@emotion/cache": "^11.11.0",
-    "@emotion/react": "^11.11.3",
-    "@emotion/styled": "^11.11.0",
+    "@emotion/cache": "^11.14.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
     "@emotion/server": "^11.11.0",
-    "@mui/icons-material": "^5.15.7",
-    "@mui/material": "^5.15.7",
-    "next": "^14.1.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-virtuoso": "^4.6.3",
-    "zustand": "^4.5.0"
+    "@mui/icons-material": "^7.3.8",
+    "@mui/material": "^7.3.8",
+    "next": "^16.1.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-virtuoso": "^4.18.1",
+    "zustand": "^5.0.11"
   },
   "devDependencies": {
-    "@types/node": "^20.11.15",
-    "@types/react": "^18.2.51",
-    "@types/react-dom": "^18.2.18",
-    "eslint": "^8.56.0",
-    "eslint-config-next": "^14.1.0",
-    "prettier": "^3.2.4",
-    "typescript": "^5.3.3"
+    "@types/node": "^25.2.3",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^10.0.0",
+    "eslint-config-next": "^16.1.6",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3"
   }
 }

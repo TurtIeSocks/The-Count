@@ -11,9 +11,7 @@ import { ShareAlert, ShareLink } from './Share'
 const DynThemeToggle = dynamic(
   () =>
     import('@components/footer/ThemeToggle').then((comp) => comp.ThemeToggle),
-  {
-    ssr: false,
-  },
+  { ssr: false },
 )
 
 export const Footer = React.memo(

@@ -12,7 +12,7 @@ const onClick = () => useStorage.setState({ helpDialog: true })
 
 export const HelpBtn = () => {
   return (
-    <IconButton size="large" onClick={onClick}>
+    <IconButton size="large" onClick={onClick} aria-label="Open help dialog">
       <HelpIcon fontSize="large" />
     </IconButton>
   )

@@ -1,15 +1,26 @@
 import * as React from 'react'
-import { useRouter } from 'next/router'
-import { useSearchParams } from 'next/navigation'
+import { usePathname, useRouter, useSearchParams } from 'next/navigation'
 import IconButton from '@mui/material/IconButton'
 import SearchIcon from '@mui/icons-material/Search'
 import TextField from '@mui/material/TextField'
+import InputAdornment from '@mui/material/InputAdornment'
 
 import { useStorage } from '@lib/store'
 
+const MIN_CP = 10
+const MAX_CP = 9999
+
+const parseCp = (raw: string) => {
+  const cp = Number(raw)
+  if (!Number.isFinite(cp)) return 0
+  return Math.max(0, Math.floor(cp))
+}
+
 export const Search = () => {
   const router = useRouter()
-  const cpParam = useSearchParams().get('cp')
+  const pathname = usePathname()
+  const searchParams = useSearchParams()
+  const cpParam = searchParams?.get('cp')
 
   const [value, setValue] = React.useState('')
 
@@ -20,14 +31,11 @@ export const Search = () => {
 
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault()
+    const cp = parseCp(value)
     const params = new URLSearchParams()
-    if (value) {
-      params.set('cp', value)
-      router.push(
-        { pathname: '/results', search: params.toString() },
-        undefined,
-        { shallow: true },
-      )
+    if (Number.isFinite(cp) && cp >= MIN_CP) {
+      params.set('cp', String(cp))
+      router.push(`/results?${params.toString()}`)
     } else {
       router.push('/')
     }
@@ -37,13 +45,9 @@ export const Search = () => {
     const cp = cpParam || ''
     setValue(cp)
     useStorage.setState((prev) => {
-      if (+cp !== prev.filters.cp) {
-        return {
-          filters: {
-            ...prev.filters,
-            cp: +cp || 0,
-          },
-        }
+      const parsed = parseCp(cp)
+      if (parsed !== prev.filters.cp) {
+        return { filters: { ...prev.filters, cp: parsed } }
       }
       return prev
     })
@@ -52,10 +56,11 @@ export const Search = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      style={{ flexGrow: 1, maxWidth: router.pathname === '/' ? 400 : '100%' }}
+      style={{ flexGrow: 1, maxWidth: pathname === '/' ? 400 : '100%' }}
     >
       <TextField
-        placeholder="Enter Combat Power (CP)"
+        label="Combat Power (CP)"
+        placeholder="e.g. 1500"
         variant="outlined"
         type="number"
         value={value}
@@ -63,15 +68,15 @@ export const Search = () => {
         InputProps={{
           sx: { pl: 2 },
           endAdornment: (
-            <IconButton onClick={handleSubmit}>
-              <SearchIcon color="primary" />
-            </IconButton>
+            <InputAdornment position="end">
+              <IconButton type="submit" aria-label="Search by combat power">
+                <SearchIcon color="primary" />
+              </IconButton>
+            </InputAdornment>
           ),
         }}
         fullWidth
-        inputProps={{
-          min: 10,
-        }}
+        inputProps={{ min: MIN_CP, max: MAX_CP, inputMode: 'numeric' }}
         sx={{ py: 1 }}
       />
     </form>

@@ -1,4 +1,4 @@
-import Grid2 from '@mui/material/Unstable_Grid2'
+import Grid from '@mui/material/Grid'
 import FormControlLabel from '@mui/material/FormControlLabel'
 import Switch from '@mui/material/Switch'
 import { capitalize } from '@mui/material'
@@ -13,7 +13,7 @@ interface Props {
 export const FilterSwitch = ({ name }: Props) => {
   const value = useStorage((s) => !!s.filters[name])
   return (
-    <Grid2 xs={4}>
+    <Grid size={4}>
       <FormControlLabel
         control={
           <Switch
@@ -29,6 +29,6 @@ export const FilterSwitch = ({ name }: Props) => {
         label={capitalize(name)}
         labelPlacement="bottom"
       />
-    </Grid2>
+    </Grid>
   )
 }

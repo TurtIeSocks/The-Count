@@ -1,11 +1,13 @@
-import type { Match } from '@lib/types'
+import type { Match, WorkerRequest, WorkerResponse } from '@lib/types'
 import { buildData } from '@lib/buildData'
 
-addEventListener('message', ({ data: { chunk, filters, relevantCPM } }) => {
-  let results: Match[] = []
+self.addEventListener('message', (event: MessageEvent<WorkerRequest>) => {
+  const { jobId, chunk, filters, relevantCPM } = event.data
+  const results: Match[] = []
   let count = 0
   for (let i = 0; i < chunk.length; i++) {
     count += buildData(filters, relevantCPM, chunk[i], results)
   }
-  postMessage({ results, count })
+  const response: WorkerResponse = { jobId, results, count }
+  self.postMessage(response)
 })

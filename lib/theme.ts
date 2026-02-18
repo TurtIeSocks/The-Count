@@ -1,45 +1,21 @@
-import { Roboto } from 'next/font/google'
-import { experimental_extendTheme as extendTheme } from '@mui/material/styles'
-
-const roboto = Roboto({
-  weight: ['300', '400', '500', '700'],
-  subsets: ['latin'],
-  display: 'swap',
-})
+import { extendTheme } from '@mui/material/styles'
 
 const baseTheme = {
-  primary: {
-    main: '#ff5722',
-  },
-  secondary: {
-    main: '#00b0ff',
-  },
+  primary: { main: '#ff5722' },
+  secondary: { main: '#00b0ff' },
 }
 
 export const theme = extendTheme({
-  colorSchemes: {
-    light: {
-      palette: baseTheme,
-    },
-    dark: {
-      palette: baseTheme,
-    },
-  },
-  typography: {
-    fontFamily: roboto.style.fontFamily,
-  },
+  colorSchemes: { light: { palette: baseTheme }, dark: { palette: baseTheme } },
+  typography: { fontFamily: '"Roboto","Helvetica","Arial",sans-serif' },
   components: {
-    MuiGrid2: {
+    MuiGrid: {
       defaultProps: {
         alignItems: 'center',
         justifyContent: 'center',
         textAlign: 'center',
       },
     },
-    MuiPaper: {
-      defaultProps: {
-        elevation: 0,
-      },
-    },
+    MuiPaper: { defaultProps: { elevation: 0 } },
   },
 })

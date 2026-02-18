@@ -7,7 +7,7 @@ import TableHead from '@mui/material/TableHead'
 import TableRow from '@mui/material/TableRow'
 import Paper from '@mui/material/Paper'
 import Typography from '@mui/material/Typography'
-import Grid2 from '@mui/material/Unstable_Grid2'
+import Grid from '@mui/material/Grid'
 import Box from '@mui/material/Box'
 import { capitalize } from '@mui/material/utils'
 import { TableVirtuoso, TableComponents } from 'react-virtuoso'
@@ -34,11 +34,15 @@ const VirtuosoTableComponents: TableComponents<Match> = {
   Table: (props) => (
     <Table
       {...props}
+      aria-label="Pokemon IV search results"
       sx={{ borderCollapse: 'separate', tableLayout: 'fixed' }}
     />
   ),
   TableHead,
-  TableRow: ({ item: _item, ...props }) => <TableRow {...props} />,
+  TableRow: ({ item, ...props }) => {
+    void item
+    return <TableRow {...props} />
+  },
   TableBody,
 }
 
@@ -76,24 +80,25 @@ const itemContent = (_index: number, row: Match) => {
 export const ResultTable = () => {
   const { matches, count, time } = useCalculate()
   const unreleased = useStorage((s) => s.filters.unreleased)
+  const cp = useStorage((s) => s.filters.cp)
+  const hasSearchCp = cp >= 10
   return (
-    <Grid2
-      xs={12}
-      sm={7}
+    <Grid
+      size={{ xs: 12, sm: 7, md: 6, xl: 4 }}
       px={2}
-      md={6}
-      xl={4}
       height={{ xs: 'calc(100% - 72px)', sm: '100%' }}
     >
       <Box className={styles.layout} height="100%">
         <Box mt={2}>
           <Typography variant="h6" align="center" lineHeight={1}>
-            {matches.length.toLocaleString()} results for{' '}
-            {useStorage.getState().filters.cp.toLocaleString()} CP
+            {hasSearchCp
+              ? `${matches.length.toLocaleString()} results for ${cp.toLocaleString()} CP`
+              : 'Enter a CP value of 10 or higher to view results'}
           </Typography>
           <Typography variant="caption" align="center">
-            Checked {count.toLocaleString()} combinations in{' '}
-            {time.toLocaleString()} ms
+            {hasSearchCp
+              ? `Checked ${count.toLocaleString()} combinations in ${time.toLocaleString()} ms`
+              : 'Use the search field above to start filtering IV combinations.'}
           </Typography>
         </Box>
         <TableVirtuoso
@@ -109,6 +114,6 @@ export const ResultTable = () => {
           </Typography>
         )}
       </Box>
-    </Grid2>
+    </Grid>
   )
 }

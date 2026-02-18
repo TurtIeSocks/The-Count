@@ -1,5 +1,5 @@
 import * as React from 'react'
-import Grid2 from '@mui/material/Unstable_Grid2'
+import Grid from '@mui/material/Grid'
 import Slider from '@mui/material/Slider'
 import Typography from '@mui/material/Typography'
 import StarIcon from '@mui/icons-material/Star'
@@ -11,10 +11,10 @@ const IV_MARK = 100 / 45
 const roundToOne = (num: number) => +num.toFixed(1)
 
 const Star = ({ children }: { children: string }) => (
-  <Grid2 container flexWrap="nowrap">
+  <Grid container flexWrap="nowrap">
     {children}
     <StarIcon fontSize="small" />
-  </Grid2>
+  </Grid>
 )
 const MARKS = [
   { value: 0, label: <Star>0</Star> },
@@ -31,7 +31,7 @@ export const SliderTile = React.memo(
     const isIv = shortName === 'iv'
     React.useEffect(() => setLocal(values), [values])
     return (
-      <Grid2 xs={12} md={isIv ? 12 : 6}>
+      <Grid size={{ xs: 12, md: isIv ? 12 : 6 }}>
         <Typography gutterBottom>
           {name} {local.map(roundToOne).join(' - ')}
         </Typography>
@@ -64,7 +64,7 @@ export const SliderTile = React.memo(
           valueLabelDisplay="auto"
           valueLabelFormat={roundToOne}
         />
-      </Grid2>
+      </Grid>
     )
   },
   (prev, next) => prev.name === next.name,

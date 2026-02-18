@@ -1,7 +1,6 @@
 import * as React from 'react'
 import IconButton from '@mui/material/IconButton'
 import Alert from '@mui/material/Alert'
-import Collapse from '@mui/material/Collapse'
 import ShareIcon from '@mui/icons-material/Share'
 import CheckIcon from '@mui/icons-material/Check'
 import CloseIcon from '@mui/icons-material/Close'
@@ -13,6 +12,7 @@ export const ShareLink = () => {
   return (
     <IconButton
       size="large"
+      aria-label="Share current results"
       onClick={() => {
         const cp = new URLSearchParams(window.location.search).get('cp')
         if (navigator.share) {

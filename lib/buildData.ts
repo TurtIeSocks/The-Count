@@ -1,4 +1,4 @@
-import type { Filters, Match, Pokemon } from '@lib/types'
+import type { CalculationFilters, Match, PokemonStats } from '@lib/types'
 import { cpCalc } from './utils'
 
 export const buildData = (
@@ -7,9 +7,9 @@ export const buildData = (
     atk: [minAtk, maxAtk],
     def: [minDef, maxDef],
     sta: [minSta, maxSta],
-  }: Filters,
+  }: CalculationFilters,
   relevantCPM: [number, number][],
-  pokemon: Pokemon,
+  pokemon: PokemonStats,
   matches: Match[],
 ) => {
   let count = 0
@@ -48,13 +48,7 @@ export const buildData = (
             cpm,
           )
           if (currentCp === cp) {
-            matches.push({
-              name: pokemon.name,
-              atk,
-              def,
-              sta,
-              level,
-            })
+            matches.push({ name: pokemon.name, atk, def, sta, level })
           }
         }
       }

@@ -9,6 +9,7 @@ export const GitHubLink = () => {
       target="_blank"
       rel="noreferrer"
       size="large"
+      aria-label="Open GitHub repository"
     >
       <GitHubIcon fontSize="large" />
     </IconButton>

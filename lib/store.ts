@@ -26,24 +26,24 @@ interface UseStorage {
 
 export const useStorage = create<UseStorage>()(
   persist(
-    (set, get) => ({
-      filters: DEFAULT_FILTERS,
-      advExpanded: false,
-      helpDialog: false,
-      loading: false,
-      shareAlert: {
-        open: false,
-        message: '',
-        severity: 'info',
-      },
-      matchCount: 0,
-      error: null,
-      ready: false,
-      selected: [],
-      pokedex: [],
-      pokemonSelection: [],
-      filteredDex: [],
-    }),
+    (set, get) => {
+      void set
+      void get
+      return {
+        filters: DEFAULT_FILTERS,
+        advExpanded: false,
+        helpDialog: false,
+        loading: false,
+        shareAlert: { open: false, message: '', severity: 'info' },
+        matchCount: 0,
+        error: null,
+        ready: false,
+        selected: [],
+        pokedex: [],
+        pokemonSelection: [],
+        filteredDex: [],
+      }
+    },
     {
       name: 'local-state',
       storage: createJSONStorage(() => localStorage),
@@ -72,14 +72,8 @@ export const setPokedex = (pokedex: Pokedex) => {
       filters: {
         ...DEFAULT_FILTERS,
         ...prev.filters,
-        generations: {
-          ...generations,
-          ...prev.filters.generations,
-        },
-        types: {
-          ...DEFAULT_FILTERS.types,
-          ...prev.filters.types,
-        },
+        generations: { ...generations, ...prev.filters.generations },
+        types: { ...DEFAULT_FILTERS.types, ...prev.filters.types },
       },
       pokedex,
       selected: pokedex.filter((mon) => exitingSelected.has(mon.name)),

@@ -1,13 +1,13 @@
 import * as React from 'react'
-import { useRouter } from 'next/router'
+import { usePathname } from 'next/navigation'
 import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
-import Grid2 from '@mui/material/Unstable_Grid2'
+import Grid from '@mui/material/Grid'
 import { Theme, useMediaQuery } from '@mui/material'
 
 export const Header = () => {
-  const router = useRouter()
-  const home = router.pathname === '/'
+  const pathname = usePathname()
+  const home = pathname === '/'
   const isMobile = useMediaQuery<Theme>((t) => t.breakpoints.only('xs'))
 
   return (
@@ -21,12 +21,12 @@ export const Header = () => {
         The Count
       </Typography>
       {home && (
-        <Grid2 container>
+        <Grid container>
           <Typography variant="h6" maxWidth={400}>
             Calculator for Pokemon GO communities that play the popular game
             &quot;The Count&quot;{' '}
           </Typography>
-        </Grid2>
+        </Grid>
       )}
     </Box>
   )

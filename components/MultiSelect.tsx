@@ -1,5 +1,5 @@
 import * as React from 'react'
-import Grid2 from '@mui/material/Unstable_Grid2'
+import Grid from '@mui/material/Grid'
 import FormControl from '@mui/material/FormControl'
 import InputLabel from '@mui/material/InputLabel'
 import Select, { SelectProps } from '@mui/material/Select'
@@ -49,7 +49,7 @@ export const MultiSelect = React.memo(
       }))
     }
     return (
-      <Grid2 xs={12} md={6} py={{ xs: 1, md: 2 }}>
+      <Grid size={{ xs: 12, md: 6 }} py={{ xs: 1, md: 2 }}>
         <FormControl fullWidth>
           <InputLabel id={`ms-${name}-label`}>{capitalize(name)}</InputLabel>
           <Select
@@ -72,7 +72,7 @@ export const MultiSelect = React.memo(
             ))}
           </Select>
         </FormControl>
-      </Grid2>
+      </Grid>
     )
   },
   (prev, next) => prev.name === next.name,

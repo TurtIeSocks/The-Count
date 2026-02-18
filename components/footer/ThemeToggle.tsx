@@ -12,6 +12,11 @@ export const ThemeToggle = () => {
     <IconButton
       onClick={() => setMode(determinedMode === 'dark' ? 'light' : 'dark')}
       size="large"
+      aria-label={
+        determinedMode === 'dark'
+          ? 'Switch to light mode'
+          : 'Switch to dark mode'
+      }
     >
       {determinedMode === 'dark' ? (
         <LightModeIcon fontSize="large" />

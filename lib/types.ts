@@ -14,6 +14,7 @@ export interface Pokemon {
 }
 
 export type Pokedex = Pokemon[]
+export type PokemonStats = Pick<Pokemon, 'name' | 'attack' | 'defense' | 'stamina'>
 
 export interface Match {
   name: string
@@ -38,6 +39,26 @@ export interface Filters {
   mythics: boolean
   unreleased: boolean
   ultraBeasts: boolean
+}
+
+export interface CalculationFilters {
+  cp: number
+  atk: [number, number]
+  def: [number, number]
+  sta: [number, number]
+}
+
+export interface WorkerRequest {
+  jobId: number
+  chunk: PokemonStats[]
+  filters: CalculationFilters
+  relevantCPM: [number, number][]
+}
+
+export interface WorkerResponse {
+  jobId: number
+  results: Match[]
+  count: number
 }
 
 export interface SliderProps {

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import Grid2 from '@mui/material/Unstable_Grid2'
+import Grid from '@mui/material/Grid'
 import Collapse from '@mui/material/Collapse'
 import IconButton from '@mui/material/IconButton'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
@@ -19,22 +19,23 @@ import styles from '../styles.module.css'
 
 const MOBILE_ONLY = { display: { xs: 'block', sm: 'none' } }
 const DESKTOP_ONLY = { xs: 'none', sm: 'block' }
+const ADVANCED_OPTIONS_ID = 'advanced-options'
 
 const AdvancedOptions = () => (
-  <Grid2 container columnSpacing={1}>
+  <Grid container columnSpacing={1}>
     <PokemonAC />
     {MULTI_SELECT.map((each) => (
       <MultiSelect key={each} name={each} />
     ))}
-    <Grid2 component={Divider} xs={12} mb={2} mt={1} />
+    <Grid component={Divider} size={12} mb={2} mt={1} />
     {SLIDERS.map((each) => (
       <SliderTile key={each.name} {...each} />
     ))}
-    <Grid2 component={Divider} xs={12} mb={2} mt={1} />
+    <Grid component={Divider} size={12} mb={2} mt={1} />
     {SWITCHES.map((each) => (
       <FilterSwitch key={each} name={each} />
     ))}
-  </Grid2>
+  </Grid>
 )
 
 const MobileView = () => {
@@ -42,6 +43,9 @@ const MobileView = () => {
   return (
     <IconButton
       sx={MOBILE_ONLY}
+      aria-label="Toggle advanced filters"
+      aria-expanded={advExpanded}
+      aria-controls={ADVANCED_OPTIONS_ID}
       onClick={() => {
         useStorage.setState({ advExpanded: !advExpanded })
       }}
@@ -56,9 +60,9 @@ const MobileView = () => {
 const Expanded = () => {
   const advExpanded = useStorage((s) => s.advExpanded)
   return (
-    <Collapse in={advExpanded} sx={MOBILE_ONLY}>
+    <Collapse in={advExpanded} sx={MOBILE_ONLY} id={ADVANCED_OPTIONS_ID}>
       <AdvancedOptions />
-      <Grid2 component={Divider} xs={12} my={2} />
+      <Grid component={Divider} size={12} my={2} />
     </Collapse>
   )
 }
@@ -71,12 +75,14 @@ const DesktopView = () => (
 
 export const AdvancedSearch = React.memo(
   () => (
-    <Grid2 container xs={12} sm={5} md={6} px={2} xl={4}>
-      <Search />
+    <Grid container size={{ xs: 12, sm: 5, md: 6, xl: 4 }} px={2}>
+      <React.Suspense fallback={null}>
+        <Search />
+      </React.Suspense>
       <MobileView />
       <DesktopView />
       <Expanded />
-    </Grid2>
+    </Grid>
   ),
   () => true,
 )

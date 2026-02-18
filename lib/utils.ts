@@ -1,9 +1,11 @@
 export const chunkArray = <T>(array: T[], numberOfChunks: number): T[][] => {
+  if (numberOfChunks <= 0 || array.length === 0) return []
   const chunks = []
   const chunkSize = Math.ceil(array.length / numberOfChunks)
 
   for (let i = 0; i < numberOfChunks; i++) {
     const start = i * chunkSize
+    if (start >= array.length) break
     const end = start + chunkSize
     chunks.push(array.slice(start, end))
   }
