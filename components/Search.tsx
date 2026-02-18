@@ -1,3 +1,5 @@
+'use client'
+
 import * as React from 'react'
 import { usePathname, useRouter, useSearchParams } from 'next/navigation'
 import IconButton from '@mui/material/IconButton'
@@ -59,6 +61,7 @@ export const Search = () => {
       style={{ flexGrow: 1, maxWidth: pathname === '/' ? 400 : '100%' }}
     >
       <TextField
+        name="cp"
         label="Combat Power (CP)"
         placeholder="e.g. 1500"
         variant="outlined"
@@ -77,7 +80,7 @@ export const Search = () => {
         }}
         fullWidth
         inputProps={{ min: MIN_CP, max: MAX_CP, inputMode: 'numeric' }}
-        sx={{ py: 1 }}
+        autoComplete="off"
       />
     </form>
   )

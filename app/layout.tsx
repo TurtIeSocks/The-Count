@@ -3,6 +3,7 @@ import type { Metadata, Viewport } from 'next'
 import InitColorSchemeScript from '@mui/material/InitColorSchemeScript'
 
 import { Providers } from './providers'
+import styles from '../styles.module.css'
 
 export const metadata: Metadata = {
   title: 'The Count',
@@ -44,6 +45,9 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         <link rel="manifest" href="/site.webmanifest" />
       </head>
       <body>
+        <a href="#main-content" className={styles.skipLink}>
+          Skip to main content
+        </a>
         <InitColorSchemeScript defaultMode="system" />
         <Providers>{children}</Providers>
       </body>

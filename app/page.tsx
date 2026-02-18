@@ -1,16 +1,14 @@
-'use client'
-
-import * as React from 'react'
+import { Suspense } from 'react'
 import Grid from '@mui/material/Grid'
 
 import { Search } from '@components/Search'
 
 const HomePage = () => {
   return (
-    <Grid container px={4} mb={12}>
-      <React.Suspense fallback={null}>
+    <Grid component="main" container px={4} mb={12}>
+      <Suspense fallback={null}>
         <Search />
-      </React.Suspense>
+      </Suspense>
     </Grid>
   )
 }

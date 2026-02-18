@@ -13,31 +13,48 @@ export const ShareLink = () => {
     <IconButton
       size="large"
       aria-label="Share current results"
-      onClick={() => {
+      onClick={async () => {
         const cp = new URLSearchParams(window.location.search).get('cp')
-        if (navigator.share) {
-          navigator.share({
-            title: 'The Count',
-            text: cp
-              ? `${useStorage.getState().matchCount.toLocaleString()} Pokémon IV combinations for CP ${(+cp).toLocaleString()}`
-              : 'Search through over 500 Million IV combinations to get the best Pokémon',
-            url: window.location.href,
-          })
-        } else if (navigator.clipboard) {
-          navigator.clipboard.writeText(window.location.href)
-          useStorage.setState({
-            shareAlert: {
-              open: true,
-              severity: 'success',
-              message: 'Copied to clipboard!',
-            },
-          })
-        } else {
+        try {
+          if (navigator.share) {
+            await navigator.share({
+              title: 'The Count',
+              text: cp
+                ? `${useStorage.getState().matchCount.toLocaleString()} Pokémon IV combinations for CP ${(+cp).toLocaleString()}`
+                : 'Search through over 500 Million IV combinations to get the best Pokémon',
+              url: window.location.href,
+            })
+            return
+          }
+
+          if (navigator.clipboard) {
+            await navigator.clipboard.writeText(window.location.href)
+            useStorage.setState({
+              shareAlert: {
+                open: true,
+                severity: 'success',
+                message: 'Copied to clipboard!',
+              },
+            })
+            return
+          }
+
           useStorage.setState({
             shareAlert: {
               open: true,
               severity: 'error',
               message: 'Sharing is not supported on this device.',
+            },
+          })
+        } catch (error) {
+          if (error instanceof DOMException && error.name === 'AbortError') {
+            return
+          }
+          useStorage.setState({
+            shareAlert: {
+              open: true,
+              severity: 'error',
+              message: 'Unable to share right now. Please try again.',
             },
           })
         }
@@ -73,6 +90,8 @@ export const ShareAlert = () => {
       <Alert
         severity={alert.severity}
         onClose={handleClose}
+        role="status"
+        aria-live="polite"
         icon={
           alert.severity === 'success' ? (
             <CheckIcon fontSize="inherit" />

@@ -23,9 +23,7 @@ export const Providers = ({ children }: { children: React.ReactNode }) => {
         <CssBaseline />
         <Box className={styles.layout} height="100svh">
           <Header />
-          {/* <Box component="main" sx={{ minHeight: 0 }}> */}
-            {children}
-          {/* </Box> */}
+          {children}
           <Footer />
         </Box>
       </CssVarsProvider>

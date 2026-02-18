@@ -131,7 +131,7 @@ export const useCalculate = () => {
   }, [])
 
   useEffect(() => {
-    if (!ready || filters.cp <= MIN_CP || workerPokedex.length === 0) {
+    if (!ready || filters.cp < MIN_CP || workerPokedex.length === 0) {
       setMatches([])
       setCount(0)
       setTime(0)
